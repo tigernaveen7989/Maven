@@ -30,7 +30,7 @@ public class HomePage {
 	public boolean verifyPageTitle() throws Exception{
 		String pageTitle = "Verizon Mail";
 		System.out.println(getPageTitle());
-		globalfunctions.waitForElement(driver, locatorType.XPATH, "Gmail_HomePage_Compose_Button", 25);
+		globalfunctions.waitForElement(driver, locatorType.ID, "Gmail_HomePage_Compose_Button", 25);
 		return getPageTitle().contains(pageTitle);
 	}
 	
@@ -77,7 +77,7 @@ public class HomePage {
 	}
 	
 	public void clickCompose() throws Exception{
-		WebElement composeBtn = driver.findElement(By.xpath(globalfunctions.getObjectRepository().getProperty("Gmail_HomePage_Compose_Button")));
+		WebElement composeBtn = driver.findElement(By.id(globalfunctions.getObjectRepository().getProperty("Gmail_HomePage_Compose_Button")));
 		if(composeBtn.isDisplayed())
 			composeBtn.click();
 	}

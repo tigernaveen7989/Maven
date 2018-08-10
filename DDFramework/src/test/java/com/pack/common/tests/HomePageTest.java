@@ -38,7 +38,7 @@ public class HomePageTest extends TestBaseSetup{
 			Thread.sleep(10000);
 			//Assert.assertTrue(homePage.verifyPageTitle(), "Google");
 			System.out.println("Compose and send mail functionality details...");
-			homePage.composeMail("naveen.kumar4@verizon.com", "Modular Driven Framework:Subject", "Modular Driven Framework:Message");
+			homePage.composeMail("naveen85918@gmail.com", "Modular Driven Framework:Subject", "Modular Driven Framework:Message");
 			homePage.clickAccount();
 			homePage.clickSignOut();
 		}
