@@ -52,7 +52,7 @@ public class SignInPage {
 		try{
 			enterPassword(Password);
 			clickOnNext();
-		}catch(Exception e) {
+		}catch(Exception e){
 			test.get().log(Status.PASS, "No Password Page... continue to home page");
 			System.out.println("No Password Page... continue to home page");
 		}
