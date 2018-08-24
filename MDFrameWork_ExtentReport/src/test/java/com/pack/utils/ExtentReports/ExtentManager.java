@@ -1,13 +1,17 @@
 package com.pack.utils.ExtentReports;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.openqa.selenium.Platform;
 
 import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.sun.jna.platform.win32.Sspi.TimeStamp;
 
 public class ExtentManager {
     private static ExtentReports extent;
@@ -29,12 +33,13 @@ public class ExtentManager {
         platform = getCurrentPlatform();
         String fileName = getReportFileLocation(platform);
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
-        htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
+        htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setChartVisibilityOnOpen(true);
-        htmlReporter.config().setTheme(Theme.STANDARD);
-        htmlReporter.config().setDocumentTitle(fileName);
+        htmlReporter.config().setTheme(Theme.DARK);
+        htmlReporter.config().setReportName("Gmail Validations");
         htmlReporter.config().setEncoding("utf-8");
-        htmlReporter.config().setReportName(fileName);
+        htmlReporter.config().setDocumentTitle("Regression Suite");
+        htmlReporter.setAppendExisting(false);
  
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);

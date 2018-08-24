@@ -10,13 +10,20 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.pack.functionlibrary.FunctionLibrary;
 import com.pack.functionlibrary.FunctionLibrary.locatorType;
+import com.pack.utils.ExtentReports.ExtentManager;
+import com.pack.utils.Listeners.TestListener;
 
 public class HomePage {
 	FunctionLibrary globalfunctions=new FunctionLibrary();
 	private WebDriver driver;
 	List<WebElement> emailList;
+	//Extent Report Declarations
+	ThreadLocal<ExtentTest> test = TestListener.getTest();
 	
 	public HomePage(WebDriver driver) {
 		this.driver=driver;
@@ -65,6 +72,7 @@ public class HomePage {
 			messageEditbox.sendKeys(message);
 			globalfunctions.screenShot(driver, "Entered Message Successfully");
 			System.out.println("Send email is successful");
+			test.get().log(Status.PASS, "Send email is successful");
 		}
 	}
 	
@@ -90,6 +98,7 @@ public class HomePage {
 		    	Thread.sleep(3000);;
 				globalfunctions.screenShot(driver, "Read Email Successfully");
 		    	System.out.println("Read email is successful");
+		    	test.get().log(Status.PASS, "Read email is successful");
 		    	Thread.sleep(5000);
 		    	break;
 		    }
@@ -103,7 +112,10 @@ public class HomePage {
 			globalfunctions.implicitWait(driver, 30);
 			globalfunctions.screenShot(driver, "Signed Out Successfully");
 		}		
-		else System.out.println("Element not found");	
+		else {
+			test.get().log(Status.FAIL, "Element not found");
+			System.out.println("Element not found");	
+		}
 		return new HomePage(driver);
 	}
 	

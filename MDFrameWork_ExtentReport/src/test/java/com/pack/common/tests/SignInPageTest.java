@@ -5,15 +5,19 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.pack.base.TestBaseSetup;
 
 import com.pack.common.pageobjects.BasePage;
 import com.pack.common.pageobjects.SignInPage;
+import com.pack.utils.ExtentReports.ExtentManager;
 
 public class SignInPageTest extends TestBaseSetup{
-private WebDriver driver;
-private SignInPage signInPage;
-private BasePage basePage;
+public WebDriver driver;
+public SignInPage signInPage;
+public BasePage basePage;
+public static ExtentReports extent=ExtentManager.getInstance();
 	
 	@BeforeClass
 	public void setUp() {

@@ -6,12 +6,23 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.Markup;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.pack.functionlibrary.FunctionLibrary;
+import com.pack.utils.ExtentReports.ExtentManager;
+import com.pack.utils.Listeners.TestListener;
 
 public class SignInPage {
 
 	FunctionLibrary globalfunctions=new FunctionLibrary();
 	private WebDriver driver;
+	
+	ThreadLocal<ExtentTest> test = TestListener.getTest();
+	
 	
 	public SignInPage(WebDriver driver) {
 		this.driver=driver;
@@ -41,7 +52,8 @@ public class SignInPage {
 		try{
 			enterPassword(Password);
 			clickOnNext();
-		}catch(Exception e){
+		}catch(Exception e) {
+			test.get().log(Status.PASS, "No Password Page... continue to home page");
 			System.out.println("No Password Page... continue to home page");
 		}
 		
