@@ -42,6 +42,62 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
+			
+			<plugin>
+<groupId>ch.fortysix</groupId>
+<artifactId>maven-postman-plugin</artifactId>
+<executions>
+<execution>
+
+<id>send a mail</id>
+<phase>test</phase>
+<goals>
+<goal>send-mail</goal>
+</goals>
+<inherited>true</inherited>
+
+<configuration>
+<!-- From Email address -->
+<from>naveen85918@gmail.com</from>
+
+<!-- Email subject -->
+<subject>Test Automation Report</subject>
+
+<!-- Fail the build if the mail doesnt reach -->
+<failonerror>true</failonerror>
+
+<!-- host -->
+<mailhost>smtp.gmail.com</mailhost>
+<!-- port of the host -->
+<mailport>465</mailport>
+<mailssl>true</mailssl>
+<mailAltConfig>true</mailAltConfig>
+
+<!-- Email Authentication(USername and Password) -->
+<mailuser>naveen85918@gmail.com</mailuser>
+<mailpassword>shakthi1!</mailpassword>
+
+<receivers>
+<!-- To Email address -->
+<receiver>naveen85918@gmail.com</receiver>
+</receivers>
+
+<fileSets>
+<fileSet>
+<!-- Report directory Path -->
+<directory>/Users/v639874/git/NaveenGITHUB/MDFrameWork_ExtentReport/TestReport</directory>
+<includes>
+<!-- Report file name -->
+<include>ExtentReports-Version3-Test-Automaton-Report.html</include>
+</includes>
+<!-- Use Regular Expressions like **/*.html if you want all the html files to send-->
+</fileSet>
+</fileSets> 
+
+</configuration>
+</execution>
+</executions>
+</plugin>
 		</plugins>
 	</build>
 	

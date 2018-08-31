@@ -91,17 +91,21 @@ public class HomePage {
 	}
 	
 	public void clickUnReadEmail(String Subject) throws Exception {
-		emailList = driver.findElements(By.cssSelector(globalfunctions.getObjectRepository().getProperty("Gmail_HomePage_Email_List")));
-		for(WebElement emailsub : emailList){
-		    if(emailsub.getText().equals(Subject) == true){
-		    	emailsub.click();
-		    	Thread.sleep(3000);;
-				globalfunctions.screenShot(driver, "Read Email Successfully");
-		    	System.out.println("Read email is successful");
-		    	test.get().log(Status.PASS, "Read email is successful");
-		    	Thread.sleep(5000);
-		    	break;
-		    }
+		try {
+			emailList = driver.findElements(By.cssSelector(globalfunctions.getObjectRepository().getProperty("Gmail_HomePage_Email_List")));
+			for(WebElement emailsub : emailList){
+			    if(emailsub.getText().equals(Subject) == true){
+			    	emailsub.click();
+			    	Thread.sleep(3000);;
+					globalfunctions.screenShot(driver, "Read Email Successfully");
+			    	System.out.println("Read email is successful");
+			    	test.get().log(Status.PASS, "Read email is successful");
+			    	Thread.sleep(5000);
+			    	break;
+			    }
+			}
+		}catch(Exception e) {
+			test.get().log(Status.FAIL, "Unread Email doesnt exists");
 		}
 	}
 	
