@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Page_Object_test_example">
-                    <span>testng.xml</span>
+                    <span>C:\Users\m1048663\git\Maven\MDFrameWork_ExtentReport\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,  1 skipped,  </span>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -105,21 +105,12 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.pack.common.tests.HomePageTest" hash-for-method="verifyComposeAndSendMailFunction">verifyComposeAndSendMailFunction</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Page_Object_test_example -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Page_Object_test_example" class="hide-methods skipped suite-Page_Object_test_example"> (hide)</a> <!-- hide-methods skipped suite-Page_Object_test_example -->
-                      <a href="#" panel-name="suite-Page_Object_test_example" class="show-methods skipped suite-Page_Object_test_example"> (show)</a> <!-- show-methods skipped suite-Page_Object_test_example -->
-                    </span>
-                    <div class="method-list-content skipped suite-Page_Object_test_example">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Page_Object_test_example" title="com.pack.common.tests.HomePageTest" hash-for-method="verifyReadMailFunction">verifyReadMailFunction</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Page_Object_test_example -->
+                    </div> <!-- method-list-content failed suite-Page_Object_test_example -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -142,34 +133,69 @@
                   <a name="verifyComposeAndSendMailFunction">
                   </a> <!-- verifyComposeAndSendMailFunction -->
                   <span class="method-name">verifyComposeAndSendMailFunction</span>
-                  <div class="stack-trace">java.lang.NullPointerException
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;gb_P&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;c1ml16461&apos;, ip: &apos;172.25.236.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\m1048663\AppData\Local\Temp\scoped_dir288_3241}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4968621c3d9b308db5d9b5b43c29fc32
+*** Element info: {Using=class name, value=gb_P}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at com.pack.common.pageobjects.BasePage.clickSignInBtn(BasePage.java:19)
-	at com.pack.common.tests.HomePageTest.verifyComposeAndSendMailFunction(HomePageTest.java:35)
-... Removed 24 stack frames
+	at com.pack.common.tests.HomePageTest.verifyComposeAndSendMailFunction(HomePageTest.java:37)
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
+                  <em>
+(Compose Mail and Send functionality)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Page_Object_test_example-class-failed -->
-          <div class="suite-Page_Object_test_example-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.pack.common.tests.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="verifyReadMailFunction">
                   </a> <!-- verifyReadMailFunction -->
                   <span class="method-name">verifyReadMailFunction</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;gb_P&quot;}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;c1ml16461&apos;, ip: &apos;172.25.236.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\m1048663\AppData\Local\Temp\scoped_dir2356_16591}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: aeb5aba0d7c07d248a09f217a6e70b0f
+*** Element info: {Using=class name, value=gb_P}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.pack.common.pageobjects.BasePage.clickSignInBtn(BasePage.java:19)
+	at com.pack.common.tests.HomePageTest.verifyReadMailFunction(HomePageTest.java:52)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Read Mail functionality)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Page_Object_test_example-class-skipped -->
+          </div> <!-- suite-Page_Object_test_example-class-failed -->
         </div> <!-- panel Page_Object_test_example -->
         <div panel-name="test-xml-Page_Object_test_example" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/v639874/Documents/workspace/MDFrameWork/testng.xml</span>
+            <span class="header-content">C:\Users\m1048663\git\Maven\MDFrameWork_ExtentReport\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -178,6 +204,9 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Page Object test example&quot;&gt;
   &lt;parameter name=&quot;appURL&quot; value=&quot;https://www.google.co.in&quot;/&gt;
   &lt;parameter name=&quot;browserType&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.pack.utils.Listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test name=&quot;sample test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.pack.common.tests.HomePageTest&quot;/&gt;
@@ -224,16 +253,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyComposeAndSendMailFunction')
 data.setCell(0, 2, 'com.pack.common.tests.HomePageTest')
-data.setCell(0, 3, 35);
+data.setCell(0, 3, 68);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyReadMailFunction')
 data.setCell(1, 2, 'com.pack.common.tests.HomePageTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 44);
 window.suiteTableData['Page_Object_test_example']= { tableData: data, tableDiv: 'times-div-Page_Object_test_example'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 ms</span>
+              <span class="suite-total-time">Total running time: 112 ms</span>
               <div id="times-div-Page_Object_test_example">
               </div> <!-- times-div-Page_Object_test_example -->
             </div> <!-- times-div -->
@@ -266,24 +295,36 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">14698 ms</span>
+                <span class="method-start">7212 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyComposeAndSendMailFunction</span>
-                <span class="method-start">14699 ms</span>
+                <span class="method-start">7212 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9125 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestBaseSetup(chrome, https://www.google.co.in)</span>
+                <span class="method-start">10147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16492 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">tearDown</span>
-                <span class="method-start">14736 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
                 <span class="method-name">verifyReadMailFunction</span>
-                <span class="method-start">14738 ms</span>
+                <span class="method-start">16494 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18051 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

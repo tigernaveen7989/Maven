@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="43990" started-at="2018-10-05T09:00:48Z" finished-at="2018-10-05T09:01:32Z">
+    <groups>
+    </groups>
+    <test name="sample test" duration-ms="43990" started-at="2018-10-05T09:00:48Z" finished-at="2018-10-05T09:01:32Z">
+      <class name="com.pack.common.tests.HomePageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.HomePageTest@16f7c8c1]" name="initializeTestBaseSetup" is-config="true" duration-ms="11696" started-at="2018-10-05T14:30:48Z" finished-at="2018-10-05T14:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.HomePageTest@16f7c8c1]" name="setUp" is-config="true" duration-ms="1" started-at="2018-10-05T14:31:00Z" finished-at="2018-10-05T14:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchFunction()[pri:0, instance:com.pack.common.tests.HomePageTest@16f7c8c1]" name="verifySearchFunction" duration-ms="23902" started-at="2018-10-05T14:31:00Z" description="Search functionality" finished-at="2018-10-05T14:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.HomePageTest@16f7c8c1]" name="tearDown" is-config="true" duration-ms="3470" started-at="2018-10-05T14:31:29Z" finished-at="2018-10-05T14:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.common.tests.HomePageTest -->
+    </test> <!-- sample test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

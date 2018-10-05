@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" total="2" passed="0">
+<testng-results skipped="0" failed="2" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object test example" duration-ms="14756" started-at="2018-07-09T14:21:55Z" finished-at="2018-07-09T14:22:10Z">
+  <suite name="Page Object test example" duration-ms="19005" started-at="2018-09-28T05:06:06Z" finished-at="2018-09-28T05:06:25Z">
     <groups>
     </groups>
-    <test name="sample test" duration-ms="14756" started-at="2018-07-09T14:21:55Z" finished-at="2018-07-09T14:22:10Z">
+    <test name="sample test" duration-ms="19005" started-at="2018-09-28T05:06:06Z" finished-at="2018-09-28T05:06:25Z">
       <class name="com.pack.common.tests.HomePageTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.HomePageTest@146ba0ac]" name="initializeTestBaseSetup" is-config="true" duration-ms="14698" started-at="2018-07-09T19:51:55Z" finished-at="2018-07-09T19:52:10Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.HomePageTest@10a035a0]" name="initializeTestBaseSetup" is-config="true" duration-ms="7212" started-at="2018-09-28T10:36:06Z" finished-at="2018-09-28T10:36:14Z">
           <params>
             <param index="0">
               <value>
@@ -23,16 +23,46 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.HomePageTest@146ba0ac]" name="setUp" is-config="true" duration-ms="1" started-at="2018-07-09T19:52:10Z" finished-at="2018-07-09T19:52:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyComposeAndSendMailFunction()[pri:0, instance:com.pack.common.tests.HomePageTest@146ba0ac]" name="verifyComposeAndSendMailFunction" duration-ms="35" started-at="2018-07-09T19:52:10Z" finished-at="2018-07-09T19:52:10Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="verifyComposeAndSendMailFunction()[pri:0, instance:com.pack.common.tests.HomePageTest@10a035a0]" name="verifyComposeAndSendMailFunction" duration-ms="68" started-at="2018-09-28T10:36:14Z" description="Compose Mail and Send functionality" finished-at="2018-09-28T10:36:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"class name","selector":"gb_P"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'c1ml16461', ip: '172.25.236.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\m1048663\AppData\Local\Temp\scoped_dir288_3241}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4968621c3d9b308db5d9b5b43c29fc32
+*** Element info: {Using=class name, value=gb_P}]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"gb_P"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'c1ml16461', ip: '172.25.236.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\m1048663\AppData\Local\Temp\scoped_dir288_3241}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4968621c3d9b308db5d9b5b43c29fc32
+*** Element info: {Using=class name, value=gb_P}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at com.pack.common.pageobjects.BasePage.clickSignInBtn(BasePage.java:19)
-	at com.pack.common.tests.HomePageTest.verifyComposeAndSendMailFunction(HomePageTest.java:35)
+	at com.pack.common.tests.HomePageTest.verifyComposeAndSendMailFunction(HomePageTest.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,23 +89,84 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyComposeAndSendMailFunction -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.pack.common.tests.HomePageTest@146ba0ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-07-09T19:52:10Z" finished-at="2018-07-09T19:52:10Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.HomePageTest@10a035a0]" name="setUp" is-config="true" duration-ms="0" started-at="2018-09-28T10:36:14Z" finished-at="2018-09-28T10:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.HomePageTest@10a035a0]" name="tearDown" is-config="true" duration-ms="1022" started-at="2018-09-28T10:36:16Z" finished-at="2018-09-28T10:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.HomePageTest@10a035a0]" name="initializeTestBaseSetup" is-config="true" duration-ms="6345" started-at="2018-09-28T10:36:17Z" finished-at="2018-09-28T10:36:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.HomePageTest@10a035a0]" name="setUp" is-config="true" duration-ms="2" started-at="2018-09-28T10:36:23Z" finished-at="2018-09-28T10:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyReadMailFunction()[pri:0, instance:com.pack.common.tests.HomePageTest@10a035a0]" name="verifyReadMailFunction" duration-ms="44" started-at="2018-09-28T10:36:23Z" description="Read Mail functionality" finished-at="2018-09-28T10:36:23Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"class name","selector":"gb_P"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'c1ml16461', ip: '172.25.236.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\m1048663\AppData\Local\Temp\scoped_dir2356_16591}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: aeb5aba0d7c07d248a09f217a6e70b0f
+*** Element info: {Using=class name, value=gb_P}]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.pack.base.TestBaseSetup.tearDown(TestBaseSetup.java:99)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"gb_P"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'c1ml16461', ip: '172.25.236.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\m1048663\AppData\Local\Temp\scoped_dir2356_16591}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: aeb5aba0d7c07d248a09f217a6e70b0f
+*** Element info: {Using=class name, value=gb_P}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.pack.common.pageobjects.BasePage.clickSignInBtn(BasePage.java:19)
+	at com.pack.common.tests.HomePageTest.verifyReadMailFunction(HomePageTest.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -96,23 +187,11 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.HomePageTest@146ba0ac]" name="initializeTestBaseSetup" is-config="true" duration-ms="0" started-at="2018-07-09T19:52:10Z" finished-at="2018-07-09T19:52:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.pack.common.tests.HomePageTest@146ba0ac]" name="setUp" is-config="true" duration-ms="0" started-at="2018-07-09T19:52:10Z" finished-at="2018-07-09T19:52:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyReadMailFunction()[pri:0, instance:com.pack.common.tests.HomePageTest@146ba0ac]" name="verifyReadMailFunction" duration-ms="1" started-at="2018-07-09T19:52:10Z" finished-at="2018-07-09T19:52:10Z">
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyReadMailFunction -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.pack.common.tests.HomePageTest@146ba0ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-07-09T19:52:10Z" finished-at="2018-07-09T19:52:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.HomePageTest@10a035a0]" name="tearDown" is-config="true" duration-ms="935" started-at="2018-09-28T10:36:24Z" finished-at="2018-09-28T10:36:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

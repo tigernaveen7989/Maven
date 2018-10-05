@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+  <parameter name="platformVersion" value="7.0"/>
+  <parameter name="deviceName" value="emulator-5554"/>
+  <listeners>
+    <listener class-name="com.pack.utils.Listeners.TestListener"/>
+  </listeners>
+  <test name="sample test">
+    <classes>
+      <class name="com.pack.common.tests.HomePageTest"/>
+    </classes>
+  </test> <!-- sample test -->
+</suite> <!-- Failed suite [Page Object test example] -->
