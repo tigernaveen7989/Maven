@@ -9,6 +9,7 @@
   <test name="sample test">
     <classes>
       <class name="com.pack.common.tests.HomePageTest"/>
+      <class name="com.pack.common.tests.SearchResultsPageTest"/>
     </classes>
   </test> <!-- sample test -->
 </suite> <!-- Failed suite [Page Object test example] -->

@@ -23,9 +23,9 @@ import com.pack.utils.Listeners.TestListener;
 
 public class FunctionLibrary {
 	
+	private WebDriver driver;
 	Properties p = new Properties();
 	ThreadLocal<ExtentTest> test = TestListener.getTest();
-
 	//Method to read OR 
 		public Properties getObjectRepository() throws IOException{
 			//Read object repository file
@@ -125,14 +125,28 @@ public class FunctionLibrary {
 		}
 		
 		//Method to take screenshot
-		public void isDisplayed(WebDriver driver, String object, String message) throws IOException{
-			try{
-				implicitWait(driver, 30);
-				if(driver.findElement(By.xpath(getObjectRepository().getProperty(object))).isDisplayed()){
-					test.get().log(Status.PASS, message+" is displaying");
-				}				
-			}catch(Exception e){
-				test.get().log(Status.FAIL, message+" is not displaying");
+		public void isDisplayed(WebDriver driver, String object, locatorType type, String message) throws IOException{
+			switch(type){
+			case ID:
+				try{
+					implicitWait(driver, 30);
+					if(driver.findElement(By.id(getObjectRepository().getProperty(object))).isDisplayed()){
+						test.get().log(Status.PASS, message+" is displaying");
+					}				
+				}catch(Exception e){
+					test.get().log(Status.FAIL, message+" is not displaying");
+				}
+				break;
+			case XPATH:
+				try{
+					implicitWait(driver, 30);
+					if(driver.findElement(By.xpath(getObjectRepository().getProperty(object))).isDisplayed()){
+						test.get().log(Status.PASS, message+" is displaying");
+					}				
+				}catch(Exception e){
+					test.get().log(Status.FAIL, message+" is not displaying");
+				}
+				break;
 			}
 		}	
 		
@@ -141,8 +155,10 @@ public class FunctionLibrary {
 			switch (type) {
 			case ID:
 				driver.findElement(By.id(getObjectRepository().getProperty(object))).click();
+				break;
 			case XPATH:
 				driver.findElement(By.xpath(getObjectRepository().getProperty(object))).click();
+				break;
 			default:
 				break;
 			}
@@ -154,8 +170,10 @@ public class FunctionLibrary {
 			switch (type) {
 			case ID:
 				driver.findElement(By.id(getObjectRepository().getProperty(object))).sendKeys(value);
+				break;
 			case XPATH:
 				driver.findElement(By.xpath(getObjectRepository().getProperty(object))).sendKeys(value);
+				break;
 			default:
 				break;
 			}
@@ -165,4 +183,20 @@ public class FunctionLibrary {
 		public enum locatorType {
 	        CLASSNAME, ID, LINKTEXT, XPATH, CSSSELECTER, NAME;
 	   }
+		
+		//Method to get text
+		public String getText(WebDriver driver, String object, locatorType type) throws Exception{
+			String text=null;
+			switch (type) {
+			case ID:
+				text = driver.findElement(By.id(getObjectRepository().getProperty(object))).getText();
+				return text;
+			case XPATH:
+				text = driver.findElement(By.xpath(getObjectRepository().getProperty(object))).getText();
+				return text;
+			default:
+				break;
+			}
+			return text;
+		}	
 }

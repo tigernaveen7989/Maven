@@ -22,8 +22,8 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidKeyCode;
 
 public class HomePage {
-	FunctionLibrary globalfunctions=new FunctionLibrary();
 	private WebDriver driver;
+	FunctionLibrary globalfunctions=new FunctionLibrary();
 	List<WebElement> emailList;
 	//Extent Report Declarations
 	ThreadLocal<ExtentTest> test = TestListener.getTest();
@@ -38,7 +38,7 @@ public class HomePage {
 	}
 	
 	public void verifySearchIcon() throws Exception{
-		globalfunctions.isDisplayed(driver, "YT_HomePage_Search_Icon", "Search icon");
+		globalfunctions.isDisplayed(driver, "YT_HomePage_Search_Icon", locatorType.XPATH, "Search icon");
 	}
 	
 	public void clickSearchIcon() throws Exception{
@@ -48,8 +48,7 @@ public class HomePage {
 	}
 	
 	public void enterValue(String value) throws Exception{
-		driver.findElement(By.id("com.google.android.youtube:id/search_edit_text")).sendKeys(value);
-		//globalfunctions.setValue(driver, "YT_HomePage_Search_Edit_Box", locatorType.ID, value);
+		globalfunctions.setValue(driver, "YT_HomePage_Search_Edit_Box", locatorType.ID, value);
 		globalfunctions.screenShot(driver, "Entered Value in the search box");
 		test.get().log(Status.INFO, "Entered "+value+" in search box");
 	}
