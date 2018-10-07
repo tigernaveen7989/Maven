@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>maven</groupId>
-  <artifactId>MDFramework_ExtentReport</artifactId>
+  <artifactId>YouTube_POM</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>MDFramework_ExtentReport</name>
+  <name>YouTube_POM</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -39,6 +39,7 @@
 						<!-- TestNG suite XML files -->
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
 		</plugins>
