@@ -45,7 +45,7 @@ public class HomePageTest extends TestBaseSetup{
 			homePage.clickSignOut();
 		}
 		
-		@Test(description="Read Mail functionality", enabled=false)
+		@Test(description="Read Mail functionality")
 		public void verifyReadMailFunction() throws Exception {
 			System.out.println("Sign In functionality details...");
 			basePage = new BasePage(driver);
