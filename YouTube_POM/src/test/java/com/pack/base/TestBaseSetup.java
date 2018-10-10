@@ -27,6 +27,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
 public class TestBaseSetup {
@@ -46,29 +47,32 @@ public class TestBaseSetup {
 		return driver;
 	}
 
-	private void setDriver(String deviceName, String platformVersion) throws Exception {
+	private void setDriver(String deviceName, String platformVersion, String URL) throws Exception {
 		getDeviceOS.put(deviceName, "Android");
 		String deviceOS = getDeviceOS.get(deviceName).toString();
 		
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", deviceName);
-        capabilities.setCapability("platformVersion", platformVersion);
-        capabilities.setCapability("platformName", deviceOS);
+        //capabilities.setCapability("platformVersion", platformVersion);
+        //capabilities.setCapability("platformName", deviceOS);
+        capabilities.setCapability("udid", deviceName);
+        //capabilities.setCapability("automationName", "UiAutomator2");
         capabilities.setCapability("appPackage", "com.google.android.youtube");
         capabilities.setCapability("appActivity","com.google.android.apps.youtube.app.WatchWhileActivity");
-        capabilities.setCapability("noReset","false");
-        
-        driver =  new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        capabilities.setCapability("noReset","true");
+        capabilities.setCapability("fullReset", "false");
+        Thread.sleep(3000);
+        driver =  new AndroidDriver(new URL("http://"+URL+"/wd/hub"), capabilities);
 	}
 	
-	@Parameters({ "deviceName", "platformVersion" })
+	@Parameters({ "deviceName", "platformVersion", "URL" })
 	@BeforeMethod
-	public void initializeTestBaseSetup(String deviceName, String platformVersion) {
+	public void initializeTestBaseSetup(String deviceName, String platformVersion, String URL) {
 		try {
-			setDriver(deviceName, platformVersion);
+			setDriver(deviceName, platformVersion, URL);
 
 		} catch (Exception e) {
-			System.out.println("Error....." + e.getStackTrace());
+			System.out.println("Error....." + e.getStackTrace().toString());
 		}
 	}
 	

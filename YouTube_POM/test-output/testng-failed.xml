@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]" parallel="tests">
   <parameter name="platformVersion" value="7.0"/>
   <parameter name="deviceName" value="emulator-5554"/>
+  <parameter name="URL" value="192.168.0.8:4727"/>
   <listeners>
     <listener class-name="com.pack.utils.Listeners.TestListener"/>
   </listeners>
-  <test name="sample test">
+  <test name="Test Number One">
+    <parameter name="platformVersion" value="7.0"/>
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="URL" value="192.168.0.8:4727"/>
     <classes>
       <class name="com.pack.common.tests.HomePageTest"/>
       <class name="com.pack.common.tests.SearchResultsPageTest"/>
     </classes>
-  </test> <!-- sample test -->
+  </test> <!-- Test Number One -->
 </suite> <!-- Failed suite [Page Object test example] -->

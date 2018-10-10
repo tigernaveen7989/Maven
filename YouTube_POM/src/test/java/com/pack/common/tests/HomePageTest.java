@@ -10,6 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentTest;
@@ -21,7 +22,13 @@ import com.pack.utils.*;
 import com.pack.utils.Listeners.TestListener;
 
 import io.appium.java_client.android.AndroidDriver;
+import ru.yandex.qatools.allure.annotations.Description;
+import ru.yandex.qatools.allure.annotations.Severity;
+import ru.yandex.qatools.allure.model.SeverityLevel;
+import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Stories;
 
+@Features("HomePage")
 public class HomePageTest extends TestBaseSetup{
 	private WebDriver driver;
 
@@ -32,12 +39,17 @@ public class HomePageTest extends TestBaseSetup{
 			driver=getDriver();
 		}
 			
-		@Test(description="Search functionality")
+		@Severity(SeverityLevel.NORMAL)
+		@Description("Verify Search functionality")
+		@Stories("Verify Search functionality")
+		@Parameters({ "deviceName", "platformVersion", "URL" })
+		@Test(description="Verify Search functionality")
 		public void verifySearchFunction() throws Exception {
+			String TCName = Thread.currentThread().getStackTrace()[1].getMethodName();
 			homePage = new HomePage(driver);
 			homePage.verifySearchIcon();
 			homePage.clickSearchIcon();
-			homePage.enterValue("Apple");
+			homePage.enterValue(TCName);
 			homePage.clickSearch();
 		}
 }

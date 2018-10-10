@@ -17,9 +17,10 @@ import com.pack.functionlibrary.FunctionLibrary;
 import com.pack.functionlibrary.FunctionLibrary.locatorType;
 import com.pack.utils.ExtentReports.ExtentManager;
 import com.pack.utils.Listeners.TestListener;
-
+import org.apache.poi.ss.usermodel.Sheet;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidKeyCode;
+import ru.yandex.qatools.allure.annotations.Step;
 
 public class HomePage {
 	private WebDriver driver;
@@ -37,25 +38,31 @@ public class HomePage {
 		return title;
 	}
 	
+	@Step("Verify the search icon is displaying or not")
 	public void verifySearchIcon() throws Exception{
 		globalfunctions.isDisplayed(driver, "YT_HomePage_Search_Icon", locatorType.XPATH, "Search icon");
 	}
 	
+	@Step("Click on Search icon")
 	public void clickSearchIcon() throws Exception{
 		globalfunctions.clickElement(driver, "YT_HomePage_Search_Icon", locatorType.XPATH);
-		globalfunctions.screenShot(driver, "Clicked on search icon");
+		//globalfunctions.screenShot(driver, "Clicked on search icon");
 		test.get().log(Status.INFO, "Clicked on Search Icon");
 	}
 	
-	public void enterValue(String value) throws Exception{
+	@Step("Enter value in search edit box")
+	public void enterValue(String TCName) throws Exception{
+		int varRowNumber = globalfunctions.getRowNumber(TCName);
+		String value = globalfunctions.getCellValue("Value1", varRowNumber).toString();
 		globalfunctions.setValue(driver, "YT_HomePage_Search_Edit_Box", locatorType.ID, value);
-		globalfunctions.screenShot(driver, "Entered Value in the search box");
-		test.get().log(Status.INFO, "Entered "+value+" in search box");
+		//globalfunctions.screenShot(driver, "Entered Value in the search box");
+		test.get().log(Status.INFO, "Entered "+"Apple"+" in search box");
 	}
 	
+	@Step("Click on search")
 	public void clickSearch() throws Exception{
 		((AndroidDriver)driver).pressKeyCode(AndroidKeyCode.ENTER);
-		globalfunctions.screenShot(driver, "Clicked on search");
+		//globalfunctions.screenShot(driver, "Clicked on search");
 		test.get().log(Status.INFO, "Clicked on search button");
 	}
 }

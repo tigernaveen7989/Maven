@@ -40,8 +40,14 @@ public class TestListener implements ITestListener{
  
     @Override
     public synchronized void onTestStart(ITestResult result) {
-        System.out.println((result.getMethod().getMethodName() + " started!"));
+        System.out.println((result.getMethod().getMethodName() + " started!!!"));
         ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName(),result.getMethod().getDescription());
+        try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
         test.set(extentTest);
     }
  
