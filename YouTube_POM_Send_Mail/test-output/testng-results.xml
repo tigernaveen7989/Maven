@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="67515" started-at="2018-10-09T12:41:27Z" finished-at="2018-10-09T12:42:34Z">
+    <groups>
+    </groups>
+    <test name="Test Number One" duration-ms="67515" started-at="2018-10-09T12:41:27Z" finished-at="2018-10-09T12:42:34Z">
+      <class name="com.pack.common.tests.HomePageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.HomePageTest@467045c4]" name="initializeTestBaseSetup" is-config="true" duration-ms="17253" started-at="2018-10-09T18:11:27Z" finished-at="2018-10-09T18:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[192.168.0.8:4727]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.HomePageTest@467045c4]" name="setUp" is-config="true" duration-ms="2" started-at="2018-10-09T18:11:44Z" finished-at="2018-10-09T18:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchFunction()[pri:0, instance:com.pack.common.tests.HomePageTest@467045c4]" name="verifySearchFunction" duration-ms="38813" started-at="2018-10-09T18:11:44Z" description="Verify Search functionality" finished-at="2018-10-09T18:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.HomePageTest@467045c4]" name="tearDown" is-config="true" duration-ms="4473" started-at="2018-10-09T18:12:30Z" finished-at="2018-10-09T18:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.common.tests.HomePageTest -->
+    </test> <!-- Test Number One -->
+  </suite> <!-- Page Object test example -->
+</testng-results>
