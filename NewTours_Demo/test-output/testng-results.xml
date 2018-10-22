@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="You Tube" duration-ms="14452" started-at="2018-10-22T10:35:50Z" finished-at="2018-10-22T10:36:05Z">
+    <groups>
+    </groups>
+    <test name="edge" duration-ms="10180" started-at="2018-10-22T10:35:50Z" finished-at="2018-10-22T10:36:01Z">
+      <class name="com.pack.common.tests.HomePageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.HomePageTest@4d5b6aac]" name="initializeTestBaseSetup" is-config="true" duration-ms="6345" started-at="2018-10-22T16:05:50Z" finished-at="2018-10-22T16:05:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.HomePageTest@4d5b6aac]" name="setUp" is-config="true" duration-ms="1" started-at="2018-10-22T16:05:57Z" finished-at="2018-10-22T16:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySalonTravel()[pri:0, instance:com.pack.common.tests.HomePageTest@4d5b6aac]" name="verifySalonTravel" duration-ms="240" started-at="2018-10-22T16:05:57Z" description="Salon Travel" finished-at="2018-10-22T16:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalonTravel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.HomePageTest@4d5b6aac]" name="tearDown" is-config="true" duration-ms="3270" started-at="2018-10-22T16:05:57Z" finished-at="2018-10-22T16:06:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.common.tests.HomePageTest -->
+    </test> <!-- edge -->
+    <test name="chrome" duration-ms="14452" started-at="2018-10-22T10:35:50Z" finished-at="2018-10-22T10:36:05Z">
+      <class name="com.pack.common.tests.HomePageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.HomePageTest@14555e0a]" name="initializeTestBaseSetup" is-config="true" duration-ms="7313" started-at="2018-10-22T16:05:50Z" finished-at="2018-10-22T16:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="verifySalonTravel()[pri:0, instance:com.pack.common.tests.HomePageTest@14555e0a]" name="verifySalonTravel" duration-ms="5700" started-at="2018-10-22T16:05:58Z" description="Salon Travel" finished-at="2018-10-22T16:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalonTravel -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.HomePageTest@14555e0a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-22T16:05:58Z" finished-at="2018-10-22T16:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.HomePageTest@14555e0a]" name="tearDown" is-config="true" duration-ms="1087" started-at="2018-10-22T16:06:04Z" finished-at="2018-10-22T16:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.common.tests.HomePageTest -->
+    </test> <!-- chrome -->
+  </suite> <!-- You Tube -->
+</testng-results>

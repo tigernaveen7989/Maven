@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example" parallel="tests" thread-count="5">
+	
+	<test name="Test Number One">
+		<classes>
+			<class name="com.pack.functionlibrary.driver" />
+		</classes>
+	</test>
+</suite>

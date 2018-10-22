@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="You Tube" parallel="tests" thread-count="10">
+<listeners> <listener class-name="com.pack.utils.Listeners.TestListener"/> </listeners>
+
+<test name="chrome">
+<parameter name="browserType" value="chrome"/>
+<parameter name="appURL" value="http://newtours.demoaut.com/"/>
+<classes>
+<class name="com.pack.common.tests.HomePageTest">
+<methods>
+<include name="verifySalonTravel"/>
+</methods>
+</class> <!-- com.pack.common.tests.HomePageTest -->
+</classes>
+</test> <!-- chrome-->
+
+<test name="edge">
+<parameter name="browserType" value="edge"/>
+<parameter name="appURL" value="http://newtours.demoaut.com/"/>
+<classes>
+<class name="com.pack.common.tests.HomePageTest">
+<methods>
+<include name="verifySalonTravel"/>
+</methods>
+</class> <!-- com.pack.common.tests.HomePageTest -->
+</classes>
+</test> <!-- edge-->
+</suite> <!-- You Tube -->
