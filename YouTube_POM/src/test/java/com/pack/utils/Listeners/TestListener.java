@@ -18,6 +18,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.pack.base.TestBaseSetup;
+import com.pack.base.TestBaseSetupWeb;
 import com.pack.utils.ExtentReports.ExtentManager;
 
 public class TestListener implements ITestListener{
@@ -29,19 +30,19 @@ public class TestListener implements ITestListener{
  
     @Override
     public synchronized void onStart(ITestContext context) {
-        System.out.println("Extent Reports Version 3 Test Suite started!");
+        System.out.println("Test Suite started!");
     }
  
     @Override
     public synchronized void onFinish(ITestContext context) {
-        System.out.println(("Extent Reports Version 3  Test Suite is ending!"));
+        System.out.println(("Test Suite is ending!"));
         extent.flush();
     }
  
     @Override
     public synchronized void onTestStart(ITestResult result) {
-        System.out.println((result.getMethod().getMethodName() + " started!!!"));
         ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName(),result.getMethod().getDescription());
+        extentTest.assignCategory(result.getMethod().getGroups());
         try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -53,8 +54,6 @@ public class TestListener implements ITestListener{
  
     @Override
     public synchronized void onTestSuccess(ITestResult result) {
-        System.out.println((result.getMethod().getMethodName() + " passed!"));
-        test.get().pass("Test passed");
         String methodName=result.getMethod().getMethodName();
         takeScreenShot(result, methodName);
         try {
@@ -68,7 +67,6 @@ public class TestListener implements ITestListener{
  
     @Override
     public synchronized void onTestFailure(ITestResult result) {
-        System.out.println((result.getMethod().getMethodName() + " failed!"));
         test.get().fail(result.getThrowable());
         String methodName=result.getMethod().getMethodName();
         takeScreenShot(result, methodName);
@@ -98,8 +96,14 @@ public class TestListener implements ITestListener{
     
 	public void takeScreenShot(ITestResult result, String methodName) {
 		Object testClass = result.getInstance();
-		// get the driver
-		driver = ((TestBaseSetup) testClass).getDriver();
+		String[] appType = result.getMethod().getGroups();
+		if(appType.equals("Web")){
+			// get the driver
+			driver = ((TestBaseSetupWeb) testClass).getDriver();
+		}else{
+			// get the driver
+			driver = ((TestBaseSetup) testClass).getDriver();
+		}		
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// The below method will save the screen shot in d drive with test
 		// method name

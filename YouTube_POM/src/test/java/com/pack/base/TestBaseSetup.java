@@ -31,14 +31,6 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
 public class TestBaseSetup {
-
-	private static XSSFSheet ExcelWSheet;
-	 
-	private static XSSFWorkbook ExcelWBook;
-
-	private static XSSFCell Cell;
-
-	private static XSSFRow Row;
 	public WebDriver driver;
 	static String driverPath = System.getProperty("user.dir")+"/src/test/java/com/drivers/";
 	public static Map<String, String> getDeviceOS = new HashMap<String, String>();	
@@ -49,8 +41,6 @@ public class TestBaseSetup {
 
 	private void setDriver(String deviceName, String platformVersion, String URL) throws Exception {
 		getDeviceOS.put(deviceName, "Android");
-		String deviceOS = getDeviceOS.get(deviceName).toString();
-		
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", deviceName);
         //capabilities.setCapability("platformVersion", platformVersion);

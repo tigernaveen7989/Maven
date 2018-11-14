@@ -43,7 +43,7 @@ public class HomePageTest extends TestBaseSetup{
 		@Description("Verify Search functionality")
 		@Stories("Verify Search functionality")
 		@Parameters({ "deviceName", "platformVersion", "URL" })
-		@Test(description="Verify Search functionality")
+		@Test(description="Verify Search functionality",groups="Native")
 		public void verifySearchFunction() throws Exception {
 			String TCName = Thread.currentThread().getStackTrace()[1].getMethodName();
 			homePage = new HomePage(driver);

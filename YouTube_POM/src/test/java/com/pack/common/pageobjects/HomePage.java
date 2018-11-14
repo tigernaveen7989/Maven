@@ -25,7 +25,6 @@ import ru.yandex.qatools.allure.annotations.Step;
 public class HomePage {
 	private WebDriver driver;
 	FunctionLibrary globalfunctions=new FunctionLibrary();
-	List<WebElement> emailList;
 	//Extent Report Declarations
 	ThreadLocal<ExtentTest> test = TestListener.getTest();
 	
@@ -56,7 +55,7 @@ public class HomePage {
 		String value = globalfunctions.getCellValue("Value1", varRowNumber).toString();
 		globalfunctions.setValue(driver, "YT_HomePage_Search_Edit_Box", locatorType.ID, value);
 		//globalfunctions.screenShot(driver, "Entered Value in the search box");
-		test.get().log(Status.INFO, "Entered "+"Apple"+" in search box");
+		test.get().log(Status.INFO, "Entered "+value+" in search box");
 	}
 	
 	@Step("Click on search")
@@ -64,5 +63,17 @@ public class HomePage {
 		((AndroidDriver)driver).pressKeyCode(AndroidKeyCode.ENTER);
 		//globalfunctions.screenShot(driver, "Clicked on search");
 		test.get().log(Status.INFO, "Clicked on search button");
+	}
+	
+	@Step("Click on More Options")
+	public void clickMoreOptions() throws Exception{
+		globalfunctions.clickElement(driver, "YT_HomePage_MoreOptions_Icon", locatorType.XPATH);
+		test.get().log(Status.INFO, "Clicked on More Options");
+	}
+	
+	@Step("Click on Settings")
+	public void clickSettings() throws Exception{
+		globalfunctions.clickElement(driver, "YT_HomePage_Settings_Link", locatorType.XPATH);
+		test.get().log(Status.INFO, "Clicked on Settings");
 	}
 }

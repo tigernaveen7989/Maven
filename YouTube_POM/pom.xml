@@ -58,7 +58,7 @@
 		</plugins>
 	</build>
 	
-  <dependencies>
+  <dependencies>  
   <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
     <dependency>
         <groupId>io.appium</groupId>

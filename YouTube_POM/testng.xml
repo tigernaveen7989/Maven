@@ -1,25 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Page Object test example" parallel="tests" thread-count="5">
-	<listeners>
-		<listener class-name="com.pack.utils.Listeners.TestListener" />
-	</listeners>
-	<test name="Test Number One">
-		<parameter name="platformVersion" value="7.0" />
-		<parameter name="deviceName" value="emulator-5554" />
-		<parameter name="URL" value="172.25.236.175:4727" />
-		<classes>
-			<class name="com.pack.common.tests.HomePageTest" />
-			<class name="com.pack.common.tests.SearchResultsPageTest" />
-		</classes>
-	</test>
+<suite name="YouTube">
 	
-	<test name="Test Number Two">
-		<parameter name="platformVersion" value="7.0" />
-		<parameter name="deviceName" value="emulator-5556" />
-		<parameter name="URL" value="172.25.236.175:4728" />
+	<test name="Test Number One">
 		<classes>
-			<class name="com.pack.common.tests.HomePageTest" />
-			<class name="com.pack.common.tests.SearchResultsPageTest" />
+			<class name="com.pack.functionlibrary.driver" />
 		</classes>
 	</test>
 </suite>

@@ -16,7 +16,7 @@ import com.sun.jna.platform.win32.Sspi.TimeStamp;
 public class ExtentManager {
     private static ExtentReports extent;
     private static Platform platform;
-    private static String reportFileName = "ExtentReports-Version3-Test-Automaton-Report.html";
+    private static String reportFileName = "YouTube_Test_Automation_Report.html";
     private static String macPath = System.getProperty("user.dir")+ "/TestReport";
     private static String windowsPath = System.getProperty("user.dir")+ "\\TestReport";
     private static String macReportFileLoc = macPath + "/" + reportFileName;
