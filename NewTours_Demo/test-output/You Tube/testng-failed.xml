@@ -10,22 +10,146 @@
     <parameter name="appURL" value="http://newtours.demoaut.com/"/>
     <parameter name="browserType" value="chrome"/>
     <classes>
+      <class name="com.pack.common.tests.FlightConfirmationPageTest">
+        <methods>
+          <include name="verifyFlightBooking"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.FlightConfirmationPageTest -->
+      <class name="com.pack.common.tests.EditProfilePageTest">
+        <methods>
+          <include name="verifyEditProfile"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.EditProfilePageTest -->
       <class name="com.pack.common.tests.HomePageTest">
         <methods>
           <include name="verifySalonTravel"/>
         </methods>
       </class> <!-- com.pack.common.tests.HomePageTest -->
+      <class name="com.pack.common.tests.RegisterPageTest">
+        <methods>
+          <include name="verifyRegister"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.RegisterPageTest -->
     </classes>
   </test> <!-- chrome -->
   <test name="edge">
     <parameter name="appURL" value="http://newtours.demoaut.com/"/>
     <parameter name="browserType" value="edge"/>
     <classes>
+      <class name="com.pack.common.tests.FlightConfirmationPageTest">
+        <methods>
+          <include name="verifyFlightBooking"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.FlightConfirmationPageTest -->
+      <class name="com.pack.common.tests.EditProfilePageTest">
+        <methods>
+          <include name="verifyEditProfile"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.EditProfilePageTest -->
       <class name="com.pack.common.tests.HomePageTest">
         <methods>
           <include name="verifySalonTravel"/>
         </methods>
       </class> <!-- com.pack.common.tests.HomePageTest -->
+      <class name="com.pack.common.tests.RegisterPageTest">
+        <methods>
+          <include name="verifyRegister"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.RegisterPageTest -->
     </classes>
   </test> <!-- edge -->
+  <test name="edge(failed)" parallel="tests">
+    <parameter name="appURL" value="http://newtours.demoaut.com/"/>
+    <parameter name="browserType" value="edge"/>
+    <classes>
+      <class name="com.pack.common.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.HomePageTest -->
+      <class name="com.pack.common.tests.RegisterPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.RegisterPageTest -->
+      <class name="com.pack.common.tests.FlightConfirmationPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.FlightConfirmationPageTest -->
+      <class name="com.pack.common.tests.EditProfilePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifyEditProfile"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.EditProfilePageTest -->
+    </classes>
+  </test> <!-- edge(failed) -->
+  <test name="chrome(failed)" parallel="tests">
+    <parameter name="appURL" value="http://newtours.demoaut.com/"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.pack.common.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.HomePageTest -->
+      <class name="com.pack.common.tests.RegisterPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.RegisterPageTest -->
+      <class name="com.pack.common.tests.FlightConfirmationPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifyFlightBooking"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.FlightConfirmationPageTest -->
+      <class name="com.pack.common.tests.EditProfilePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.EditProfilePageTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [You Tube] -->
