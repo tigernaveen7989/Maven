@@ -41,7 +41,7 @@ public class BookAFlightPage {
 		test.get().log(Status.INFO, "Selected "+meal+" in the drop down");
 	}
 	
-	public void selectCardType(String TCName) throws Exception{
+	public void selectCardType(String TCName) throws Exception {
 		int varRowNumber = globalfunctions.getRowNumber(TCName);
 		String cardType = globalfunctions.getCellValue("Value15", varRowNumber).toString();
 		globalfunctions.isDisplayed(driver, "NT_BookAFlightPage_CardType_Drop_Down", locatorType.XPATH, "Card Type Drop Down");
