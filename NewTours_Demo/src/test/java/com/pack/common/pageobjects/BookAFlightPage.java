@@ -25,7 +25,7 @@ public class BookAFlightPage {
 		test.get().log(Status.INFO, "Entered "+firstName+" in first name edit box");
 	}
 	
-	public void enterLastName(String TCName) throws Exception{
+	public void enterLastName(String TCName) throws Exception {
 		int varRowNumber = globalfunctions.getRowNumber(TCName);
 		String lastName = globalfunctions.getCellValue("Value13", varRowNumber).toString();
 		globalfunctions.isDisplayed(driver, "NT_BookAFlightPage_LastName_Edit_Box", locatorType.XPATH, "Last Name Edit Box");
