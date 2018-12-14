@@ -33,7 +33,7 @@ public class BookAFlightPage {
 		test.get().log(Status.INFO, "Entered "+lastName+" in last name edit box");
 	}
 	
-	public void selectMeal(String TCName) throws Exception{
+	public void selectMeal(String TCName) throws Exception {
 		int varRowNumber = globalfunctions.getRowNumber(TCName);
 		String meal = globalfunctions.getCellValue("Value14", varRowNumber).toString();
 		globalfunctions.isDisplayed(driver, "NT_BookAFlightPage_Meal_Drop_Down", locatorType.XPATH, "Meal Drop Down");
