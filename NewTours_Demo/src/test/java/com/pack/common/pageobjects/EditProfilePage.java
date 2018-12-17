@@ -17,7 +17,7 @@ public class EditProfilePage {
 		this.driver=driver;
 	}
 	
-	public void enterFirstName(String TCName) throws Exception{
+	public void enterFirstName(String TCName) throws Exception {
 		int varRowNumber = globalfunctions.getRowNumber(TCName);
 		String firstName = globalfunctions.getCellValue("Value3", varRowNumber).toString();
 		globalfunctions.isDisplayed(driver, "NT_EditProfilePage_FirstName_Edit_Box", locatorType.XPATH, "First Name Edit Box");
