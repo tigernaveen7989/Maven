@@ -16,7 +16,6 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/java/resources/features",
 		glue = "stepDefinition",
 		monochrome = true,
-		dryRun = false,
 		plugin = {"pretty","html:target/cucumber","json:target/cucumber.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
 		)
 public class MainRunner extends AbstractTestNGCucumberTests{

@@ -2,6 +2,7 @@ package pageObjects;
 
 import java.io.File;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -27,12 +28,28 @@ public class BasePage extends DriverFactory{
 		js = ((JavascriptExecutor) driver);
 	}
 	
+	public static String getText(WebElement element) throws Exception{
+		String text = element.getText();
+		return text;
+	}
+	
+	public static Boolean isDisplayed(WebElement element) throws Exception{
+		Boolean flag=false;
+		try {
+			flag = element.isDisplayed();
+		} catch (Exception e) {
+			flag = false;
+		}
+		return flag;
+	}
+	
 	public static void enterValue(WebElement element, String value) throws Exception{
 		element.sendKeys(value);
 	}
 	
 	public static void clickElement(WebElement element) throws Exception{
 		element.click();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 	public static void scrollDownPageToElement(WebElement element) throws Exception{
@@ -43,6 +60,13 @@ public class BasePage extends DriverFactory{
 		Date d= new Date();
 		String date = d.toString()+fileExtension;
 		return date;
+	}
+	
+	public static void switchToFrame(int frame) throws Exception{
+		JavascriptExecutor exe = (JavascriptExecutor) driver;
+		 int numberOfFrames = Integer.parseInt(exe.executeScript("return window.length").toString());
+		 System.out.println("Number of iframes on the page are " + numberOfFrames);
+		//driver.switchTo().frame(frame);
 	}
 	
 	public static void captureScreenshot() throws Exception{
