@@ -22,4 +22,4 @@ And click on login button
 And enter username as "a@gmail.com"
 And enter password as "India1234"
 When click on signin button
-Then verify that error message your login attempt has been unsuccessfull is displayed
+Then verify that error message "Your log in attempts has been unsuccessful" is displayed

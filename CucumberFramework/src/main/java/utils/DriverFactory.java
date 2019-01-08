@@ -8,6 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 
 import pageObjects.LoginPage;
+import pageObjects.RegisterPage;
 import pageObjects.SearchFlightPage;
 import pageObjects.SelectFlightPage;
 
@@ -17,6 +18,7 @@ public class DriverFactory {
 	public static SearchFlightPage searchFlightPage;
 	public static SelectFlightPage selectFlightPage;
 	public static LoginPage loginPage;
+	public static RegisterPage registerPage;
 	
 	public WebDriver driver() throws Exception{
 		try {
@@ -53,6 +55,7 @@ public class DriverFactory {
 			searchFlightPage = PageFactory.initElements(driver, SearchFlightPage.class);
 			selectFlightPage = PageFactory.initElements(driver, SelectFlightPage.class);
 			loginPage = PageFactory.initElements(driver, LoginPage.class);
+			registerPage = PageFactory.initElements(driver, RegisterPage.class);
 		}
 		return driver;
 	}	

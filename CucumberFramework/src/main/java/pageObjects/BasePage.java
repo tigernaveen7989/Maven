@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.cucumber.listener.Reporter;
@@ -43,6 +44,11 @@ public class BasePage extends DriverFactory{
 		return flag;
 	}
 	
+	public static void getURL(String value) throws Exception{
+		driver.get(value);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+	
 	public static void enterValue(WebElement element, String value) throws Exception{
 		element.sendKeys(value);
 	}
@@ -50,6 +56,11 @@ public class BasePage extends DriverFactory{
 	public static void clickElement(WebElement element) throws Exception{
 		element.click();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+	
+	public static void selectElement(WebElement element, String value) throws Exception{
+		Select dropDown = new Select(element);
+		dropDown.selectByVisibleText(value);
 	}
 	
 	public static void scrollDownPageToElement(WebElement element) throws Exception{
@@ -66,7 +77,7 @@ public class BasePage extends DriverFactory{
 		JavascriptExecutor exe = (JavascriptExecutor) driver;
 		 int numberOfFrames = Integer.parseInt(exe.executeScript("return window.length").toString());
 		 System.out.println("Number of iframes on the page are " + numberOfFrames);
-		//driver.switchTo().frame(frame);
+		 driver.switchTo().frame(frame);
 	}
 	
 	public static void captureScreenshot() throws Exception{

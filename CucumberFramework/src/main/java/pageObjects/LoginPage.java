@@ -38,10 +38,10 @@ public class LoginPage extends BasePage{
 		return new LoginPage();		
 	}
 	
-	public static LoginPage verifyErrorMessage() throws Exception {
+	public static LoginPage verifyErrorMessage(String errorMessage) throws Exception {
 		isDisplayed(Login_Error_Message);
 		String text = getText(Login_Error_Message);
-		if(text.contains("Your log in attempts has been unsuccessful")) {
+		if(text.contains(errorMessage)) {
 			System.out.println("Login is unsuccessful");
 		}else {
 			System.out.println("Login is successful");

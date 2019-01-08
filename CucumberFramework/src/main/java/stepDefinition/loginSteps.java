@@ -30,8 +30,8 @@ public class loginSteps extends DriverFactory{
 		LoginPage.clickOnSignInButton();
 	}
 	
-	@Then("^verify that error message your login attempt has been unsuccessfull is displayed$")
-	public void verify_that_error_message_your_login_attemp_has_been_unsuccessful_is_displayed() throws Throwable {
-		LoginPage.verifyErrorMessage();
+	@Then("^verify that error message \"([^\"]*)\" is displayed$")
+	public void verify_that_error_message_yourloginattemphasbeenunsuccessful_is_displayed(String errorMessage) throws Throwable {
+		LoginPage.verifyErrorMessage(errorMessage);
 	}
 }
