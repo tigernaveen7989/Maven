@@ -36,8 +36,7 @@ public class SearchFlightPage extends BasePage{
 	}
 
 	public static SearchFlightPage getSearchFlightPage() throws Exception{
-		driver.get("https://www.airasia.com/en/home.page");
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		getURL("https://www.airasia.com/en/home.page");
 		return new SearchFlightPage();
 	}
 	

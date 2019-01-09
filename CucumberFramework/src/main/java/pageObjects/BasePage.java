@@ -63,6 +63,11 @@ public class BasePage extends DriverFactory{
 		dropDown.selectByVisibleText(value);
 	}
 	
+	public static void selectElementByIndex(WebElement element, int value) throws Exception{
+		Select dropDown = new Select(element);
+		dropDown.selectByIndex(value);
+	}
+	
 	public static void scrollDownPageToElement(WebElement element) throws Exception{
 		js.executeScript("arguments[0].scrollIntoView()", element);
 	}
