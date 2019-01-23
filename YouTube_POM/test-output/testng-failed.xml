@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [You Tube]" parallel="tests">
-  <parameter name="platformVersion" value="7.1.1"/>
-  <parameter name="deviceName" value="emulator-5554"/>
-  <parameter name="URL" value="127.0.0.1:4723"/>
-  <listeners>
-    <listener class-name="com.pack.utils.Listeners.TestListener"/>
-  </listeners>
-  <test name="Emulator_Pixel">
-    <parameter name="platformVersion" value="7.1.1"/>
-    <parameter name="deviceName" value="emulator-5554"/>
-    <parameter name="URL" value="127.0.0.1:4723"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [YouTube]">
+  <test name="Test Number One">
     <classes>
-      <class name="com.pack.common.tests.StreamVideoPageTest">
-        <methods>
-          <include name="verifyMinimizeAndMaximizeVideo"/>
-        </methods>
-      </class> <!-- com.pack.common.tests.StreamVideoPageTest -->
+      <class name="com.pack.functionlibrary.driver"/>
     </classes>
-  </test> <!-- Emulator_Pixel -->
-  <test name="Emulator_Pixel(failed)" parallel="tests">
-    <parameter name="platformVersion" value="7.1.1"/>
-    <parameter name="deviceName" value="emulator-5554"/>
-    <parameter name="URL" value="127.0.0.1:4723"/>
-    <classes>
-      <class name="com.pack.common.tests.StreamVideoPageTest">
-        <methods>
-          <include name="verifyMinimizeAndMaximizeVideo"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="initializeTestBaseSetup"/>
-        </methods>
-      </class> <!-- com.pack.common.tests.StreamVideoPageTest -->
-    </classes>
-  </test> <!-- Emulator_Pixel(failed) -->
-</suite> <!-- Failed suite [You Tube] -->
+  </test> <!-- Test Number One -->
+</suite> <!-- Failed suite [YouTube] -->

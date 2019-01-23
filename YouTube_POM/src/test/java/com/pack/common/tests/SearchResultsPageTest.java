@@ -43,6 +43,10 @@ public class SearchResultsPageTest extends TestBaseSetupWeb{
 			String TCName = Thread.currentThread().getStackTrace()[1].getMethodName();
 			homePage = new HomePageWeb(driver);
 			homePage.getURL();
+			//driver.findElement(By.xpath("//*[@aria-label='Settings']")).click();
+			driver.findElement(By.xpath("//*[@id=\"header-bar\"]/header/div/div/button/c3-icon/svg/path")).click();
+			driver.findElement(By.xpath("//*[@id=\"header-bar\"]/header/ytm-searchbox/form/div[1]/input")).sendKeys("iPhone");
+			driver.findElement(By.xpath("//*[@id=\"header-bar\"]/header/ytm-searchbox/form/div[2]/c3-icon/svg")).click();
 			homePage.verifySearchIcon();
 			homePage.clickSearchIcon();
 			homePage.enterValue(TCName);
