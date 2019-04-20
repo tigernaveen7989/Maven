@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="YouTube" duration-ms="10" started-at="2019-01-10T14:46:21Z" finished-at="2019-01-10T14:46:21Z">
+    <groups>
+    </groups>
+    <test name="Test Number One" duration-ms="10" started-at="2019-01-10T14:46:21Z" finished-at="2019-01-10T14:46:21Z">
+      <class name="com.pack.functionlibrary.driver">
+        <test-method status="PASS" signature="runcase()[pri:0, instance:com.pack.functionlibrary.driver@285583d4]" name="runcase" is-config="true" duration-ms="114900" started-at="2019-01-10T20:14:26Z" finished-at="2019-01-10T20:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runcase -->
+        <test-method status="PASS" signature="TestStatus()[pri:0, instance:com.pack.functionlibrary.driver@285583d4]" name="TestStatus" is-config="true" duration-ms="1" started-at="2019-01-10T20:16:22Z" finished-at="2019-01-10T20:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStatus -->
+      </class> <!-- com.pack.functionlibrary.driver -->
+    </test> <!-- Test Number One -->
+  </suite> <!-- YouTube -->
+</testng-results>
