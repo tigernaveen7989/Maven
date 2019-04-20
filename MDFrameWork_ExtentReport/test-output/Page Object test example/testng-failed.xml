@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+  <parameter name="appURL" value="https://www.google.co.in"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.pack.utils.Listeners.TestListener"/>
+  </listeners>
+  <test name="sample test">
+    <classes>
+      <class name="com.pack.common.tests.HomePageTest"/>
+    </classes>
+  </test> <!-- sample test -->
+  <test name="sample test(failed)">
+    <classes>
+      <class name="com.pack.common.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyComposeAndSendMailFunction"/>
+          <include name="tearDown"/>
+          <include name="verifyReadMailFunction"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.HomePageTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
