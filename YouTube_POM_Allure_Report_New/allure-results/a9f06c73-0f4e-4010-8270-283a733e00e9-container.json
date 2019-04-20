@@ -1,0 +1,1 @@
+{"uuid":"a9f06c73-0f4e-4010-8270-283a733e00e9","name":"com.pack.base.TestBaseSetup.initializeTestBaseSetup","description":"","start":1539155648990,"stop":1539155675079,"children":["b333262d-e9e6-416a-b6bf-9b549402c9b9"],"befores":[{"name":"initializeTestBaseSetup","status":"passed","stage":"finished","description":"","start":1539155648990,"stop":1539155675073}]}
