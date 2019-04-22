@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TSMTestSuite">
+	<listeners>
+		<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+
+	<test name="APITests">
+		<parameter name="executionMode" value="local" />
+		<parameter name="platform" value="API" />
+		<parameter name="operatingSystem" value="WINDOWS" />
+		<parameter name="browserName" value="" />
+		<parameter name="browserVersion" value="" />
+		<parameter name="automationName" value="Test" />
+		<parameter name="testEnvironment" value="QA3PC" />
+		<parameter name="deviceName" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="applicationId" value="" />
+		<parameter name="bundleId" value="" />
+		<parameter name="appiumURL" value="" />
+		<parameter name="planId" value="910" />
+		<parameter name="testType" value="Regression" />
+		<classes>
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETEstimatedWaitTimeApiTest" />
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETEstimatedWaitTimeApiNullValueProductTest" />
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETEstimatedWaitTimeApiNullValuePlatformTest" />
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETEstimatedWaitTimeApiNullValueCategoryTest" />
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETEstimatedWaitTimeApiNullValueSubCategoryTest" />
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETEstimatedWaitTimeApiNullValueLocaleTest" />
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETPendingInvoicesApiTest" />
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETPendingInvoicesNullAccountNumberApiTest" />
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETBillingAccountwithDeletableInfoApiTest" />
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETBillingAccountwithDeletableInfoNullUseridApiTest" /> 
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETLoginHistorywithLocationInfoTest" /> 
+			<class name="com.ea.wwce.automation.tsm.api.tests.GETLoginHistorywithLocationInfowithEmptyIDTest" />
+						
+		</classes>
+	</test>
+</suite>

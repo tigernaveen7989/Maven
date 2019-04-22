@@ -1,0 +1,35 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"49990": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"crmProductName": "fifa-18"
+		}
+	},
+	"49991": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"crmProductName": "fifa-"
+		}
+	}
+}

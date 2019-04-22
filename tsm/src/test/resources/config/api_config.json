@@ -1,0 +1,41 @@
+{
+	"AUTH_TOKEN_API": {
+		"endpoint_name": "API to get AUTH TOKEN",
+		"url": "/oauth/token",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "AUTH_TOKEN.json"
+	},
+	"GET_ESTIMATED_WAIT_TIME_API": {
+		"endpoint_name": "API to get estimated waittime",
+		"url": "/comm/chat/lawaittime/v2",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "ESTIMATED_WAIT_TIME.json",
+		"assertions": "ESTIMATED_WAIT_TIME_ASSERTIONS.json"
+	},
+	"GET_PENDING_INVOICE_API": {
+		"endpoint_name": "API to get Pending invoices in account removal",
+		"url": "/commerce/invoices",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "PENDING_INVOICES.json",
+		"assertions": "PENDING_INVOICES_ASSERTIONS.json"
+	},
+	"GET_BILLINGACCOUNTS_DELETABLEINFO_API": {
+		"endpoint_name": "API to get Billing account with deletable info",
+		"url": "/commerce/invoices",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "PENDING_INVOICES.json",
+		"assertions": "PENDING_INVOICES_ASSERTIONS.json"
+	},
+	"GET_LOGIN_HISTORY_LOCATION_INFO_API": {
+		"endpoint_name": "API to get login history with location info",
+		"url": "/studio-bf/product/gen/fifa-18/usersession/loginhistory",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "LOGINHISTORYWITHLOCATIONINFO.json",
+		"assertions": "LOGIN_HISTORYWITHLOCATION_INFO.json"
+	}
+}

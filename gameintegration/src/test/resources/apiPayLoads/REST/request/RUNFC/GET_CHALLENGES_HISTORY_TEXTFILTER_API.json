@@ -1,0 +1,21 @@
+{
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "fifa-18"
+		},
+		"input_param": {
+			"id": "1000033080867",
+			"idType": "nucleusPersonaId",
+			"challengeCategory": "1",
+			"platform": "ps4",
+			"textFilter" : "SBC",
+			"modeType" : "FUT"
+		},
+		"payload_param": {}
+	}
+}

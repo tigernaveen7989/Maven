@@ -1,0 +1,685 @@
+{
+	"global": [
+		{
+			"username": "tsmuiautomation@gmail.com",
+			"password": "Test12!@",
+			"username_tsm": "tsmemailadvisor@gmail.com.qa3pc",
+			"password_tsm": "Test12!@",
+			"username_chatAdvisor": "tsmchatadvisor@gmail.com.qa3pc",
+			"password_chatAdvisor": "Test12!@",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"subject": "TSM Automation Testing, Please Ignore this case",
+			"phonenumber": "NA",
+			"description": "For Automation Testing",
+			"RoleName": "Automation Testing - Email",
+			"ChatRoleName": "Available - Chat",
+			"email_jobRole": "TSM_Automation_Email Advisor",
+			"chat_jobRole": "TSM_Automation_Chat_Advisor",
+			"gameMode_FUT": "FUT",
+			"gameMode_WC": "WC"
+		}
+	],
+	"16928, 16853": [
+		{
+			
+		}
+	],
+	"16927": [
+		{
+			"FName": "TSM",
+			"LName": "QA",
+			"Email": "tsmuiautomation@gmail.com"
+		}
+	],
+	"16857": [
+		{
+			"firstName": "TSM",
+			"lastName": "Automation",
+			"country": "India",
+			"dateofbirth": "Sep/19/86",
+			"joineasince": "9/19/2018",
+			"persona": "tsmuiautomation (1000260743284)",
+			"nucleusID": "1000442943284",
+			"primaryemail": "tsmuiautomation@gmail.com",
+			"secondaryemail": "rgandham@contractor.ea.com",
+			"phonenumber1": "9966733428",
+			"language": "English",
+			"Customervalue": "none"
+		}
+	],
+	"14409, 13856, 13878, 13943, 14740": [
+		{
+			"txtNotes": "Notes added for automation Testing"
+		}
+	],
+	"13883, 13882": [
+		{
+			
+		}
+	],
+	"16107, 16047, 16196, 17600, 15964, 15961, 15960, 15962": [
+		{
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"20544, 15914, 15928, 16023, 16024, 16026, 16027, 16045": [
+		{
+			"tsmsubject": "WWCE Testing Please Ignore this case",
+			"tsmdescription": "For Automation Testing",
+			"tsmproduct": "FIFA 18",
+			"tsmplatform": "Microsoft XBOX One",
+			"tsmcategory": "Missing content",
+			"tsmsubcategory": "Had content and lost it"
+		}
+	],
+	"15977": [
+		{
+			"product": "FIFA 19",
+			"platform": "PC",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it"
+		}
+	],
+	"18813, 18925": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA"
+		}
+	],
+	"18932, 18927": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA",
+			"FName": "TSM",
+			"LName": "QA",
+			"Email": "tsmuiautomation@gmail.com"
+		}
+	],
+	"18802": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA"
+		}
+	],
+	"18931": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA",
+			"FName": "TSM",
+			"LName": "QA",
+			"Email": "tsmuiautomation@gmail.com"
+		}
+	],
+	"17498, 17287": [
+		{
+			"username": "tsmeahelpuser@gmail.com",
+			"password": "Test12!@",
+			"firstname": "TSM",
+			"lastname": "QA",
+			"date": "26",
+			"month": "10",
+			"year": "1986",
+			"successfulllogin": "Successful login via origin_CE"
+		}
+	],
+	"17504": [
+		{
+			"username": "tsmeahelpuser@gmail.com",
+			"password": "Test12!@",
+			"firstname": "TSM",
+			"lastname": "QA",
+			"date": "26",
+			"month": "10",
+			"year": "1986",
+			"successfulllogin": "Successful login via origin_CE"
+		}
+	],
+	"18901, 18944, 18945": [
+		{
+			"username": "tsmeahelpuser@gmail.com",
+			"password": "Test12!@",
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "game-information",
+			"subcategory": "game-modes",
+			"defletionmessage": "Chat Channel Closed. Automation Testing Deflection Message"
+		}
+	],
+	"18917, 18947, 18948": [
+		{
+			"username": "tsmeahelpuser@gmail.com",
+			"password": "Test12!@",
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "game-information",
+			"subcategory": "game-modes",
+			"defletionmessage": "Chat Channel Closed. Automation Testing Deflection Message",
+			"FName": "TSM",
+			"LName": "QA",
+			"Email": "tsmuiautomation@gmail.com"
+		}
+	],
+	"18912": [
+		{
+			"username": "tsmeahelpuser@gmail.com",
+			"password": "Test12!@",
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "game-information",
+			"subcategory": "features"
+		}
+	],
+	"18920": [
+		{
+			"username": "tsmeahelpuser@gmail.com",
+			"password": "Test12!@",
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "game-information",
+			"subcategory": "features",
+			"FName": "TSM",
+			"LName": "QA",
+			"Email": "tsmuiautomation@gmail.com"
+		}
+	],
+	"18832": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA",
+			"firstName": "TSM",
+			"lastName": "Automation",
+			"country": "India",
+			"dateofbirth": "Sep/19/86",
+			"joineasince": "9/19/2018",
+			"persona": "tsmuiautomation (1000260743284)",
+			"nucleusID": "1000442943284",
+			"primaryemail": "tsmuiautomation@gmail.com",
+			"secondaryemail": "rgandham@contractor.ea.com",
+			"phonenumber1": "9966733428",
+			"language": "English",
+			"Customervalue": "none"
+		}
+	],
+	"21162, 21165, 27420": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA",
+			"chatmessage": "Hello am Automation Test Player!",
+			"sendMessagefromAdv": "Hello am Automation Test Advisor, How can i help you!"
+		}
+	],
+	"21164, 21166": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA",
+			"chatmessage": "Hello am Automation Test Player!",
+			"sendMessagefromAdv": "Hello am Automation Test Advisor, How can i help you!",
+			"FName": "TSM",
+			"LName": "QA",
+			"Email": "tsmuiautomation@gmail.com"
+		}
+	],
+	"20367, 20406": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA",
+			"chatmessage": "Hello am Automation Test Player !~`@#$%^&*()_?><:/ 1232442",
+			"sendMessagefromAdv": "Hello am Automation Test Advisor,~`@#$%^&*()_?><:/ 1232442",
+			"FName": "TSM",
+			"LName": "QA",
+			"Email": "tsmuiautomation@gmail.com"
+		}
+	],
+	"21168, 21169": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA",
+			"chatmessage": "Hello am Automation Test Player Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by mmunity find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq gameplay tips and level up by answering player questions Get help from andq test",
+			"sendMessagefromAdv": "Hello am Automation Test Advisor, How can i help you!Hello am Automation Test Player Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by mmunity find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from the community Get help from the community find gameplay tips and level up by answering player questions Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq Get help from gameplay tips and level up by answering player questions Get help from andq gameplay tips and level up by answering player questions Get help from andq test"
+		}
+	],
+	"20363, 20365, 20364, 20366": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA",
+			"chatmessage": "Hello am Automation Test Player!",
+			"sendMessagefromAdv": "Hello am Automation Test Advisor, How can i help you!"
+		}
+	],
+	"20368, 20407": [
+		{
+			"product": "Blooop",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "NA",
+			"phonenumber": "NA",
+			"chatmessage": "您",
+			"sendMessagefromAdv": "문"
+		}
+	],
+	"21195, 20801, 20982, 20985, 20986, 20988, 20989, 20990": [
+		{
+			"username": "tsmeahelpuser@gmail.com",
+			"password": "Test12!@",
+			"firstname": "TSM",
+			"lastname": "Automation",
+			"country": "India",
+			"dateofbirth": "Jul/26/75",
+			"joineasince": "11/09/2018",
+			"persona": "tsmeahelpuser (1000040207679)",
+			"nucleusID": "1000321407679",
+			"primaryemail": "tsmeahelpuser@gmail.com",
+			"secondaryemail": "tsmeahelpuser@gmail.com",
+			"phonenumber": "9966733428",
+			"language": "English",
+			"Customervalue": "none"
+		}
+	],
+	"27242, 27243, 27240, 27241": [
+		{
+			"setTemporarypassword": "Test123!@",
+			"username": "tsmeahelpuser@gmail.com",
+			"getusername": "TSMEAHELPUSER"
+		}
+	],
+	"28082, 28004, 28075, 28007, 28326, 28077": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "FIFA 18",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"productname": "battlefield-3",
+			"product_battlefield": "BATTLEFIELD 3",
+			"productname_fifa19": "FIFA 19",
+			"product_fifa19": "fifa-19"
+		}
+	],
+	"27227": [
+		{
+			"username": "tfaeahelpuser@gmail.com",
+			"password": "Test12!@"
+		}
+	],
+	"28474, 28477, 28478, 28489, 28476, 28488": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99",
+			"productFields_fifa19": "Persona#Game Mode",
+			"dropdownItems_fifa19": "View Codes#Grant Discounts and Promos#Change Product#Grant In-Game Entitlement#Grant Items, Packs, Currency"
+		}
+	],
+	"28109, 28111, 28790": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99",
+			"gameStats_fifa19": "Wins@losses@draws@gamesStarted@gamesFinished@reliability",
+			"persona_fifa19": "PERSONA NAME@STATUS@LAST UPDATED ON",
+			"clubs_fifa19": "CLUB NAME@STATUS@CREATION DATE"
+		}
+	],
+	"44024, 44025, 44026": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"grantSuccessMessage": "2 In-game content successfully granted",
+			"coins": "10",
+			"points": "20",
+			"itemCategory_fifa19": "kitcards",
+			"packCategory_fifa19": "cardpack"
+		}
+	],
+	"49735, 49736, 49737": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"currenyType_fifa19": "coins#points#draft_token#fc_coins",
+			"currencyFields_fifa19": "Name#Balance#Type#Description",
+			"points_fifa19": "Name#Balance#Type#Description",
+			"draft_token_fifa19": "Name#Balance#Type#Description",
+			"fc_coins_fifa19": "Name#Balance#Type#Description",
+			"itemFields_fifa19": "itemDefinitionId#itemInstanceId#description#appliedFlag#acquisitionType#dateGranted#state#dateClaimed#itemPackId#itemPackType#imageURL#rating",
+			"packFields_fifa19": "packDefinitionId#packInstanceId#description#state#dateOpened#dateGranted#earnedBy",
+			"packDetails_fifa19": "ID#TYPE#DETAILS",
+			"itemCategory_fifa19": "kitcards",
+			"packCategory_fifa19": "cardpack"
+		}
+	],
+	"44027, 44028, 44029, 49665": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"amount": "1",
+			"currency_fifa19": "coins#points#fc_coins#draft_Token"
+		}
+	],
+	"50397, 50398, 50399": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"historyFields_fifa19": "TIME UTC#ACTION#CONTENT#STATUS#VALUE",
+			"endDate": "Jan 31, 2019",
+			"endTime": "12:04 PM",
+			"modesData_fifa19": "Events#Challenges#Sets",
+			"modes_fifa19": "OBJECTIVES#FUT BIRTHDAY#*SBC_TESTS",
+			"transaction_fifa19": "OBJECTIVES",
+			"Draft": "Draft"
+		}
+	],
+	"51519": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99",
+			"clubName": "SAN Ju"
+		}
+	],
+	"51520": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99",
+			"active": "Active",
+			"inactive": "Inactive"
+		}
+	],
+	"51522": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99"
+		}
+	],
+	"53328, 53329, 53330": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "Star Wars Battlefront II",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"currenyType_battlefrontII": "Credits#Crystals#Basic crafting materials",
+			"currencyFields_battlefrontII": "Name#Balance#Type#Description",
+			"itemFields_battlefrontII": "itemDefinitionId#itemInstanceId#description#itemType#character#rarityType#acquisitionType#dateGranted#state#dateClaimed",
+			"packFields_battlefrontII": "packDefinitionId#packInstanceId#state#dateGranted#earnedBy#lastUpdatedDate",
+			"packDetails_battlefrontII": "ID#TYPE#DETAILS",
+			"itemCategory_battlefrontII": "STAR_CARD",
+			"packCategory_battlefrontII": "LOOT_BOX"
+		}
+	],
+	"53334": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "Star Wars Battlefront II",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "never-received-content",
+			"historyFields_battlefrontII": "TIME UTC#ACTION#CONTENT#STATUS#VALUE",
+			"endDate": "Jan 31, 2019",
+			"endTime": "12:04 PM",
+			"modesData_battlefrontII": "Events#Challenges#Sets",
+			"modes_battlefrontII": "OBJECTIVES#FUT BIRTHDAY#*TOOLS TEST",
+			"transaction_battlefrontII": "Purchase"
+		}
+	],
+	"53324, 53325, 53326": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "Star Wars Battlefront II",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"amount": "1",
+			"currenyType_battlefrontII": "Credits#Crystals#Basic crafting materials"
+		}
+	],
+	"53359": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "Star Wars Battlefront II",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"productname": "battlefield-3",
+			"product_battlefield": "BATTLEFIELD 3",
+			"productname_battlefront2": "FIFA 19",
+			"product_battlefront2": "fifa-19"
+		}
+	],
+	"53321, 53322, 53323": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "Star Wars Battlefront II",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"grantSuccessMessage": "2 In-game content successfully granted",
+			"coins": "10",
+			"points": "20",
+			"itemCategory_battlefrontII": "STAR_CARD",
+			"packCategory_battlefrontII": "LOOT_BOX"
+		}
+	],
+	"53404": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "Star Wars Battlefront II",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"productFields_battlefrontII": "Persona",
+			"dropdownItems_battlefrontII": "View Codes#Grant Discounts and Promos#Change Product#Grant In-Game Entitlement#Grant Items, Packs, Currency"
+		}
+	],
+	"53440": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "FIFA 18",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"productFields_fifa18": "Persona#Game Mode",
+			"dropdownItems_fifa18": "View Codes#Grant Discounts and Promos#Change Product#Grant In-Game Entitlement#Grant Items, Packs, Currency",
+			"gameMode_FUT": "FUT",
+			"gameMode_WC": "WC"
+		}
+	],
+	"53439": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "FIFA 18",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"productname": "battlefield-3",
+			"product_battlefield": "BATTLEFIELD 3",
+			"productname_fifa18": "FIFA 18",
+			"product_fifa18": "fifa-18",
+			"gameMode_FUT": "FUT",
+			"gameMode_WC": "WC"
+		}
+	],
+	"53438": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "FIFA 18",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"gameStats_fifa18": "Wins@losses@draws@gamesStarted@gamesFinished@reliability",
+			"persona_fifa18": "PERSONA NAME@STATUS@LAST UPDATED ON",
+			"clubs_fifa18": "CLUB NAME@STATUS@CREATION DATE"
+		}
+	],
+	"53436": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"product": "FIFA 18",
+			"platform": "xbox-one",
+			"category": "missing-content",
+			"subcategory": "had-content-and-lost-it",
+			"active": "Active",
+			"inactive": "Inactive"
+		}
+	],
+	"53423, 53424, 53425, 53426": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"amount": "1",
+			"currency_fifa19": "coins#points#fc_coins#draft_Token",
+			"gameMode_FUT": "FUT",
+			"gameMode_WC": "WC"
+		}
+	],
+	"53427, 53428, 53429": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"currenyType_fifa18": "coins#points#draft_token#fc_coins",
+			"currencyFields_fifa18": "Name#Balance#Type#Description",
+			"points_fifa18": "Name#Balance#Type#Description",
+			"draft_token_fifa18": "Name#Balance#Type#Description",
+			"fc_coins_fifa18": "Name#Balance#Type#Description",
+			"itemFields_fifa18": "itemDefinitionId#itemInstanceId#description#appliedFlag#acquisitionType#dateGranted#state#dateClaimed#itemPackId#itemPackType#imageURL#rating",
+			"packFields_fifa18": "packDefinitionId#packInstanceId#description#state#dateOpened#dateGranted#earnedBy",
+			"packDetails_fifa18": "ID#TYPE#DETAILS",
+			"itemCategory_fifa18": "kitcards",
+			"packCategory_fifa18": "cardpack",
+			"gameMode_FUT": "FUT",
+			"gameMode_WC": "WC"
+		}
+	],
+	"53435": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"clubName": "SAN Ju",
+			"gameMode_FUT": "FUT",
+			"gameMode_WC": "WC"
+		}
+	],
+	"53430, 53431, 53432": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"historyFields_fifa18": "TIME UTC#ACTION#CONTENT#STATUS#VALUE",
+			"endDate": "Jan 31, 2019",
+			"endTime": "12:04 PM",
+			"modesData_fifa18": "Events#Challenges#Sets",
+			"modes_fifa18": "OBJECTIVES#BASIC#BASIC",
+			"transaction_fifa18": "OBJECTIVES",
+			"Draft": "Draft"
+		}
+	],
+	"53420, 53421, 53422": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"grantSuccessMessage": "2 In-game content successfully granted",
+			"coins": "1",
+			"points": "1",
+			"itemCategory_fifa19": "kitcards",
+			"packCategory_fifa19": "cardpack"
+		}
+	],
+	"53437": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99"
+		}
+	],
+	"53339": [
+		{
+			"username": "earw-wsro5445@xboxtest.com",
+			"password": "SuperSecret99",
+			"gameStats_fifa19": "Wins@losses@draws@gamesStarted@gamesFinished@reliability",
+			"persona_fifa19": "PERSONA NAME@STATUS@LAST UPDATED ON",
+			"clubs_fifa19": "CLUB NAME@STATUS@CREATION DATE"
+		}
+	],
+	"53337": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99",
+			"active": "Active",
+			"inactive": "Inactive"
+		}
+	],
+	"53336": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99",
+			"clubName": "SAN Ju"
+		}
+	],
+	"53338": [
+		{
+			"username": "earw-wsro5446@xboxtest.com",
+			"password": "SuperSecret99"
+		}
+	]
+}
+

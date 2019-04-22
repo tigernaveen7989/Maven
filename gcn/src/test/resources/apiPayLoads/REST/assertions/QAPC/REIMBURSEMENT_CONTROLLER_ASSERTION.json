@@ -1,0 +1,13 @@
+{
+	"global": [{
+		
+	}],
+	
+	"20371": [{
+		"response_code":200,
+		"eventId":262,
+		"game_changer_id" : 994,
+		"type" : "STIPEND",
+		"amount" : 3876
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	"global": {
+		"headers": {
+			"S-RequestorId": "test",
+			"S-NoCache": "false",
+			"S-IncludePersona": "",
+			"S-IncludeSecurityState": "",
+			"S-IncludeUserProfile": "",
+			"S-IncludeAddresses": "",
+			"S-IncludeUserExternalRef": "",
+			"S-IncludeUserValue": "",
+			"S-AccountFlagTypes": ""
+
+		},
+		"uri_param": {
+			"userId": "2669783118"
+		},
+		"input_param": {}
+	}
+}

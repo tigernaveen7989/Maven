@@ -1,0 +1,47 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"49969": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"userId": "12304959383",
+			"product": "52-card-pickup",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"issue": "hacked-account",
+			"isContactForm": "true",
+			"locale": "en_US"
+		}
+	},
+	"49970": {
+		"headers": {
+			"S-RequestorId": ""
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"userId": "12304959383",
+			"product": "52-card-pickup",
+			"platform": "pogo",
+			"category": "manage-my-account",
+			"issue": "hacked-account",
+			"isContactForm": "true",
+			"locale": "en_US"
+		}
+	}
+}

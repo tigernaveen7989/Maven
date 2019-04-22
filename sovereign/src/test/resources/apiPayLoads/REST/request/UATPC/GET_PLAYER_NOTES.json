@@ -1,0 +1,13 @@
+{
+	"global": {
+		"headers": {
+			"S-RequestorId": "test"
+		},
+		"uri_param": {
+			"userId": "2669783118"
+		},
+		"input_param": {},
+		"payload_param": {}
+
+	}
+}

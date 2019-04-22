@@ -1,0 +1,621 @@
+{
+  "global":[{
+  			  "username": "mkamsu@contractor.ea.com.qa1pc",
+    		  "password": "admin@123",
+    		  "T2username": "mkamsu@contractor.ea.com.qa1pc",
+    		  "T2password": "admin@123",
+    		  "udadmin_username": "vbisht@contractor.ea.com.qa1pc",
+    		  "udadmin_password": "Test12!@",
+    		  "dateformat": "MMM d, yyyy h:mm a",
+    		  "timeZone": "UTC"
+    	 	}
+  	],
+  	
+  "3143,3376,3569,3570,18976,3146": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+      "petitionActionVal": "Escalate - Violation Found",
+      "petitionNotes": "Testing Testing",
+      "petitionActionVal2": "Resolve - No Violation Found",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385" 
+   }
+  ],
+  
+  "3117,3519": [
+    {
+     "roleName": "TOS Tier 1 Petitions",
+	 "queueName": "TOS Petitions Tier 1",
+     "petitionActionVal": "Resolve - No Violation Found",
+     "petitionNotes": "Testing Testing",
+     "filterName": "petition-age",
+	 "filterValue":"1000040018385"
+   }
+  ],
+  
+  "3155,3386,4693,3392": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+	  "petitionActionVal": "Escalate - Violation Found",
+      "petitionNotes": "Testing Testing",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+   }
+  ],
+  
+ "3368,4433,14105": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+      "categoryName": "Physical Threat",
+      "productName": "Battlefield Hardline",
+      "personaId": "1000040018385",
+      "c_categoryName": "Physical Threat",
+      "c_productName": "FIFA 15",
+      "c_personaId": "1000040018385"
+    }
+  ],
+  
+ "3717,3718": [
+    {
+      "url": "https://wwce-eait--qa1pc--c.cs25.visual.force.com/apex/ud_admin",
+      "product": "A Way Out",
+      "platform": "PC",
+      "category": "Spam"
+    }
+  ],
+  
+  "3069,3512,3173,3618,3619,3620,3066,3395,3528,3393,3065,3621": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+      "franchiseName": "FIFA",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+    }
+  ],
+  
+  "14108,4434": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1"
+    }
+  ],
+  
+  "4809,13773,13775,3626,3636": [
+    {
+      "roleName": "TOS Tier 2", 
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Transfer - Violation Found",
+      "petitionNotes": "Case Events Testing",
+      "petitionActionVal2": "Resolve - No Violation Found",
+      "hide": "false",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "caseDetails": "Case Number,Category,Product",
+	  "crmEventDetails":"Case,EventCategory,EventType,EventNote"
+    }
+  ],
+  
+ "3373,3557,3558,15492": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+      "notes": "Account Notes Verification Test",
+      "sticky": "true",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+    }
+  ],
+  
+   "13785,17510,18424,19152,19153,18190": [
+    {
+      "roleName": "TOS Tier 2", 
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - Violation Found",
+      "penaltyLevel": "Account",
+      "disciplinaryAction": "Ban",
+      "reason": "INVALID_EMAIL",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "caseDetails": "Case Number,Category,Product",
+	  "crmEventDetails":"Case,EventCategory,EventType,EventNote"
+  	}
+  ],
+  
+   "13791,16271,3628,18194": [
+    {
+      "roleName": "TOS Tier 2", 
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - Violation Found",
+      "penaltyLevel": "Account",
+      "disciplinaryAction": "Suspend",
+      "duration": "3 days",
+      "reason": "PRIVACY_POLICY",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "caseDetails": "Case Number,Category,Product",
+	  "crmEventDetails":"Case,EventCategory,EventType,EventNote"
+  	}
+  ],
+  "18936,18937,18938": [
+    {
+      "roleName": "TOS Tier 2", 
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal1": "Resolve - No Violation Found",
+      "defaultNotes1": "No Violation Found. Close this Petition as inactionable",
+      "petitionActionVal2": "Transfer - Violation Found",
+      "defaultNotes2": "Transfer to",
+      "petitionActionVal3": "Escalate - Violation Found",
+      "defaultNotes3": "Escalate to",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+    }
+  ],
+ 
+ "4438,3602,10111,10112,4815,4817,3164,3166,3159": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+	  "productItem": "Battlefield 4",
+      "categoryItem": "Physical Threat",
+      "platformItem": "PC",
+       "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+    }
+  ],
+   "16285,3068,20575": [
+    {
+      "roleName": "TOS Tier 2", 
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - Violation Found",
+      "penaltyLevel": "Account",
+      "disciplinaryAction": "Warn",
+      "reason": "INVALID_EMAIL",
+      "strikeType": "Major Strikes",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385" 
+   }
+  ],
+   "16286,21077": [
+    {
+      "roleName": "TOS Tier 2", 
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - Violation Found",
+      "penaltyLevel": "Account",
+      "disciplinaryAction": "Warn",
+      "reason": "INVALID_EMAIL",
+      "strikeType": "Minor Strikes",
+      "filterName": "petition-age",
+ 	  "filterValue":"1000040018385" 
+    }
+  ],
+  "16105,16111,18607": [
+    {
+      "roleName": "TOS Tier 1 Petitions", 
+	  "queueName": "TOS Petitions Tier 1",
+      "massActionVal": "Escalate - Violation Found", 
+      "massNotes": "Testing Mass Action",
+      "SelectQueuVal": "1",
+      "selectedcount": "5",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+    }
+   ],
+   "16036,16936": [
+    {
+      "roleName": "TOS Tier 1 Petitions", 
+	  "queueName": "TOS Petitions Tier 1",
+      "massActionVal": "Escalate - Violation Found", 
+      "massNotes": "Testing Mass Action Notes",
+      "selectQVal":"1",
+      "selectedcount": "2",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "crmEventDetails":"EventCategory,EventType,EventNote"
+    }
+   ],
+   "16106,16861,16004,17290,15131,16934,3625": [
+    {
+      "roleName": "TOS Tier 1 Petitions", 
+	  "queueName": "TOS Petitions Tier 1",
+      "massActionVal": "Resolve - No Violation Found", 
+      "massNotes": "Testing Mass Action",
+      "massActionAnotherVal":"Escalate - Violation Found",
+      "selectedcount": "5",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "crmEventDetails":"EventCategory,EventType,EventNote"
+    }
+   ],
+   "3121,3122,3124,3131,3133,3134,3174,21021":[
+   { "roleName": "TOS Tier 1 Petitions",
+	 "queueName": "TOS Petitions Tier 1",	
+     "filterName": "petition-age",
+	 "filterValue":"1000040018385"
+   }
+   ],
+   "3638,3135,3136,3138,3139,18608,3141,3639":[
+   { "roleName": "TOS Tier 1 Petitions",
+     "queueName": "TOS Petitions Tier 1",
+     "caseType": "petition",
+   	 "product":	 "A Way Out",
+   	 "platform":  "PC",
+   	 "category":  "Physical Threat",
+   	 "contentType":  "Text",
+   	 "subject":  "Sample Petition Case",
+   	 "caseNotes": "Sample Petition Case Notes",
+   	 "filterName": "petition-age",
+     "filterValue":"1000040018385" 
+   }
+   ],
+    "3640,3641,3635":[
+   { "roleName": "TOS Tier 1 Petitions",
+	 "queueName": "TOS Petitions Tier 1",
+   	 "caseType": "dispute",
+   	 "product":	 "A Way Out",
+   	 "platform":  "PC",
+   	 "contentType":  "",
+   	 "category":  "Manage my account",
+   	 "subject":  "Sample Dispute Case",
+   	 "caseNotes": "Sample Dispute Case Notes",
+   	 "filterName": "petition-age",
+	 "filterValue":"1000040018385" 
+   }
+   ],
+   "18527,18528": [
+    {
+      "url": "https://wwce-eait--runfc--c.cs7.visual.force.com/apex/ud_admin",
+      "advisorName": "mohan kamsu",
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1"
+    }
+  ],
+  "21304,3127": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+   }
+  ],
+  
+  "17601,3157,3571": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+	  "petitionActionVal": "Resolve - No Violation Found",
+      "petitionNotes": "Testing Testing",
+      "SelectQueuVal": "TOS Petitions Tier 2",
+      "productItem": "Battlefield 4",
+      "categoryItem": "Physical Threat",
+      "platformItem": "PC",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "caseDetails": "Case Number,Category,Product,Status",
+	  "crmEventDetails":"Case,EventCategory,EventType,EventNote"
+    }
+  ],
+    
+ "20531,20532,20529,20530":[
+   { "roleName": "TOS Tier 2",
+   	 "queueName": "TOS Petitions Tier 2",
+     "productNameVal":"Anthem",
+     "penaltylevel": "Account;Entitlement",
+     "disciplinaryAction":"Ban;Suspend"
+  }
+  ], 
+ 
+ "17603,3387":[
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+	  "petitionActionVal": "Escalate - Violation Found",
+      "petitionNotes": "Testing Testing",
+      "SelectQueuVal": "TOS Petitions Tier 2",
+      "productItem": "Battlefield 4",
+      "categoryItem": "Physical Threat",
+      "platformItem": "PC",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "caseDetails": "Case Number,Category,Product,platform",
+	  "crmEventDetails":"Case,EventCategory,EventType,EventNote"
+    }
+  ],
+   
+ "17604":[
+    {
+      "roleName": "TOS Tier 2",
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - No Violation Found",
+      "petitionNotes": "Testing Testing",
+      "SelectQueuVal": "TOS Petitions Tier 2",
+      "productItem": "Battlefield 4",
+      "categoryItem": "Physical Threat",
+      "platformItem": "PC",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "caseDetails": "Case Number,Category,Product",
+	  "crmEventDetails":"Case,EventCategory,EventType,EventNote"
+    }
+  ],
+  "17626,17628":[
+    {
+      "roleName": "TOS Tier 2",
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - No Violation Found",
+      "petitionNotes": "Testing Testing",
+      "SelectQueuVal": "TOS Petitions Tier 2",
+      "productItem": "Battlefield 4",
+      "categoryItem": "Physical Threat",
+      "platformItem": "PC",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "caseDetails": "Case Number,Category,Product",
+	  "crmEventDetails":"Case,EventCategory,EventType,EventNote"
+    }
+  ],
+  "3144":[
+    {
+      "roleName": "TOS Tier 1 Petitions",
+      "queueName": "TOS Petitions Tier 1",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+    }
+  ],
+  
+  "3379":[
+    {
+      "roleName": "TOS Tier 2",
+      "queueName": "TOS Petitions Tier 2",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+    }
+  ],
+   "15970,17486,17323,16268":[
+    {
+      "roleName": "TOS Tier 2",
+      "queueName": "TOS Petitions Tier 2",
+      "petitionActionVal": "Resolve - Violation Found",
+      "strikeType": "Major Strikes",
+      "penaltyLevel": "Account",
+      "disciplinaryAction": "Ban",
+      "reason": "PRIVACY_POLICY",
+      "emailPwd": "deepakprpt",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385" 
+   }
+  ],
+  "3375,3608,3389":[
+   { 
+   	 "roleName": "TOS Tier 1 Petitions",
+     "queueName": "TOS Petitions Tier 1",
+     "petitionActionVal": "Resolve - No Violation Found", 
+     "petitionNotes": "Testing Recent Notes",
+     "petitionStatus": "Resolved",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385" 
+   }
+  ], 
+  "16935":[
+    {
+      "roleName": "TOS Tier 2", 
+      "queueName": "TOS Petitions Tier 2",
+      "massActionVal": "Resolve - No Violation Found", 
+      "massNotes": "Testing Mass Action",
+      "massActionVal2":"Escalate - Violation Found",
+      "massActionVal3":"Transfer - No Violation Found",
+      "massActionVal4":"Transfer - Violation Found"
+    }
+   ], 
+  "3165":[
+   { 
+   	 "roleName": "TOS Tier 1 Petitions",
+     "queueName": "TOS Petitions Tier 1",
+     "petitionActionVal": "Resolve - No Violation Found", 
+     "petitionNotes": "Testing Mass Action",
+     "contentval1": "Text",
+     "contentval2":	"File",
+     "contentval3":	"Graphic",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+   }
+  ],
+  "15945":[
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+	  "roleName1": "TOS Tier 1 Petitions",
+	  "selectedcount": "3"
+	}
+  ],
+  "15517":[
+    {
+      "roleName": "TOS Tier 2", 
+      "queueName": "TOS Petitions Tier 2",
+      "roleName1": "TOS Tier 2",
+      "queueName1": "ToS Holding Queue 1"
+	}
+  ] ,
+  "15512,5723,3631,18529,18197":[
+   { 
+     "roleName": "TOS Tier 2",
+     "queueName": "TOS Petitions Tier 2",
+     "petitionActionVal": "Resolve - No Violation Found", 
+     "petitionNotes": "Testing hide Action",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+   }
+  ],
+  "18934": [
+    {
+      "roleName": "TOS Tier 1 Petitions", 
+      "queueName": "TOS Petitions Tier 1",
+      "petitionActionVal1": "Resolve - No Violation Found",
+      "defaultNotes1": "No Violation Found. Close this Petition as inactionable",
+      "petitionActionVal2": "Escalate - Violation Found",
+      "defaultNotes2": "Escalate to",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"            
+   }
+  ],
+    "19023": [
+    {
+      "roleName": "TOS Tier 2", 
+      "queueName": "TOS Petitions Tier 2",
+      "petitionActionVal1": "Resolve - No Violation Found",
+      "defaultNotes1": "No Violation Found. Close this Petition as inactionable",
+      "petitionActionVal2": "Escalate - Violation Found",
+      "defaultNotes2": "Escalate to",
+      "petitionActionVal3":"Transfer - No Violation Found",
+      "defaultNotes3": "Transfer to", 
+      "petitionActionVal4":"Transfer - Violation Found", 
+      "defaultNotes4": "Transfer to",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"    
+    }
+  ],
+  "14106":[
+   { 
+   	 "roleName": "TOS Tier 1 Petitions",
+     "queueName": "TOS Petitions Tier 1",
+     "categoryName":"cheating",
+     "productName":"FIFA 15",
+     "personaId":"1000160368283"
+    }
+  ],
+  "16022": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+      "categoryName": "Physical Threat",
+      "selectedcount": "2",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+   }
+  ],
+  "13788,3637":[
+     {"roleName": "TOS Tier 2",
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - Violation Found",
+      "penaltyLevel": "Entitlement",
+      "disciplinaryAction": "Ban",
+      "reason": "REGISTERED",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "caseDetails": "Case Number,Category,Product",
+	  "crmEventDetails":"Case,EventCategory,EventType,EventNote"
+    }
+  ],
+  "13792,3629":[
+     {"roleName": "TOS Tier 2",
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - Violation Found",
+      "penaltyLevel": "Franchise",
+      "disciplinaryAction": "Suspend",
+      "duration": "3 days",
+      "reason": "BOT_BAN",
+      "filterName": "petition-age",
+	  "filterValue":"1000040018385",
+	  "caseDetails": "Case Number,Category,Product",
+	  "crmEventDetails":"Case,EventCategory,EventType,EventNote"
+     }
+  ],
+  "18606": [ 
+  	{      
+      "roleName": "TOS Tier 2",
+      "queueName": "TOS Petitions Tier 2",
+      "strPetitionActionVal": "Resolve - No Violation Found",
+      "defaultNotes1": "No Violation Found. Close this Petition as inactionable",
+      "strLanguage1": "English-IN",
+      "strLanguage2": "German",
+      "GermanMsg": "vielen Dank, dass Sie uns diesen Vorfall gemeldet haben.",
+      "strTemplate1":"5th Major Strike",
+      "strTemplate2":"DE Template",
+      "EnglishMsg": "This is 5th Major Strike",
+      "emailMsg": "vielen Dank, dass Sie uns diesen Vorfall gemeldet haben.",
+      "emailPwd": "deepakprpt",
+      "searchText": "vielen Dank, dass Sie uns diesen Vorfall gemeldet haben.",
+       "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+    }
+  ],
+    
+  "20576,3632": [
+    {
+      "roleName": "TOS Tier 2", 
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - Violation Found",
+      "penaltyLevel": "Account",
+      "disciplinaryAction": "Warn",
+      "reason": "INVALID_EMAIL",
+      "strikeType": "Major Strikes",
+       "filterName": "petition-age",
+	  "filterValue":"1000040018385"     
+   }
+  ], 
+
+  "3632": [
+    {
+      "roleName": "TOS Tier 2", 
+	  "queueName": "TOS Petitions Tier 2",
+	  "petitionActionVal": "Resolve - Violation Found",
+      "penaltyLevel": "Account",
+      "disciplinaryAction": "Warn",
+      "reason": "INVALID_EMAIL",
+      "strikeType": "Minor Strikes",
+       "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+   }
+  ],
+  "3168":[
+   { 
+   	 "roleName": "TOS Tier 1 Petitions",
+     "queueName": "TOS Petitions Tier 1"
+   }
+  ],
+  "15493": [
+    {
+      "roleName": "TOS Tier 2", 
+	  "queueName": "TOS Petitions Tier 2"
+	}
+  ],
+  "21035":[
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+	  "filterName": "petition-age",
+      "filterValue":"1000040018385" 
+	}
+  ], 
+  "3347": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1"
+	}
+  ],
+  "3125,3126": [
+    {
+      "roleName": "TOS Tier 1 Petitions",
+	  "queueName": "TOS Petitions Tier 1",
+	  "fbID": "Facebook",
+	  "twitterID": "@mohankamsu",
+	  "emailID": "deepakprpt1@gmail.com",
+	  "filterName": "petition-age",
+	  "filterValue":"1000040018385"
+   }
+  ],
+  "19450,19451": [
+    {
+      "url": "https://wwce-eait--qa1pc--c.cs25.visual.force.com/apex/ud_admin",
+      "product": "A Way Out",
+      "platform": "PC",
+      "category": "Spam",
+      "roleName": "TOS Tier 2"
+    }
+  ]
+             
+ 
+}

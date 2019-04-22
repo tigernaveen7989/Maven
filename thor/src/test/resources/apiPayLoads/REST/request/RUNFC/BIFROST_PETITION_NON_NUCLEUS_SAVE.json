@@ -1,0 +1,43 @@
+{	"global": {
+		"headers": {},
+		"uri_param": {},
+		"input_param": {},
+		"payload_param": {}
+	},
+	"4317,20822": {
+		"headers": {
+			"x-api-key": "Wo9lnKgdV5KaC8eayOy124NRLCN4sm2v7FKt6D00",
+			"h-RequestorId": "test" 
+			},
+		"uri_param": {},
+		"input_param": {},
+		"payload_param": {
+			  "petitionerUserId" : "1000045603675",
+			  "petitionerAccountType" : "nucleusPersonaId",
+			  "petitionerPersonaName" : "EA_unavailable",
+			  "platform" : "not-known",
+			  "petitionerEmail" : "-1",
+			  "product" : "star-wars-rise-to-power",
+			  "targetUserId" : "1000301599247",
+			  "targetAccountType" : "nucleusPersonaId",
+			  "targetPersonaName" : "EA_unavailable",
+			  "targetEmail" : "-1",
+			  "category" : "spam",
+			  "contentType" : "Text",
+			  "contentUrl" : "",
+			  "subject" : "Inappropriatechat",
+			  "contentText" : "1000045603675:ghatiya game h ye<br>1000045603675:message bhejra hu<br>1000045603675:🤣🤣🤣br>1000301599247:Hmm :p<br>1000045603675:report this chat",
+			  "customArgs" : "{\"target1hoursPlayed\":\"0\",\"machineId\":\"unknown\",\"productYear\":\"-1\",\"tz\":\"EST\",\"htmlData\":\"<html><table><tr><td class='tabletext2'>contentId: 1000301599247_PP<\\/td><\\/tr><\\/table><\\/html>\",\"shard\":\"beta\",\"target1language\":\"en\"}",
+			  "targetIpAddress" : "",
+			  "targetMacAddress" : "",
+			  "targetPersonaId" : "EA_unavailable",
+			  "targetPersonaNamespace" : "EA_unavailable",
+			  "petitionerPersonaId" : "EA_unavailable",
+			  "petitionerPersonaNamespace" : "EA_unavailable",
+			  "unhideUrl" : "",
+			  "hideUrl" : "",
+			  "contentId" : "1000301599247_PP",
+			  "language" : "en"
+		}
+	}
+}

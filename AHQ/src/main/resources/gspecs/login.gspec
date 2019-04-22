@@ -1,0 +1,153 @@
+@objects
+   Calendar	                   		        #welcome > div > div > div.component-cell.component-cell--w-6 > div.component-cell__components > div > div > div
+   upcomingEAEventsicon        		        #eaw-upcoming-events-instance > eaw-upcoming-events > header > span > i
+   previousarrow			  		        #eaw-upcoming-events-instance > eaw-upcoming-events > header > div > eaw-button.eaw-upcoming-events__header-button-prev.hydrated > button
+   nextarrow                   		        #eaw-upcoming-events-instance > eaw-upcoming-events > header > div > eaw-button.eaw-upcoming-events__header-button-next.hydrated > button
+   viewcalendar                		        #welcome > div > div > div.component-cell.component-cell--w-6 > div > div > div > div > div.widget-footer > div > a > span
+   day                         		        #eaw-upcoming-events-instance > eaw-upcoming-events > div:nth-child(3) > span.upcoming-events__date-header-day
+   event1                                   #eaw-upcoming-events-instance > eaw-upcoming-events > div[id^=calendar-event-][id$=_0]
+   event2                                   #eaw-upcoming-events-instance > eaw-upcoming-events > div[id^=calendar-event-][id$=_1]
+   event4                                   #eaw-upcoming-events-instance > eaw-upcoming-events > div[id^=calendar-event-][id$=_3]
+   eventtime                                #eaw-upcoming-events-instance > eaw-upcoming-events > div[id^=calendar-event-][id$=_0] > .upcoming-events__event-time
+   eventtype                                #eaw-upcoming-events-instance > eaw-upcoming-events > div[id^=calendar-event-][id$=_0] > .upcoming-events__event-type
+   eventtitle                               #eaw-upcoming-events-instance > eaw-upcoming-events > div[id^=calendar-event-][id$=_0] > .upcoming-events__event-title
+   Calendar	                		        #welcome > div > div > div.component-cell.component-cell--w-6 > div.component-cell__components > div > div > div
+   eventsepartor     xpath                  .//eaw-upcoming-events/div[@class='upcoming-events__separator'][2]
+
+#https://electronicarts.invisionapp.com/share/QBESQFGGA#/screens/273296604
+=Upcoming EA events=
+ @on widedesktop
+   Calendar:
+     height 433 to 473px 
+     width  465 to 557px
+   upcomingEAEventsicon:	
+     inside Calendar 15 to 25px left
+     height 15  to 17px
+     width 15 to 17px  
+   previousarrow:
+     height 22 to 26px
+     width 25 to 31px 
+   nextarrow:
+     height 22 to 26px 
+     width 25 to 31px
+   viewcalendar:
+     inside Calendar 18 to 22px bottom
+     below event4 18 to 22px 
+   event2:
+     below eventsepartor 8px   
+   day:
+     inside Calendar 31 to 35px left 
+   event1:
+     height 65 to 70px  
+     width  319 to 329px 
+     inside Calendar 18 to 22px right  
+#eventtime changed to 20px from 12px
+   eventtime:
+      inside event1 20px left
+      inside event1 6 to 10px top  
+   eventtype:
+      inside event1 6 to 10px top
+   eventtitle:
+      inside event1 20px left
+ 
+ @on desktop
+   Calendar:
+      height 463 to 473px 
+      width  463 to 473px 
+   upcomingEAEventsicon:	
+      inside Calendar 15 to 25px left
+      height 15  to 17px 
+      width 15 to 17px  
+   previousarrow:
+      height 22 to 26px
+      width 25 to 31px 
+   nextarrow:
+      height 22 to 26px 
+      width 25 to 31px 
+   viewcalendar:
+      inside Calendar 18 to 22px bottom
+      below event4 18 to 22px
+   eventsepartor:
+      below event2 8px   
+   day:
+      inside Calendar 31 to 35px left
+   event1:
+      height 67 to 77px  
+      width  319 to 329px 
+      inside Calendar 18 to 22px right
+# eventtime changed to 20px from 12px
+   eventtime:
+      inside event1 20px left
+      inside event1 6 to 10px top  
+   eventtype:
+      inside event1 4 to 8px top
+   eventtitle:
+      inside event1 20px left 
+ @on tablet
+   Calendar:
+     height 463 to 473px 
+     width  427 to 437px
+#upcoming ex
+   upcomingEAEventsicon:	
+     inside Calendar 15 to 25px left
+     height 15  to 17px
+     width 15 to 17px  
+   previousarrow:
+     height 22 to 26px
+     width 25 to 31px 
+#nextarrow : 24px*28px
+   nextarrow:
+     height 22 to 26px 
+     width 25 to 31px
+   viewcalendar:
+     inside Calendar 18 to 22px bottom
+     below event4 18 to 22px 
+   eventsepartor:
+     below event2 8px   
+   day:
+     inside Calendar 31 to 35px left 
+   event1:
+     height 67 to 77px  
+     width  283 to 293px 
+     inside Calendar 18 to 22px right  
+# eventtime changed to 20px from 12px
+   eventtime:
+      inside event1 20px left
+      inside event1 6 to 10px top  
+   eventtype:
+      inside event1 4 to 8px top
+   eventtitle:
+      inside event1 20px left     
+ @on mobile
+   Calendar:
+     height 695 to 705px 
+     width  267 to 277px
+   upcomingEAEventsicon:	
+     inside Calendar 15 to 25px left
+     height 15  to 17px
+     width 15 to 17px  
+   previousarrow:
+     height 22 to 26px
+     width 25 to 31px 
+   nextarrow:
+     height 22 to 26px 
+     width 25 to 31px
+   viewcalendar:
+     inside Calendar 18 to 22px bottom
+     below event4 18 to 22px 
+   eventsepartor:
+     below event2 8px   
+   day:
+     inside Calendar 31 to 35px left 
+   event1:
+     height 67 to 77px  
+     width  227 to 237px 
+     inside Calendar 18 to 22px right  
+# eventtime changed to 20px from 12px
+   eventtime:
+      inside event1 20px left
+      inside event1 6 to 10px top  
+   eventtype:
+      inside event1 4 to 8px top
+   eventtitle:
+      inside event1 20px left

@@ -1,0 +1,18 @@
+{
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "fifa-19"
+		},
+		"input_param": {
+			"dataType": "DRAFT_MODES",
+			"platform": "ps4",
+			"userId": "1000086980867"
+		},
+		"payload_param": {}
+	}
+}

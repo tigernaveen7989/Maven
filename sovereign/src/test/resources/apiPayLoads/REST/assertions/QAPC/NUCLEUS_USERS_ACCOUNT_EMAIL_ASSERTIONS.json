@@ -1,0 +1,19 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49738": [
+		{
+			"status": "SUCCESS"
+		}
+	],
+	"49739": [
+		{
+			"errorShortMessage": "VALIDATION_FAILED",
+			"field": "email",
+			"value": "testchatuserea 90@gmail.com"
+		}
+	]
+}

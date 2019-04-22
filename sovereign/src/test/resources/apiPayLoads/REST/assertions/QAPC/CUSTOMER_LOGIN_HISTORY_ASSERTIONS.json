@@ -1,0 +1,27 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49850": [
+		{
+			"sequenceId": "100870547",
+			"method": "GET",
+			"pid": "2254621283",
+			"result": "SUCCEEDED",
+			"timestamp": "2018-12-18T18:50:37.444Z",
+			"clientId": "InfluencerNet",
+			"ip": "159.153.130.*",
+			"ipGeolocation": "Austin-US-78703",
+			"machineProfileId": "52041775-465c-44db-a0b2-4251c7dab5de",
+			"totalResultCount": "25"
+		}
+	],
+	"49851": [
+		{
+			"errorCode": "FLTR-SECURE_ACCESS-09030",
+			"errorMessage": "Unauthorized access"
+		}
+	]
+}

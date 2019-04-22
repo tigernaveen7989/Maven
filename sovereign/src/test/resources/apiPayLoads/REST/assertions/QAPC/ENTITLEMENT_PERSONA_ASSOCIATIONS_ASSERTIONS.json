@@ -1,0 +1,25 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49271": [
+		{
+			"entitlementId": 1000021500757,
+			"personaId1": 408677128,
+			"displayName1": "VTest",
+			"namespaceName1": "xbox",
+			"personaId2": 408642058,
+			"displayName2": "!bally!",
+			"name": "!bally!",
+			"namespaceName2": "pogo"
+		}
+	],
+	"49272": [
+		{
+			"errorCode": "SVC-NUC-10002",
+			"errorMessage": "User not found"
+		}
+	]
+}

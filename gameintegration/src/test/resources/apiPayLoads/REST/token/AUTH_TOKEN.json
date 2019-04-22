@@ -1,0 +1,30 @@
+{
+	"UATPC": {
+		"headers": {
+			"Authorization": "Basic b21lZ2E6MWE3NDIyOTQtMDBmMC00NzMyLWIyMGItODE5ZTJhMDJmZmI2",
+			"S-RequestorId": "WWCE-UD",
+			"Content-Type": "application/x-www-form-urlencoded"
+		},
+		"uri_param": {},
+		"input_param": {
+			"grant_type": "client_credentials"
+		},
+		"payload_param": {
+
+		}
+	},
+	"QAPC": {
+		"headers": {
+			"Authorization": "Basic b21lZ2E6ODYyNjE0ZGYtMzE1YS00ODY1LWFlMGYtODVmNGNlZTFlMTAw",
+			"S-RequestorId": "WWCE-UD",
+			"Content-Type": "application/x-www-form-urlencoded"
+		},
+		"uri_param": {},
+		"input_param": {
+			"grant_type": "client_credentials"
+		},
+		"payload_param": {
+
+		}
+	}
+}

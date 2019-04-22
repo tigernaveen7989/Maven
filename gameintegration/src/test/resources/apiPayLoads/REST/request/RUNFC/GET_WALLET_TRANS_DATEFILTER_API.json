@@ -1,0 +1,24 @@
+{
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "fifa-18"
+		},
+		"input_param": {
+			"id": "1000120903982",
+			"idType": "nucleusPersonaId",
+			"walletId": "POINTS",
+			"platform": "xbox-one",
+			"startDate": "2018-06-27T18:30Z",
+			"endDate": "2018-07-04T18:29Z",
+			"walletType": "PREMIUM",
+			"userId": "1000361303982",
+			"modeType": "FUT"
+		},
+		"payload_param": {}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"global": {
+		"headers": {
+		
+		},
+		"uri_param": {},
+		"input_param": {
+		
+		},
+		"payload_param": {}
+	},
+	
+	"20584": {
+		"headers": {
+			"S-RequestorId": "test",
+			"S-NoCache": "false"
+		},
+		"uri_param": {},
+		"input_param": {
+			"userId": "2669783118",
+			"product": "madden-18",
+			"platform": "xone",
+			"category": "gameinformation",
+			"locale": "en_US",
+			"issue": "",
+			"spendLevel": "",
+			"customerValue": "",
+			"icrError": "",
+			"authenticated": ""
+		},
+		"payload_param": {}
+	}
+}

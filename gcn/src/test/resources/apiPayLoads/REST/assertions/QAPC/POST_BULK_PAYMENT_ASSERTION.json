@@ -1,0 +1,36 @@
+{
+	"global": [{
+		
+	}],
+	
+	"20378": [{
+		"response_code":200,
+		"type":"STIPEND"
+	}],
+	
+	"20381": [{
+		"response_code":200,
+		"type":"CONTENT"
+	}],
+	
+	"12348": [{
+		"response_code":200,
+		"status":"FAILED"
+	}],
+	
+	"12349": [{
+		"response_code":400,
+		"errorCode":"10"
+	}],
+	
+	"12350": [{
+		"response_code":200,
+		"status":"FAILED"
+	}],
+	
+	"12351": [{
+		"response_code":400,
+		"errorCode":"10"
+	}]
+	
+}

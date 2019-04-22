@@ -1,0 +1,1216 @@
+{
+	"global": [
+		{
+			"omegausername": "sadabala@contractor.ea.com",
+			"omegapassword": "Test12!@",
+			"reason": "Resolved",
+			"status": "Fixed",
+			"resolutionStatus": "Basic Troubleshooting",
+			"vogTxt1": "Yes",
+			"vogTxt2": "Primary email verification",
+			"vogTxt3": "Provided Information"
+		}
+	],
+	"39521": [
+		{
+			"RoleName": "Admin Email",
+			"username": "E_omegaeahelp_ar@gmail.com",
+			"password": "Test12!@",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "اختبار WWCE الرجاء تجاهل",
+			"description": "للأتمتة اختبار الاستخدام"
+		}
+	],
+	"40500": [
+		{
+			"RoleName": "Admin Email",
+			"username": "E_omegaeahelp_br@gmail.com",
+			"password": "Test12!@",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "Teste da WWCE Por favor ignore",
+			"description": "Para uso de teste de automação"
+		}
+	],
+	"40419": [
+		{
+			"username": "E_omegaeahelp_en@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40536": [
+		{
+			"username": "E_omegaeahelp_en@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40493": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_de@gmail.com",
+			"password": "Test12!@",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"40422": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_es@gmail.com",
+			"password": "Test12!@",
+			"subject": "Pruebas WWCE Por favor ignora",
+			"description": "Para el uso de pruebas de automatización"
+		}
+	],
+	"40420": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_fr@gmail.com",
+			"password": "Test12!@",
+			"subject": "Test WWCE Veuillez ignorer",
+			"description": "Pour les tests d'automatisation"
+		}
+	],
+	"40474": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_hk@gmail.com",
+			"password": "Test12!@",
+			"subject": "WWCE測試請忽略",
+			"description": "用於自動化測試使用"
+		}
+	],
+	"40423": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_it@gmail.com",
+			"password": "Test12!@",
+			"subject": "Test WWCE Si prega di ignorare",
+			"description": "Per l'uso di test di automazione"
+		}
+	],
+	"40475": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_jp@gmail.com",
+			"password": "Test12!@",
+			"subject": "WWCEテスト無視してください",
+			"description": "オートメーションテスト用"
+		}
+	],
+	"40501": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_ko@gmail.com",
+			"password": "Test12!@",
+			"subject": "WWCE 테스트 무시하십시오.",
+			"description": "자동화 테스트 용"
+		}
+	],
+	"40424": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_nl@gmail.com",
+			"password": "Test12!@",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"40425": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_pl@gmail.com",
+			"password": "Test12!@",
+			"subject": "Testowanie WWCE Proszę zignorować",
+			"description": "Do testowania automatyzacji użyj"
+		}
+	],
+	"40471,41275": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_ru@gmail.com",
+			"password": "Test12!@",
+			"subject": "Пожалуйста, проигнорируйте этот случай",
+			"description": "Для тестирования автоматизации"
+		}
+	],
+	"40427": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Star Wars: Galaxy of Heroes",
+			"platform": "Android Phone",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"username": "E_omegaeahelp_en@gmail.com",
+			"password": "Test12!@",
+			"subject": "WWCE-testning Vänligen ignorera",
+			"description": "För Automation Testing användning"
+		}
+	],
+	"18623": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "suporte da comunidade 24 horas por ",
+			"description": "suporte da comunidade 24 horas por"
+		}
+	],
+	"19140": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "EAヘルプをより良",
+			"unAuthLName": "お問い合わせ",
+			"unAuthEmail": "のにするために力を@gmail.com",
+			"subject": " プライバシー ＆ クッキーポリシー プライバシー ＆ クッキーポリシー",
+			"description": " プライバシー ＆ クッキーポリシー"
+		}
+	],
+	"19141": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "Hilf uns",
+			"unAuthLName": "EA Hilfe zu",
+			"unAuthEmail": "zuverbessern@gmail.com",
+			"subject": "Hol dir rund um die Uhr Hilfe",
+			"description": "Spielerfragen"
+		}
+	],
+	"19143": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "EA 도움말의 개선을 도와주세요!",
+			"unAuthLName": "지원 문의",
+			"unAuthEmail": "에대해알려주세요@gmail.com",
+			"subject": "귀하의 경험에 대해 알려주세요",
+			"description": "귀하의 경험에 대해 알려주세요"
+		}
+	],
+	"19144": [
+		{
+			"unAuthFName": "Obtenez de",
+			"unAuthLName": "l'aide de la",
+			"unAuthEmail": "communauté@gmail.com",
+			"subject": "répondant aux questions des",
+			"description": "répondant aux des"
+		}
+	],
+	"19145": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": " Onlinetjänstuppdateringa",
+			"unAuthLName": "Juridiskt",
+			"unAuthEmail": "dotterbolag@gmail.com",
+			"subject": "Din integritet är viktig för",
+			"description": "för den på bästa sätt"
+		}
+	],
+	"19146": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "Получайте",
+			"unAuthLName": "помощь от сообщества",
+			"unAuthEmail": "подсказки@gmail.com",
+			"subject": "на вопросы игроков в любое",
+			"description": "повышайте свой уровень, отвечая"
+		}
+	],
+	"19147": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "l’utente",
+			"unAuthLName": "gioco contenut",
+			"unAuthEmail": "aggiornamenti@gmail.com",
+			"subject": "Questo Accordo viene stipulato",
+			"description": "regolamenta l'accesso e l'utilizzo"
+		}
+	],
+	"19148": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "softwareproducten",
+			"unAuthLName": "schijf staat",
+			"unAuthEmail": "aangeboden@gmail.com",
+			"subject": "schijf staat of die is gedownload",
+			"description": "overeenkomst tussen u en de"
+		}
+	],
+	"19149": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "Informação para contato",
+			"unAuthLName": "informações do caso",
+			"unAuthEmail": "Sobrenome@gmail.com",
+			"subject": "Ajude-nos a melhorar a Ajuda da EA!",
+			"description": "INFORMAÇÕES DO CASO"
+		}
+	],
+	"19150": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "La decisión",
+			"unAuthLName": "relacionados",
+			"unAuthEmail": "operaciones@gmail.com",
+			"subject": "Pero a medida que los juegos nuevos",
+			"description": "el número de jugadores que"
+		}
+	],
+	"19151": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "Informação para contato",
+			"unAuthLName": "informações do caso",
+			"unAuthEmail": "Sobrenome@gmail.com",
+			"subject": "Ajude-nos a melhorar a Ajuda da EA!",
+			"description": "INFORMAÇÕES DO CASO"
+		}
+	],
+	"19160": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "InformaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o para contato",
+			"LName": "informaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Âµes do caso",
+			"Email": "Sobrenome@gmail.com",
+			"phonenumber": "11203004",
+			"subject": "suporte da comunidade 24 horas por ",
+			"description": "suporte da comunidade 24 horas por"
+		}
+	],
+	"19161": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "Hilf uns",
+			"LName": "EA Hilfe zu",
+			"Email": "zuverbessern@gmail.com",
+			"phonenumber": "11203004",
+			"subject": "Hol dir rund um die Uhr Hilfe aus der",
+			"description": "Hol dir rund um die Uhr Hilfe aus der"
+		}
+	],
+	"19162": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "La decisiÃƒÆ’Ã‚Â³n",
+			"LName": "relacionados",
+			"Email": "operaciones@gmail.com",
+			"phonenumber": "902018708",
+			"subject": "Pero a medida que los juegos nuevos",
+			"description": "el nÃƒÆ’Ã‚Âºmero de jugadores que"
+		}
+	],
+	"19163": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "lÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢utente",
+			"LName": "gioco contenut",
+			"Email": "aggiornamenti@gmail.com",
+			"phonenumber": "66656496",
+			"subject": "Questo Accordo viene stipulato",
+			"description": "regolamenta l'accesso e l'utilizzo"
+		}
+	],
+	"19164": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "EAÃƒÂ£Ã†â€™Ã‹Å“ÃƒÂ£Ã†â€™Ã‚Â«ÃƒÂ£Ã†â€™Ã¢â‚¬â€ÃƒÂ£Ã¢â‚¬Å¡Ã¢â‚¬â„¢ÃƒÂ£Ã¢â‚¬Å¡Ã‹â€ ÃƒÂ£Ã¢â‚¬Å¡Ã…Â ÃƒÂ¨Ã¢â‚¬Â°Ã‚Â¯",
+			"LName": "ÃƒÂ£Ã¯Â¿Â½Ã…Â ÃƒÂ¥Ã¢â‚¬Â¢Ã¯Â¿Â½ÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬Å¾ÃƒÂ¥Ã¯Â¿Â½Ã‹â€ ÃƒÂ£Ã¢â‚¬Å¡Ã¯Â¿Â½ÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬Âº",
+			"Email": "ÃƒÂ£Ã¯Â¿Â½Ã‚Â®ÃƒÂ£Ã¯Â¿Â½Ã‚Â«ÃƒÂ£Ã¯Â¿Â½Ã¢â€žÂ¢ÃƒÂ£Ã¢â‚¬Å¡Ã¢â‚¬Â¹ÃƒÂ£Ã¯Â¿Â½Ã…Â¸ÃƒÂ£Ã¢â‚¬Å¡Ã¯Â¿Â½ÃƒÂ£Ã¯Â¿Â½Ã‚Â«ÃƒÂ¥Ã…Â Ã¢â‚¬ÂºÃƒÂ£Ã¢â‚¬Å¡Ã¢â‚¬â„¢@gmail.com",
+			"phonenumber": "01203004",
+			"subject": "WWCEÃƒÂ£Ã†â€™Ã¢â‚¬Â ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¹ÃƒÂ£Ã†â€™Ã‹â€ ÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬Å“ÃƒÂ£Ã¯Â¿Â½Ã‚Â®ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â±ÃƒÂ£Ã†â€™Ã‚Â¼ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¹ÃƒÂ£Ã¢â‚¬Å¡Ã¢â‚¬â„¢ÃƒÂ§Ã¢â‚¬Å¾Ã‚Â¡ÃƒÂ¨Ã‚Â¦Ã¢â‚¬â€œÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬â€ÃƒÂ£Ã¯Â¿Â½Ã‚Â¦ÃƒÂ£Ã¯Â¿Â½Ã¯Â¿Â½ÃƒÂ£Ã¯Â¿Â½Ã‚Â ÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬Â¢ÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬Å¾",
+			"description": "ÃƒÂ£Ã¢â‚¬Å¡Ã‚ÂªÃƒÂ£Ã†â€™Ã‚Â¼ÃƒÂ£Ã†â€™Ã‹â€ ÃƒÂ£Ã†â€™Ã‚Â¡ÃƒÂ£Ã†â€™Ã‚Â¼ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â·ÃƒÂ£Ã†â€™Ã‚Â§ÃƒÂ£Ã†â€™Ã‚Â³ÃƒÂ£Ã†â€™Ã¢â‚¬Â ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¹ÃƒÂ£Ã†â€™Ã‹â€ ÃƒÂ§Ã¢â‚¬ï¿½Ã‚Â¨"
+		}
+	],
+	"19168": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "Obtenez de",
+			"LName": "l'aide de la",
+			"Email": "communautÃƒÆ’Ã‚Â©@gmail.com",
+			"phonenumber": "112030046",
+			"subject": "rÃƒÆ’Ã‚Â©pondant aux questions des",
+			"description": "rÃƒÆ’Ã‚Â©pondant aux des"
+		}
+	],
+	"19169": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": " OnlinetjÃ¤nstuppdateringa",
+			"LName": "Juridiskt",
+			"Email": "dotterbolag@gmail.com",
+			"phonenumber": "11203004",
+			"subject": "Din integritet Ã¤r viktig fÃ¶r",
+			"description": "fÃ¶r den pÃ¥ bÃ¤sta sÃ¤tt"
+		}
+	],
+	"19170": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "ÐŸÐ¾Ð»ÑƒÑ‡Ð°Ð¹Ñ‚Ðµ",
+			"LName": "Ð¿Ð¾Ð¼Ð¾Ñ‰ÑŒ Ð¾Ñ‚ ÑÐ¾Ð¾Ð±Ñ‰ÐµÑÑ‚Ð²Ð°",
+			"Email": "Ð¿Ð¾Ð´ÑÐºÐ°Ð·ÐºÐ¸@gmail.com",
+			"phonenumber": "8003330990",
+			"subject": "Ð½Ð° Ð²Ð¾Ð¿Ñ€Ð¾ÑÑ‹ Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð² Ð² Ð»ÑŽÐ±Ð¾Ðµ",
+			"description": "Ð¿Ð¾Ð²Ñ‹ÑˆÐ°Ð¹Ñ‚Ðµ ÑÐ²Ð¾Ð¹ ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ, Ð¾Ñ‚Ð²ÐµÑ‡Ð°Ñ"
+		}
+	],
+	"19171": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "softwareproducten",
+			"LName": "schijf staat",
+			"Email": "aangeboden@gmail.com",
+			"phonenumber": "858882155",
+			"subject": "schijf staat of die is gedownload",
+			"description": "overeenkomst tussen u en de"
+		}
+	],
+	"19172": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "softwareproducten",
+			"LName": "schijf staat",
+			"Email": "aangeboden@gmail.com",
+			"phonenumber": "225779952",
+			"subject": "schijf staat of die is gedownload",
+			"description": "overeenkomst tussen u en de"
+		}
+	],
+	"19177": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "EA ë„ì›€ë§ì˜ ê°œì„ ì„ ë„ì™€ì£¼ì„¸ìš”!",
+			"LName": "ì§€ì› ë¬¸ì˜",
+			"Email": "ì—ëŒ€í•´ì•Œë ¤ì£¼ì„¸ìš”@gmail.com",
+			"phonenumber": "27893700",
+			"subject": "ê·€í•˜ì˜ ê²½í—˜ì— ëŒ€í•´ ì•Œë ¤ì£¼ì„¸ìš”",
+			"description": "ê·€í•˜ì˜ ê²½í—˜ì— ëŒ€í•´ ì•Œë ¤ì£¼ì„¸ìš”"
+		}
+	],
+	"40496": [
+		{
+			"username": "C_omegaeahelp_br@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"product": "FIFA 19",
+			"platform": "PC",
+			"category": "manage-my-account",
+			"subcategory": "cant-log-in",
+			"phonenumber": "NA",
+			"subject": "Teste da WWCE Por favor, ignore",
+			"description": "Para uso de teste de automação"
+		}
+	],
+	"40494": [
+		{
+			"username": "C_omegaeahelp_de@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"product": "FIFA 19",
+			"platform": "PC",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"phonenumber": "NA",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"test": [
+		{
+			"RoleName": "Automation Testing - phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "8004385000",
+			"subject": "ÃƒÂªÃ‚Â·Ã¢â€šÂ¬ÃƒÂ­Ã¢â‚¬Â¢Ã‹Å“ÃƒÂ¬Ã¯Â¿Â½Ã‹Å“ ÃƒÂªÃ‚Â²Ã‚Â½ÃƒÂ­Ã¢â‚¬â€Ã‹Å“ÃƒÂ¬Ã¢â‚¬â€Ã¯Â¿Â½ ÃƒÂ«Ã…â€™Ã¢â€šÂ¬ÃƒÂ­Ã¢â‚¬Â¢Ã‚Â´ ÃƒÂ¬Ã¢â‚¬Â¢Ã…â€™ÃƒÂ«Ã‚Â Ã‚Â¤ÃƒÂ¬Ã‚Â£Ã‚Â¼ÃƒÂ¬Ã¢â‚¬Å¾Ã‚Â¸ÃƒÂ¬Ã…Â¡Ã¢â‚¬ï¿½ÃƒËœÃ‚Â§ÃƒÂªÃ‚Â·Ã¢â€šÂ¬ÃƒÂ­Ã¢â‚¬Â¢Ã‹Å“ÃƒÂ¬Ã¯Â¿Â½Ã‹Å“ ÃƒÂªÃ‚Â²Ã‚Â½ÃƒÂ­Ã¢â‚¬â€Ã‹Å“ÃƒÂ¬Ã¢â‚¬â€Ã¯Â¿Â½ ÃƒÂ«Ã…â€™Ã¢â€šÂ¬ÃƒÂ­Ã¢â‚¬Â¢Ã‚Â´ ÃƒÂ¬Ã¢â‚¬Â¢Ã…â€™ÃƒÂ«Ã‚Â Ã‚Â¤ÃƒÂ¬Ã‚Â£Ã‚Â¼ÃƒÂ¬Ã¢â‚¬Å¾Ã‚Â¸ÃƒÂ¬Ã…Â¡Ã¢â‚¬ï¿½",
+			"description": "Ãƒâ„¢Ã¢â‚¬Å¾ÃƒÂªÃ‚Â·Ã¢â€šÂ¬ÃƒÂ­Ã¢â‚¬Â¢Ã‹Å“ÃƒÂ¬Ã¯Â¿Â½Ã‹Å“ ÃƒÂªÃ‚Â²Ã‚Â½ÃƒÂ­Ã¢â‚¬â€Ã‹Å“ÃƒÂ¬Ã¢â‚¬â€Ã¯Â¿Â½ ÃƒÂ«Ã…â€™Ã¢â€šÂ¬ÃƒÂ­Ã¢â‚¬Â¢Ã‚Â´ ÃƒÂ¬Ã¢â‚¬Â¢Ã…â€™ÃƒÂ«Ã‚Â Ã‚Â¤ÃƒÂ¬Ã‚Â£Ã‚Â¼ÃƒÂ¬Ã¢â‚¬Å¾Ã‚Â¸ÃƒÂ¬Ã…Â¡Ã¢â‚¬ï¿½"
+		}
+	],
+	"40476": [
+		{
+			"username": "C_omegaeahelp_ar@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"product": "FIFA 19",
+			"platform": "PC",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"phonenumber": "NA",
+			"subject": "اختبار WWCE الرجاء تجاهل",
+			"description": "للأتمتة اختبار الاستخدام"
+		}
+	],
+	"18610,13425": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"Phone_RoleName": "Automation Testing - Phone",
+			"pogo_username": "testeauat+29@gmail.com",
+			"pogo_password": "admin12!@",
+			"ICROptions_URL": "contact-us/?product=star-wars-battlefront&platform=pc&category=technical-support&issue=request-progress-reset&isChannelSelection=true"
+		}
+	],
+	"18476": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"Email": "unauth@gmail.com",
+			"phonenumber": "NA",
+			"subject": "ÃƒËœÃ‚Â§ÃƒËœÃ‚Â®ÃƒËœÃ‚ÂªÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§ÃƒËœÃ‚Â± WWCE ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â±ÃƒËœÃ‚Â¬ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¡ ÃƒËœÃ‚ÂªÃƒËœÃ‚Â¬ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Â¡Ãƒâ„¢Ã¢â‚¬Å¾ Ãƒâ„¢Ã¢â‚¬Â¡ÃƒËœÃ‚Â°Ãƒâ„¢Ã¢â‚¬Â¡ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â­ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â©",
+			"description": "Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§ÃƒËœÃ‚Â®ÃƒËœÃ‚ÂªÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§ÃƒËœÃ‚Â± ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â£ÃƒËœÃ‚ÂªÃƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚ÂªÃƒËœÃ‚Â©"
+		}
+	],
+	"18225": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCEÃƒÂ¦Ã‚Â¸Ã‚Â¬ÃƒÂ¨Ã‚Â©Ã‚Â¦ÃƒÂ¨Ã‚Â«Ã¢â‚¬Â¹ÃƒÂ¥Ã‚Â¿Ã‚Â½ÃƒÂ§Ã¢â‚¬Â¢Ã‚Â¥ÃƒÂ¦Ã‚Â­Ã‚Â¤ÃƒÂ¦Ã‚Â¡Ã‹â€ ÃƒÂ¤Ã‚Â¾Ã¢â‚¬Â¹",
+			"description": "ÃƒÂ§Ã¢â‚¬ï¿½Ã‚Â¨ÃƒÂ¦Ã¢â‚¬â€œÃ‚Â¼ÃƒÂ¨Ã¢â‚¬Â¡Ã‚ÂªÃƒÂ¥Ã¢â‚¬Â¹Ã¢â‚¬Â¢ÃƒÂ¥Ã…â€™Ã¢â‚¬â€œÃƒÂ¦Ã‚Â¸Ã‚Â¬ÃƒÂ¨Ã‚Â©Ã‚Â¦"
+		}
+	],
+	"18477": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"Email": "unauth@gmail.com",
+			"phonenumber": "NA",
+			"subject": "WWCEÃƒÂ¦Ã‚Â¸Ã‚Â¬ÃƒÂ¨Ã‚Â©Ã‚Â¦ÃƒÂ¨Ã‚Â«Ã¢â‚¬Â¹ÃƒÂ¥Ã‚Â¿Ã‚Â½ÃƒÂ§Ã¢â‚¬Â¢Ã‚Â¥ÃƒÂ¦Ã‚Â­Ã‚Â¤ÃƒÂ¦Ã‚Â¡Ã‹â€ ÃƒÂ¤Ã‚Â¾Ã¢â‚¬Â¹",
+			"description": "ÃƒÂ§Ã¢â‚¬ï¿½Ã‚Â¨ÃƒÂ¦Ã¢â‚¬â€œÃ‚Â¼ÃƒÂ¨Ã¢â‚¬Â¡Ã‚ÂªÃƒÂ¥Ã¢â‚¬Â¹Ã¢â‚¬Â¢ÃƒÂ¥Ã…â€™Ã¢â‚¬â€œÃƒÂ¦Ã‚Â¸Ã‚Â¬ÃƒÂ¨Ã‚Â©Ã‚Â¦"
+		}
+	],
+	"18226": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCEÃƒÂ£Ã†â€™Ã¢â‚¬Â ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¹ÃƒÂ£Ã†â€™Ã‹â€ ÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬Å“ÃƒÂ£Ã¯Â¿Â½Ã‚Â®ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â±ÃƒÂ£Ã†â€™Ã‚Â¼ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¹ÃƒÂ£Ã¢â‚¬Å¡Ã¢â‚¬â„¢ÃƒÂ§Ã¢â‚¬Å¾Ã‚Â¡ÃƒÂ¨Ã‚Â¦Ã¢â‚¬â€œÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬â€ÃƒÂ£Ã¯Â¿Â½Ã‚Â¦ÃƒÂ£Ã¯Â¿Â½Ã¯Â¿Â½ÃƒÂ£Ã¯Â¿Â½Ã‚Â ÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬Â¢ÃƒÂ£Ã¯Â¿Â½Ã¢â‚¬Å¾",
+			"description": "ÃƒÂ£Ã¢â‚¬Å¡Ã‚ÂªÃƒÂ£Ã†â€™Ã‚Â¼ÃƒÂ£Ã†â€™Ã‹â€ ÃƒÂ£Ã†â€™Ã‚Â¡ÃƒÂ£Ã†â€™Ã‚Â¼ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â·ÃƒÂ£Ã†â€™Ã‚Â§ÃƒÂ£Ã†â€™Ã‚Â³ÃƒÂ£Ã†â€™Ã¢â‚¬Â ÃƒÂ£Ã¢â‚¬Å¡Ã‚Â¹ÃƒÂ£Ã†â€™Ã‹â€ ÃƒÂ§Ã¢â‚¬ï¿½Ã‚Â¨"
+		}
+	],
+	"40473": [
+		{
+			"username": "P_omegaeahelp_ru@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "8003330990",
+			"subject": "Пожалуйста, проигнорируйте этот случай",
+			"description": "Для тестирования автоматизации"
+		}
+	],
+	"18164": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"subject": "Ãƒï¿½Ã…Â¸Ãƒï¿½Ã‚Â¾Ãƒï¿½Ã‚Â¶Ãƒï¿½Ã‚Â°Ãƒï¿½Ã‚Â»Ãƒâ€˜Ã†â€™Ãƒï¿½Ã‚Â¹Ãƒâ€˜Ã¯Â¿Â½Ãƒâ€˜Ã¢â‚¬Å¡Ãƒï¿½Ã‚Â°, Ãƒï¿½Ã‚Â¿Ãƒâ€˜Ã¢â€šÂ¬Ãƒï¿½Ã‚Â¾Ãƒï¿½Ã‚Â¸Ãƒï¿½Ã‚Â³Ãƒï¿½Ã‚Â½Ãƒï¿½Ã‚Â¾Ãƒâ€˜Ã¢â€šÂ¬Ãƒï¿½Ã‚Â¸Ãƒâ€˜Ã¢â€šÂ¬Ãƒâ€˜Ã†â€™Ãƒï¿½Ã‚Â¹Ãƒâ€˜Ã¢â‚¬Å¡Ãƒï¿½Ã‚Âµ Ãƒâ€˜Ã¯Â¿Â½Ãƒâ€˜Ã¢â‚¬Å¡Ãƒï¿½Ã‚Â¾Ãƒâ€˜Ã¢â‚¬Å¡ Ãƒâ€˜Ã¯Â¿Â½Ãƒï¿½Ã‚Â»Ãƒâ€˜Ã†â€™Ãƒâ€˜Ã¢â‚¬Â¡Ãƒï¿½Ã‚Â°Ãƒï¿½Ã‚Â¹",
+			"description": "Ãƒï¿½Ã¢â‚¬ï¿½Ãƒï¿½Ã‚Â»Ãƒâ€˜Ã¯Â¿Â½ Ãƒâ€˜Ã¢â‚¬Å¡Ãƒï¿½Ã‚ÂµÃƒâ€˜Ã¯Â¿Â½Ãƒâ€˜Ã¢â‚¬Å¡Ãƒï¿½Ã‚Â¸Ãƒâ€˜Ã¢â€šÂ¬Ãƒï¿½Ã‚Â¾Ãƒï¿½Ã‚Â²Ãƒï¿½Ã‚Â°Ãƒï¿½Ã‚Â½Ãƒï¿½Ã‚Â¸Ãƒâ€˜Ã¯Â¿Â½ Ãƒï¿½Ã‚Â°Ãƒï¿½Ã‚Â²Ãƒâ€˜Ã¢â‚¬Å¡Ãƒï¿½Ã‚Â¾Ãƒï¿½Ã‚Â¼Ãƒï¿½Ã‚Â°Ãƒâ€˜Ã¢â‚¬Å¡Ãƒï¿½Ã‚Â¸Ãƒï¿½Ã‚Â·Ãƒï¿½Ã‚Â°Ãƒâ€˜Ã¢â‚¬Â Ãƒï¿½Ã‚Â¸Ãƒï¿½Ã‚Â¸",
+			"phonenumber": "NA"
+		}
+	],
+	"15782": [
+		{
+			"email_URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"RoleName": "Automation Testing - Email",
+			"email_product": "Spore",
+			"email_platform": "PC",
+			"email_category": "Manage my account",
+			"email_subcategory": "Delete account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"13270,13268,13269": [
+		{
+			"email_URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"sf_username": "automation2@ea.com.runfc",
+			"sf_passowrd": "Test12!@",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"15950": [
+		{
+			"chat_URL": "contact-us/?product=52-card-pickup&platform=pogo&category=orders&issue=check-order-status&isChannelSelection=true",
+			"RoleName": "Automation Testing - Chat",
+			"category": "Orders",
+			"subcategory": "Check order status",
+			"file1": "Blank1KB.txt",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40428": [
+		{
+			"username": "C_omegaeahelp_en@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"product": "FIFA 19",
+			"platform": "PC",
+			"category": "manage-my-account",
+			"subcategory": "cant-log-in",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"18429,13406": [
+		{
+			"Club_Pogo_userName": "testeauat+29@gmail.com",
+			"Club_Pogo_password": "admin12!@",
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"17706,13405": [
+		{
+			"Pogo_userName": "pogo.test102@gmail.com",
+			"Pogo_password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40436": [
+		{
+			"username": "C_omegaeahelp_se@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"product": "FIFA 19",
+			"platform": "PC",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"phonenumber": "NA",
+			"subject": "WWCE-testning Vänligen ignorera",
+			"description": "För Automation Testing användning"
+		}
+	],
+	"40429": [
+		{
+			"username": "C_omegaeahelp_fr@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"product": "FIFA 19",
+			"platform": "PC",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"phonenumber": "NA",
+			"subject": "Test WWCE Veuillez ignorer",
+			"description": "Pour les tests d'automatisation"
+		}
+	],
+	"40430": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignorere",
+			"description": "Til automatiseringstestning"
+		}
+	],
+	"40431": [
+		{
+			"username": "C_omegaeahelp_es@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"product": "FIFA 19",
+			"platform": "PC",
+			"category": "manage-my-account",
+			"subcategory": "cant-log-in",
+			"phonenumber": "NA",
+			"subject": "Pruebas WWCE Por favor ignora",
+			"description": "Para el uso de pruebas de automatizaciÃƒÆ’Ã‚Â³n"
+		}
+	],
+	"40432": [
+		{
+			"username": "C_omegaeahelp_it@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"product": "FIFA 19",
+			"platform": "PC",
+			"category": "manage-my-account",
+			"subcategory": "delete-account",
+			"phonenumber": "NA",
+			"subject": "Test WWCE Si prega di ignorare",
+			"description": "Per l'uso di test di automazione"
+		}
+	],
+	"40433": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"40434": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "Testowanie WWCE ProszÃƒâ€žÃ¢â€žÂ¢ zignorowaÃƒâ€žÃ¢â‚¬Â¡",
+			"description": "Do testowania automatyzacji uÃƒâ€¦Ã‚Â¼yj"
+		}
+	],
+	"40435": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "Teste da WWCE Por favor, ignore",
+			"description": "Para uso de teste de automaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o"
+		}
+	],
+	"18430": [
+		{
+			"Pogo_userName": "pogo.test102@gmail.com",
+			"Pogo_password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"18438": [
+		{
+			"Club_Pogo_userName": "testeauat+29@gmail.com",
+			"Club_Pogo_password": "admin12!@",
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40437,39134": [
+		{
+		    "username": "P_omegaeahelp_en@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40439": [
+		{
+			"username": "P_omegaeahelp_es@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "45800826093",
+			"subject": "WWCE Testing Please ignorere",
+			"description": "Til automatiseringstestning"
+		}
+	],
+	"40440": [
+		{
+			"username": "P_omegaeahelp_es@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "902018708",
+			"subject": "Pruebas WWCE Por favor ignora",
+			"description": "Para el uso de pruebas de automatización"
+		}
+	],
+	"40438": [
+		{
+			"username": "P_omegaeahelp_fr@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "805089412",
+			"subject": "Test WWCE Veuillez ignorer",
+			"description": "Pour les tests d'automatisation"
+		}
+	],
+	"21017": [
+		{
+			"username": "c_omegaeahelp_hk@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "805089412111",
+			"subject": "Test WWCE Veuillez ignorer",
+			"description": "Pour les tests d'automatisation"
+		}
+	],
+	"40441": [
+		{
+			"username": "P_omegaeahelp_it@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "66656494",
+			"subject": "Test WWCE Si prega di ignorare",
+			"description": "Per l'uso di test di automazione"
+		}
+	],
+	"40442": [
+		{
+			"username": "P_omegaeahelp_nl@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "858882155",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"40443": [
+		{
+			"username": "P_omegaeahelp_pl@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "225779952",
+			"subject": "Testowanie WWCE Prosze zignorowac",
+			"description": "Do testowania automatyzacji uzyj"
+		}
+	],
+	"40444": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "887018929",
+			"subject": "Teste da WWCE Por favor, ignore",
+			"description": "Para uso de teste de automaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o"
+		}
+	],
+	"40445": [
+		{
+			"username": "P_omegaeahelp_se@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "01203004",
+			"subject": "WWCE-testning Vänligen ignorera",
+			"description": "För Automation Testing användning"
+		}
+	],
+	"40479": [
+		{
+			"username": "P_omegaeahelp_ar@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "01203004",
+			"subject": "اختبار WWCE الرجاء تجاهل",
+			"description": "للأتمتة اختبار الاستخدام"
+		}
+	],
+	"18228": [
+		{
+			"username": "P_omegaeahelp_hk@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "01203004",
+			"subject": "WWCE測試請忽略",
+			"description": "用於自動化測試使用"
+		}
+	],
+	"18479": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"Email": "unauth@gmail.com",
+			"phonenumber": "44500000",
+			"subject": "ÃƒËœÃ‚Â§ÃƒËœÃ‚Â®ÃƒËœÃ‚ÂªÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§ÃƒËœÃ‚Â± WWCE ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â±ÃƒËœÃ‚Â¬ÃƒËœÃ‚Â§ÃƒËœÃ‚Â¡ ÃƒËœÃ‚ÂªÃƒËœÃ‚Â¬ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Â¡Ãƒâ„¢Ã¢â‚¬Å¾ Ãƒâ„¢Ã¢â‚¬Â¡ÃƒËœÃ‚Â°Ãƒâ„¢Ã¢â‚¬Â¡ ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â­ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â©",
+			"description": "Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â§ÃƒËœÃ‚Â®ÃƒËœÃ‚ÂªÃƒËœÃ‚Â¨ÃƒËœÃ‚Â§ÃƒËœÃ‚Â± ÃƒËœÃ‚Â§Ãƒâ„¢Ã¢â‚¬Å¾ÃƒËœÃ‚Â£ÃƒËœÃ‚ÂªÃƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚ÂªÃƒËœÃ‚Â©"
+		}
+	],
+	"18480": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"Email": "unauth@gmail.com",
+			"phonenumber": "29458888",
+			"subject": "WWCEÃƒÂ¦Ã‚Â¸Ã‚Â¬ÃƒÂ¨Ã‚Â©Ã‚Â¦ÃƒÂ¨Ã‚Â«Ã¢â‚¬Â¹ÃƒÂ¥Ã‚Â¿Ã‚Â½ÃƒÂ§Ã¢â‚¬Â¢Ã‚Â¥ÃƒÂ¦Ã‚Â­Ã‚Â¤ÃƒÂ¦Ã‚Â¡Ã‹â€ ÃƒÂ¤Ã‚Â¾Ã¢â‚¬Â¹",
+			"description": "ÃƒÂ§Ã¢â‚¬ï¿½Ã‚Â¨ÃƒÂ¦Ã¢â‚¬â€œÃ‚Â¼ÃƒÂ¨Ã¢â‚¬Â¡Ã‚ÂªÃƒÂ¥Ã¢â‚¬Â¹Ã¢â‚¬Â¢ÃƒÂ¥Ã…â€™Ã¢â‚¬â€œÃƒÂ¦Ã‚Â¸Ã‚Â¬ÃƒÂ¨Ã‚Â©Ã‚Â¦"
+		}
+	],
+	"40535": [
+		{
+		    "username": "P_omegaeahelp_en@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "98876654321",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40495": [
+		{
+			"username": "P_omegaeahelp_de@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "01203004",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"18624": [
+		{
+			"username": "P_omegaeahelp_br@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "01203004",
+			"subject": "suporte da comunidade 24 horas por ",
+			"description": "suporte da comunidade 24 horas por"
+		}
+	],
+	"18625": [
+		{
+			"username": "P_omegaeahelp_ko@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "01203004",
+			"subject": "WWCE 테스트 무시하십시오.",
+			"description": "자동화 테스트 용"
+		}
+	],
+	"18229": [
+		{
+			"username": "P_omegaeahelp_jp@gmail.com",
+			"password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"product": "FIFA 18",
+			"platform": "Microsoft XBOX One",
+			"category": "game-information",
+			"subcategory": "availability",
+			"phonenumber": "01203004",
+			"subject": "WWCEテスト無視してください",
+			"description": "オートメーションテスト用"
+		}
+	],
+	"15955": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"chat_product": "Origin",
+			"chat_platform": "Mac",
+			"chat_category": "Manage my account",
+			"chat_subcategory": "Manage payment details",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=origin&platform=mac&category=manage-my-account&issue=manage-payment-details&isChannelSelection=true"
+		}
+	],
+	"16044": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"chat_product": "52 Card Pickup",
+			"chat_platform": "Pogo.com",
+			"chat_category": "Orders",
+			"chat_subcategory": "Check order status",
+			"chat_window_title": "Games Main Chat Window",
+			"eahlep_title": "Games Main Chat Window",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=52-card-pickup&platform=pogo&category=orders&issue=check-order-status&isChannelSelection=true"
+		}
+	],
+	"16035": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"chat_product": "Origin",
+			"chat_platform": "Mac",
+			"chat_category": "Manage my account",
+			"chat_subcategory": "Manage payment details",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=origin&platform=mac&category=manage-my-account&issue=manage-payment-details&isChannelSelection=true"
+		}
+	],
+	"16018": [
+		{
+			"chatRoleName": "Automation Testing - Chat",
+			"phoneRoleName": "Automation Testing - Phone",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=the-sims-3-island-paradise&platform=pc&category=codes-and-promotions&issue=invalid-code&isChannelSelection=true"
+		}
+	],
+	"16034": [
+		{
+			"phoneRoleName": "Automation Testing - Phone",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=the-sims-3-island-paradise&platform=pc&category=codes-and-promotions&issue=invalid-code&isChannelSelection=true"
+		}
+	],
+	"16043": [
+		{
+			"email_URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"RoleName": "Automation Testing - Email",
+			"email_product": "Spore",
+			"email_platform": "PC",
+			"email_category": "Manage my account",
+			"email_subcategory": "Delete account",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"18525": [
+		{
+			"email_URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"RoleName": "Automation Testing - Email",
+			"email_product": "Spore",
+			"email_platform": "PC",
+			"email_category": "Manage my account",
+			"email_subcategory": "Delete account",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"17481": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=the-sims-3-island-paradise&platform=pc&category=codes-and-promotions&issue=invalid-code&isChannelSelection=true"
+		}
+	],
+	"17484": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "unauth@gmail.com",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"17485": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"phonenumber": "9823348711",
+			"Email": "unauth@gmail.com",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	]
+}

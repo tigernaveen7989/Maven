@@ -1,0 +1,369 @@
+{
+	"AUTH_TOKEN_API": {
+		"endpoint_name": "API to get AUTH TOKEN",
+		"url": "/oauth/token",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "AUTH_TOKEN.json"
+	},
+	"GET_CHANNEL_CONFIGURATION_API": {
+		"endpoint_name": "API to get available channels",
+		"url": "/aegis/contactsupport",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "CHANNEL_CONFIGURATION.json",
+		"assertions": "CHANNEL_CONFIGURATION_ASSERTIONS.json"
+	},
+	"GET_CHAT_WAIT_TIME_API": {
+		"endpoint_name": "API to get Chat Wait time",
+		"url": "/comm/chat/waittime",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "CHAT_WAIT_TIME.json",
+		"assertions": "CHAT_WAIT_TIME_ASSERTIONS.json"
+	},
+	"GET_CHAT_ESTIMATED_WAIT_TIME_API": {
+		"endpoint_name": "API to get Chat Estimated Wait time",
+		"url": "/comm/chat/estimatedWaitTime",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "CHAT_ESTIMATED_WAIT_TIME.json",
+		"assertions": "CHAT_ESTIMATED_WAIT_TIME_ASSERTIONS.json"
+	},
+	"GET_PHONE_WAIT_TIME_API": {
+		"endpoint_name": "API to get Phone Estimated Wait time",
+		"url": "/comm/phone/waittime",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "PHONE_WAIT_TIME.json",
+		"assertions": "PHONE_WAIT_TIME_ASSERTIONS.json"
+	},
+	"GET_PLAYER_NOTES_API": {
+		"endpoint_name": "API to test GET Player Notes",
+		"url": "/account/users/<userId>/playernote",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "PLYER_NOTES.json",
+		"assertions": "PLYER_NOTES_ASSERTIONS.json"
+	},
+	"GET_NUCLEAS_ACCOUNT_DETAILS_API": {
+		"endpoint_name": "API to get Nucleas Account details",
+		"url": "/account/users/<userId>/accountdetails",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "ACCOUNT_DETAILS.json",
+		"assertions": "ACCOUNT_DETAILS_ASSERTIONS.json"
+	},
+	"GET_NUCLEAS_ACCOUNT_BASCI_INFO_API": {
+		"endpoint_name": "API to get Nucleas Account Basic details",
+		"url": "/account/users/<userId>",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "NUCLEAS_ACCOUNT_BASCI_INFO.json",
+		"assertions": "NUCLEAS_ACCOUNT_BASCI_INFO_ASSERTIONS.json"
+	},
+	"POST_PLAYER_NOTES_API": {
+		"endpoint_name": "API to post player notes",
+		"url": "/account/users/<userId>/playernote",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_PLAYER_NOTES.json",
+		"assertions": "POST_PLAYER_NOTES_ASSERTIONS.json"
+	},
+	"PUT_TWO_FACTOR_AUTHENTICATION": {
+		"endpoint_name": "API to PUT Two factor authentication",
+		"url": "/account/users/<userId>/twofactor/status",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "TWO_FACTOR_AUTHENTICATION.json",
+		"assertions": "TWO_FACTOR_AUTHENTICATION_ASSERTIONS.json"
+	},
+	"DELETE_USER_SECURITY_STATE_API": {
+		"endpoint_name": "API to reset the user security state",
+		"url": "/account/users/<userId>/securitystate",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "RESET_USER_SECURITY_STATE.json",
+		"assertions": "RESET_USER_SECURITY_STATE_ASSERTIONS.json"
+	},
+	"USER_DETAILS_BY_BESLID": {
+		"endpoint_name": "API to test user details by using BSEL ID",
+		"url": "/account/userexternalreference",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "USER_DETAILS_BY_BESLID.json",
+		"assertions": "USER_DETAILS_BY_BESLID_ASSERTIONS.json"
+	},
+	"GET_EXTERNAL_ACCOUNT_REFERENCES": {
+		"endpoint_name": "API to test User External Account References",
+		"url": "/account/users/<userId>/externalreferences",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "EXTERNAL_ACCOUNT_REFERENCES.json",
+		"assertions": "EXTERNAL_ACCOUNT_REFERENCES_ASSERTIONS.json"
+	},
+	"RELATIONSHIPS_BY_USER_ID": {
+		"endpoint_name": "API to test GET Relationships By UserId API",
+		"url": "/account/users/<userId>/relationships",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "RELATIONSHIPS_BY_USER_ID.json",
+		"assertions": "RELATIONSHIPS_BY_USER_ID_ASSERTIONS.json"
+	},
+	"GET_EMAIL_ADDRESS_CHECK": {
+		"endpoint_name": "API to test GET Email Address Check API",
+		"url": "/account/users/emailaddresscheck",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "EMAIL_ADDRESS_CHECK.json",
+		"assertions": "EMAIL_ADDRESS_CHECK_ASSERTIONS.json"
+	},
+	"GET_TWO_FACTOR_AUTH": {
+		"endpoint_name": "API to test Two-Factor Authentication API",
+		"url": "/account/users/<userId>/twofactor",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "TWO_FACTOR_AUTH.json",
+		"assertions": "TWO_FACTOR_AUTH_ASSERTIONS.json"
+	},
+	"GET_RESET_PASSWORD_LINK": {
+		"endpoint_name": "API to test RESET CUSTOMER PASSWORD LINK API",
+		"url": "/account/users/<userId>/resetPasswordLinkAndToken",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "RESET_PASSWORD_LINK.json",
+		"assertions": "RESET_PASSWORD_LINK_ASSERTIONS.json"
+	},
+	"GET_ADDRESS_BY_ADDRESS_ID": {
+		"endpoint_name": "API to test GET Address By Address Id API",
+		"url": "/account/address/<addressId>",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "ADDRESS_BY_ADDRESS_ID.json",
+		"assertions": "ADDRESS_BY_ADDRESS_ID_ASSERTIONS.json"
+	},
+	"DELETE_ADDRESS_BY_ADDRESS_ID": {
+		"endpoint_name": "API to test GET Address By Address Id API",
+		"url": "/account/address/<addressId>",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "DELETE_ADDRESS_BY_ADDRESS_ID.json",
+		"assertions": "DELETE_ADDRESS_BY_ADDRESS_ID_ASSERTIONS.json"
+	},
+	"GET_AGE_REQUIREMENTS": {
+		"endpoint_name": "API to test GET Age Requirements",
+		"url": "/account/agerequirements/<countrycode>",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "AGE_REQUIREMENTS.json",
+		"assertions": "AGE_REQUIREMENTS_ASSERTIONS.json"
+	},
+	"GET_ENTITLEMENT_PERSONA_ASSOCIATIONS": {
+		"endpoint_name": "API to test Get Entitlement Persona Associations",
+		"url": "/account/entitlements/personaassociations/users/<userId>",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "ENTITLEMENT_PERSONA_ASSOCIATIONS.json",
+		"assertions": "ENTITLEMENT_PERSONA_ASSOCIATIONS_ASSERTIONS.json"
+	},
+	"GET_EMAIL_CHANGE_HISTORY": {
+		"endpoint_name": "API to test Get Email Change History Records",
+		"url": "/account/users/<userId>/emailchangerecords",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "EMAIL_CHANGE_HISTORY.json",
+		"assertions": "EMAIL_CHANGE_HISTORY_ASSERTIONS.json"
+	},
+	"GET_USER_STATUSES_SET": {
+		"endpoint_name": "API to test Get User Statuses Set",
+		"url": "/account/users/statusset",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "USER_STATUSES_SET.json",
+		"assertions": "USER_STATUSES_SET_ASSERTIONS.json"
+	},
+	"GET_SECONDARY_EMAIL_CODE": {
+		"endpoint_name": "API to test SECONDARY EMAIL CODE",
+		"url": "/account/users/<userId>/secondaryemail/code",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "SECONDARY_EMAIL_CODE.json",
+		"assertions": "SECONDARY_EMAIL_CODE_ASSERTIONS.json"
+	},
+	"DELETE_SECONDARY_EMAIL": {
+		"endpoint_name": "API to test DELETE SECONDARY EMAIL",
+		"url": "/account/users/<userId>/secondaryemail",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "DELETE_SECONDARY_EMAIL.json",
+		"assertions": "DELETE_SECONDARY_EMAIL_ASSERTIONS.json"
+	},
+	"PUT_SECONDARY_EMAIL": {
+		"endpoint_name": "API to test PUT SECONDARY EMAIL",
+		"url": "/account/users/<userId>/secondaryemail",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "PUT_SECONDARY_EMAIL.json",
+		"assertions": "PUT_SECONDARY_EMAIL_ASSERTIONS.json"
+	},
+	"GET_USER_FLAGGING_TYPES": {
+		"endpoint_name": "API to test SECONDARY EMAIL CODE",
+		"url": "/account/users/<userId>/flaggingtypes",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "USER_FLAGGING_TYPES.json",
+		"assertions": "USER_FLAGGING_TYPES_ASSERTIONS.json"
+	},
+	"GET_CUSTOMER_ACCOUNT_CHANGE_HISTORY": {
+		"endpoint_name": "API to test GET Customer account change history",
+		"url": "/account/users/<userId>/changeHistory",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "CUSTOMER_ACCOUNT_CHANGE_HISTORY.json",
+		"assertions": "CUSTOMER_ACCOUNT_CHANGE_HISTORY_ASSERTIONS.json"
+	},
+	"PUT_NUCLEUS_ACCOUNT_BASIC_INFO": {
+		"endpoint_name": "API to test PUT Nucleus Account Basic Info",
+		"url": "/account/users/<userId>",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "PUT_NUCLEUS_ACCOUNT_BASIC_INFO.json",
+		"assertions": "PUT_NUCLEUS_ACCOUNT_BASIC_INFO_ASSERTIONS.json"
+	},
+	"GET_GEO_LOCATION_DETAILS_FOR_GIVEN_IP": {
+		"endpoint_name": "API to test GET geo location details for given IP",
+		"url": "/account/users/geolocation",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GEO_LOCATION_DETAILS.json",
+		"assertions": "GEO_LOCATION_DETAILS_ASSERTIONS.json"
+	},
+	"PUT_NUCLEUS_USERS_ACCOUNT_EMAIL": {
+		"endpoint_name": "API to test PUT Nucleus Users Account Email",
+		"url": "/account/users/swapemails",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "NUCLEUS_USERS_ACCOUNT_EMAIL.json",
+		"assertions": "NUCLEUS_USERS_ACCOUNT_EMAIL_ASSERTIONS.json"
+	},
+	"PUT_NUCLEUS_ACCOUNT_DETAILED_INFO": {
+		"endpoint_name": "API to test PUT Nucleus Users Account Email",
+		"url": "/account/users/<userId>/accountdetails",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "NUCLEUS_ACCOUNT_DETAILED_INFO.json",
+		"assertions": "NUCLEUS_ACCOUNT_DETAILED_INFO_ASSERTIONS.json"
+	},
+	"POST_TWO_FACTOR_AUTH_CODES": {
+		"endpoint_name": "API to test Generate Two-Factor Authentication Codes",
+		"url": "/account/users/<userId>/twofactor/backupcodes",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "TWO_FACTOR_AUTH_CODES.json",
+		"assertions": "TWO_FACTOR_AUTH_CODES_ASSERTIONS.json"
+	},
+	"POST_RESEND_USER_EMAIL": {
+		"endpoint_name": "API to test POST Resend User Email",
+		"url": "/account/resenduseremail",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "RESEND_USER_EMAIL.json",
+		"assertions": "RESEND_USER_EMAIL_ASSERTIONS.json"
+	},
+	"GET_CUSTOMER_LOGIN_HISTORY": {
+		"endpoint_name": "API to test GET Customer login history",
+		"url": "/account/users/<userId>/loginhistory",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "CUSTOMER_LOGIN_HISTORY.json",
+		"assertions": "CUSTOMER_LOGIN_HISTORY_ASSERTIONS.json"
+	},
+	"GET_EXTERNAL_USER_DETAIL": {
+		"endpoint_name": "API to test GET External User Detail",
+		"url": "/account/personas/externaluser",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "EXTERNAL_USER_DETAIL.json",
+		"assertions": "EXTERNAL_USER_DETAIL_ASSERTIONS.json"
+	},
+	"GET_MAPPED_PRODUCT": {
+		"endpoint_name": "API to test GET Mapped Product of User",
+		"url": "/account/users/<userId>/products/mapped",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "MAPPED_PRODUCT_DETAIL.json",
+		"assertions": "MAPPED_PRODUCT_DETAIL_ASSERTIONS.json"
+	},
+	"POST_GENERATE_ENCRYPTED_TOKEN": {
+		"endpoint_name": "API to test Generate Encrypted Token",
+		"url": "account/encrypt/token",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "GENERATE_ENCRYPTED_TOKEN.json",
+		"assertions": "GENERATE_ENCRYPTED_TOKEN_ASSERTIONS.json"
+	},
+	"GET_OFB_PRODUCT_DETAILS": {
+		"endpoint_name": "API to test GET OFB PRODUCT DETAILS BY OFB PRODUCT ID",
+		"url": "/catalog/products/<productId>",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "OFB_PRODUCT_DETAILS.json",
+		"assertions": "OFB_PRODUCT_DETAILS_ASSERTIONS.json"
+	},
+	"GET_SEARCH_MDM_PRODUCTS": {
+		"endpoint_name": "API to test Search MDM Projects",
+		"url": "/catalog/mdmprojects",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "SEARCH_MDM_PRODUCTS.json",
+		"assertions": "SEARCH_MDM_PRODUCTS_ASSERTIONS.json"
+	},
+	"GET_MDM_PRODUCT_BY_PROJECT_ID": {
+		"endpoint_name": "API to test GET MDM PROJECT DETAILS BY PROJECT ID",
+		"url": "/catalog/projects/<mdmProjectId>",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "MDM_PRODUCT_BY_PRODUCT_ID.json",
+		"assertions": "MDM_PRODUCT_BY_PRODUCT_ID_ASSERTIONS.json"
+	},
+	"GET_CHANNELS_AVAILABLE_FOR_USER_TO_CONTACT": {
+		"endpoint_name": "API to test Channels available for user to contact",
+		"url": "/aegis/contactsupport",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "CHANNELS_AVAILABLE_FOR_USER.json",
+		"assertions": "CHANNELS_AVAILABLE_FOR_USER_ASSERTIONS.json"
+	},
+	"GET_CRM_PRODUCT_BY_PRODUCT_ID": {
+		"endpoint_name": "API to test GET CRM PROJECT DETAILS BY PROJECT ID",
+		"url": "/catalog/crmproducts/",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "CRM_PRODUCT_BY_PRODUCT_ID.json",
+		"assertions": "CRM_PRODUCT_BY_PRODUCT_ID_ASSERTIONS.json"
+	},
+	"GET_CURRENCY_LIST_FOR_CRM_PRODUCT": {
+		"endpoint_name": "API to test GET Currency List For CRM Product",
+		"url": "/catalog/currency",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "CURRENCY_LIST_FOR_CRM_PRODUCT.json",
+		"assertions": "CURRENCY_LIST_FOR_CRM_PRODUCT_ASSERTIONS.json"
+	},
+	"GET_OFB_PRODUCT_DETAILS_BY_CATEGORY_ID": {
+		"endpoint_name": "API to test GET OFB PRODUCT DETAILS BY CATEGORY ID",
+		"url": "/catalog/products",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "OFB_PRODUCT_DETAILS_BY_CATEGORY_ID.json",
+		"assertions": "OFB_PRODUCT_DETAILS_BY_CATEGORY_ID_ASSERTIONS.json"
+	},
+	"POST_CREDIT_CARD_ACCOUNT_API": {
+		"endpoint_name": "API to Creates a new credit card account for a user.",
+		"url": "/commerce/creditcardaccounts",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_CREDIT_CARD_ACCOUNT.json",
+		"assertions": "POST_CREDIT_CARD_ACCOUNT_ASSERTIONS.json"
+	}	
+}

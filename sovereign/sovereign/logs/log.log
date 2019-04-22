@@ -1,0 +1,135 @@
+2018-05-14 00:57:14 INFO  APIBaseTest:64 - Enabling logging...
+2018-05-14 00:57:14 INFO  APIBaseTest:65 - ---------------------------------------------------
+2018-05-14 00:57:14 INFO  APIBaseTest:66 - Loading the before suite conditions......
+2018-05-14 00:57:14 INFO  APIBaseTest:93 - ---------------------------------------------------
+2018-05-14 00:57:14 INFO  APIBaseTest:107 - ---------------------------------------------------
+2018-05-14 00:57:14 INFO  APIBaseTest:108 - Loading the before test conditions......
+2018-05-14 00:57:14 INFO  APIBaseTest:112 - No test configuration chosen,picking the test environment from TestNG.xml
+2018-05-14 00:57:14 INFO  APIBaseTest:121 - Picked test environment UATPC from TestNG.xml
+2018-05-14 00:57:14 INFO  APIBaseTest:149 - ---------------------------------------------------
+2018-05-14 00:57:14 INFO  SovereignAPIBaseTest:72 - Current time : 1526239634
+2018-05-14 00:57:14 INFO  APIBase:337 - Generating auth token ......
+2018-05-14 00:57:15 INFO  APIBase:395 - "fa6e93b43f26e613f66256512f830fba!050fc1f8798488d3cb1b2390c751a72b" ---> expires in 120
+2018-05-14 00:57:15 INFO  SovereignAPIBaseTest:84 - Token is generated at timestamp 1526239634
+2018-05-14 00:57:15 INFO  SovereignAPIBaseTest:88 - Expiry window of the token : 120
+2018-05-14 00:57:15 INFO  SovereignAPIBaseTest:93 - Estimated time when new token need to be generated : 1526239754
+2018-05-14 00:57:15 INFO  APIBaseTest:157 - loading the key of the API POST_PLAYER_NOTES_API
+2018-05-14 00:57:15 INFO  APIBaseTest:173 - URL of the API before appending parameters http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/<userId>/playernote
+2018-05-14 00:57:15 INFO  APIBaseTest:178 - Getting payload from location D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\request\POST_PLAYER_NOTES.json
+2018-05-14 00:57:15 INFO  APIBaseTest:185 - Output response of the file will be written to D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\POST_PLAYER_NOTES.json
+2018-05-14 00:57:15 INFO  APIBase:155 - Reading header,URI and input parameters of API from the payload....
+2018-05-14 00:57:15 INFO  RESTParser:218 - Getting HTTP POST Connection Object
+2018-05-14 00:57:15 INFO  RESTParser:222 - Request type is REST,Setting POST connection properites
+2018-05-14 00:57:16 INFO  POSTPlayerNotesApiTest:31 - validating Two factor Authentication Test10
+2018-05-14 00:57:16 INFO  APIBase:260 - Validating the API ...
+http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/1000364103158/playernote?
+2018-05-14 00:57:16 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:16 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:16 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:17 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:17 INFO  RESTParser:420 - Writing output response to the file D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\POST_PLAYER_NOTES.json
+2018-05-14 00:57:17 INFO  RESTParser:447 - ---------------------------------------------------
+2018-05-14 00:57:20 INFO  SovereignAPIBaseTest:72 - Current time : 1526239640
+2018-05-14 00:57:20 INFO  SovereignAPIBaseTest:96 - Current time 1526239640 is less than expiry period 1526239754.Token is still active. Using existing token ... 
+2018-05-14 00:57:20 INFO  APIBaseTest:157 - loading the key of the API DELETE_USER_SECURITY_STATE_API
+2018-05-14 00:57:20 INFO  APIBaseTest:173 - URL of the API before appending parameters http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/<userId>/securitystate
+2018-05-14 00:57:20 INFO  APIBaseTest:178 - Getting payload from location D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\request\RESET_USER_SECURITY_STATE.json
+2018-05-14 00:57:20 INFO  APIBaseTest:185 - Output response of the file will be written to D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\RESET_USER_SECURITY_STATE.json
+2018-05-14 00:57:20 INFO  APIBase:155 - Reading header,URI and input parameters of API from the payload....
+2018-05-14 00:57:20 INFO  RESTParser:305 - Getting HTTP DELETE Connection Object
+2018-05-14 00:57:20 INFO  RESTParser:309 - Request type is REST,Setting DELETE connection properites
+2018-05-14 00:57:20 INFO  DELETEUserSecurityStateApiTest:31 - validating Two factor Authentication Test6
+2018-05-14 00:57:20 INFO  APIBase:260 - Validating the API ...
+http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/1000364103158/securitystate?
+2018-05-14 00:57:20 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:21 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:21 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:22 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:22 INFO  RESTParser:420 - Writing output response to the file D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\RESET_USER_SECURITY_STATE.json
+2018-05-14 00:57:22 INFO  RESTParser:447 - ---------------------------------------------------
+2018-05-14 00:57:23 INFO  SovereignAPIBaseTest:72 - Current time : 1526239643
+2018-05-14 00:57:23 INFO  SovereignAPIBaseTest:96 - Current time 1526239643 is less than expiry period 1526239754.Token is still active. Using existing token ... 
+2018-05-14 00:57:23 INFO  APIBaseTest:157 - loading the key of the API PUT_TWO_FACTOR_AUTHENTICATION
+2018-05-14 00:57:23 INFO  APIBaseTest:173 - URL of the API before appending parameters http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/<userId>/twofactor/status
+2018-05-14 00:57:23 INFO  APIBaseTest:178 - Getting payload from location D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\request\TWO_FACTOR_AUTHENTICATION.json
+2018-05-14 00:57:23 INFO  APIBaseTest:185 - Output response of the file will be written to D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\TWO_FACTOR_AUTHENTICATION.json
+2018-05-14 00:57:23 INFO  APIBase:155 - Reading header,URI and input parameters of API from the payload....
+2018-05-14 00:57:23 INFO  RESTParser:261 - Getting HTTP PUT Connection Object
+2018-05-14 00:57:23 INFO  RESTParser:265 - Request type is REST,Setting PUT connection properites
+2018-05-14 00:57:23 INFO  PUTTwoFactorAuthenticationApiTest:31 - validating Two factor Authentication Test11
+2018-05-14 00:57:23 INFO  APIBase:260 - Validating the API ...
+http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/1000364103158/twofactor/status?status=ENABLED
+2018-05-14 00:57:23 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:24 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:24 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:25 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:25 INFO  RESTParser:420 - Writing output response to the file D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\TWO_FACTOR_AUTHENTICATION.json
+2018-05-14 00:57:25 INFO  RESTParser:447 - ---------------------------------------------------
+2018-05-14 00:57:27 INFO  SovereignAPIBaseTest:72 - Current time : 1526239647
+2018-05-14 00:57:27 INFO  SovereignAPIBaseTest:96 - Current time 1526239647 is less than expiry period 1526239754.Token is still active. Using existing token ... 
+2018-05-14 00:57:27 INFO  APIBaseTest:157 - loading the key of the API GET_NUCLEAS_ACCOUNT_DETAILS_API
+2018-05-14 00:57:27 INFO  APIBaseTest:173 - URL of the API before appending parameters http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/<userId>/accountdetails
+2018-05-14 00:57:27 INFO  APIBaseTest:178 - Getting payload from location D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\request\ACCOUNT_DETAILS.json
+2018-05-14 00:57:27 INFO  APIBaseTest:185 - Output response of the file will be written to D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\ACCOUNT_DETAILS.json
+2018-05-14 00:57:27 INFO  APIBase:155 - Reading header,URI and input parameters of API from the payload....
+2018-05-14 00:57:27 WARN  APIBase:200 - Failed to process payload of API null
+2018-05-14 00:57:27 INFO  RESTParser:173 - Getting HTTP Get Connection Object
+2018-05-14 00:57:27 INFO  RESTParser:177 - Request type is REST,Setting GET connection properites
+2018-05-14 00:57:27 INFO  GETNucleasAccountDetailsApiTest:31 - validating Two factor Authentication Test8
+2018-05-14 00:57:27 INFO  APIBase:260 - Validating the API ...
+http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/2669783118/accountdetails?
+2018-05-14 00:57:27 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:30 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:30 INFO  RESTParser:420 - Writing output response to the file D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\ACCOUNT_DETAILS.json
+2018-05-14 00:57:30 INFO  RESTParser:447 - ---------------------------------------------------
+2018-05-14 00:57:31 INFO  SovereignAPIBaseTest:72 - Current time : 1526239651
+2018-05-14 00:57:31 INFO  SovereignAPIBaseTest:96 - Current time 1526239651 is less than expiry period 1526239754.Token is still active. Using existing token ... 
+2018-05-14 00:57:31 INFO  APIBaseTest:157 - loading the key of the API GET_PLAYER_NOTES_API
+2018-05-14 00:57:31 INFO  APIBaseTest:173 - URL of the API before appending parameters http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/<userId>/playernote
+2018-05-14 00:57:31 INFO  APIBaseTest:178 - Getting payload from location D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\request\GET_PLAYER_NOTES.json
+2018-05-14 00:57:31 INFO  APIBaseTest:185 - Output response of the file will be written to D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\GET_PLAYER_NOTES.json
+2018-05-14 00:57:31 INFO  APIBase:155 - Reading header,URI and input parameters of API from the payload....
+2018-05-14 00:57:31 WARN  APIBase:200 - Failed to process payload of API null
+2018-05-14 00:57:31 INFO  RESTParser:173 - Getting HTTP Get Connection Object
+2018-05-14 00:57:31 INFO  RESTParser:177 - Request type is REST,Setting GET connection properites
+2018-05-14 00:57:31 INFO  GETPlayerNotesApiTest:31 - validating Two factor Authentication Test9
+2018-05-14 00:57:31 INFO  APIBase:260 - Validating the API ...
+http://sovapp01.uat.rspc-ord.ea.com:8100/account/users/2669783118/playernote?
+2018-05-14 00:57:31 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:32 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:32 INFO  RESTParser:420 - Writing output response to the file D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\GET_PLAYER_NOTES.json
+2018-05-14 00:57:32 INFO  RESTParser:447 - ---------------------------------------------------
+2018-05-14 00:57:33 INFO  SovereignAPIBaseTest:72 - Current time : 1526239653
+2018-05-14 00:57:33 INFO  SovereignAPIBaseTest:96 - Current time 1526239653 is less than expiry period 1526239754.Token is still active. Using existing token ... 
+2018-05-14 00:57:33 INFO  APIBaseTest:157 - loading the key of the API GET_CHANNEL_CONFIGURATION_API
+2018-05-14 00:57:33 INFO  APIBaseTest:173 - URL of the API before appending parameters http://sovapp01.uat.rspc-ord.ea.com:8100/aegis/contactsupport
+2018-05-14 00:57:33 INFO  APIBaseTest:178 - Getting payload from location D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\request\CHANNEL_CONFIGURATION.json
+2018-05-14 00:57:33 INFO  APIBaseTest:185 - Output response of the file will be written to D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\CHANNEL_CONFIGURATION.json
+2018-05-14 00:57:33 INFO  APIBase:155 - Reading header,URI and input parameters of API from the payload....
+2018-05-14 00:57:33 WARN  APIBase:200 - Failed to process payload of API null
+2018-05-14 00:57:33 INFO  RESTParser:173 - Getting HTTP Get Connection Object
+2018-05-14 00:57:33 INFO  RESTParser:177 - Request type is REST,Setting GET connection properites
+2018-05-14 00:57:33 INFO  GETChannelConfigurationApiTest:31 - validating Two factor Authentication Test5
+2018-05-14 00:57:33 INFO  APIBase:260 - Validating the API ...
+http://sovapp01.uat.rspc-ord.ea.com:8100/aegis/contactsupport?
+2018-05-14 00:57:33 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:34 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:34 INFO  RESTParser:420 - Writing output response to the file D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\CHANNEL_CONFIGURATION.json
+2018-05-14 00:57:34 INFO  RESTParser:447 - ---------------------------------------------------
+2018-05-14 00:57:35 INFO  SovereignAPIBaseTest:72 - Current time : 1526239655
+2018-05-14 00:57:35 INFO  SovereignAPIBaseTest:96 - Current time 1526239655 is less than expiry period 1526239754.Token is still active. Using existing token ... 
+2018-05-14 00:57:35 INFO  APIBaseTest:157 - loading the key of the API GET_CHAT_WAIT_TIME_API
+2018-05-14 00:57:35 INFO  APIBaseTest:173 - URL of the API before appending parameters http://sovapp01.uat.rspc-ord.ea.com:8100/comm/chat/waittime
+2018-05-14 00:57:35 INFO  APIBaseTest:178 - Getting payload from location D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\request\CHAT_WAIT_TIME.json
+2018-05-14 00:57:35 INFO  APIBaseTest:185 - Output response of the file will be written to D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\CHAT_WAIT_TIME.json
+2018-05-14 00:57:35 INFO  APIBase:155 - Reading header,URI and input parameters of API from the payload....
+2018-05-14 00:57:35 WARN  APIBase:200 - Failed to process payload of API null
+2018-05-14 00:57:35 INFO  RESTParser:173 - Getting HTTP Get Connection Object
+2018-05-14 00:57:35 INFO  RESTParser:177 - Request type is REST,Setting GET connection properites
+2018-05-14 00:57:35 INFO  GETChatWaitTimeApiTest:31 - validating Two factor Authentication Test7
+2018-05-14 00:57:35 INFO  APIBase:260 - Validating the API ...
+http://sovapp01.uat.rspc-ord.ea.com:8100/comm/chat/waittime?
+2018-05-14 00:57:35 INFO  RESTParser:347 - Getting response code
+2018-05-14 00:57:35 INFO  RESTParser:384 - Response code : 200
+2018-05-14 00:57:35 INFO  RESTParser:420 - Writing output response to the file D:\WWCE\Automation\Framework\EA_Automation_Framework\automation\sovereign\src\test\resources\apiPayLoads\REST\response\UATPC\20180514_1257\CHAT_WAIT_TIME.json
+2018-05-14 00:57:35 INFO  RESTParser:447 - ---------------------------------------------------

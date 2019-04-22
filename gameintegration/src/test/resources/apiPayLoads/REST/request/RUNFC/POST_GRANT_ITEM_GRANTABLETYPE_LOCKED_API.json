@@ -1,0 +1,26 @@
+{
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "madden-19"
+		},
+		"input_param": {
+			"id": "1000180745259",
+			"idType": "nucleusPersonaId",
+			"platform": "xone",
+			"userId": "1000180745259",	
+			"caseId": "5000x000003B4m8AAC"	
+		},
+		"payload_param": {
+			"itemDefinitionId":"1",
+			"quantity":"1",
+			"untradable":"false",
+			"grantableType":"Locked",
+			"grantableTypeValue": ""
+		}
+	}
+}

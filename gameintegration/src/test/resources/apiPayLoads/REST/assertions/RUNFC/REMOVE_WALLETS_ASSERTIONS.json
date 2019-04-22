@@ -1,0 +1,30 @@
+{
+	"global": [{	
+		"response_code": 200,
+		"status": "SUCCESS"
+	}],
+	
+	"23049": [{
+		"status" : "ERROR",
+		"errorCode" : "ORG-INT-09998",
+		"sourceMessage": "Parameter walletId Missing"
+	}],
+	
+	"23050": [{
+		"status" : "ERROR",
+		"errorCode" : "ORG-INT-09998",
+		"sourceMessage": "Parameter amount Missing"
+	}],
+	
+	"23051": [{
+		"status" : "ERROR",
+		"errorCode" : "ORG-INT-09998",
+		"sourceMessage": "Parameter idType Missing"
+	}],
+	
+	"27087": [{
+		"status" : "ERROR",
+		"errorCode" : "ORG-INT-09998",
+		"sourceMessage": "Parameter id Missing"
+	}]
+} 

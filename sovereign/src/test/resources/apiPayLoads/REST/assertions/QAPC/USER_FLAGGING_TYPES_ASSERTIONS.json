@@ -1,0 +1,18 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49381": [
+		{
+			"status": "SUCCESS"
+		}
+	],
+	"49382": [
+		{
+			"errorShortMessage": "VALIDATION_FAILED",
+			"errorMessage": "Validation failed"
+		}
+	]
+}

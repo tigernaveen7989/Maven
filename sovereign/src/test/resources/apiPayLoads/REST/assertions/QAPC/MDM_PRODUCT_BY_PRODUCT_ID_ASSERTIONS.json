@@ -1,0 +1,32 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49983": [
+		{
+			"projectTitle": "SIMS 3 WORLD ADVENTURES (EP1)",
+			"projectDescription": "SIMS 3 WORLD ADVENTURES (EP1) - PCWIN - DG EC",
+			"projectStatus": "Released",
+			"masterTitle": "SIMS 3 WORLD ADVENTURES (EP1)",
+			"revenueModel": "Digital - Extra Content",
+			"projectType": "Development",
+			"interfacePlatform": "PCWIN",
+			"interfacePlatformShortname": "PCWIN",
+			"interfaceType": "PC",
+			"interfacePlatformCode": "20",
+			"revenueModelShortname": "DG EC",
+			"labelDescription": "Label - Maxis",
+			"firstReleaseDate": "2009-11-15 00:00:00.0",
+			"firstOperationalShipDate": "2009-11-15 00:00:00.0",
+			"projectId": "136722"
+		}
+	],
+	"49984": [
+		{
+			"errorCode": "SVC-OFB-15005",
+			"errorMessage": "No entity found matching this request"
+		}
+	]
+}

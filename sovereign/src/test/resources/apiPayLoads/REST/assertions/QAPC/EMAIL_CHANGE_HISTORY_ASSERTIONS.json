@@ -1,0 +1,31 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49303": [
+		{
+			"originalValue_1": "anu.shete90@gmail.com",
+			"newValue_1": "anu.shete@yahoo.co.in",
+			"originalValue_2": "anu.shete@yahoo.co.in",
+			"newValue_2": "anu.shete90@gmail.com",
+			"originalValue_3": "anu.shete90@gmail.com",
+			"newValue_3": "anu_shete@mindtree.com",
+			"originalValue_4": "anu_shete@mindtree.com",
+			"newValue_4": "anu.shete90@gmail.com",
+			"originalValue_5": "anu.shete90@gmail.com",
+			"newValue_5": "trevenishete@yahoo.co.in",
+			"originalValue_6": "trevenishete@yahoo.co.in",
+			"newValue_6": "anu.shete90@gmail.com",
+			"originalValue_7": "anu.shete90@gmail.com",
+			"newValue_7": "anu+shete90@gmail.com"
+		}
+	],
+	"49304": [
+		{
+			"errorShortMessage": "VALIDATION_FAILED",
+			"errorMessage": "Validation failed"
+		}
+	]
+}

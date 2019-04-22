@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IntegrationTestSuite">
+	<listeners>
+		<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+	<test name="ChromeTests">
+		<parameter name="executionMode" value="local" />
+		<parameter name="platform" value="WEB" />
+		<parameter name="operatingSystem" value="WINDOWS" />
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="browserVersion" value="52" />
+		<parameter name="automationName" value="Test" />
+		<parameter name="testEnvironment" value="runfc" />
+		<parameter name="deviceName" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="applicationId" value="" />
+		<parameter name="bundleId" value="" />
+		<parameter name="appiumURL" value="" />
+		<parameter name="planId" value="1282" />
+		<parameter name="testType" value="Regression" />
+		<classes>
+		<!-- Sprint 4 Email Case In Moment Survey Mail -->
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseTransactionInformationSentToPlayerSurveyEmailSendSeperatelyTest"/> 
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailTransferCaseContainsTransactionInformationSurveyMailSendSeperatelyTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailEscalateCaseContainsTransactionInformationSurveyMailSendSeperatelyTest"/> 
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailResumeCaseContainsTransactionInformationSurveyMailSendSeperatelyTest"/> 
+		<!-- Sprint 4 Cases Ends Here-->
+		  
+		<!-- Sprint 2 Email Case In House and In Moment Survey Mail -->
+		<!-- In House Survey -->
+		<!-- <class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailResolvedStatusExternalEmailInhouseSurveyTest"/> 
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseResolvedStatusFromSameAdvisorInHouseSurveyLink"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseResolvedStatusFromDifferentAdvisorInHouseSurveyLink"/> 
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseChangeToEscalatedStatusInHouseSurveyLinkTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseChangeToTransferredStatusInHouseSurveyLinkTest"/> 
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseWaitingOnCustomerToResolvedStatusExternalEmailInHouseSurveyTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseUpdatedByCustomerToResolvedStatusExternalEmailInHouseSurveyTest"/> 
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseChangeToResolvedStatusFromEscalatedStatusInHouseSurveyLinkTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseChangeToResolvedStatusFromTransferredStatusInHouseSurveyLinkTest"/> 
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseCustomerEndCaseExternalEmailInHouseSurveyTest"/> 
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailResolvedStatusExternalEmailInhouseSurveyTest"/>		
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseResolvedStatusFromSameAdvisorInHouseSurveyLink"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseResolvedStatusFromDifferentAdvisorInHouseSurveyLink"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseChangeToEscalatedStatusInHouseSurveyLinkTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseChangeToTransferredStatusInHouseSurveyLinkTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseWaitingOnCustomerToResolvedStatusExternalEmailInHouseSurveyTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseUpdatedByCustomerToResolvedStatusExternalEmailInHouseSurveyTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseChangeToResolvedStatusFromEscalatedStatusInHouseSurveyLinkTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseChangeToResolvedStatusFromTransferredStatusInHouseSurveyLinkTest"/>
+ 		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseCustomerEndCaseExternalEmailInHouseSurveyTest"/> --> 
+ 				 		
+ 		<!-- In Moment Survey  -->		
+ 		<!-- <class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseInmomentSurveyDisplayedBasedOnPercentageSetInSalesForceTest"/> 
+ 		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCaseResolvedStatusSecondTimeInADayInMomementSurveyLink"/>
+ 		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthEmailCasePlayerReceiveInMomentSurveyForAllInteractionOfSameCaseTest"/>
+ 		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseInmomentSurveyDisplayedBasedOnPercentageSetInSalesForceTest"/>
+ 		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCaseResolvedStatusSecondTimeInADayInMomementSurveyLink"/>
+ 		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthEmailCasePlayerReceiveInMomentSurveyForAllInteractionOfSameCaseTest"/> -->  
+ 		 <!-- Sprint 2 Cases Ends here -->
+ 		
+ 		<!-- Sprint 1 Chat Case In House and In Moment Survey -->
+ 		<!-- InHouse Surveys -->
+		<!-- <class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthChatCaseAndInHouseSurveyTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.CreateUnAuthChatCaseAndVerifyInHouseSurveyTest"/> 
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthChatCaseAndEscalateInHouseSurveyCaseTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthChatCaseAndTransferInHouseSurveyCaseTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthChatCaseCloseAndInHouseSurveyTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthChatCaseCloseAndInHouseSurveyTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthChatCaseCloseAndTransferInHouseSurveyCaseTest"/> -->
+					 
+		<!-- InMoment Surveys -->			 
+		<!-- <class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthChatCaseAndInMomentSurveyTest"/>			 
+	    <class name="com.wwce.ea.automation.integration.tests.vop.CreateUnAuthChatCaseAndVerifyInMomentSurveyTest"/>
+	    <class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthChatCaseAndTransferInMomentSurveyCaseTest"/> 
+	    <class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthChatCaseAndTransferInMomentSurveyCaseTest"/> 
+	    <class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthChatCaseAndEscalateInmomentSurveyCaseTest"/>
+	    <class name="com.wwce.ea.automation.integration.tests.vop.VerifyUnAuthChatCaseAndEscalateInmomentSurveyCaseTest"/>
+	    <class name="com.wwce.ea.automation.integration.tests.vop.VerifyAuthChatCaseCloseAndInMomentSurveyTest"/>
+	    <class name="com.wwce.ea.automation.integration.tests.vop.CreateUnAuthChatCaseCloseAndVerifyInMomentSurveyTest"/> -->
+	    <!-- Sprint 1 Chat Cases Ends Here  -->
+		</classes>
+	</test>
+</suite>

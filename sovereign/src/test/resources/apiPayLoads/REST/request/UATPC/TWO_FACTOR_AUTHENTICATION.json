@@ -1,0 +1,47 @@
+{
+	"QAPC": {
+		"headers": {
+			"S-RequestorId": "test",
+			"Authorization" : "Bearer 81d8b6e7a08a995dab5aab87dbb4de81!050fc1f8798488d3cb1b2390c751a72b",
+			"Content-Type" : "application/json"
+		},
+		"uri_param": {
+			"userId": "1000364103158"
+		},
+		"input_param": {
+			"status": "ENABLED"
+		},
+		"payload_param": {		
+		}
+	},
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "test",
+			"Authorization" : "Bearer 81d8b6e7a08a995dab5aab87dbb4de81!050fc1f8798488d3cb1b2390c751a72b",
+			"Content-Type" : "application/json"
+		},
+		"uri_param": {
+			"userId": "1000364103158"
+		},
+		"input_param": {
+			"status": "ENABLED"
+		},
+		"payload_param": {		
+		}
+	},
+	"UATPC": {
+		"headers": {
+			"S-RequestorId": "test",
+			"Authorization" : "Bearer 81d8b6e7a08a995dab5aab87dbb4de81!050fc1f8798488d3cb1b2390c751a72b",
+			"Content-Type" : "application/json"
+		},
+		"uri_param": {
+			"userId": "1000364103158"
+		},
+		"input_param": {
+			"status": "ENABLED"
+		},
+		"payload_param": {		
+		}
+	}
+}

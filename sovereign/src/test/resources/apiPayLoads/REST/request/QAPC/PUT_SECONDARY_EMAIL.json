@@ -1,0 +1,46 @@
+{
+	"global": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-AdminUserId": "WWCE-TOS",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49836": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			"userId": "12306029117"
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			"email": "guchauhan@contractor.ea.com"
+		}
+	},
+	"49837": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			"userId": "1230029117"
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			"email": "guchauhan@contractor.ea.com"
+		}
+	}
+}

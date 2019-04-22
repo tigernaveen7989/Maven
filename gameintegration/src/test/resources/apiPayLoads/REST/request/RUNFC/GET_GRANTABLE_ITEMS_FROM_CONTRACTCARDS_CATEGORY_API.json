@@ -1,0 +1,22 @@
+{
+	"19854": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json",
+			"S-PageNumber": "1",
+			"S-PageSize" : "10",
+ 			"Authorization" : "Bearer 37b7637ef1f26871b332719b6fe563d7!050fc1f8798488d3cb1b2390c751a72b"
+		},
+		"uri_param": {
+			"product": "fifa-19"
+		},
+		"input_param": {
+			"grantable" = "true",
+			"itemCategory" = "contractcards",
+			"platform": "xbox-one",
+			"userId": "1000361303982"
+		},
+		"payload_param": {}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"global": [{	
+		"response_code": 200,
+		"status": "SUCCESS"
+	}],
+
+	"19848": [{
+		"itemDefinitionId": "6000001",
+        "name": "Arsenal",
+        "itemCategory": "badgecards"
+	}],
+	
+	"19849": [{
+		"itemDefinitionId": "8120000",
+        "name": "EA SPORTS™ White / Blue",
+        "itemCategory": "ballcards"
+	}],
+	
+	"19854": [{
+		"itemDefinitionId": "5001001",
+        "name": "Player Bronze",
+        "itemCategory": "contractcards"
+	}],
+	
+	"19851": [{
+		"itemDefinitionId": "3000019",
+		"name": "N Dragomir",
+		"itemCategory": "fitnesscoachcards",
+	}]
+}

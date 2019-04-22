@@ -1,0 +1,208 @@
+{
+  "global":[{
+      "username":"bbehera@contractor.ea.com",
+      "password":"Ea_123456",
+      "uid":"Ranger",
+      "dob_ranger":"1990-09-12",
+      "fullname_roman":"Roman Regan",
+      "amount_st":"1223",
+      "amount_co":"2345",
+      "paytype1":"stipend",
+      "paytype2":"content",
+      
+      "invalidusername":"bbehera@contractor",
+      "invalidusername1":"bbehera@yahoo.com",
+      "invalidpassword":"Abc34i43t",
+      
+      "usersunilgc1":"stalasila@contractor.ea.com",
+      "passsunilgc1":"Sports456&",
+      "suniluid":"Alex",
+      "paypal_sunil":"stalasila@contractor.ea.com",
+      "entityType_sunil":"Individual",
+      "taxid_sunil":"090620218",
+      "fullname_sunil":"Sunil T",
+      "country_sunil":"United States",
+      "dob_sunil":"1975-11-23",
+      
+      "userGajagc1":"gchepoori@contractor.ea.com",
+      "passGajagc1":"Ts08eb6473@50612",
+      "gajauid":"BigThunder",
+      "paypal_gaja":"gchepoori@contractor.ea.com",
+      "entityType_gaja":"Individual",
+      "taxid_gaja":"AIk3023DA",
+      "fullname_gaja":"Gajanaad Cheepori",
+      "country_gaja":"United States",
+      "dob_gaja":"1983-06-12",
+         
+      "usernihalgc2":"nbismillah@contractor.ea.com",
+      "passnihalgc2":"$EAjalal@892820$",
+      "nihaluid":"BattleWarrior",
+      "paypal_nihal":"nbismillah@contractor.ea.com",
+      "entityType_nihal":"Individual",
+      "taxid_nihal":"33333",
+      "fullname_nihal":"Nihal N",
+      "country_nihal":"India",
+      "dob_nihal":"1987-03-03",
+      
+      "userSanjeetgc3":"sanjekumar@contractor.ea.com",
+      "passSanjeetgc3":"Shiva@04dec",
+      "sanjeetuid":"CrazyPilot",
+      "paypal_sanjeet":"sanjeekumar@contractor.ea.com",
+      "entityType_sanjeet":"Individual",
+      "taxid_sanjeet":"121i0jojoa",
+      "fullname_sanjeet":"Sanjeet N",
+      "country_sanjeet":"Gibraltar",
+      
+      "userOp2":"kvelampalli@contractor.ea.com",
+      "PassOp2":"Komal0304#",
+      "komaluid":"Riffle Shooter",
+      "paypal_komal":"kvelampalli@contractor.ea.com",
+      "entityType_komal":"Business",
+      "taxid_komal":"889896069",
+      "fullname_komal":"Komal eswar",
+      "country_komal":"India",
+      "dob_komal":"1992-09-13",
+      
+      "userGowri":"gvarada@ea.com",
+      "passGowri":"",
+      "gowriuid":"sha4crazy",
+      "paypal_gowri":"gvarada@ea.com",
+      "entityType_gowri":"Business",
+      "taxid_gowri":"999546774",
+      "fullName_gowri":"Shankar Varada",
+      "country_gowri":"India",
+      
+      "Add1_street":"Street 1",
+      "Add1_city":"City 1",
+      "Add1_state":"State 1",
+      "Add1_zip":"111111",
+      
+      "Add2_street":"Street 2",
+      "Add2_city":"City 2",
+      "Add2_state":"State 2",
+      "Add2_zip":"222222",
+      
+      "Add3_street":"Street 3",
+      "Add3_city":"City 3",
+      "Add3_state":"State 3",
+      "Add3_zip":"333333",
+      
+      
+      
+      "testmail1":"testmail@contractor.ea.com",
+      
+      "entityType1":"Business",
+      "entityType2":"Individual",
+      
+      "gcJoinedStatus1":"Joined",
+      "gcJoinedStatus2":"Not Joined",
+      "gcJoinedStatus3":"Invited",
+      
+      "Visibility_no":"Private",
+      "Visibility_yes":"Not Private",
+      "ApprovalReq_yes":"Required",
+      "ApprovalReq_no":"Not Required",
+      "OppoDesc1":"Test Description for Opportunity",
+      "OppoDesc2":"Edited Description for Opportunity",
+      "Location1":"Los Angeles",
+      "Location2":"San Diago",
+      "TravelTimes1":"Monday 11:00 AM",
+      "TravelTimes2":"Friday 8:00 PM",
+      "ApprovalManager1":"Self",
+      "ApprovalManager2":"Edited Self",
+      "BillingCode1":"BIL_EA_",
+      "BillingCode2":"BIL2_EA_",
+      "EventDesc1":"Event Description",
+      "EventDesc2":"Edited Event Description",
+      "Country" : "United States",
+      
+      "publishedStatus":"Published",
+      "unpublishedStatus":"Unpublished"
+      
+   	}],
+    
+    "112":[
+      {
+        "OppTitle":"GameName_",
+        "Visibility_no":"Private",
+        "Visibility_yes":"Not Private",
+        "ApprovalReq_yes":"Required",
+        "ApprovalReq_no":"Not Required",
+        "OpportunityDesc":"",
+        "Location":"",
+        "TravelTimes":"",
+        "ApprovalManager":"",
+        "BillingCode":"BIL_EA_",
+        "EventDesc":""
+      }],
+      
+      "42422": [{
+      }],
+      
+      "20426,20427,20431,42463,42466,42467" : [{
+      }],
+      
+      "20459,20513,42468,42470,42471,42484" : [{
+      }],
+      
+      "20494,20502,20505,20506,20510,42494,42495,42498" : [{
+      }],
+      
+      "20437,20438" : [{
+      }],
+      
+      "20432,20434,20435,20436,20447,20458,20504,42482" : [{
+      }],
+      
+      "20442,42477,42480" : [{
+      }],
+      
+      "16176" : [{
+      }],
+      
+      "16174" : [{
+      }],
+      
+      "16175" : [{
+      }],
+      
+      "42436,42499,42533,42568" : [{
+      }],
+      
+      "21058,21060,21075,21246,21301,40986,42420" : [{
+      }],
+      
+      "19889,21243" : [{
+      }],
+      
+      "42423,42424,17562" : [{
+      }],
+      
+      "16185,17583,42431,42432" : [{
+      }],
+      
+      "42434" : [{
+      }],
+      
+      "42425,42427,42428" : [{
+      }],
+      
+      "16188,16189" : [{
+      }],
+      
+      "17563,17564,17569" : [{
+      }],
+      
+      "16187" : [{
+      }],
+      
+      "42433,42435,42522,42529" : [{
+      }],
+      
+      "16193,16194" : [{
+      }],
+      
+      "16186" : [{
+      }]
+      
+}

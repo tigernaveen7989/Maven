@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GCN_Gc_Test_Suite">
+
+	<listeners>
+		<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+
+  <test name="GCN_Gc_Chrome">
+  
+  	<parameter name="executionMode" value="local" />
+
+	<parameter name="platform" value="WEB" />
+	<parameter name="operatingSystem" value="WINDOWS" />
+	<parameter name="browserName" value="Chrome" />
+	<parameter name="browserVersion" value="66" />
+	<parameter name="automationName" value="Test" />
+	<parameter name="testEnvironment" value="GC_QAPC" />
+	<parameter name="deviceName" value="" />
+	<parameter name="appPackage" value="" />
+	<parameter name="appActivity" value="" />
+	<parameter name="applicationId" value="" />
+	<parameter name="bundleId" value="" />
+	<parameter name="appiumURL" value="" />
+	<parameter name="planId" value="747" />
+	<parameter name="testType" value="Regression_UI" />
+
+    <classes>
+    
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcLoginTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcLogoutTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcInvalidLoginTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageMyDetailsTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageMiscDetailsTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageGamePrefTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageSocialTest"/>
+     
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettingsUiTest4"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettingsUiTest2"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettingsUiTest5"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettings_Legal_Tax_Test"/>
+     
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcOpportunityDetailsPageTest"/>
+    
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageMiscDetailsTest"/> 
+     
+<!-- 
+	 <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettings_Legal_Tax_Test"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettingsTest2"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcLoginTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcLogoutTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcInvalidLoginTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageMyDetailsTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageGamePrefTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageSocialTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcProfilePageMiscDetailsTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettingsUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettingsUiTest2"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcPageUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettingsUiTest4"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcPaymentSettingsUiTest5"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnGcOpportunityJoiningTest"/>
+
+ -->
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

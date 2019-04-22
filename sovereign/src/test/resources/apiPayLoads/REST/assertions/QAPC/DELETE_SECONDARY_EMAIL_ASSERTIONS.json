@@ -1,0 +1,19 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49834": [
+		{
+			"status": "SUCCESS",
+			"response": "SUCCESS"
+		}
+	],
+	"49835": [
+		{
+			"errorShortMessage": "USER_NOT_FOUND",
+			"errorMessage": "User not found"
+		}
+	]
+}

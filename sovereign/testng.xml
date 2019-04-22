@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SovereignTestSuite">
+	<listeners>
+		<listener
+			class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+	<test name="API_tests">
+		<parameter name="executionMode" value="local" />
+		<parameter name="platform" value="WEB" />
+		<parameter name="operatingSystem" value="WINDOWS" />
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="browserVersion" value="52" />
+		<parameter name="automationName" value="Test" />
+		<parameter name="testEnvironment" value="QAPC" />
+		<parameter name="deviceName" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="applicationId" value="" />
+		<parameter name="bundleId" value="" />
+		<parameter name="appiumURL" value="" />
+		<parameter name="planId" value="919" />
+		<parameter name="testType" value="Regression" />
+
+	  <classes> <!-- Currently put and post scripts not working due to framework issues -->
+	 <!--  <class name="com.ea.wwce.automation.sovereign.api.tests.POSTPlayerNotesApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GetChannelsAvailableForUserInvalidApiTest"/>
+    <!--   <class name="com.ea.wwce.automation.sovereign.api.tests.PUTSecondaryEmailApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETEmailAddressCheckApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETUserFlaggingTypesNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETUserStatusesSetNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETTwoFactorAuthenticationNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETMappedProductApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETResetCustomerPasswordNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETPhoneWaitTimeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETChatEstimatedWaitTimeNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETSecondaryEmailCodeNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETChannelConfigurationApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETSecondaryEmailCodeApiTest"/>
+    <!--   <class name="com.ea.wwce.automation.sovereign.api.tests.PUTTwoFactorAuthenticationNegativeApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETNucleasAccountBasicDetailsNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETMDMProjectDetailsByProjectIDNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETRelationshipsByUserIdNegativeApiTest"/>
+     <!--  <class name="com.ea.wwce.automation.sovereign.api.tests.PUTNucleusUsersAccountEmailNegativeApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETSearchMDMProjectsApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETOFBDetailsByCategoryIDApiTest"/>
+     <!--  <class name="com.ea.wwce.automation.sovereign.api.tests.PUTTwoFactorAuthenticationApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.PUTNucleusAccountBasicInfoNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.POSTTwoFactorAuthCodesApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.DeleteSecondaryEmailApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETNucleasAccountBasicDetailsApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETCustomerLoginHistoryApiTest"/>
+      <!-- <class name="com.ea.wwce.automation.sovereign.api.tests.PUTNucleusAccountDetailedInfolApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETGeoLocationDetailsApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETRelationshipsByUserIdApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETExternalUserDetailApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETMappedProductInvalidApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.DELETEUserSecurityStateNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.DeleteAddressIdByAddressIdNegativeApiTest"/>
+      <!-- <class name="com.ea.wwce.automation.sovereign.api.tests.PUTNucleusUsersAccountEmailApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETUserFlaggingTypesApiTest"/>
+      <!-- <class name="com.ea.wwce.automation.sovereign.api.tests.PUTNucleusAccountDetailedInfoNegativeApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETChatWaitTimeNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETCustomerAccountChangeHistoryApiTest"/>    
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETEmailChangeHistoryRecordsNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GetOFBProductDetailsByOFByProductIDNegativeApiTest"/>     
+     <!--  <class name="com.ea.wwce.automation.sovereign.api.tests.PUTNucleusAccountBasicInfoApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETChatEstimatedWaitTimeApiTest"/>
+      <!-- <class name="com.ea.wwce.automation.sovereign.api.tests.POSTPlayerNotesInvalidApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETAddressByAddressIdApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETMDMProjectDetailsByProjectIDApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETExternalUserDetailInvalidApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETSearchMDMProjectsInvalidApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETCRMProjectDetailsByProjectIDNegativeApiTest"/>
+     <!--  <class name="com.ea.wwce.automation.sovereign.api.tests.PUTSecondaryEmailInvalidApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.DeleteAddressIdByAddressIdApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETAddressByAddressIdNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETTwoFactorAuthenticationApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETPlayerNotesApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETResetCustomerPasswordApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETEntitlementPersonaAssociationsNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETCustomerAccountChangeHistoryNegativeApiTest"/>
+     <!--  <class name="com.ea.wwce.automation.sovereign.api.tests.POSTGenerateEncryptedTokenApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETOFBDetailsByCategoryIDNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETPlayerNotesApiNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.DELETEUserSecurityStateApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETGeoLocationDetailsNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETEmailAddressCheckWithRegisterEmailApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETUserStatusesSetApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETAgeRequirementsNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETEmailChangeHistoryRecordsApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETNucleasAccountDetailsNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GetChannelsAvailableForUserApiTest"/>
+     <!--  <class name="com.ea.wwce.automation.sovereign.api.tests.POSTTwoFactorAuthCodesNegativeApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETCurrencyListForCRMProductNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETCRMProjectDetailsByProjectIDApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETCustomerLoginHistoryNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETEntitlementPersonaAssociationsApiTest"/>
+      <!-- <class name="com.ea.wwce.automation.sovereign.api.tests.POSTGenerateEncryptedTokenInvalidApiTest"/> -->
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETNucleasAccountDetailsApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETEmailAddressCheckNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETNucleusUserDetailsByBESLUserIdNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GetOFBProductDetailsByOFByProductID"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETChatWaitTimeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETNucleusUserDetailsByBESLUserIdApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETCurrencyListForCRMProductApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETAgeRequirementsApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETPhoneWaitTimeNegativeApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.DeleteSecondaryEmailInvalidApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETExternalAccountReferencesApiTest"/>
+      <class name="com.ea.wwce.automation.sovereign.api.tests.GETExternalAccountReferencesNegativeApiTest"/>
+       <class name="com.ea.wwce.automation.sovereign.api.tests.GETPUTPOSTPUTTwoFactorAuthOrchTest"/>
+        <class name="com.ea.wwce.automation.sovereign.api.tests.POSTCreditCardAccountApiTest"/>
+	 </classes>
+	</test>
+</suite>

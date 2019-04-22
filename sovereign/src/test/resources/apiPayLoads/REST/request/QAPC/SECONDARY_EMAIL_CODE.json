@@ -1,0 +1,35 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"49307": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"userId": "1000069994137"
+		},
+		"input_param": {
+			"email": "trevenishete@yahoo.co.in"
+		}
+	},
+	"49308": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"userId": "345565567"
+		},
+		"input_param": {
+			
+		}
+	}
+}

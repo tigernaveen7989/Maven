@@ -1,0 +1,39 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"50991": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "true",
+			"S-ExpandResults": "true"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"categoryId": "10001"
+		}
+	},
+	"50992": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "true",
+			"S-ExpandResults": "true"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"categoryId": "1000"
+		}
+	}
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VOPTestSuite">
+<listeners>
+	<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener"/>
+</listeners>
+
+<test name="APITests"> 
+ 	<parameter name="executionMode" value="local"/> 	
+ 	<parameter name="platform" value="API"/> 	
+ 	<parameter name="operatingSystem" value="WINDOWS"/> 	
+ 	<parameter name="browserName" value=""/> 	
+ 	<parameter name="browserVersion" value=""/> 	
+ 	<parameter name="automationName" value="Test"/> 
+ 	<parameter name="testEnvironment" value="QAPC"/>	
+ 	<parameter name="deviceName" value=""/> 	
+ 	<parameter name="appPackage" value=""/> 	
+ 	<parameter name="appActivity" value=""/> 	
+ 	<parameter name="applicationId" value=""/> 	
+ 	<parameter name="bundleId" value=""/> 	
+ 	<parameter name="appiumURL" value=""/> 
+ 	<parameter name="planId" value="1282"/>
+ 	<parameter name="testType" value="Regression"/> 
+    <classes>   
+
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWith2AdvisorsApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWith3AdvisorsApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWith4AdvisorsApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWith5AdvisorsApiTest"/> 
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithInvalidCaseEndTimeApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithInvalidCaseStartTimeApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithInvalidInteractionStartTimeApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithMultipleErrorsApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithNegativeCaseNumberApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithNegativeFraudScoreApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutAdvisorContactDateApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutAdvisorEmailApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutAdvisorJobRoleApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutAdvisorManagerEmailApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutAdvisorManagerNameApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutAdvisorNameApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutAdvisorSGApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutAdvisorSiteApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutAdvisorTierApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutCaseNumberApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutCaseStatusApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutEmailApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutGatewayAliasApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutSegmentApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithStringCaseNumberApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithZeroCaseNumberApiTest"/>
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutFirstNameApiTest"/> 
+	  <class name="com.ea.wwce.automation.vop.api.tests.POSTOutboundSurveyCreationWithoutLastNameApiTest"/> 
+	      	 
+    </classes>
+</test>		
+
+</suite>

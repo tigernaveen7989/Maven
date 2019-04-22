@@ -1,0 +1,212 @@
+{
+	"BIFROST_PETITION_SAVE_API": {
+		"endpoint_name": "API to Save Petition",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_PETITION_SAVE.json",
+		"assertions": "BIFROST_PETITION_SAVE_ASSERTIONS.json"
+	},
+	"BIFROST_PETITION_NON_NUCLEUS_SAVE_API": {
+		"endpoint_name": "API to Save Non Nucleus Petition",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_PETITION_NON_NUCLEUS_SAVE.json",
+		"assertions": "BIFROST_PETITION_NON_NUCLEUS_SAVE_ASSERTIONS.json"
+	},
+	"BIFROST_PETITIONER_USERID_NULL_VALIDATION": {
+		"endpoint_name": "API to get error message for null value of Petitioner User Id",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_PETITIONER_USERID_NULL_VALIDATION.json",
+		"assertions": "BIFROST_PETITIONER_USERID_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_PETITIONER_ACCOUNTTYPE_NULL_VALIDATION": {
+		"endpoint_name": "API for null value of Petitioner account type",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_PETITIONER_ACCOUNTTYPE_NULL_VALIDATION.json",
+		"assertions": "BIFROST_PETITIONER_ACCOUNTTYPE_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_PETITIONER_PERSONANAMESPACE_NULL_VALIDATION": {
+		"endpoint_name": "API for null value of Petitioner Persona name space",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_PETITIONER_PERSONANAMESPACE_NULL_VALIDATION.json",
+		"assertions": "BIFROST_PETITIONER_PERSONANAMESPACE_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_PATFORM_NULL_VALIDATION": {
+		"endpoint_name": "API to get error message for null value of Platform",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_PLATFORM_NULL_VALIDATION.json",
+		"assertions": "BIFROST_PLATFORM_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_PETITIONER_EMAIL_NULL_VALIDATION": {
+		"endpoint_name": "API to get error message for null value of Petitioner Email",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_PETITIONER_EMAIL_NULL_VALIDATION.json",
+		"assertions": "BIFROST_PETITIONER_EMAIL_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_PRODUCT_NULL_VALIDATION": {
+		"endpoint_name": "API to get error message for null value of Product",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_PRODUCT_NULL_VALIDATION.json",
+		"assertions": "BIFROST_PRODUCT_NULL_VALIDATION_ASSERTIONS.json"
+	},
+
+	"BIFROST_TARGET_USERID_NULL_VALIDATION": {
+		"endpoint_name": "API to get error message for null value of Target User       Id",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_TARGET_USERID_NULL_VALIDATION.json",
+		"assertions": "BIFROST_TARGET_USERID_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_TARGET_ACCOUNTTYPE_NULL_VALIDATION": {
+		"endpoint_name": "API for null value of target account type",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_TARGET_ACCOUNTTYPE_NULL_VALIDATION.json",
+		"assertions": "BIFROST_TARGET_ACCOUNTTYPE_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_TARGET_PERSONANAMESPACE_NULL_VALIDATION": {
+		"endpoint_name": "API for null value of target Persona name Space",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_TARGET_PERSONANAMESPACE_NULL_VALIDATION.json",
+		"assertions": "BIFROST_TARGET_PERSONANAMESPACE_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_TARGET_EMAIL_NULL_VALIDATION": {
+		"endpoint_name": "API to get error message for null value of target Email",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_TARGET_EMAIL_NULL_VALIDATION.json",
+		"assertions": "BIFROST_TARGET_EMAIL_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_CATEGORY_NULL_VALIDATION": {
+		"endpoint_name": "API to get error message for null value of Category",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_CATEGORY_NULL_VALIDATION.json",
+		"assertions": "BIFROST_CATEGORY_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_CONTENTTYPE_NULL_VALIDATION": {
+		"endpoint_name": "API for null value of Content Type",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_CONTENTTYPE_NULL_VALIDATION.json",
+		"assertions": "BIFROST_CONTENTTYPE_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_CONTENTURL_NULL_VALIDATION": {
+		"endpoint_name": "API to get error message for null value of Content URL",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_CONTENTURL_NULL_VALIDATION.json",
+		"assertions": "BIFROST_CONTENTURL_NULL_VALIDATION_ASSERTIONS.json"
+	},
+
+	"BIFROST_SUBJECT_NULL_VALIDATION": {
+		"endpoint_name": "API to get error message for null value of Subject",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_SUBJECT_NULL_VALIDATION.json",
+		"assertions": "BIFROST_SUBJECT_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_TARGET_PERSONAID_NULL_VALIDATION": {
+		"endpoint_name": "API for null value of Target Persona ID",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_TARGET_PERSONAID_NULL_VALIDATION.json",
+		"assertions": "BIFROST_TARGET_PERSONAID_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_PETITIONER_PERSONAID_NULL_VALIDATION": {
+		"endpoint_name": "API for null value of Petitioner Persona ID",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_PETITIONER_PERSONAID_NULL_VALIDATION.json",
+		"assertions": "BIFROST_PETITIONER_PERSONAID_NULL_VALIDATION_ASSERTIONS.json"
+	},
+	"BIFROST_CONTENT_TEXT_NULL_VALIDATION": {
+		"endpoint_name": "API for null value of Content Text",
+		"url": "/petition",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "BIFROST_CONTENT_TEXT_NULL_VALIDATION.json",
+	    "assertions": "BIFROST_CONTENT_TEXT_NULL_VALIDATION_ASSERTIONS.json"
+	},
+    "SOV_AUTH_TOKEN_API": {
+		"endpoint_name": "API to get SOV AUTH TOKEN",
+		"url": "/oauth/token",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "SOV_AUTH_TOKEN.json"
+	},
+	
+	"POST_Content_Actions_View_Positive": {
+		"endpoint_name": "API to Post View Content Action",
+		"url": "/thor/contentaction",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_Content_View_Positive.json",
+		"assertions": "POST_Content_View_Positive_Assertions.json"
+	},
+	"POST_Content_Actions_View_Negative": {
+		"endpoint_name": "API to Post View Content Action",
+		"url": "/thor/contentaction",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_Content_View_Negative.json",
+		"assertions": "POST_Content_View_Negative_Assertions.json"
+	},
+	"POST_Content_Actions_Hide_Positive": {
+		"endpoint_name": "API to Post View Content Action",
+		"url": "/thor/contentaction",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_Content_Hide_Positive.json",
+		"assertions": "POST_Content_Hide_Positive_Assertions.json"
+	},
+	"POST_Content_Actions_Hide_Negative": {
+		"endpoint_name": "API to Post View Content Action",
+		"url": "/thor/contentaction",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_Content_Hide_Negative.json",
+		"assertions": "POST_Content_Hide_Negative_Assertions.json"
+	},
+	"POST_Content_Actions_Unhide_Positive": {
+		"endpoint_name": "API to Post View Content Action",
+		"url": "/thor/contentaction",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_Content_Unhide_Positive.json",
+		"assertions": "POST_Content_Unhide_Positive_Assertions.json"
+	},
+	"POST_Content_Actions_Unhide_Negative": {
+		"endpoint_name": "API to Post View Content Action",
+		"url": "/thor/contentaction",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_Content_Unhide_Negative.json",
+		"assertions": "POST_Content_Unhide_Negative_Assertions.json"
+	}
+}

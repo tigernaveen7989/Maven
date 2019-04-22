@@ -1,0 +1,50 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49701": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"userId": "1000069994137"
+		},
+		"input_param": {
+			"email": "omegaeahelpautomation_new@gmail.com",
+			"lastName": "API",
+			"firstName": "Automation",
+			"locale": "en_US"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49702": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"userId": "100009994137"
+		},
+		"input_param": {
+			"email": "omegaeahelpautomation_new@gmail.com",
+			"lastName": "API",
+			"firstName": "Automation",
+			"locale": "en_US"
+		},
+		"payload_param": {
+			
+		}
+	}
+}

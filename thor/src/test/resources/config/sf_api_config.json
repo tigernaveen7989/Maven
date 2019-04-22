@@ -1,0 +1,52 @@
+{
+	"SF_AUTH_TOKEN_API": {
+		"endpoint_name": " SF API to get AUTH TOKEN",
+		"url": "/services/oauth2/token",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "SF_AUTH_TOKEN.json"
+	},
+	"SF_BIFROST_PETITION_SAVE_API": {
+		"endpoint_name": "SF API to Save Petition",
+		"url": "/services/apexrest/Petition?cmd=CreatePetitionCase",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "SF_BIFROST_PETITION_SAVE.json"
+	},
+	"SF_BIFROST_PETITIONER_USERID_NULL_VALIDATION": {
+		"endpoint_name": " SF API to get error message for null value of Petitioner User Id",
+		"url": "/services/apexrest/Petition?cmd=CreatePetitionCase",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "SF_BIFROST_PETITIONER_USERID_NULL_VALIDATION.json"
+	},
+	"SF_BIFROST_PATFORM_NULL_VALIDATION": {
+		"endpoint_name": "SF API to get error message for null value of Platform",
+		"url": "/services/apexrest/Petition?cmd=CreatePetitionCase",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "SF_BIFROST_PLATFORM_NULL_VALIDATION.json"
+	},
+	"SF_BIFROST_PRODUCT_NULL_VALIDATION": {
+		"endpoint_name": "SF API to get error message for null value of Product",
+		"url": "/services/apexrest/Petition?cmd=CreatePetitionCase",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "SF_BIFROST_PRODUCT_NULL_VALIDATION.json"
+	},
+	"SF_BIFROST_TARGET_USERID_NULL_VALIDATION": {
+		"endpoint_name": "SF API to get error message for null value of Target User       Id",
+		"url": "/services/apexrest/Petition?cmd=CreatePetitionCase",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "SF_BIFROST_TARGET_USERID_NULL_VALIDATION.json"
+	},
+	"SF_BIFROST_CATEGORY_NULL_VALIDATION": {
+		"endpoint_name": "SF API to get error message for null value of Category",
+		"url": "/services/apexrest/Petition?cmd=CreatePetitionCase",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "SF_BIFROST_CATEGORY_NULL_VALIDATION.json"
+	}
+
+}

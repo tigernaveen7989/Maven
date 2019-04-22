@@ -1,0 +1,76 @@
+{
+	"global": [{
+		
+	}],
+	
+	"27260": [{
+		"response_code":200,
+		"type":"STIPEND"
+	}],
+	
+	"27261": [{
+		"response_code":200
+	}],
+	
+	"27281": [{
+		"response_code":200
+	}],
+	
+	"27301": [{
+		"response_code":200,
+		"count": 0,
+    	"total": 0
+	}],
+	
+	"27263": [{
+		"response_code":200
+	}],
+	
+	"27269": [{
+		"response_code":200
+	}],
+	
+	"27275": [{
+		"response_code":200
+	}],
+	
+	"27265": [{
+		"response_code":200
+	}],
+	
+	"27271": [{
+		"response_code":200
+	}],
+	
+	"27277": [{
+		"response_code":200
+	}],
+	
+	"27280": [{
+		"response_code":200
+	}],
+	
+	"27284": [{
+		"response_code":200
+	}],
+	
+	"27288": [{
+		"response_code":200
+	}],
+	
+	"27292": [{
+		"response_code":200
+	}],
+	
+	"27296": [{
+		"response_code":200
+	}],
+	
+	"27300": [{
+		"response_code":404
+	}]
+	
+	
+	
+	
+}

@@ -1,0 +1,35 @@
+{
+	"global": [
+		{
+			"response_code": 200,
+			"status": "SUCCESS",
+			"failed_status": "ERROR"
+		}
+	],
+	"20488": [
+		{
+			"invoiceId": 1010639304095,
+			"invoiceUuid": "99cecf1c-d765-4a2a-8a96-e68ac318fc61",
+			"source": "EADP_CART_INVOICE"
+		}
+	],
+	"35505": [
+		{
+			"errorMessage": "Validation failed",
+			"sourceMessage": "accountId or userId should be passed as input"
+		}
+	],
+	"36033": [
+		{
+			"invoiceId": 1010639304095,
+			"invoiceUuid": "99cecf1c-d765-4a2a-8a96-e68ac318fc61",
+			"source": "EADP_CART_INVOICE"
+		}
+	],
+	"36034": [
+		{
+			"errorMessage": "Validation failed",
+			"sourceMessage": "accountId or userId should be passed as input"
+		}
+	]
+}

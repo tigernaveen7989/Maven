@@ -1,0 +1,57 @@
+{
+	"global": [
+		{
+			"response_code": 200,
+			"status": "SUCCESS",
+			"failed_status": "ERROR"
+		}
+	],
+	"20485": [
+		{
+			"configId": 431,
+			"skillName": "eai-main-es_ES",
+			"skillLocale": "es_ES",
+			"skillDescription": "eai-main-es_ES",
+			"waitTimeInSeconds": 9,
+			"score": 180,
+			"inBusinessHours": true,
+			"buttonId": "5731b0000004CP6"
+		}
+	],
+	"35500": [
+		{
+			"errorMessage": "Validation failed",
+			"sourceMessage": "Parameter crmProduct Missing"
+		}
+	],
+	"35501": [
+		{
+			"errorMessage": "Validation failed",
+			"sourceMessage": "Parameter platform Missing"
+		}
+	],
+	"35502": [
+		{
+			"errorMessage": "Validation failed",
+			"sourceMessage": "Parameter category Missing"
+		}
+	],
+	"35503": [
+		{
+			"configId": 431,
+			"skillName": "eai-main-es_ES",
+			"skillLocale": "es_ES",
+			"skillDescription": "eai-main-es_ES",
+			"waitTimeInSeconds": 9,
+			"score": 180,
+			"inBusinessHours": true,
+			"buttonId": "5731b0000004CP6"
+		}
+	],
+	"35504": [
+		{
+			"errorMessage": "Validation failed",
+			"sourceMessage": "Parameter locale Missing"
+		}
+	]
+}

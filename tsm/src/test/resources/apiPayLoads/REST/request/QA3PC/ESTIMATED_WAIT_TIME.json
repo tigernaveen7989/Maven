@@ -1,0 +1,135 @@
+{
+	"global": {
+		"headers": {
+			"S-RequestorId": "WWCE-UD"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"20485": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"crmProduct": "blooop",
+			"crmCustomLabel": "-",
+			"locale": "en_US",
+			"platform": "pogo",
+			"lifeCycle": "-",
+			"category": "manage-my-account",
+			"subCategory": "delete-account",
+			"customerValue": "-"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"35500": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"crmCustomLabel": "-",
+			"locale": "en_US",
+			"platform": "pogo",
+			"lifeCycle": "-",
+			"category": "manage-my-account",
+			"subCategory": "delete-account",
+			"customerValue": "-"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"35501": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"crmProduct": "blooop",
+			"crmCustomLabel": "-",
+			"locale": "en_US",
+			"lifeCycle": "-",
+			"category": "manage-my-account",
+			"subCategory": "delete-account",
+			"customerValue": "-"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"35502": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"crmProduct": "blooop",
+			"crmCustomLabel": "-",
+			"locale": "en_US",
+			"platform": "pogo",
+			"lifeCycle": "-",
+			"subCategory": "delete-account",
+			"customerValue": "-"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"35503": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"crmProduct": "blooop",
+			"crmCustomLabel": "-",
+			"locale": "en_US",
+			"platform": "pogo",
+			"lifeCycle": "-",
+			"category": "manage-my-account",
+			"customerValue": "-"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"35504": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"crmProduct": "blooop",
+			"crmCustomLabel": "-",
+			"platform": "pogo",
+			"lifeCycle": "-",
+			"category": "manage-my-account",
+			"subCategory": "delete-account",
+			"customerValue": "-"
+		}
+	}
+}
+

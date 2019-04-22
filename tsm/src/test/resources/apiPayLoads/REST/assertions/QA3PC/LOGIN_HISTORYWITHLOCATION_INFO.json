@@ -1,0 +1,24 @@
+{
+	"global": [
+		{
+			"response_code": 200,
+			"status": "SUCCESS",
+			"failed_status": "ERROR"
+		}
+	],
+	"54527": [
+		{
+			
+		}
+	],
+	"57329": [
+		{
+		"errorShortMessage": "VALIDATION_FAILED",
+        "errorMessage": "Validation failed",
+        "layerId": "ORG",
+        "sourceId": "INT",
+        "sourceMessage": "Parameter id Missing"
+		}
+	]
+	
+}

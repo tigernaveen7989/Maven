@@ -1,0 +1,21 @@
+{
+	"global": [
+		{
+			"response_code": 200,
+			"status": "SUCCESS"
+		}
+	],
+	"43457": [
+		{
+			"status": "SUCCESS",
+			"skillName": "games-main-en_US"
+		}
+	],
+	"43458": [
+		{
+			"status": "ERROR",
+			"errorShortMessage": "SKILL_NOT_FOUND",
+			"errorMessage": "Skill not found."
+		}
+	]
+}

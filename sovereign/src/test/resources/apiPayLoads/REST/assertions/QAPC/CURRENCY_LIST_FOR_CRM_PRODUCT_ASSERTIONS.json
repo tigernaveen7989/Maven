@@ -1,0 +1,19 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49990": [
+		{
+			"name": "_FF",
+			"description": "FIFA Points"
+		}
+	],
+	"49991": [
+		{
+			"errorShortMessage": "NO_MATCHING_DATA_FOUND",
+			"sourceMessage": "No currency details found for specified CRM product."
+		}
+	]
+}

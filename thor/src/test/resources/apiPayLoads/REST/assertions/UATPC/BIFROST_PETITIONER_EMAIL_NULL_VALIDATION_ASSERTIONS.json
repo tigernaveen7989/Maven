@@ -1,0 +1,15 @@
+{
+	"global":[ {	
+		"response_code": 200,
+		"error_code": 400,
+		"failed_status": "ERROR",
+		"Success_status": "SUCCESS"
+	}
+	],
+
+	"4334":[ {
+		"message": "EAIT-1005:Specify Petitioner's email address or in-game id for mobile."
+		            
+	}
+	]
+}

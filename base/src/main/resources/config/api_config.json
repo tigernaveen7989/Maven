@@ -1,0 +1,16 @@
+{
+	"PREMIUM_CUSTOMER_VALUE": {
+		"endpoint_name": "PREMIUM_CUSTOMER_VALUE",
+		"url": "/entitlements/users/<userId>/customervaluelevel",
+		"service_type": "REST",
+		"call_type": "GET",
+		"testdata_file": "PREMIUM_CUSTOMER_VALUE.json"
+	},
+	"GET_COUNTRIES": {
+		"endpoint_name": "Get Countries",
+		"url": "/account/countries",
+		"service_type": "REST",
+		"call_type": "GET",
+		"testdata_file":"GET_COUNTRIES.json"
+	}
+}

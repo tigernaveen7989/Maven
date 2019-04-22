@@ -1,0 +1,43 @@
+{
+	"global": [
+		{
+			"username": "tsmemailadvisor@gmail.com.qa3pc",
+			"password": "Test12!@"
+		}
+	],
+	"15991": [
+		{
+			"JobRole": "Admin Email"
+		}
+	],
+	"15352,15353,16932,16933,15354,15355,21303,15352": [
+		{
+			"StatusAvlEmail": "Available - Email",
+			"StatusAvlChat": "Available - Chat",
+			"StatusBreak": "Break",
+			"StatusAvlMeeting": "Meeting",
+			"StatusAvlTraining": "Training",
+			"StatusAvlOffline": "Offline"
+		}
+	],
+	"15821, 40702, 40703, 40704, 40705": [
+		{
+			"playerAcc": "TSM Automation",
+			"productVal": "FIFA 19",
+			"platformVal": "PC",
+			"categoryVal": "Game information",
+			"subcategoryVal": "Game modes",
+			"casesubject": "Create case for Automation"
+		}
+	],
+	"14409": [
+		{
+			"txtNotes": "Notes added for automation Testing"
+		}
+	],
+	"18901": [
+		{
+			
+		}
+	]
+}

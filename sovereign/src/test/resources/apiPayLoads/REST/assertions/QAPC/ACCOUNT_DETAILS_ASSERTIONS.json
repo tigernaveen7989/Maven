@@ -1,0 +1,29 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"43486": [
+		{
+		"userId": 1000024171932,
+        "mobileNumber": "5125836193",
+        "securityQuestion1": "What was your first job?",
+        "securityAnswer1": "Automation1",
+        "securityQuestion2": "What do you do?",
+        "securityAnswer2": "Automation",
+        "securityQuestion3": "What is your current job?",
+        "securityAnswer3": "Automation3",
+        "securityState": "GREEN",       
+        "userValue": "PLATINUM"
+		}
+	],
+	
+	"43487":[
+		{
+			"status": "PARTIAL_SUCCESS",
+			"errorCode": "SVC-NUC-10002",
+			"errorShortMessage": "USER_NOT_FOUND"
+		}
+	]
+}

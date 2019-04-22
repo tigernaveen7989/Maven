@@ -1,0 +1,54 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49305": [ {
+		 "userReasonCodeList":[
+		    "NONE",
+            "REACTIVATED_CUSTOMER",
+            "INVALID_EMAIL",
+            "PRIVACY_POLICY",
+            "PARENTS_REQUEST",
+            "SUSPENDED_MISCONDUCT_GENERAL",
+            "SUSPENDED_MISCONDUCT_HARASSMENT",
+            "SUSPENDED_MISCONDUCT_MACROING",
+            "SUSPENDED_MISCONDUCT_EXPLOITATION",
+            "SUSPENDED_FRAUD",
+            "CUSTOMER_OPT_OUT",
+            "CUSTOMER_UNDER_AGE",
+            "EMAIL_CONFIRMATION_REQUIRED",
+            "MISTYPED_ID",
+            "ABUSED_ID",
+            "DEACTIVATED_EMAIL_LINK",
+            "DEACTIVATED_CS",
+            "CLAIMED_BY_TRUE_OWNER",
+            "BANNED",
+            "BANNED_CHARGEBACK_RECEIVED",
+            "PERMANENT_BAN_RSO",
+            "BANNED_FRAUD_REVIEW",
+            "BANNED_ACCOUNT_TAKEOVER"
+       ] },
+        {"userStatusesList": [
+            "VOLATILE",
+            "PENDING",
+            "ACTIVE",
+            "DEACTIVATED",
+            "DISABLED",
+            "TENTATIVE",
+            "DELETED",
+            "BANNED",
+            "CHILD_PENDING",
+            "CHILD_APPROVED",
+            "INCOMPLETE",
+            "INCOMPLETE_PHONE"
+        ]}
+	],
+	"49306": [
+		{
+			"errorShortMessage": "AUTHORIZATION_FAILED",
+			"errorMessage": "Unauthorized access"
+		}
+	]
+}

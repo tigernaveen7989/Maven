@@ -1,0 +1,23 @@
+{
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "nhl-18"
+		},
+		"input_param": {
+			"id" : "1000120903982",
+			"idType" : "BlazeId",
+			"startDate" : "2018-09-14T18:30Z",
+			"endDate" : "2018-09-21T18:29Z",
+			"textFilter" : "tips+Full+Set",
+			"txCategory" : "ADDEDTOSET",
+			"platform" : "xone",
+			"userId" : "1000361303982"
+		},
+		"payload_param": {}
+	}
+}

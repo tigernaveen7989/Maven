@@ -1,0 +1,60 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49148": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"		
+		},
+		"uri_param": {
+			"userId": "1000069994137"
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"97034":{
+		"GET_TWO_FACTOR_AUTH": {
+			"headers": {
+				"S-RequestorId": "WWCE-TOS"		
+			},
+			"uri_param": {
+				"userId": "1000069994137"
+			},
+			"input_param": {
+				
+			},
+			"payload_param": {
+				
+			}
+		}
+	},
+	"49149": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"			
+		},
+		"uri_param": {
+			"userId": "22546212"
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	}
+}

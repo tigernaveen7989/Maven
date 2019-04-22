@@ -1,0 +1,52 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49741": [
+		{
+			"userId": 12305139246,
+			"profileInfo": {
+				"MOBILE_INFO": "SUCCESS",
+				"GENDER": "SUCCESS",
+				"SECURITY_QA": "SUCCESS"
+			},
+			"externalReferences": {
+				"10032409818": "SUCCESS",
+				"10032396164": "SUCCESS"
+			},
+			"addresses": {
+				"8966676": "SUCCESS",
+				"456567575": "SUCCESS"
+			},
+			"personas": {
+				"406661743": "SUCCESS"
+			}
+		}
+	],
+	"49742": [
+		{
+			"status": "ERROR",
+			"response": {
+				"userId": 12305139246,
+				"profileInfo": {
+					"MOBILE_INFO": "SUCCESS",
+					"GENDER": "SUCCESS",
+					"SECURITY_QA": "SUCCESS"
+				},
+				"externalReferences": {
+					"POGO_PRODUserId": "SUCCESS",
+					"FACEBOOKUserId": "SUCCESS"
+				},
+				"addresses": {
+					"8966676": "ERROR: Error Code: 09998, Error Message: VALIDATION_FAILED,  cause:INVALID_VALUE, field:type, value:SOMETHINGELSE",
+					"456567575": "SUCCESS"
+				},
+				"personas": {
+					"406661743": "SUCCESS"
+				}
+			}
+		}
+	]
+}

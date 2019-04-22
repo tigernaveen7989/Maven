@@ -1,0 +1,24 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49635": [
+		{
+			"ipAddress": "159.153.4.96",
+			"country": "US",
+			"region": "California",
+			"city": "Redwood City",
+			"zipcode": "94065",
+			"latitude": "37.53475",
+			"longitude": "-122.24714"
+		}
+	],
+	"49636": [
+		{
+			"errorShortMessage": "VALIDATION_FAILED",
+			"errorMessage": "Validation failed"
+		}
+	]
+}

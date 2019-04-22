@@ -1,0 +1,78 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49814": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"userId": "1000364103158"
+		},
+		"input_param": {
+			"status": "ENABLED"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49815": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"userId": "10004103158"
+		},
+		"input_param": {
+			"status": "ENABLED"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"97034": {
+	"PUT_TWO_FACTOR_AUTHENTICATION@1":{
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache":"false"
+		},
+		"uri_param": {
+			"userId": "1000069994137"
+		
+		},
+		"input_param": {
+			"status": "ENABLED"
+		},
+		"payload_param": {
+			
+		}
+		},
+		"PUT_TWO_FACTOR_AUTHENTICATION@2":{
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache":"false"
+		},
+		"uri_param": {
+			"userId": "1000069994137"
+		
+		},
+		"input_param": {
+			"status": "DISABLED"
+		},
+		"payload_param": {
+			
+		}
+		}
+	}
+}

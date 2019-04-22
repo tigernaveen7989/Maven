@@ -1,0 +1,18 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49662": [
+		{
+			"status": "SUCCESS"
+		}
+	],
+	"49663": [
+		{
+			"errorShortMessage": "USER_NOT_FOUND",
+			"errorMessage": "User not found"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49701": [
+		{
+			"status": "SUCCESS",
+			"response": "/users/1000069994137"
+		}
+	],
+	"49702": [
+		{
+			"errorShortMessage": "USER_NOT_FOUND",
+			"errorMessage": "User not found"
+		}
+	]
+}

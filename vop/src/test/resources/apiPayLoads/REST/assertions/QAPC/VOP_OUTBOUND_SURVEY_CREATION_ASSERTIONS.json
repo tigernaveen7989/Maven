@@ -1,0 +1,104 @@
+{
+	"global":[ {	
+		"response_code": 200,
+		"error_code": 400,
+		"failed_status": "ERROR",
+		"Success_status": "SUCCESS"
+	}
+	],
+
+	"42590":[ {
+		"sourceMessage": "",
+		"response":"https://www.inmoment.com/websurvey/2/begin?gateway=EA_CSAT_Chat_QA&ukey="
+	}
+	],"42589":[ {
+		"sourceMessage": "",
+		"response":"https://www.inmoment.com/websurvey/2/begin?gateway=EA_CSAT_Chat_QA&ukey="
+	}
+	],"42588":[ {
+		"sourceMessage": "",
+		"response":"https://www.inmoment.com/websurvey/2/begin?gateway=EA_CSAT_Chat_QA&ukey="
+	}
+	],"42587":[ {
+		"sourceMessage": "",
+		"response":"https://www.inmoment.com/websurvey/2/begin?gateway=EA_CSAT_Chat_QA&ukey="
+	}
+	],"42586":[ {
+		"sourceMessage": "",
+		"response":"https://www.inmoment.com/websurvey/2/begin?gateway=EA_CSAT_Chat_QA&ukey="
+	}
+	],"43695":[ {
+		
+	}
+	],"43694":[ {
+		"sourceMessage": "caseStartTime should not be greater than current date."
+	}
+	],"43696":[ {
+		"sourceMessage": "interactionStartTime should not be greater than current date."
+	}
+	],"43698":[ {
+		"sourceMessage": "Parameter caseStartTime Missing",
+		"sourceMessage1": "Parameter advisorEmailAddress Missing"
+	}
+	],"43546":[ {
+		"sourceMessage": "negative or zero value forCaseNumber"
+	}
+	],"43697":[ {
+		"sourceMessage": "negative value forfraudScore"
+	}
+	],"43548":[ {
+		
+	}
+	],"43547":[ {
+		"sourceMessage": "negative or zero value forCaseNumber"
+	}
+	],"43671":[ {
+		"sourceMessage": "Parameter contactdate Missing"
+	}
+	],"42619":[ {
+		"sourceMessage": "Parameter Advisor Email Address Missing"
+	}
+	],"42622":[ {
+		"sourceMessage": "Parameter Advisor Job Role Missing"
+	}
+	],"42626":[ {
+		"sourceMessage": "Parameter ManagerEmailAddress Missing"
+	}
+	],"42625":[ {
+		"sourceMessage": "Parameter ManagerName Missing"
+	}
+	],"42617":[ {
+		"sourceMessage": "Parameter Advisor Name Missing"
+	}
+	],"42621":[ {
+		"sourceMessage": "Parameter Advisor Staff Group Missing"
+	}
+	],"42623":[ {
+		"sourceMessage": "Parameter Advisor Site Missing"
+	}
+	],"42620":[ {
+		"sourceMessage": "Parameter Advisor Tier Missing"
+	}
+	],"42618":[ {
+		"sourceMessage": "Parameter CaseNumber Missing"
+	}
+	],"42624":[ {
+		"sourceMessage": "Parameter CaseStatus Missing"
+	}
+	],"42594":[ {
+		"sourceMessage": "Parameter Email Missing"
+	}
+	],"42592":[ {
+		"sourceMessage": "Parameter FirstName Missing"
+	}
+	],"42591":[ {
+		"sourceMessage": "Parameter GatewayAlias Missing"
+	}
+	],"42593":[ {
+		"sourceMessage": "Parameter lastName Missing"
+	}
+	],"42628":[ {
+		"sourceMessage": "Parameter Segments can't be null or empty Missing"
+	}
+	]
+}

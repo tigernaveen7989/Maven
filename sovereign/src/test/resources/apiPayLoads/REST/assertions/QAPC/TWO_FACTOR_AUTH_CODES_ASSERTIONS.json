@@ -1,0 +1,33 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49816": [
+		{
+			"codeType": "EMAIL",
+			"email": "omegaeahelpautomation_new@gmail.com",
+			"status": "ENABLED",
+			"code1": "44034057",
+			"isExpired": "N",
+			"code2": "08560912"
+		}
+	],
+	"49817": [
+		{
+			"errorShortMessage": "USER_NOT_FOUND",
+			"errorMessage": "User not found"
+		}
+	],
+	"97034": {
+		"POST_TWO_FACTOR_AUTH_CODES":{
+				"codeType": "EMAIL",
+				"email": "omegaeahelpautomation_new@gmail.com",
+				"status": "ENABLED",
+				"code1": "44034057",
+				"isExpired": "N",
+				"code2": "08560912"
+		}
+	}
+}

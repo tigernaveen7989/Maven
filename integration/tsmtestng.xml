@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IntegrationTestSuite">
+	<listeners>
+		<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+	<test name="ChromeTests">
+		<parameter name="executionMode" value="local" />
+		<parameter name="platform" value="WEB" />
+		<parameter name="operatingSystem" value="WINDOWS" />
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="browserVersion" value="52" />
+		<parameter name="automationName" value="Test" />
+		<parameter name="testEnvironment" value="qa3pc" />
+		<parameter name="deviceName" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="applicationId" value="" />
+		<parameter name="bundleId" value="" />
+		<parameter name="appiumURL" value="" />
+		<parameter name="planId" value="859" />
+		<parameter name="testType" value="Regression" />
+		<classes>	
+		
+ <!-- 		
+		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyEmailCasewithAttachmentAndDeleteAttachmentTest"/>	 	
+		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyEmailCaseRoutingTest"/>
+ 		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyUnAuthEmailCaseTest"/>  
+ 		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifySetTemporaryPassword"/>	
+ 		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAccountChangeHistoryInSessionsandOverviewTest"/>
+  		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAccountChangeHistoryInSessionsandOverviewFiltersTest"/> 					
+		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyViewBackupCodesTest"/> 	
+			
+Email Case 			
+	 	<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthEmailCaseTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAccountBasicInfoTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAccountNotesTest"/>
+		<class name="com.wwce.ea.automation.integration.tests.tsm.VerfiyAccountnotesPinandUnpinTest"/> 	
+		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyCaseDetailsTest"/>	 
+		<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyEditAccountBasicInfoTest"/>
+		
+								
+Chat Tests		
+  		 	<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthChatChannelEnabledTest"/>
+  			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyUnAuthChatChannelEnabledTest"/>
+  			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthChatEstimatedwaitTimeTest"/>
+  			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyUnAuthChatEstimatedwaitTimeTest"/>
+ 			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthChatChannelDeflectionMessageTest"/>
+ 			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyUnAuthChatChannelDeflectionMessageTest"/>
+ 			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthNoChatChannelTest"/>
+ 			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyUnAuthNoChatChannelTest"/>
+  		    <class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthChatToCasematchTest"/>	  			 		
+  			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthSendandReceiveChatMessageTest"/> 
+  			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyUnAuthSendandReceiveChatMessageTest"/>
+  			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthSendandReceiveChatMessageASCIITest"/> 			
+  			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthSendandReceiveChatMessageDBCSTest"/>
+  			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthSendandReceiveChatMessageMaxcharsTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthEndChatTest"/>			
+GI Tests
+		fifa-19
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyProductSnapshotTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyProductSelectionTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyGrantItemsPacksCurrencyTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyCurrentInventoryItemsPacksCurrencyFieldsTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyModicyCurrencyTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyHistoryforLoginModesTransactionsTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyGameStatsAndPersonaTest"/>							
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyActivateAndDeactivatePersonaTest"/>	 			
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyChangeClubNameTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa19.VerifyRestoreClubLimitTest"/> 
+			
+			fifa 18	
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyProductSnapshotTest"/> 
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyProductSelectionTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyGrantItemsPacksCurrencyTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyCurrentInventoryItemsPacksCurrencyFieldsTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyModicyCurrencyTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyHistoryforLoginModesTransactionsTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyGameStatsAndPersonaTest"/> 		
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyActivateAndDeactivatePersonaTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyChangeClubNameTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyRestoreClubLimitTest"/>     
+			
+		star wars battle front II	
+			
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.battlefrontII.VerifyProductSnapshotTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.battlefrontII.VerifyProductSelectionTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.battlefrontII.VerifyGrantItemsPacksCurrencyTest"/> 
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.fifa18.VerifyCurrentInventoryItemsPacksCurrencyFieldsTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.battlefrontII.VerifyModicyCurrencyTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.gi.battlefrontII.VerifyHistoryforLoginModesTransactionsTest"/> 					
+			 -->
+			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyAuthEmailCaseTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.tsm.VerifyCaseDetailsTest"/>
+		 					 			
+		</classes>
+	</test>
+</suite>

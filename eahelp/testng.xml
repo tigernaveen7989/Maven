@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EAHelpTestSuite">
+	<listeners>
+		<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+	<test name="ChromeTests">
+		<parameter name="executionMode" value="local" />
+		<parameter name="platform" value="WEB" />
+		<parameter name="operatingSystem" value="WINDOWS" />
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="browserVersion" value="52" />
+		<parameter name="automationName" value="Test" />
+		<parameter name="testEnvironment" value="RUNFC" />
+		<parameter name="deviceName" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="applicationId" value="" />
+		<parameter name="bundleId" value="" />
+		<parameter name="appiumURL" value="" />
+		<parameter name="planId" value="1143" />
+		<parameter name="testType" value="Regression" />
+		<classes>	
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpAlertScenariosTest"/>				
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpServerStatusTest"/>					
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpEmailCaseAttachementForRULocaleTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpEmailCaseAttachementsTest" />			
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpEmailCaseUnSupportedAttachementsTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpProductPageArticlesTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpProductPageReferenceArticleAndLoadingTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpMyCasesAttachmentTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpBlankGameLibraryTest" />		
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpBGImagesandProductNamesTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpCaseEventsAfterAndBeforeSFLabelTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpUnAuthCaseIsNotPresentInExistingUserAccountForARLocaleTest"/> 
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpEmailCaseAttachementsForARLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpMyCasesPageTest"/> 
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpFNameLNameIsNotDisplayedForRULocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpVerifyThatFor2WordSearchTerm"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpICRPageScenariosTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpTaggedArticlesTest"/> 
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpCSATSurveySubmissionForArLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.EAhelpAlertScenariosForArLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpArabicLocaleScenariosTest"/>			
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpHomePageTestScenariosTest"/> 
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpUnAuthScenariosTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpUnAuthUserIsAbleToSeeConfiguredProductsTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpAritlcesPageScenariosTest"/>			
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpCSATSurveySubmissionTest"/>	
+			<class name="com.ea.wwce.automation.eahelp.tests.EAHelpAttachmentsCanbeDownloadedFromClosedCaseTest"/>				   
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpAccountManagementChangeRecoverTest"/>		  
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpAccountManagementUserPrivacySettingsTest"/>  
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpAccountManagementEditUserSectionTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpAccountManagementForAuthUserTest"/>	
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpAccountManagementForUnAuthUserTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpAccountManagementResetPasswordOptionVisibleTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpControllerIsPassingDeepLinkParameterForAHQToEAHelpTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpControllerIsPassingDeepLinkParameterForOriginToEAHelpTest"/>	
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpLoginButtonAlignmentTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpLoginURLIsChangedTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpMyCasesUnSupportedAttachmentsTest"/>	
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpProductMappedCategoriesDisplayedForArLocaleTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpTaggedArticlesValidationWithProductPlatformCategoryTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpUnAuthUserIsNotRedirectedToLoginPageAfterAttachingFileTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpEmailCaseWithFIFA16UltimateTeamTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpLoginWindowTextIsInEnglishForSGLocaleTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpSimCityBuildItContactUsValidationsForDELocaleTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpSimCityBuildItContactUsValidationsForESLocaleTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpSimCityBuildItContactUsValidationsTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpResetPassowordOptionTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpVerifyMetaDataDescriptionTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpVerifyNextButtonIsNotEnabledTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpGameLibraryProductSpecificScenariosTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpGameLibraryScenariosTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpGameLibraryUnAuthScenariosTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpRedeemCodeVerificationTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpProductPageScenariosTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpProductSearchScenariosTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpLocaleSpecificLoginTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpLoginTestScenariosTest"/>
+		    <class name="com.ea.wwce.automation.eahelp.tests.EAHelpLogOutScenariosTest"/>
+		   
+		 <!-- END TO END TESTS  -->  
+		    <class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpEmailCaseForDKLocaleTest"/>			
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpEmailCaseForPTLocaleTest" />			
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpEmailCaseAndVerifyCaseDetailsInMyCasesSectionTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpHomePageToAHQNavigationTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpICRPageToAHQNavigationTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpProductPageToAHQNavigationTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpVerifyDeflectionMessageTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpVerifyManualsOnProductPageTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpCategoryDropDownListTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpEmailCaseUsingPogoUserTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpVerifyICRPageContentForCZLocaleTest" />			
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpEmailCaseUsingClubPogoUserTest" />			
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpVerifyICRInterdictionMessageTest" />
+			
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForBRLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForDELocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForESLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForFRLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForITLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForJPLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForKRLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForNLLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForPLLocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForRULocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForSELocaleTest"/>
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForArLocaleTest" />
+			<class name="com.ea.wwce.automation.eahelp.tests.e2e.EAHelpUnAuthEmailCaseForHKLocaleTest" />
+							
+			</classes>
+	</test>
+</suite>

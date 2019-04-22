@@ -1,0 +1,50 @@
+{
+	"global": [{
+		
+	}],
+	
+	"20371": [{
+		"response_code":200,
+		"eventId":262,
+		"game_changer_id" : 994,
+		"type" : "STIPEND",
+		"amount" : 3876
+	}],
+	
+	"20373": [{
+		"response_code":200,
+		"eventId":262,
+		"game_changer_id" : 994,
+		"type" : "CONTENT",
+		"amount" : 2442
+	}],
+	
+	"20384": [{
+		"response_code":200,
+		"eventId":262,
+		"game_changer_id" : 994,
+		"type" : "CONTENT",
+		"amount" : 1666
+	}],
+	
+	"20385": [{
+		"response_code":200,
+		"eventId":262,
+		"game_changer_id" : 994,
+		"type" : "STIPEND",
+		"amount" : 1122
+	}],
+	
+	"20386": [{
+		"response_code":400,
+		"errorCode":"8",
+		"errorType" : "VALIDATION"
+	}],
+	
+	"20387": [{
+		"response_code":400,
+		"errorCode":"8",
+		"errorType" : "VALIDATION"
+	}]
+	
+}

@@ -1,0 +1,45 @@
+{
+	"UATPC": {
+		"headers": {
+			"Authorization": "Basic b21lZ2E6ODYyNjE0ZGYtMzE1YS00ODY1LWFlMGYtODVmNGNlZTFlMTAw",
+			"S-RequestorId": "WWCE-UD",
+			"Content-Type": "application/x-www-form-urlencoded",
+			"grant_type": "client_credentials"
+		},
+		
+		"uri_param": {},
+		"input_param": {
+			"grant_type": "client_credentials"
+		},
+		"payload_param": {}
+	},
+	
+	"QAPC": {
+		"headers": {
+			"Authorization": "Basic Z3BzOjQwYjc2YjBkLTQzOGMtNGZiNy1hYjkwLTAyNGFhYTNjNDFkZg",
+			"S-RequestorId": "WWCE-UD",
+			"Content-Type": "application/x-www-form-urlencoded",
+			"grant_type": "client_credentials"
+		},
+		
+		"uri_param": {},
+		"input_param": {
+			"grant_type": "client_credentials"
+		},
+		"payload_param": {}
+	},
+	"RUNFC": {
+		"headers": {
+			"Authorization": "Basic b21lZ2E6MWE3NDIyOTQtMDBmMC00NzMyLWIyMGItODE5ZTJhMDJmZmI2",
+			"S-RequestorId": "WWCE-UD",
+			"Content-Type": "application/x-www-form-urlencoded",
+			"grant_type": "client_credentials"
+		},
+		
+		"uri_param": {},
+		"input_param": {
+			"grant_type": "client_credentials"
+		},
+		"payload_param": {}
+	}
+}

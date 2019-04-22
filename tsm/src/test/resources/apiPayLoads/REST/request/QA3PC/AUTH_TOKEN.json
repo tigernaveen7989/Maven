@@ -1,0 +1,21 @@
+{
+	"QA3PC": {
+		"headers": {
+			"Authorization": "Basic b21lZ2E6MWE3NDIyOTQtMDBmMC00NzMyLWIyMGItODE5ZTJhMDJmZmI2",
+			"S-RequestorId": "WWCE-UD",
+			"Content-Type": "application/x-www-form-urlencoded",
+			"S-EnableMultiSkill": "false",
+			"username": "omega",
+			"password": "1a742294-00f0-4732-b20b-819e2a02ffb6"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"grant_type": "client_credentials"
+		},
+		"payload_param": {
+			
+		}
+	}
+}

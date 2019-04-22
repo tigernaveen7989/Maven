@@ -1,0 +1,24 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49194": [
+		{
+			"addressId": 1000069994137,
+			"userId": "1000053994137",
+			"street": "207 Redwood Shores Pkwy",
+			"city": "Redwood City",
+			"state": "CA",
+			"zip": "94065",
+			"country": "FR"
+		}
+	],
+	"49195": [
+		{
+			"errorShortMessage": "ADDRESS_NOT_AVAILABLE",
+			"errorMessage": "Address not available for account"
+		}
+	]
+}

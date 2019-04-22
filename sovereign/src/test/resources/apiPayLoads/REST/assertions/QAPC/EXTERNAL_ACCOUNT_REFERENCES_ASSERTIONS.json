@@ -1,0 +1,21 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"43769": [
+		{
+			"referenceId": "1003392547294",
+			"referenceType": "LEGACYPROFILEID",
+			"referenceValue": "1000225147294",
+			"discoverable": "EVERYONE"
+		}
+	],
+	"43770": [
+		{
+			"errorCode": "SVC-NUC-10002",
+			"errorShortMessage": "USER_NOT_FOUND"
+		}
+	]
+}

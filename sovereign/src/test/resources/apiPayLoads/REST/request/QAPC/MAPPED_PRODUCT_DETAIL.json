@@ -1,0 +1,37 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"49860": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-Idtype": "XUID"
+		},
+		"uri_param": {
+			"userId": "1000037527180"
+		},
+		"input_param": {
+			
+		}
+	},
+	"49861": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-Idtype": ""
+		},
+		"uri_param": {
+			"userId": "1000037527180"
+		},
+		"input_param": {
+			
+		}
+	}
+}

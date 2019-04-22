@@ -1,0 +1,47 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"43457": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "false"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"skill": "games-main-en_US"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"43458": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "false"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"skill": "test"
+		},
+		"payload_param": {
+			
+		}
+	}
+	
+}

@@ -1,0 +1,56 @@
+{
+	"global": {
+		"headers": {
+			"S-RequestorId": "WWCE-UD"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"54527": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"id": "1000180745259",
+			"idType": "nucleusPersonaId",
+			"platform": "xbox-one",
+			"startDate": "2018-08-23T00:00:41.436Z",
+			"endDate": "2018-11-21T23:59:41.436Z"
+			},
+		"payload_param": {
+			
+		}
+	},
+	"57329": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"idType": "nucleusPersonaId",
+			"platform": "xbox-one",
+			"startDate": "2018-08-23T00:00:41.436Z",
+			"endDate": "2018-11-21T23:59:41.436Z"
+			},
+		"payload_param": {
+			
+		}
+	}
+	
+	
+	
+	
+}
+

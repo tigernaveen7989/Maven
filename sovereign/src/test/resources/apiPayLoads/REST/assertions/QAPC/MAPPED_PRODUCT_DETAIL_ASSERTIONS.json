@@ -1,0 +1,29 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49860": [
+		{
+			"crmProductName_1": "fifa-2016",
+			"productDisplayName_1": "FIFA 16 GEN4",
+			"platform_1": "Microsoft XBOX One",
+			"status_1": "ACTIVE",
+			"crmProductName_2": "fifa-2015",
+			"productDisplayName_2": "FIFA 15",
+			"platform_2": "Microsoft XBOX One",
+			"status_2": "ACTIVE",
+			"crmProductName_3": "battlefield-hardline",
+			"productDisplayName_3": "BATTLEFIELD HARDLINE",
+			"platform_3": "Microsoft XBOX One",
+			"status_3": "ACTIVE"
+		}
+	],
+	"49861": [
+		{
+			"errorCode": "ORG-INT-09998",
+			"sourceMessage": "Header sIdType missing"
+		}
+	]
+}

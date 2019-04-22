@@ -1,0 +1,45 @@
+{
+	"global": [{	
+		"response_code": 200,
+		"status": "SUCCESS"
+	}],
+
+	"14386": [{
+		"walletIdPoints": "POINTS",
+		"walletIdCoins": "COINS",
+		"walletIdFCCoins": "FC_COINS",
+		"walletIdDraftToken": "DRAFT_TOKEN",
+		"maxCrValuePoints" : 12000,
+		"maxDrValuePoints" : 12000,
+		"maxCrValueCoins" : 1000000,
+		"maxDrValueCoins" : 1000000,
+		"maxCrValueFCCoins" : 20000,
+		"maxDrValueFCCoins" : 20000,
+		"maxCrValueDraftToken" : 1,
+		"maxDrValueDraftToken" : 1		
+	}],
+	
+	"21198": [{
+		"status" : "ERROR",
+		"errorCode" : "ORG-INT-09998",
+		"sourceMessage": "Parameter idType Missing"
+	}],
+	
+	"21199": [{
+		"status" : "ERROR",
+		"errorCode" : "ORG-INT-09998",
+		"sourceMessage": "Parameter id Missing"
+	}],
+	
+	"21244": [{
+		"status" : "ERROR",
+		"errorCode" : "SVC-INT-13001",
+		"sourceMessage": "Product host configurations missing for product name  fifa-9"
+	}],
+	
+	"21302": [{
+		"status" : "ERROR",
+		"errorCode" : "ORG-INT-09998",
+		"sourceMessage": "Parameter walletId Missing"
+	}]
+} 

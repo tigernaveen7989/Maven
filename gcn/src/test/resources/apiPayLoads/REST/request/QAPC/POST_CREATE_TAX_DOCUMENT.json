@@ -1,0 +1,30 @@
+{
+	"global": {
+		"headers":{
+			"x-correlation-id":"test",
+			"x-user-id":"987",
+			"x-client-id":"gcn_admin",
+			"Authorization":""
+		},
+		"uri_param":{},
+		"input_param":{},
+		"payload_param":{}	
+	},
+	
+	"20361": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"gameChangerIds": [
+    		991,992
+  			]
+		
+		}
+	}
+}

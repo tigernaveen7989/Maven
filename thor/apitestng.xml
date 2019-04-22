@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ThorTestSuite">
+<listeners>
+	<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener"/>
+</listeners>
+
+<test name="APITests"> 
+ 	<parameter name="executionMode" value="local"/> 	
+ 	<parameter name="platform" value="API"/> 	
+ 	<parameter name="operatingSystem" value="WINDOWS"/> 	
+ 	<parameter name="browserName" value=""/> 	
+ 	<parameter name="browserVersion" value=""/> 	
+ 	<parameter name="automationName" value="Test"/> 
+ 	<parameter name="testEnvironment" value="RUNFC"/>	
+ 	<parameter name="deviceName" value=""/> 	
+ 	<parameter name="appPackage" value=""/> 	
+ 	<parameter name="appActivity" value=""/> 	
+ 	<parameter name="applicationId" value=""/> 	
+ 	<parameter name="bundleId" value=""/> 	
+ 	<parameter name="appiumURL" value=""/> 
+ 	<parameter name="planId" value="720"/>
+ 	<parameter name="testType" value="Regression"/> 
+    <classes>
+    
+    	
+      
+    
+	 
+	  
+	  <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostCategoryNullValApiTest"/>
+	  <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostContentTextNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostContentTypeNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostContentUrlNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostPetitionAcctTypeNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostPetitionEmailNullValApiTest"/> 
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostPetitionerPersonaIDNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostPetitionPersonaNameSpaceNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostPetitionSaveApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostPetitionUsrIDNullValApiTest"/> 
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostPlatformNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostProductNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostSubjectNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostTargetAccountTypeNullValApiTest"/>
+	  <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostTargetEmailNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostTargetPersonaIdNullValApiTest"/>
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostTargetPersonaNameSpaceNullValApiTest"/> 
+      <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostTargetUserIdNullValApiTest"/> 
+      
+      <!--  <class name="com.ea.wwce.automation.thor.api.tests.POSTBifrostPetitionNonNucleusSaveApiTest"/>
+      <class name="com.ea.wwce.automation.thor.sov.api.tests.POSTContentActionHidePositiveTest"/>
+	  <class name="com.ea.wwce.automation.thor.sov.api.tests.POSTContentActionUnhidePositiveTest"/>
+	  <class name="com.ea.wwce.automation.thor.sov.api.tests.POSTContentActionViewNegativeTest"/>
+	  <class name="com.ea.wwce.automation.thor.sov.api.tests.POSTContentActionHideNegativeTest"/>
+	  <class name="com.ea.wwce.automation.thor.sov.api.tests.POSTContentActionUnhideNegativeTest"/>
+      <class name="com.ea.wwce.automation.thor.sov.api.tests.POSTContentActionViewPositiveTest"/> -->
+      
+	
+     	 
+    </classes>
+</test>		
+
+</suite>

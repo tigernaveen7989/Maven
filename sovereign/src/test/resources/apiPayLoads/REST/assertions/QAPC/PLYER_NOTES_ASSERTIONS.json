@@ -1,0 +1,28 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49281": [
+		{
+			"advisorEmail_1": "advisor@ea.com",
+			"noteDetail_1": "Player note added for test",
+			"noteDate_1": "2016-03-23T10:20:30.000Z",
+			"source_1": "GPS",
+			"accountType_1": "ACCTNOTE",
+			"playerNoteId_1": "536239",
+			"advisorEmail_2": "praverkar@contractor.ea.com",
+			"noteDetail_2": "Test Note from Omega 22nd Mar",
+			"noteDate_2": "2016-03-22T09:51:59.000Z",
+			"source_2": "UD",
+			"playerNoteId": "536205"
+		}
+	],
+	"49282": [
+		{
+			"errorShortMessage": "AUTHORIZATION_FAILED",
+			"errorMessage": "Unauthorized access"
+		}
+	]
+}

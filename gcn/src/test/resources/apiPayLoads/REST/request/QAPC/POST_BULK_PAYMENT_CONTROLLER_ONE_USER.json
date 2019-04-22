@@ -1,0 +1,34 @@
+{
+	"global": {
+		"headers":{
+			"x-correlation-id":"test",
+			"x-user-id":"987",
+			"x-client-id":"gcn_admin",
+			"Authorization":""
+		},
+		"uri_param":{},
+		"input_param":{},
+		"payload_param":{}	
+	},
+	
+	"12346": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"batch_items": [{
+      			"amount": 1512,
+      			"description": "test payment",
+      			"event_id": 260,
+      			"game_changer_id": 994,
+      			"initiated_on": "2018-10-25 08:23:45",
+      			"type": "STIPEND"
+    		}]
+		}
+	}
+}

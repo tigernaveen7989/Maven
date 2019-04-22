@@ -1,0 +1,32 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49307": [
+		{
+			"projectTitle": "OSI BRAND (COA)",
+			"projectDescription": "OSI BRAND (COA) - PCWIN - PG FG",
+			"projectStatus": "Cancelled",
+			"masterTitle": "OSI BRAND (COA)",
+			"revenueModel": "Packaged - Full Game",
+			"projectType": "Development",
+			"interfacePlatform": "PCWIN",
+			"interfacePlatformShortname": "PCWIN",
+			"interfaceType": "PC",
+			"interfacePlatformCode": "20",
+			"revenueModelShortname": "PG FG",
+			"labelDescription": "Label - Other",
+			"firstReleaseDate": "1997-04-15 00:00:00.0",
+			"firstOperationalShipDate": "1997-04-15 00:00:00.0",
+			"projectId": "000001"
+		}
+	],
+	"49308": [
+		{
+			"errorCode": "SVC-OFB-15005",
+			"errorMessage": "No entity found matching this request"
+		}
+	]
+}

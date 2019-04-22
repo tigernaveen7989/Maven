@@ -1,0 +1,27 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49985": [
+		{
+			"crmProductId": "01t0t0000005qTrAAI",
+			"crmProductName": "fifa-19",
+			"thumbnailUrl": "servlet/servlet.ImageServer?id=0154400000Ayc4CAAR&oid=00DE0000000IO80MAG",
+			"productCode": "FIFA 19",
+			"isActive": "true",
+			"visibleOnFranchise": "true",
+			"interfacePlatformName": "Microsoft XBOX One",
+			"mdmProjectId": "312048",
+			"isFIFAUltimateProduct": "true",
+			"crmproductId": "01t0t0000005qTrAAI"
+		}
+	],
+	"49986": [
+		{
+			"errorCode": "FLTR-SECURE_ACCESS-09030",
+			"sourceMessage": "Unauthorized access"
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"global": {
+		"headers": {
+			"S-RequestorId": "WWCE-UD"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"20488": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"accountId": "1010129304095",
+			"isPending": "false"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"35505": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"isPending": "true"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"36033": {
+		"headers": {
+			"S-CheckDeletableInfo": "TRUE"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"accountId": "1010129304095"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"36034": {
+		"headers": {
+			"S-CheckDeletableInfo": "TRUE"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	}
+}
+
+

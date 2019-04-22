@@ -1,0 +1,37 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49814": [
+		{
+		"userId": 1000024171932,
+        "mobileNumber": "5125836193",
+        "securityQuestion1": "What was your first job?",
+        "securityAnswer1": "Automation1",
+        "securityQuestion2": "What do you do?",
+        "securityAnswer2": "Automation",
+        "securityQuestion3": "What is your current job?",
+        "securityAnswer3": "Automation3",
+        "securityState": "GREEN",       
+        "userValue": "PLATINUM"
+		}
+	],
+	
+	"49815":[
+		{
+			"status": "PARTIAL_SUCCESS",
+			"errorCode": "SVC-NUC-10002",
+			"errorShortMessage": "USER_NOT_FOUND"
+		}
+	],
+	"97034": {		
+		"PUT_TWO_FACTOR_AUTHENTICATION@1":{
+		 "status": "SUCCESS"		 
+		},
+		"PUT_TWO_FACTOR_AUTHENTICATION@2":{
+		 "status": "SUCCESS"		 
+		}
+	}
+}

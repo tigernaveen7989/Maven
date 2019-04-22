@@ -1,0 +1,18 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49307": [
+		{
+			"securityCode": "116079"
+		}
+	],
+	"49308": [
+		{
+			"errorShortMessage": "USER_NOT_FOUND",
+			"errorMessage": "User not found"
+		}
+	]
+}

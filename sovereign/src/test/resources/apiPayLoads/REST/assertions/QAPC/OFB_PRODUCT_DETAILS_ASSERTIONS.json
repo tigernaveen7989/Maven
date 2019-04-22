@@ -1,0 +1,32 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49929": [
+		{
+			"ofbProductId": "OFB-SIM3:109514873",
+			"status": "Published",
+			"financeId": "70399",
+			"productName": "SimPoints_1_6_Marketing_Promo",
+			"productType": "EWALLET",
+			"projectId": "136077",
+			"mdmItemNumber": "70399",
+			"groupName": "sims3store",
+			"mdmItemType": "Fictional Currency",
+			"ofbItemSubtype": "EWALLET",
+			"entitlementTag": "1FreeSimPoint",
+			"ofbItemTitle": "TestWallet09",
+			"ofbItemId": "ITM-EAST:10913",
+			"pointValue": "1",
+			"displayName": "SimPoints_1_6_Marketing_Promo"
+		}
+	],
+	"49930": [
+		{
+			"errorCode": "SVC-INT-15000",
+			"errorMessage": "Product does not exist"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"43464": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "false",
+			"S-IncludePersona": "",
+			"S-IncludeSecurityState": "",
+			"S-IncludeUserProfile": "",
+			"S-IncludeAddresses": "",
+			"S-IncludeUserExternalRef": "",
+			"S-IncludeUserValue": "",
+			"S-AccountFlagTypes": ""
+		},
+		"uri_param": {
+			"userId": "1000032728365"
+		},
+		"input_param": {
+			"system": "nucleus"
+		}
+	},
+	"43465": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "false",
+			"S-IncludePersona": "",
+			"S-IncludeSecurityState": "",
+			"S-IncludeUserProfile": "",
+			"S-IncludeAddresses": "",
+			"S-IncludeUserExternalRef": "",
+			"S-IncludeUserValue": "",
+			"S-AccountFlagTypes": ""
+		},
+		"uri_param": {
+			"userId": "123456789"
+		},
+		"input_param": {
+			"system": "nucleus"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49926": [
+		{
+			"status": "SUCCESS",
+			"encryptedToken": "NnQWcHUvUoE4gBscrqJNMxr5oePFflFa012c2yF0NaDCi0MCP0ucR7fPXqdAuMdBkC0_VFCznlluXs9gZEaLdR261L_9qaQwHUltotDckoQ."
+		}
+	],
+	"49927": [
+		{
+			"errorCode": "ORG-INT-09998",
+			"sourceMessage": "Parameter signature Missing"
+		}
+	]
+}

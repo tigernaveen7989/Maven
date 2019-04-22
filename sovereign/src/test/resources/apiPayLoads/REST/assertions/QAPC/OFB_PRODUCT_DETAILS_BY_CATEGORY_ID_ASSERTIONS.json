@@ -1,0 +1,31 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"50991": [
+		{
+			"ofbProductId": "OFB-SIM2:21922",
+			"platForm": "PC",
+			"status": "Ready",
+			"financeId": "70399",
+			"productName": "Points 200",
+			"productType": "EWALLET",
+			"projectId": "136077",
+			"mdmItemNumber": "70399",
+			"mdmItemType": "Fictional Currency",
+			"ofbItemSubtype": "EWALLET",
+			"ofbItemTitle": "TestWallet09",
+			"ofbItemId": "ITM-EAST:10913",
+			"pointValue": "200",
+			"displayName": "Points 200"
+		}
+	],
+	"50992": [
+		{
+			"errorCode": "SVC-OFB-15006",
+			"errorMessage": "Error while fetching data for given category"
+		}
+	]
+}

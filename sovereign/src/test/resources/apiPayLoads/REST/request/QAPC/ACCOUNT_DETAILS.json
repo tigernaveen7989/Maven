@@ -1,0 +1,41 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"43486": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "false",
+			"S-IncludePersona": "false"
+		},
+		"uri_param": {
+			"userId": "1000024171932"
+		},
+		"input_param": {
+			
+		}
+	},
+	"43487": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "false",
+			"S-IncludePersona": "false"
+		},
+		"uri_param": {
+			"userId": "345565567"
+		},
+		"input_param": {
+			
+		}
+	}
+	
+	
+}

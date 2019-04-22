@@ -1,0 +1,44 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49194": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"		
+		},
+		"uri_param": {
+			"addressId": "1000069994137"
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49195": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"			
+		},
+		"uri_param": {
+			"addressId": "1000094137"
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	}
+}

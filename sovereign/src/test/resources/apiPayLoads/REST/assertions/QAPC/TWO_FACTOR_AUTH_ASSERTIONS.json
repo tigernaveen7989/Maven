@@ -1,0 +1,31 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49148": [
+		{
+			"codeType": "EMAIL",
+			"email": "omegaeahelpautomation_new@gmail.com",
+			"status": "ENABLED",
+			"code": "51157082",
+			"isExpired": "N"
+		}
+	],
+	"97034": {
+		"GET_TWO_FACTOR_AUTH":{
+			"status": "SUCCESS",
+			"codeType": "EMAIL",
+			"email": "omegaeahelpautomation_new@gmail.com",
+			"code": "34879392",
+			"isExpired": "N"
+		}
+	},
+	"49149": [
+		{
+			"errorCode": "SVC-NUC-10002",
+			"errorShortMessage": "USER_NOT_FOUND"
+		}
+	]
+}

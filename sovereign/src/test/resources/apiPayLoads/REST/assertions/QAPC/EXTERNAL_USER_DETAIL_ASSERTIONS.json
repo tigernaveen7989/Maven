@@ -1,0 +1,23 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49852": [
+		{
+			"nucleusUserId": 1000037527180,
+			"externalUserType": "XBOX",
+			"externalUserId": "2814630152054550",
+			"personaId": 1000021327180
+		}
+	],
+	"49853": [
+		{
+			"errorShortMessage": "VALIDATION_FAILED",
+			"field": "externalRefType",
+			"cause": "INVALID_VALUE",
+			"value": "XBOX1"
+		}
+	]
+}

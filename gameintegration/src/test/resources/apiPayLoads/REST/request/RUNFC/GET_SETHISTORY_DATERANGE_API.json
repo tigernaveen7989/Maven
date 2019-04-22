@@ -1,0 +1,20 @@
+{
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "fifa-18"
+		},
+		"input_param": {
+			"id": "1000120903982",
+			"idType": "nucleusPersonaId",
+			"platform": "xbox-one",
+			"startDate": "2018-04-10T18:30Z",
+			"endDate": "2018-07-10T18:29Z"
+		},
+		"payload_param": {}
+	}
+}

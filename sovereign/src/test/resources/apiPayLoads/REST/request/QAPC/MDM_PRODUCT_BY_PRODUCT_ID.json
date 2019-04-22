@@ -1,0 +1,37 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"49983": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"mdmProjectId": "136722"
+		},
+		"input_param": {
+			
+		}
+	},
+	"49984": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"mdmProjectId": "13672"
+		},
+		"input_param": {
+			
+		}
+	}
+	
+	
+}

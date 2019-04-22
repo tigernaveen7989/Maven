@@ -1,0 +1,38 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"49931": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"projectTitle": "PCWIN",
+			"masterTitle": "OSI BRAND (COA)",
+			"revenueModel": "Packaged - Full Game",
+			"interfacePlatform": "OSI BRAND (COA)"
+		}
+	},
+	"49932": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"projectTitle": "PCWI"
+		}
+	}
+}

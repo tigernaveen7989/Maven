@@ -1,0 +1,44 @@
+{
+	"global": [
+		{
+			"username": "automation@ea.com.runfc",
+			"password": "Test12!@",
+			"SFUserName": "Automation EA"
+		}
+	],
+	"23047": [
+		{
+			"adminUrl": "https://wwce-eait--runfc--c.cs95.visual.force.com/apex/ud_admin",
+			"fname": "automation",
+			"lname": "EA",
+			"mail": "test@gmail.com",
+			"sfuser": "automation12@ea.com.runfc",
+			"stitle": "Automation EA",
+			"txtdob": "1999-01-01",
+			"empnumber": "111",
+			"jobRole": "Admin Chat,Admin Email,Admin Phone,Australian Advisor,Automation Testing - Chat,Automation Testing - Email,Automation Testing - Phone,Automation Testing - No Queue,EAHELP CACHE MANAGEMENT,English Chat Advisor In-Game,English Chat Specialist Consultation,English Chat Specialist In-Game,ER CR,Mass Operation",
+			"lpuserName": "automationuser",
+			"lppassword": "Test12!@",
+			"lpAgentId": "15741959",
+			"lopassword": "Kaka12!@",
+			"louserName": "srinivas",
+			"loAgentId": "15756",
+			"lhuserName": "Subha_LHUser",
+			"zUserName": "Subha_ZDUser",
+			"ctusername": "Subha_CTUser",
+			"gUsername": "Auto_GPSUser",
+			"cName": "CCNA",
+			"txtManager": "Sagar Raut",
+			"txtProfile": "System Administrator",
+			"txtStaff": "Captive Center Community",
+			"eType": "FTE",
+			"managerType": "Area",
+			"tZone": "(GMT+13:45) Chatham Daylight Time",
+			"hrDate": "2018-03-16",
+			"frDate": "2018-03-16",
+			"rDate": "2025-03-31",
+			"pfDate": "2027-03-31",
+			"notes": "For automation use.. Dont update it"
+		}
+	]
+}

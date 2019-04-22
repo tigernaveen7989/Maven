@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SovereignTestSuite">
+	<listeners>
+		<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+	<test name="API_tests">
+		<parameter name="executionMode" value="local" />
+		<parameter name="platform" value="WEB" />
+		<parameter name="operatingSystem" value="WINDOWS" />
+		<parameter name="browserName" value="" />
+		<parameter name="browserVersion" value="52" />
+		<parameter name="automationName" value="Test" />
+		<parameter name="testEnvironment" value="RUNFC" />
+		<parameter name="deviceName" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="applicationId" value="" />
+		<parameter name="bundleId" value="" />
+		<parameter name="appiumURL" value="" />
+		<parameter name="planId" value="3" />
+		<parameter name="testType" value="Sanity" />
+
+		<classes>
+			<!--<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.items.GETGrantableItemsFromFitnesscardsCategoryApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.items.GETGrantableItemsFromContractcardsCategoryApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.items.GETGrantableItemsFromBadgecardsCategoryApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.items.GETGrantableItemsFromBallcardsCategoryApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.loginHistory.GETLoginHistoryWithMissingIdApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.loginHistory.GETLoginHistoryWithMissingIdTypeApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.loginHistory.GETLoginHistoryApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.GETWalletsApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.GETWalletsMissingIdTypeParamApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.GETWalletsMissingIdParamApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.GETWalletsForIncorrectProductIDApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.PUTAddWalletWithMissingWalletIdApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.PUTAddWalletWithMissingAmountApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.PUTAddWalletWithMissingIdTypeApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.PUTAddWalletWithMissingIdApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.DELETERemoveWalletWithMissingWalletIdApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.DELETERemoveWalletWithMissingAmountApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.DELETERemoveWalletWithMissingIdTypeApiTest" />
+			<class
+				name="com.ea.wwce.automation.gameintegration.api.tests.wallets.DELETERemoveWalletWithMissingIdApiTest" />
+			-->
+		</classes>
+
+	</test>
+</suite>

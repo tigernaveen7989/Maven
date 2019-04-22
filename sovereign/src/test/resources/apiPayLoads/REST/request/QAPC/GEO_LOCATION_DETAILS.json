@@ -1,0 +1,35 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		}
+	},
+	"49635": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"ipAddress": "159.153.4.96"
+		}
+	},
+	"49636": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"ipAddress": "aaaaaa"
+		}
+	}
+}

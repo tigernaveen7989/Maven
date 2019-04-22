@@ -1,0 +1,22 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49234": [
+		{
+		
+			"minLegalRegistrationAge": 13,
+			"minAgeWithConsent": 3,
+			"minLegalContactAge": 13
+			
+		}
+	],
+	"49235": [
+		{
+			"errorShortMessage": "NO_SUCH_COUNTRY",
+			"errorMessage": "Country does not exist"
+		}
+	]
+}

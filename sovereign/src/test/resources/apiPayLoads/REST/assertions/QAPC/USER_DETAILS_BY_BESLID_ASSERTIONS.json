@@ -1,0 +1,21 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"43705": [
+		{
+			"externalReferenceType": "POGO_PROD",
+			"externalReferenceValue": "543535353",
+			"userId": 2254621283,
+			"email": "rgagrani@ea.com"
+		}
+	],
+	"43706": [
+		{
+			"errorShortMessage": "EXT_REF_NOT_FOUND",
+            "errorMessage": "External reference not found."
+		}
+	]
+}

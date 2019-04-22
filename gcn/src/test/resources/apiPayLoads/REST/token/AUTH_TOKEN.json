@@ -1,0 +1,20 @@
+{
+	"QAPC": {
+
+
+			"headers": {
+				"Authorization": "Basic Z2NuLXFhLWNsaWVudC1pZDpnY24tcWEtY2xpZW50LXNlY3JldA==",
+				"Content-Type": "application/x-www-form-urlencoded"
+			},
+
+			"uri_param": {},
+
+			"input_param": {
+				"grant_type": "password",
+				"username": "OPERATOR",
+				"password": "password"
+			},
+			"payload_param": {}
+		}
+
+}

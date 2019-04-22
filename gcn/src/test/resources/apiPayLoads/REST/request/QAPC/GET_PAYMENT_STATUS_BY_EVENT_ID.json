@@ -1,0 +1,38 @@
+{
+	"global": {
+		"headers":{
+			"x-correlation-id":"test",
+			"x-user-id":"987",
+			"x-client-id":"gcn_admin",
+			"Authorization":""
+		},
+		"uri_param":{},
+		"input_param":{},
+		"payload_param":{}	
+	},
+	"20375": {
+	
+		"headers": {},
+		
+		"uri_param": {
+			"eventId":270
+			},
+		
+		"input_param": {},
+		
+		"payload_param": {}
+	},
+	
+	"20392": {
+	
+		"headers": {},
+		
+		"uri_param": {
+			"eventId":2770
+			},
+		"input_param": {},
+		"payload_param": {
+		
+		}
+	}
+}

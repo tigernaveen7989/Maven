@@ -1,0 +1,48 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49852": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "true"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"externalUserId": "2814630152054550",
+			"externalUserType": "XBOX"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49853": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "true"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"externalUserId": "2814630152054550",
+			"externalUserType": "XBOX1"
+		},
+		"payload_param": {
+			
+		}
+	}
+}

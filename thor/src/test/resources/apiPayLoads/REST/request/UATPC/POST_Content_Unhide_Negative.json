@@ -1,0 +1,26 @@
+{
+	"global": {
+		"headers": {},
+		"uri_param": {},
+		"input_param": {},
+		"payload_param": {}
+	},
+	"17298": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"Content-Type" : "json"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {},
+		"payload_param": 
+		{
+		  "crmProductName":"origin",
+		  "action":"unhide_tests",
+		  "url":"https://integration.ce.avatar.dm.origin.com:10094/avatar/user/1000196350155/unhide",
+		  "userid":"12304728793",
+		  "email":"dwaghulade@contractor.ea.com"
+	    }	
+	}
+}

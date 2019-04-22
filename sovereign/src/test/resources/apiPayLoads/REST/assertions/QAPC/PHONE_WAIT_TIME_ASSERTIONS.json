@@ -1,0 +1,22 @@
+{
+	"global": [
+		{
+			"response_code": 200,
+			"configId": 701
+		}
+	],
+	"43462": [
+		{
+		"skillName": "84245",
+		"skillDescription": "UAT-C2C-1",
+		"waitTimeInSeconds": 0
+		}
+	],
+	"43463": [
+		{
+			"status": "ERROR",
+			"errorShortMessage": "AUTHORIZATION_FAILED",
+			"errorMessage": "Unauthorized access"
+		}
+	]
+}

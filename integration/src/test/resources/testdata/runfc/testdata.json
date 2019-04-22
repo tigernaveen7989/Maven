@@ -1,0 +1,2481 @@
+{
+	"global": [
+		{
+			"username": "eahelpomega@gmail.com",
+			"password": "Test12!@",
+			"SF_username":"navekumar@contractor.ea.com",
+			"SF_password": "naveenkumar7989!",
+			"product": "52 Card Pickup",
+			"platform": "Pogo.com",
+			"category": "manage-my-account",
+			"subcategory": "manage-subscriptions",
+			"subject": "VOP Testing Please Ignore this case",
+			"phonenumber": "NA",
+			"description": "For Automation Testing",
+			"Chat_Window_Title":"Games Main Chat Window",
+			"Inhouse_Window_Title":"EA Help - Google Chrome",
+			"InMoment_Window_Title": "https://qa1.help.ea.com/en/csat/get-externalsurvey/?surveylink=",
+			"InMomentSurveyText" :"Vop InMoment Testing",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"omega_username":"navekumar@contractor.ea.com",  
+			"omega_password": "naveenkumar7989!",
+			"omegausername":"navekumar@contractor.ea.com",  
+			"omegapassword": "naveenkumar7989!",
+			"RoleName": "Automation Testing - Chat",
+		    "txtfeedback":"Thank You!",
+		    "reason": "Resolved",
+			"status": "Fixed",
+			"vogTxt1": "Yes",
+			"vogTxt2": "Primary email verification",
+			"vogTxt3": "Provided Information",
+			"resolutionStatus": "Basic Troubleshooting"
+		}
+	],
+	"42286": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"chatconfig_Value": "0"		
+			
+		}
+	],
+	"42287": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"Yes",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"4",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"Yes",
+			"txtfeedback":"Thank You!",
+			"chatconfig_Value": "100"	
+			
+		}			
+	],
+	"43289": [
+		{
+				
+			"FName": "VOP",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "vopautomation@gmail.com",
+			"subject": "VOP Testing Please ignore",
+			"description": "For Automation Testing use",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"chatconfig_Value": "0"
+		}
+	],
+	"43290": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"Yes",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"4",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"Yes",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"FName": "VOP",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "vopautomation@gmail.com",
+			"subject": "VOP Testing Please ignore",
+			"description": "For Automation Testing use",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"chatconfig_Value":"100",
+			"phoneNumber":"6546848765"
+			
+		}			
+	],
+	"42419": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"Yes",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"4",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"Yes",
+			"chattext":"Hello",
+			"queue":"Customer Relations",
+			"chatconfig_Value": "100",
+			"reasonfortransfer":"I am unable to support this issue",
+			"status":"Transferred"
+		}			
+	],
+	"42437": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"Yes",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"4",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"Yes",
+			"chattext":"Hello",
+			"queue":"Customer Relations",
+			"chatconfig_Value": "100",
+			"reasonforescalate":"No Known Solution",
+			"status":"Escalated",
+			"FName": "VOP",
+			"LName": "Automation",
+			"Email": "vopautomation@gmail.com"
+		}			
+	],
+	"49310": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Tell us about your experience with EA Help",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!"
+		}
+	],	
+	"49666": [
+		{
+			"username": "vopautomation3@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation3@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation3@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Tell us about your experience with EA Help",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!"
+		}
+	],
+	"49311": [
+		{
+			"username": "vopautomation2@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation2@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Tell us about your experience with EA Help",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!"
+		}
+	],	
+	"49668": [
+		{
+			"username": "vopautomation3@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation3@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation3@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Tell us about your experience with EA Help",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!"
+		}
+	],	
+	"43293": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"Yes",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"4",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"Yes",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"FName": "VOP",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "vopautomation@gmail.com",
+			"subject": "VOP Testing Please ignore",
+			"description": "For Automation Testing use",
+			"reasonfortransfer":"I am unable to support this issue",
+			"status":"Transferred",
+			"chatconfig_Value": "100",
+			"reason":"Testing"
+			
+		}			
+	],
+	"43188": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"Yes",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"4",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"Yes",
+			"chatconfig_Value": "100",
+			"chattext" : "Hello"
+			
+	 }			
+	],
+	"43294": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"Yes",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"4",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"Yes",
+			"chattext":"Hello",
+			"queue":"Customer Relations",
+			"chatconfig_Value": "100",
+			"reasonforescalate":"No Known Solution",
+			"status":"Escalated",
+			"FName": "VOP",
+			"LName": "Automation",
+			"Email": "vopautomation@gmail.com"
+		}			
+	],
+	"43187": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"chatconfig_Value": "0",
+			"chattext":"Hello"		
+			
+		}
+	],
+	"43251": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",	
+			"FName": "VOP",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "vopautomation@gmail.com",
+			"subject": "VOP Testing Please ignore",
+			"description": "For Automation Testing use",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"chatconfig_Value": "0",
+			"reasonfortransfer":"I am unable to support this issue",
+			"status":"Trasferred",
+			"reason":"Testing",
+			"queue":"Customer Relations",
+			"chattext":"Hello"
+		}
+	],
+	"43253": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",	
+			"FName": "VOP",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "vopautomation@gmail.com",
+			"subject": "VOP Testing Please ignore",
+			"description": "For Automation Testing use",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"chatconfig_Value": "0",
+			"chattext":"Hello",
+			"queue":"Customer Relations",
+			"reasonforescalate":"No Known Solution",
+			"status":"Escalated"
+		}
+	],
+	"43292": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"FName": "VOP",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "vopautomation@gmail.com",
+			"subject": "VOP Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"Yes",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"4",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"Yes",
+			"chatconfig_Value": "100",
+			"chattext" : "Hello"
+			
+	 }			
+	],
+	"43291": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"FName": "VOP",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "vopautomation@gmail.com",
+			"subject": "VOP Testing Please ignore",
+			"channel_URL": "chat",
+			"EAHelpExperience": "VOP Testing Experience",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"chatconfig_Value": "0",
+			"chattext":"Hello"	
+			
+	 }			
+	],
+	"43296": [
+		{
+			"username": "plingampally@contractor.ea.com",
+			"password": "Test12!@",
+			"FName": "VOP",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "vopautomation@gmail.com",
+			"subject": "VOP Testing Please ignore",
+			"description": "For Automation Testing use",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"chattext":"Hello",
+			"queue":"Customer Relations",
+			"chatconfig_Value": "0",
+			"reasonfortransfer":"I am unable to support this issue",
+			"status":"Transferred",
+			"reason":"Testing"
+		}			
+	],
+	"48336": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"omegausername1": "navekumar@contractor.ea.com",
+			"omegapassword1": "naveenkumar7989!",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help."
+		}
+	],	
+	"49290": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"omegausername1": "navekumar@contractor.ea.com",
+			"omegapassword1": "naveenkumar7989!",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help."
+		}
+	],
+	"48337,48340,44090": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help. ",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"emailconfig_Value":"0"
+		}
+	],
+	"49291,49294,44072": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help. ",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"emailconfig_Value":"0"
+		}
+	],
+	"48338": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"No Known Solution",
+			"status":"New",
+			"emailconfig_Value":"0"
+		}
+	],
+	"49292": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"I am unable to support this issue",
+			"status":"New"
+		}
+	],
+	"48339": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"I am unable to support this issue",
+			"status":"Transferred"
+		}
+	],
+	"49293": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"I am unable to support this issue",
+			"status":"Transferred"
+		}
+	],
+	"48341": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"agentname":"Admin Email",
+			"reason1":"Waiting on Customer",
+			"resolutionstatus1":"Additional Information Required",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent"
+		}
+	],
+	"49295": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"reason1":"Waiting on Customer",
+			"resolutionstatus1":"Additional Information Required",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent"
+		}
+	],
+	"48344": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"No Known Solution",
+			"status":"New",
+			"status1":"Fixed"
+		}
+	],
+	"49298": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"subject": "VOP_Email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"description": "Testing vop email",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"No Known Solution",
+			"status":"New",
+			"status1":"Fixed"
+		}
+	],
+	"48345": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"I am unable to support this issue",
+			"status":"Transferred",
+			"status1":"Fixed"
+		}
+	],
+	"49299": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"subject": "VOP_Email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"description": "Testing vop email",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"I am unable to support this issue",
+			"status":"Transferred",
+			"status1":"Fixed"
+		}
+	],
+	"48342": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"agentname":"Admin Email",
+			"reason1":"Waiting on Customer",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"49296": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"reason1":"Waiting on Customer",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"gmailsubject1":"Sandbox: We Have Received Your Request",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"question1":"How would you rate your game advisor?",
+			"answer1":"Poor",
+			"question2":"What agent characteristic most attributed to your rating?",
+			"answer2":"Friendliness",
+			"question3":"Did we solve your problem?",
+			"answer3":"Yes",
+			"question4":"Did you have to contact us more than once?",
+			"answer4":"Yes",
+			"question5":"How likely are you to agree with the following: Electronic Arts made it easy for me to handle my issue.",
+			"answer5":"Strongly Agree",
+			"question6":"How likely are you to purchase another EA product in the future? Would you say the chances are ...",
+			"answer6":"Excellent",
+			"question7":"How would you rate your overall customer experience?",
+			"answer7":"Excellent",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"49638": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765"
+		}
+	],
+	"49637": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help.",
+			"gmailsubject1":"Sandbox: We Have Received Your Request",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation@gmail.com"
+		}
+	],
+	"51556,49310": [
+		{
+			"username": "vopautomation2@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"gmailemail":"vopautomation2@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Tell us about your experience with EA Help",
+			"emailconfig_Value": "100",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!"
+		}
+	],
+	"51577,49666": [
+		{
+			"username": "vopautomation1@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"gmailemail":"vopautomation1@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Tell us about your experience with EA Help",
+			"emailconfig_Value": "100",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation1@gmail.com"
+		}
+	],
+	"51555": [
+		{
+			"username": "vopautomation2@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"RoleName1": "Automation Testing - Chat",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"gmailemail":"vopautomation2@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Tell us about your experience with EA Help",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!",
+			"chattext":"Hello",
+			"emailconfig_Value":"100"
+		}
+	],
+	"51576": [
+		{
+			"username": "vopautomation1@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"RoleName1": "Automation Testing - Chat",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"gmailemail":"vopautomation1@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Tell us about your experience with EA Help",
+			"gmailsubject1":"Sandbox: We Have Received Your Request",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!",
+			"chattext":"Hello",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation1@gmail.com",
+			"emailconfig_Value":"100"
+		}
+	],
+	"48335": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help. ",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765"
+		}
+	],
+	"49289": [
+		{
+			"username": "vopautomation@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help. ",
+			"InHouseSurveyText" :"Vop InHouse Testing",
+			"phoneNumber":"6546848765",
+			"firstname":"naveen",
+			"lastname":"kumar",
+			"emailid":"vopautomation@gmail.com"
+		}
+	],
+	"53594": [
+		{
+			"username": "vopautomation1@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation1@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation1@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help. ",
+			"gmailsubject1":"Tell us about your experience with EA Help",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!",
+			"emailconfig_Value":"100"
+		}
+	],
+	"53467": [
+		{
+			"username": "vopautomation3@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"RoleName1": "Arabic Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation3@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation3@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help. ",
+			"gmailsubject1":"Tell us about your experience with EA Help",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!",
+			"emailconfig_Value":"100",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"I am unable to support this issue",
+			"status":"Transferred",
+			"status1":"Fixed"
+		}
+	],
+	"53598": [
+		{
+			"username": "vopautomation2@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"RoleName1": "Arabic Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation2@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation2@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help. ",
+			"gmailsubject1":"Tell us about your experience with EA Help",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!",
+			"emailconfig_Value":"100",
+			"chattext":"Hello",
+			"queue":"Arabic email",
+			"outMsg":"No Known Solution",
+			"status":"New",
+			"status1":"Fixed"
+		}
+	],
+	"53597": [
+		{
+			"username": "vopautomation2@gmail.com",
+			"password": "Test123#",
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "VOP_Email",
+			"description": "Testing vop email",
+			"emailid":"vopautomation2@gmail.com",
+			"agentname":"Admin Email",
+			"gmailemail":"vopautomation2@gmail.com",
+			"gmailpassword":"Test12!@",
+			"gmailsubject":"Sandbox: Thanks for using EA Help. ",
+			"gmailsubject1":"Tell us about your experience with EA Help",
+			"InMomentExperience": "VOP_InMoment Survey",
+			"question1":"Did we resolve your issue?",
+			"answer1":"No",
+			"question2":"Overall, how satisfied are you with your most recent EA Help experience?",
+			"answer2":"1",
+			"question3":"Would you recommend this advisor to the next player who contacts EA Help?",
+			"answer3":"No",
+			"txtfeedback":"Thank You!",
+			"emailconfig_Value":"100"
+		}
+	],
+	
+	"36171": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"country": "/en,/es,/se,/pl,/nl",
+			"country_Label": "Country*,País*,Country*,Kraj*,Land*",
+			"selected_country": "United States (+1),Spain (+34),Sweden (+46),Poland (+48),Netherlands (+31)"
+		}
+	],
+	"39521": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "اختبار WWCE الرجاء تجاهل",
+			"description": "للأتمتة اختبار الاستخدام"
+		}
+	],
+	"40500": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "Teste da WWCE Por favor ignore",
+			"description": "Para uso de teste de automação"
+		}
+	],
+	"40501": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE 테스트 무시하십시오.",
+			"description": "자동화 테스트 용"
+		}
+	],
+	"15340": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"15343": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE-testning Vänligen ignorera",
+			"description": "För Automation Testing användning"
+		}
+	],
+	"40493": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"15341": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "Testowanie WWCE Proszę zignorować",
+			"description": "Do testowania automatyzacji użyj"
+		}
+	],
+	"15315": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "Test WWCE Veuillez ignorer",
+			"description": "Pour les tests d'automatisation"
+		}
+	],
+	"15318": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "Pruebas WWCE Por favor ignora",
+			"description": "Para el uso de pruebas de automatización"
+		}
+	],
+	"15339": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "Test WWCE Si prega di ignorare",
+			"description": "Per l'uso di test di automazione"
+		}
+	],
+	"18222": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE測試請忽略",
+			"description": "用於自動化測試使用"
+		}
+	],
+	"18223": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCEテスト無視してください",
+			"description": "オートメーションテスト用"
+		}
+	],
+	"15314": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40422": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40536": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"18160": [
+		{
+			"RoleName": "Admin Email",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"phonenumber": "NA",
+			"subject": "Пожалуйста, проигнорируйте этот случай",
+			"description": "Для тестирования автоматизации"
+		}
+	],
+	"40497": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "suporte da comunidade 24 horas por ",
+			"description": "suporte da comunidade 24 horas por"
+		}
+	],
+	"40513": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"L_unAuthFName": "EAヘルプをより良",
+			"L_unAuthLName": "お問い合わせ",
+			"L_unAuthEmail": "のにするために力を@gmail.com",
+			"L_subject": " プライバシー ＆ クッキーポリシー プライバシー ＆ クッキーポリシー",
+			"L_description": " プライバシー ＆ クッキーポリシー",
+			"unAuthFName": "FNameTest",
+			"unAuthLName": "LNameTest",
+			"unAuthEmail": "testmail4567@gmail.com",
+			"subject": "WWCE Ignore Chat case test",
+			"description": "Please ignore test chat case"
+		}
+	],
+	"40514": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "Hilf uns",
+			"unAuthLName": "EA Hilfe zu",
+			"unAuthEmail": "zuverbessern@gmail.com",
+			"subject": "Hol dir rund um die Uhr Hilfe",
+			"description": "Spielerfragen"
+		}
+	],
+	"40515": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"L_unAuthFName": "EA 도움말의 개선을 도와주세요!",
+			"L_unAuthLName": "지원 문의",
+			"L_unAuthEmail": "에대해알려주세요@gmail.com",
+			"L_subject": "귀하의 경험에 대해 알려주세요",
+			"L_description": "귀하의 경험에 대해 알려주세요",
+			"unAuthFName": "FNameTest",
+			"unAuthLName": "LNameTest",
+			"unAuthEmail": "testmail9965@gmail.com",
+			"subject": "WWCE Ignore Chat case test",
+			"description": "Please ignore test chat case"
+		}
+	],
+	"40516": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"L_unAuthFName": "Obtenez de",
+			"L_unAuthLName": "l'aide de la",
+			"L_unAuthEmail": "communauté@gmail.com",
+			"L_subject": "répondant aux questions des",
+			"L_description": "répondant aux des",
+			"unAuthFName": "FNameTest",
+			"unAuthLName": "LNameTest",
+			"unAuthEmail": "testmail123@gmail.com",
+			"subject": "WWCE Ignore Chat case test",
+			"description": "Please ignore test chat case"
+		}
+	],
+	"40517": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": " Onlinetjänstuppdateringa",
+			"unAuthLName": "Juridiskt",
+			"unAuthEmail": "dotterbolag@gmail.com",
+			"subject": "Din integritet är viktig för",
+			"description": "för den på bästa sätt"
+		}
+	],
+	"40518": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"L_unAuthFName": "Получайте",
+			"L_unAuthLName": "помощь от сообщества",
+			"L_unAuthEmail": "подсказки@gmail.com",
+			"L_subject": "на вопросы игроков в любое",
+			"L_description": "повышайте свой уровень, отвечая",
+			"unAuthFName": "FNameTest",
+			"unAuthLName": "LNameTest",
+			"unAuthEmail": "testmail00876@gmail.com",
+			"subject": "WWCE Ignore Chat case test",
+			"description": "Please ignore test chat case"
+		}
+	],
+	"40519": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "l’utente",
+			"unAuthLName": "gioco contenut",
+			"unAuthEmail": "aggiornamenti@gmail.com",
+			"subject": "Questo Accordo viene stipulato",
+			"description": "regolamenta l'accesso e l'utilizzo"
+		}
+	],
+	"40520": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"L_unAuthFName": "softwareproducten",
+			"L_unAuthLName": "schijf staat",
+			"L_unAuthEmail": "aangeboden@gmail.com",
+			"L_subject": "schijf staat of die is gedownload",
+			"L_description": "overeenkomst tussen u en de",
+			"unAuthFName": "FNameTest",
+			"unAuthLName": "LNameTest",
+			"unAuthEmail": "testmail90876@gmail.com",
+			"subject": "WWCE Ignore Chat case test",
+			"description": "Please ignore test chat case"
+		}
+	],
+	"40521": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"L_unAuthFName": "Informação para contato",
+			"L_unAuthLName": "informações do caso",
+			"L_unAuthEmail": "Sobrenome@gmail.com",
+			"L_subject": "Ajude-nos a melhorar a Ajuda da EA!",
+			"L_description": "INFORMAÇÕES DO CASO",
+			"unAuthFName": "FNameTest",
+			"unAuthLName": "LNameTest",
+			"unAuthEmail": "testmail90tes876@gmail.com",
+			"subject": "WWCE Ignore Chat case test",
+			"description": "Please ignore test chat case"
+		}
+	],
+	"40522": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "La decisión",
+			"unAuthLName": "relacionados",
+			"unAuthEmail": "operaciones@gmail.com",
+			"subject": "Pero a medida que los juegos nuevos",
+			"description": "el número de jugadores que"
+		}
+	],
+	"40523": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"unAuthFName": "Informação para contato",
+			"unAuthLName": "informações do caso",
+			"unAuthEmail": "Sobrenome@gmail.com",
+			"subject": "Ajude-nos a melhorar a Ajuda da EA!",
+			"description": "INFORMAÇÕES DO CASO"
+		}
+	],
+	"40524": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "Informação para contato",
+			"LName": "informações do caso",
+			"Email": "Sobrenome@gmail.com",
+			"phonenumber": "11203004",
+			"subject": "suporte da comunidade 24 horas por ",
+			"description": "suporte da comunidade 24 horas por"
+		}
+	],
+	"40525": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "Hilf uns",
+			"LName": "EA Hilfe zu",
+			"Email": "zuverbessern@gmail.com",
+			"phonenumber": "11203004",
+			"subject": "Hol dir rund um die Uhr Hilfe aus der",
+			"description": "Hol dir rund um die Uhr Hilfe aus der"
+		}
+	],
+	"40526": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "La decisión",
+			"LName": "relacionados",
+			"Email": "operaciones@gmail.com",
+			"phonenumber": "902018708",
+			"subject": "Pero a medida que los juegos nuevos",
+			"description": "el número de jugadores que"
+		}
+	],
+	"40527": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "l’utente",
+			"LName": "gioco contenut",
+			"Email": "aggiornamenti@gmail.com",
+			"phonenumber": "66656496",
+			"subject": "Questo Accordo viene stipulato",
+			"description": "regolamenta l'accesso e l'utilizzo"
+		}
+	],
+	"40528": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "EAヘルプをより良",
+			"LName": "お問い合わせ",
+			"Email": "のにするために力を@gmail.com",
+			"phonenumber": "01203004",
+			"subject": "WWCEテストこのケースを無視してください",
+			"description": "オートメーションテスト用"
+		}
+	],
+	"40529": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "Obtenez de",
+			"LName": "l'aide de la",
+			"Email": "communauté@gmail.com",
+			"phonenumber": "112030046",
+			"subject": "répondant aux questions des",
+			"description": "répondant aux des"
+		}
+	],
+	"40530": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": " Onlinetjänstuppdateringa",
+			"LName": "Juridiskt",
+			"Email": "dotterbolag@gmail.com",
+			"phonenumber": "11203004",
+			"subject": "Din integritet är viktig för",
+			"description": "för den på bästa sätt"
+		}
+	],
+	"40531": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "Получайте",
+			"LName": "помощь от сообщества",
+			"Email": "подсказки@gmail.com",
+			"phonenumber": "8003330990",
+			"subject": "на вопросы игроков в любое",
+			"description": "повышайте свой уровень, отвечая"
+		}
+	],
+	"40532": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "softwareproducten",
+			"LName": "schijf staat",
+			"Email": "aangeboden@gmail.com",
+			"phonenumber": "858882155",
+			"subject": "schijf staat of die is gedownload",
+			"description": "overeenkomst tussen u en de"
+		}
+	],
+	"40533": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "softwareproducten",
+			"LName": "schijf staat",
+			"Email": "aangeboden@gmail.com",
+			"phonenumber": "225779952",
+			"subject": "schijf staat of die is gedownload",
+			"description": "overeenkomst tussen u en de"
+		}
+	],
+	"40534": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "EA 도움말의 개선을 도와주세요!",
+			"LName": "지원 문의",
+			"Email": "에대해알려주세요@gmail.com",
+			"phonenumber": "27893700",
+			"subject": "귀하의 경험에 대해 알려주세요",
+			"description": "귀하의 경험에 대해 알려주세요"
+		}
+	],
+	"40535": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "98876654321",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40496": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "suporte da comunidade 24 horas por ",
+			"description": "suporte da comunidade 24 horas por"
+		}
+	],
+	"40494": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "온라인 서비스 업데이트사용자 계약 개인정보 및 쿠키 정책",
+			"description": "ل온라인 서비스 업데이트사용자 계약 개인정보 및 쿠키 정책"
+		}
+	],
+	"test": [
+		{
+			"RoleName": "Automation Testing - phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "8004385000",
+			"subject": "귀하의 경험에 대해 알려주세요ا귀하의 경험에 대해 알려주세요",
+			"description": "ل귀하의 경험에 대해 알려주세요"
+		}
+	],
+	"40476": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "اختبار WWCE الرجاء تجاهل هذه الحالة",
+			"description": "لاختبار الأتمتة"
+		}
+	],
+	"40492,13425": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"Phone_RoleName": "Automation Testing - Phone",
+			"pogo_username": "testeauat+29@gmail.com",
+			"pogo_password": "admin12!@",
+			"ICROptions_URL": "contact-us/?product=star-wars-battlefront&platform=pc&category=technical-support&issue=request-progress-reset&isChannelSelection=true"
+		}
+	],
+	"40485": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"Email": "unauth@gmail.com",
+			"phonenumber": "NA",
+			"subject": "اختبار WWCE الرجاء تجاهل هذه الحالة",
+			"description": "لاختبار الأتمتة"
+		}
+	],
+	"40477": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE測試請忽略此案例",
+			"description": "用於自動化測試"
+		}
+	],
+	"40486": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"Email": "unauth@gmail.com",
+			"phonenumber": "NA",
+			"subject": "WWCE測試請忽略此案例",
+			"description": "用於自動化測試"
+		}
+	],
+	"40478": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCEテストこのケースを無視してください",
+			"description": "オートメーションテスト用"
+		}
+	],
+	"40473": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "8003330990",
+			"subject": "Пожалуйста, проигнорируйте этот случай",
+			"description": "Для тестирования автоматизации"
+		}
+	],
+	"40472": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"subject": "Пожалуйста, проигнорируйте этот случай",
+			"description": "Для тестирования автоматизации",
+			"phonenumber": "NA"
+		}
+	],
+	"40446": [
+		{
+			"email_URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"RoleName": "Automation Testing - Email",
+			"email_product": "Spore",
+			"email_platform": "PC",
+			"email_category": "Manage my account",
+			"email_subcategory": "Delete account",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"39948,39949,39950": [
+		{
+			"email_URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"sf_username": "automation2@ea.com.runfc",
+			"sf_passowrd": "Test12!@",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"40447": [
+		{
+			"chat_URL": "contact-us/?product=52-card-pickup&platform=pogo&category=orders&issue=check-order-status&isChannelSelection=true",
+			"RoleName": "Automation Testing - Chat",
+			"category": "Orders",
+			"subcategory": "Check order status",
+			"file1": "Blank1KB.txt",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40019": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40428": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40482,40082": [
+		{
+			"Club_Pogo_userName": "testeauat+29@gmail.com",
+			"Club_Pogo_password": "admin12!@",
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40469,40144": [
+		{
+			"Pogo_userName": "pogo.testfromorg@gmail.com",
+			"Pogo_password": "Test12!@",
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40436": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE-testning Vänligen ignorera",
+			"description": "För Automation Testing användning"
+		}
+	],
+	"40419,40141,40150,40151": [
+		{
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40471,41275": [
+		{
+			"subject": "Пожалуйста, проигнорируйте этот случай",
+			"description": "Для тестирования автоматизации"
+		}
+	],
+	"40429": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "Test WWCE Veuillez ignorer",
+			"description": "Pour les tests d'automatisation"
+		}
+	],
+	"40430": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE Testing Please ignorere",
+			"description": "Til automatiseringstestning"
+		}
+	],
+	"40431": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "Pruebas WWCE Por favor ignora",
+			"description": "Para el uso de pruebas de automatización"
+		}
+	],
+	"40432": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "Test WWCE Si prega di ignorare",
+			"description": "Per l'uso di test di automazione"
+		}
+	],
+	"40433": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"40434": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "Testowanie WWCE Proszę zignorować",
+			"description": "Do testowania automatyzacji użyj"
+		}
+	],
+	"40435": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"subject": "Teste da WWCE Por favor, ignore",
+			"description": "Para uso de teste de automação"
+		}
+	],
+	"40483": [
+		{
+			"Pogo_userName": "pogo.test102@gmail.com",
+			"Pogo_password": "Test12!@",
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40484": [
+		{
+			"Club_Pogo_userName": "testeauat+29@gmail.com",
+			"Club_Pogo_password": "admin12!@",
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40437,39134": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"39133": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "54175430",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"error_message": "Phone number is invalid."
+		}
+	],
+	"40439": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "45800826093",
+			"subject": "WWCE Testing Please ignorere",
+			"description": "Til automatiseringstestning"
+		}
+	],
+	"40440": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "902018708",
+			"subject": "Pruebas WWCE Por favor ignora",
+			"description": "Para el uso de pruebas de automatización"
+		}
+	],
+	"40438": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "805089412",
+			"subject": "Test WWCE Veuillez ignorer",
+			"description": "Pour les tests d'automatisation"
+		}
+	],
+	"40441": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "66656494",
+			"subject": "Test WWCE Si prega di ignorare",
+			"description": "Per l'uso di test di automazione"
+		}
+	],
+	"40442": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "858882155",
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"40443": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "225779952",
+			"subject": "Testowanie WWCE Proszę zignorować",
+			"description": "Do testowania automatyzacji użyj"
+		}
+	],
+	"40444": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "887018929",
+			"subject": "Testowanie WWCE Proszę zignorować",
+			"description": "Do testowania automatyzacji użyj"
+		}
+	],
+	"40445": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "01203004",
+			"subject": "WWCE-testning VÃƒÆ’Ã‚Â¤nligen ignorera",
+			"description": "FÃƒÆ’Ã‚Â¶r Automation Testing anvÃƒÆ’Ã‚Â¤ndning"
+		}
+	],
+	"40479": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "01203004",
+			"subject": "اختبار WWCE الرجاء تجاهل هذه الحالة",
+			"description": "لاختبار الأتمتة"
+		}
+	],
+	"40480": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "01203004",
+			"subject": "WWCE測試請忽略此案例",
+			"description": "用於自動化測試"
+		}
+	],
+	"40487": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"Email": "unauth@gmail.com",
+			"phonenumber": "44500000",
+			"subject": "اختبار WWCE الرجاء تجاهل هذه الحالة",
+			"description": "لاختبار الأتمتة"
+		}
+	],
+	"40488": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"Email": "unauth@gmail.com",
+			"phonenumber": "29458888",
+			"subject": "WWCE測試請忽略此案例",
+			"description": "用於自動化測試"
+		}
+	],
+	"40495": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "01203004",
+			"subject": "Hol dir rund um die Uhr Hilfe aus der",
+			"description": "Hol dir rund um die Uhr Hilfe aus der"
+		}
+	],
+	"40498": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "01203004",
+			"subject": "suporte da comunidade 24 horas por ",
+			"description": "suporte da comunidade 24 horas por"
+		}
+	],
+	"40499": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "01203004",
+			"subject": "귀하의 경험에 대해 알려주세요",
+			"description": "귀하의 경험에 대해 알려주세요"
+		}
+	],
+	"40481": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"phonenumber": "01203004",
+			"subject": "WWCEテストこのケースを無視してください",
+			"description": "オートメーションテスト用"
+		}
+	],
+	"40448": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"chat_product": "Origin",
+			"chat_platform": "Mac",
+			"chat_category": "Manage my account",
+			"chat_subcategory": "Manage payment details",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=origin&platform=mac&category=manage-my-account&issue=manage-payment-details&isChannelSelection=true"
+		}
+	],
+	"40453,36166,36167": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"chat_product": "52 Card Pickup",
+			"chat_platform": "Pogo.com",
+			"chat_category": "Orders",
+			"chat_subcategory": "Check order status",
+			"chat_window_title": "Games Main Chat Window",
+			"eahlep_title": "Games Main Chat Window",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=52-card-pickup&platform=pogo&category=orders&issue=check-order-status&isChannelSelection=true"
+		}
+	],
+	"40451": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"chat_product": "Origin",
+			"chat_platform": "Mac",
+			"chat_category": "Manage my account",
+			"chat_subcategory": "Manage payment details",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=origin&platform=mac&category=manage-my-account&issue=manage-payment-details&isChannelSelection=true"
+		}
+	],
+	"40449": [
+		{
+			"chatRoleName": "Automation Testing - Chat",
+			"phoneRoleName": "Automation Testing - Phone",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=the-simpsons-tapped-out&platform=iphone&category=manage-my-account&issue=hacked-account&isChannelSelection=true"
+		}
+	],
+	"40450": [
+		{
+			"phoneRoleName": "Automation Testing - Phone",
+			"phonenumber": "5417543010",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=the-simpsons-tapped-out&platform=iphone&category=manage-my-account&issue=hacked-account&isChannelSelection=true"
+		}
+	],
+	"40452": [
+		{
+			"email_URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"RoleName": "Automation Testing - Email",
+			"email_product": "Spore",
+			"email_platform": "PC",
+			"email_category": "Manage my account",
+			"email_subcategory": "Delete account",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"40491": [
+		{
+			"email_URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"RoleName": "Automation Testing - Email",
+			"email_product": "Spore",
+			"email_platform": "PC",
+			"email_category": "Manage my account",
+			"email_subcategory": "Delete account",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"39524": [
+		{
+			"channel_URL": "contact-us/?product=52-card-pickup&platform=pogo&category=orders&issue=check-order-status&isChannelSelection=true",
+			"RoleName": "Automation Testing - Chat",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"Chat_Window_Title": "إي ألعاب الدردشة"
+		}
+	],
+	"40454": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use",
+			"channel_URL": "contact-us/?product=the-sims-3-island-paradise&platform=pc&category=codes-and-promotions&issue=invalid-code&isChannelSelection=true"
+		}
+	],
+	"40457": [
+		{
+			"RoleName": "Automation Testing - Chat",
+			"category": "orders",
+			"subcategory": "check-order-status",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"phonenumber": "NA",
+			"Email": "unauth@gmail.com",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"40458": [
+		{
+			"RoleName": "Automation Testing - Phone",
+			"category": "manage-my-account",
+			"subcategory": "hacked-account",
+			"FName": "WWCE",
+			"LName": "Automation",
+			"phonenumber": "9823348711",
+			"Email": "unauth@gmail.com",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	]
+}

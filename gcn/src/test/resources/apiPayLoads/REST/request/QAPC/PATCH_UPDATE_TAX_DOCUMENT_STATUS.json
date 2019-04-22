@@ -1,0 +1,158 @@
+{
+	"global": {
+		"headers":{
+			"x-correlation-id":"test",
+			"x-user-id":"987",
+			"x-client-id":"gcn_admin",
+			"Authorization":""
+		},
+		"uri_param":{},
+		"input_param":{},
+		"payload_param":{}	
+	},
+	
+	"27265": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+  			"documentType": "W-9",
+  			"gameChangerId": 991,
+  			"notes": "verified",
+  			"status": "VALID"
+		}
+	},
+	
+	"27271": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+  			"documentType": "W-8BEN",
+  			"gameChangerId": 987,
+  			"notes": "verified",
+  			"status": "VALID"
+		}
+	},
+	
+	"27277": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+  			"documentType": "W-8BEN-E",
+  			"gameChangerId": 994,
+  			"notes": "verified",
+  			"status": "VALID"
+		}
+	},
+	
+	"27280": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+  			"documentType": "W-8BEN-E",
+  			"gameChangerId": 994,
+  			"notes": "verified",
+  			"status": "INCOMPLETE"
+		}
+	},
+	
+	"27284": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+  			"documentType": "W-8BEN-E",
+  			"gameChangerId": 994,
+  			"notes": "verified",
+  			"status": "EXPIRED"
+		}
+	},
+	
+	"27288": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+  			"documentType": "W-8BEN",
+  			"gameChangerId": 991,
+  			"notes": "verified",
+  			"status": "EXPIRED"
+		}
+	},
+	
+	"27292": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+  			"documentType": "W-9",
+  			"gameChangerId": 991,
+  			"notes": "verified",
+  			"status": "EXPIRED"
+		}
+	},
+	
+	"27296": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+  			"documentType": "W-9",
+  			"gameChangerId": 991,
+  			"notes": "verified",
+  			"status": "INCOMPLETE"
+		}
+	},
+	
+	"27300": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+  			"documentType": "VGVGV",
+  			"gameChangerId": 991,
+  			"notes": "verified",
+  			"status": "INCOMPLETE"
+		}
+	}					
+
+}

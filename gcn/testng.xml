@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GCN_Admin_Test_Suite">
+
+	<listeners>
+		<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+
+  <test name="GCN_Admin_Chrome">
+  
+  	<parameter name="executionMode" value="local" />
+	<parameter name="platform" value="WEB" />
+	<parameter name="operatingSystem" value="WINDOWS" />
+	<parameter name="browserName" value="Chrome" />
+	<parameter name="browserVersion" value="66" />
+	<parameter name="automationName" value="Test" />
+	<parameter name="testEnvironment" value="ADMIN_QAPC" />
+	<parameter name="deviceName" value="" />
+	<parameter name="appPackage" value="" />
+	<parameter name="appActivity" value="" />
+	<parameter name="applicationId" value="" />
+	<parameter name="bundleId" value="" />
+	<parameter name="appiumURL" value="" />
+	<parameter name="planId" value="747" />
+	<parameter name="testType" value="Regression_UI" />
+    <classes>
+
+	 <class name="com.ea.wwce.automation.gcn.tests.GcnAdminLoginTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminLogoutTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminInvalidLoginTest"/>
+     
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPageUiTest"/>
+     
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimateTestUi"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimateTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimationStipendTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimationNotJoined_Declined_Test"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimationUserTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimationContentTest"/>
+     
+     <class name="com.ea.wwce.automation.gcn.tests.AdminOppDetailsUiTest"/>
+     
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsEventPageTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunityEventPageUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsPageTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunityImgUploadTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsPageUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminOppPageTestUi"/>
+     
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsPageTravelTest"/>
+
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentsTestUi"/>
+     
+     <class name="com.ea.wwce.automation.gcn.tests.NewOpportunityPageTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.UploadPrevImgNewOpportunityTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.NewOpportunityEventPageUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.NewOpportunityWithoutTravelTest"/>
+     
+     
+     
+     
+<!--       
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminLoginTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminLogoutTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminInvalidLoginTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.NewOpportunityEventPageUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.NewOpportunityPageTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.AdminOppDetailsUiTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPageUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunityEventPageUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunityImgUploadTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsPageTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsPageUiTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.UploadPrevImgNewOpportunityTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsPageTravelTest"/>
+     
+     
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentsTestUi"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimateTestUi"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPageTestUi"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminOppPageTestUi"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimationStipendTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimationNotJoined_Declined_Test"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimationUserTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimationContentTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimateTestUi"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminBudgetEstimateTest"/>
+     
+     
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentAllTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentMultiTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentPreviewTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentPreviewTest2"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentSingleTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentStatusTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentsTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentsTest2"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentsTest3"/>
+     <class name="com.ea.wwce.automation.gcn.tests.GcnAdminPaymentsTest4"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.NewOpportunityEventPageUiTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.NewOpportunityGeneralPageUiTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.NewOpportunityPageTest"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunityEventPageUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunityImgUploadTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunityImgUploadTest3"/> 
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsEventPageTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsPageTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.OpportunitySettingsPageUiTest"/>
+     <class name="com.ea.wwce.automation.gcn.tests.UploadPrevImgNewOpportunityTest"/>
+   
+ -->
+                
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

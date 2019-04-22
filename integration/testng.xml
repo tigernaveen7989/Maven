@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IntegrationTestSuite">
+	<listeners>
+		<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+	<test name="ChromeTests">
+	         
+		<parameter name="executionMode" value="local" />
+		<parameter name="platform" value="WEB" />
+		<parameter name="operatingSystem" value="WINDOWS" />
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="browserVersion" value="52" />
+		<parameter name="automationName" value="Test" />
+		<parameter name="testEnvironment" value="RUNFC" />
+		<parameter name="deviceName" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="applicationId" value="" />
+		<parameter name="bundleId" value="" />
+		<parameter name="appiumURL" value="" />
+		<parameter name="planId" value="1143" />
+		<parameter name="testType" value="Regression" />
+		
+	   <groups>
+              <!--   <define name = "all">        
+                         
+                    <include name = "Production_Phone_5.30PM"/> 
+                    <include name = "Production_Phone_7.30PM"/> 
+                    <include name = "Production_Chat_5.30PM"/>                   
+                    <include name = "Production_Phone_5.30PM"/> 
+                    <include name = "Production_Email"/>
+                    <include name = "Production_Chat_3.30PM"/>
+                    <include name = "Production_Phone_3.30PM"/>                    
+                    
+                 </define>  --> 
+                          
+               <!--   <run>
+                    <include name = "all"/>
+                 </run>   -->               
+         </groups>			
+		
+		<classes>						  
+	      
+			 <!-- Here phone cases are to verify Get call button is enabled or disabled 	 -->		 
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseTest"/>			
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForFRLocaleTest" />		
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForESLocaleTest" /> 	
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForDKLocaleTest" />
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForITLocaleTest" />	
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForNLLocaleTest" />
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForPLLocaleTest" />			
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForPTLocaleTest" />
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForSELocaleTest" />
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForRULocaleTest" />				
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForARLocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForHKLocaleTest"/>
+			<!-- <class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForJPLocaleTest"/> No support for this locale-->
+			<!-- <class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForBRLocaleTest"/> No support for this locale-->
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForDELocaleTest"/>
+			<!-- <class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForKRLocaleTest"/> No support for this locale 	 -->
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseForUKLocaleTest"/>
+			
+			<!--  Email Scripts  -->       
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForArLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForBRLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForKRLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForNLLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForSELocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForDELocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForPLLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForFRLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForESLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForITLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForHKLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForJPLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForENLocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForRULocaleTest"/>
+           <class name="com.wwce.ea.automation.integration.tests.EAHelpEmailCaseForUKLocaleTest"/>
+						
+			<class name="com.wwce.ea.automation.integration.tests.CreateChatCaseAndResumeAsEmailCaseTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateEmailCaseAndResumeAsChatCaseTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateChatCaseAndResumeAsPhoneCaseTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateEmailCaseAndResumeAsPhoneCaseTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateEmailCaseAndResumeAsEmailCaseTest"/> 			
+			<class name="com.wwce.ea.automation.integration.tests.CreateChatCaseAndResumeAsChatCaseTest"/>			
+			<class name="com.wwce.ea.automation.integration.tests.CreateCaseWithAttachmentAndVerifyInSFTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseUsingClubPogoUserTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreatePhoneCaseUsingPogoUserTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateChatCaseUsingClubPogoUserTest"/>			
+				
+			<class name="com.wwce.ea.automation.integration.tests.VerifyFeatureAndNonFeatureChannelsForClubPogoUserTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateEmailCaseWithAttachmentAndVerifyDetailsInOmegaTest" />		 
+			<class name="com.wwce.ea.automation.integration.tests.CreateChatCaseWithAttachmentAndVerifyDetailsInOmegaTest" />
+			<class name="com.wwce.ea.automation.integration.tests.CreateCaseResolveItResumeItAndVerifyStatusTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateChatCaseAndVerifyCaseDetailsInMyCasesSectionTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateChatCaseForArLocaleAndVerifySurveyTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.VerifyPhoneNumberFieldIsNotEnabledTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.VerifyTheFieldNameCountryCodeIsChanged"/>
+							
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForBRLocaleTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForDELocaleTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForESLocaleTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForFRLocaleTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForITLocaleTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForJPLocaleTest"/>			
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForKRLocaleTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForNLLocaleTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForPLLocaleTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForRULocaleTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForSELocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForArLocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthChatCaseForHKLocaleTest"/>
+			
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseTest"/>	
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForArLocaleTest"/>
+			<!-- <class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForHKLocaleTest"/> phone channel not supported on lower -->			
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForBRLocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForDELocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForESLocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForFRLocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForITLocaleTest"/>
+			<!-- <class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForJPLocaleTest"/> No support for this locale-->
+			<!-- <class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForKRLocaleTest"/> No support for this locale-->
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForNLLocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForPLLocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForRULocaleTest"/>
+			<class name="com.wwce.ea.automation.integration.tests.CreateUnAuthPhoneCaseForSELocaleTest"/>					
+												
+		</classes>
+	</test>
+	
+	
+</suite>

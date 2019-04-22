@@ -1,0 +1,23 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"43771": [
+		{
+			"relationshipUri": "/relationships/383",
+			"userUri": "/users/2254621283",
+			"relatedUserType": "CHILD",
+			"relatedUserUri": "/pids/12273981089",
+			"relationshipUri_1": "/relationships/5496",
+			"relatedUserUri_1": "/pids/12276352641"
+		}
+	],
+	"43772": [
+		{
+			"errorCode": "SVC-NUC-10002",
+			"errorShortMessage": "USER_NOT_FOUND"
+		}
+	]
+}

@@ -1,0 +1,214 @@
+{
+	"global": {
+		"headers":{
+			"x-correlation-id":"test",
+			"x-user-id":"987",
+			"x-client-id":"gcn_admin",
+			"Authorization":""
+		},
+		"uri_param":{},
+		"input_param":{},
+		"payload_param":{}	
+	},
+	
+	"20345": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"addressLine1": "add_line1",
+  			"addressLine2": "add_line2",
+  			"city": "hyderabad",
+  			"country": "AT",
+  			"email": "stalasila@contractor.ea.com",
+  			"entity_type": "INDIVIDUAL",
+  			"game_changer_id": 992,
+  			"state": "state1",
+  			"tax_id": "232323",
+  			"vendor": "PAYPAL",
+  			"zipCode": "111111"
+		
+		}
+	},
+	
+	"20349": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"addressLine1": "add_line1",
+  			"addressLine2": "add_line2",
+  			"city": "hyderabad",
+  			"country": "ABC",
+  			"email": "stalasila@contractor.ea.com",
+  			"entity_type": "INDIVIDUAL",
+  			"game_changer_id": 992,
+  			"state": "state1",
+  			"tax_id": "232323",
+  			"vendor": "PAYPAL",
+  			"zipCode": "111111"
+		
+		}
+	},
+	
+	"20350": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"addressLine1": "add_line1",
+  			"addressLine2": "add_line2",
+  			"city": "hyderabad",
+  			"country": "AT",
+  			"email": "stalasila.contractor.ea.com",
+  			"entity_type": "INDIVIDUAL",
+  			"game_changer_id": 992,
+  			"state": "state1",
+  			"tax_id": "232323",
+  			"vendor": "PAYPAL",
+  			"zipCode": "111111"
+		
+		}
+	},
+	
+	"20351": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"addressLine1": "add_line1",
+  			"addressLine2": "add_line2",
+  			"city": "hyderabad",
+  			"country": "AT",
+  			"email": "stalasila@contractor.ea.com",
+  			"entity_type": "INDIVDUAL",
+  			"game_changer_id": 992,
+  			"state": "state1",
+  			"tax_id": "232323",
+  			"vendor": "PAYPAL",
+  			"zipCode": "111111"
+		
+		}
+	},
+	
+	"20352": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"addressLine1": "add_line1",
+  			"addressLine2": "add_line2",
+  			"city": "hyderabad",
+  			"country": "AT",
+  			"email": "stalasila@contractor.ea.com",
+  			"entity_type": "INDIVDUAL",
+  			"game_changer_id": 9942,
+  			"state": "state1",
+  			"tax_id": "232323",
+  			"vendor": "PAYPAL",
+  			"zipCode": "111111"
+		
+		}
+	},
+	
+	"20353": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"addressLine1": "add_line1",
+  			"addressLine2": "add_line2",
+  			"city": "hyderabad",
+  			"country": "AT",
+  			"email": "stalasila@contractor.ea.com",
+  			"entity_type": "INDIVDUAL",
+  			"game_changer_id": 992,
+  			"state": "state1",
+  			"tax_id": "232323",
+  			"vendor": "PAYWWPAL",
+  			"zipCode": "111111"
+		
+		}
+	},
+	
+	"20354": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"addressLine1": "add_line1",
+  			"addressLine2": "add_line2",
+  			"city": "hyderabad",
+  			"country": "AT",
+  			"email": "stalasila@contractor.ea.com",
+  			"entity_type": "INDIVIDUAL",
+  			"game_changer_id": 992,
+  			"state": "state1",
+  			"tax_id": "232323",
+  			"vendor": "IPROC",
+  			"zipCode": "111111"
+		
+		}
+	},
+	
+	"20356": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		
+		"input_param": {},
+		
+		"payload_param": {
+		
+			"addressLine1": "add_line1",
+  			"addressLine2": "add_line2",
+  			"city": "hyderabad",
+  			"country": "AT",
+  			"email": "stalasila@contractor.ea.com",
+  			"entity_type": "BUSINESS",
+  			"game_changer_id": 992,
+  			"state": "state1",
+  			"tax_id": "232323",
+  			"vendor": "PAYPAL",
+  			"zipCode": "111111"
+		
+		}
+	}
+	
+}

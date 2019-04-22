@@ -1,0 +1,50 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"43705": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-ExpandUser": "true",
+			"S-NoCache": "false"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"type": "POGO_PROD",
+			"value": "543535353"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"43706": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-ExpandUser": "true",
+			"S-NoCache": "false"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"type": "POGO_PROD",
+			"value": "5435835353"
+		},
+		"payload_param": {
+			
+		}
+	}
+}

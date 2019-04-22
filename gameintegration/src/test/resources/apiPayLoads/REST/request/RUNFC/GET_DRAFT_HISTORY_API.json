@@ -1,0 +1,18 @@
+{
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "nhl-18"
+		},
+		"input_param": {
+			"id": "1000033080867",
+			"idType": "BlazeId",
+			"platform": "ps4"
+		},
+		"payload_param": {}
+	}
+}

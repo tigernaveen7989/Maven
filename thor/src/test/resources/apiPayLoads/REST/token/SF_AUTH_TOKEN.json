@@ -1,0 +1,14 @@
+{
+	"QAPC": {
+		"headers": {},
+		"uri_param": {},
+		"input_param": {
+			"grant_type": "password",
+			"client_id": "3MVG9AzPSkglhtptl.nap.no4zsphZqz3vQcqqEmT9PZuMJREG63jjzQ4QoAjlIbrdu0dFsDz1W2MHL.Hn6G7",
+			"client_secret": "2302459968315074069",
+			"username": "mkamsu@contractor.ea.com.qa1pc",
+			"password": "Test12!@48sW8rCKTpWiidi4Jjjyo6X0"
+	},
+		"payload_param": {}
+	}
+}

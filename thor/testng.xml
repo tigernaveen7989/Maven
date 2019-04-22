@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ThorTestSuite">
+<listeners>
+	<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener"/>
+</listeners>
+
+	<test name="ChromeTests"> 
+ 	<parameter name="executionMode" value="local"/> 	
+ 	<parameter name="platform" value="WEB"/> 	
+ 	<parameter name="operatingSystem" value="WINDOWS"/> 	
+ 	<parameter name="browserName" value="Chrome"/> 	
+ 	<parameter name="browserVersion" value="66"/> 	
+ 	<parameter name="automationName" value="Test"/> 
+ 	<parameter name="testEnvironment" value="QAPC"/>	
+ 	<parameter name="deviceName" value=""/> 	
+ 	<parameter name="appPackage" value=""/> 	
+ 	<parameter name="appActivity" value=""/> 	
+ 	<parameter name="applicationId" value=""/> 	
+ 	<parameter name="bundleId" value=""/> 	
+ 	<parameter name="appiumURL" value=""/> 
+ 	<parameter name="planId" value="632"/>
+ 	<parameter name="testType" value="Regression"/> 
+    <classes>   
+    	
+	<class name="com.ea.wwce.automation.thor.tests.PetitionAccountNotesTest"/> 
+    <class name="com.ea.wwce.automation.thor.tests.PetitionQueueSortingTest"/>
+  	<class name="com.ea.wwce.automation.thor.tests.PetitionCaseDetailViewTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.PetitionAccountStatusTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.SaveAndGetNextAvailablePetitionTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.ThorPetitionCaseTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T1ContentActionAndEventsTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T1ContentActionAndEventsViewCaseEscalateTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.ProductCategoryPlatformEditTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.CreatePetitionCaseTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.CreateDisputeCaseTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.SearchPlayerAccountTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.SearchCaseByUUIDTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.SearchPlayerAccountByFBIdTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.SelectionofMultipleCasesTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.RecentCaseNotesVerificationTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.UGCContentTypeVerificationTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.Tier1ThorPetitionCaseAutomaticCaseNotesTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.SelectionofMultipleCasesAfterFilterTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.DisabllityofFilterValuesVerificationTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.CaseHistoryVerificationTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.VerifyMultipleCasesT1MassActionEscalateNoteTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T1MassActionEscalateTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T1MassActionResolveTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.PetitionCompletedSortingTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.PetitionFilterComponentTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T1CasesStatusCheckTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.Tier2ThorPetitionCaseAutomaticCaseNotesTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.Tier2ThorPetitionCaseTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.Tier2BanAccountTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.Tier2SuspendAccountTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.MajorStrikesTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.MinorStrikesTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.RevokeMajorStrikesTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.RevokeMinorStrikesTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.ValidateMessagingTemplateTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.EmailVerificationOfPenalityGivenTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T2ContentActionAndEventsViewCaseResolveTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T2ContentActionAndEvents"/>
+	<class name="com.ea.wwce.automation.thor.tests.T2HideUGCContentandVerifyTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T2MassActionPetitionActionsDropdownTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.Tier2ThorPetitionCaseAutomaticCaseNotesFromDetailViewTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.Tier2SuspendFranchiseTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.Tier2BanEntitlementTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T2CasesStatusCheckTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.CreateQueueByThorAdminTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.T2ChangeRoleAndQueueTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.VerifyMultipleCasesT1MassActionEscalateNoteTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.ConfigurePenaltyLevelandDisciplinaryActionTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.VerifyAdvisorProfileJobRolesTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.CasesVerificationInSFQueueTest"/>
+	<class name="com.ea.wwce.automation.thor.tests.ThrottleConfigurationSaveTest"/>
+    </classes>	 
+</test>
+
+</suite>

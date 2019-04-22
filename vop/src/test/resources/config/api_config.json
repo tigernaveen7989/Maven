@@ -1,0 +1,10 @@
+{
+	"VOP_OUTBOUND_SURVEY_CREATION_API": {
+		"endpoint_name": "API to create outbound Survey",
+		"url": "/vop/survey/surveylink",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "VOP_OUTBOUND_SURVEY_CREATION.json",
+		"assertions": "VOP_OUTBOUND_SURVEY_CREATION_ASSERTIONS.json"
+	}
+}

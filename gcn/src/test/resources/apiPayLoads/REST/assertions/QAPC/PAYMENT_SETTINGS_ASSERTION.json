@@ -1,0 +1,112 @@
+{
+	"global": [{
+		
+	}],
+	
+	"20345": [{
+		"response_code":200,
+		"game_changer_id":992,
+		"entity_type" : "INDIVIDUAL",
+		"tax_id" : "232323"
+	}],
+	
+	"20349": [{
+		"response_code":500
+	}],
+	
+	"20350": [{
+		"response_code":500
+	}],
+	
+	"20351": [{
+		"response_code":400
+	}],
+	
+	"20352": [{
+		"response_code":404
+	}],
+	
+	"20353": [{
+		"response_code":400
+	}],
+	
+	"20354": [{
+		"response_code":200,
+		"game_changer_id":992,
+		"entity_type" : "INDIVIDUAL",
+		"tax_id" : "232323",
+		"vendor" : "IPROC"
+	}],
+	
+	"20356": [{
+		"response_code":200,
+		"game_changer_id":992,
+		"entity_type" : "BUSINESS",
+		"tax_id" : "232323",
+		"vendor" : "PAYPAL"
+	}],
+	
+	"20346": [{
+		"response_code":200,
+		"game_changer_id":991,
+		"entity_type" : "INDIVIDUAL",
+		"tax_id" : "121i0jojo",
+		"vendor" : "PAYPAL",
+		"country" : "US"
+	}],
+	
+	"20355": [{
+		"response_code":200,
+		"game_changer_id":993,
+		"entity_type" : "INDIVIDUAL",
+		"tax_id" : "AIk3023DA",
+		"vendor" : "IPROC",
+		"country" : "US"
+	}],
+	
+	"20357": [{
+		"response_code":200,
+		"game_changer_id":1002,
+		"entity_type" : "BUSINESS",
+		"tax_id" : "123456789",
+		"vendor" : "PAYPAL",
+		"country" : "US"
+	}],
+	
+	"20358": [{
+		"response_code":404,
+		"errorCode":3
+	}],
+	
+	"20359": [{
+		"response_code":401,
+		"errorCode":1,
+		"errorMessage" : "The user is unauthorized to access this url"
+	}],
+	
+	"20361": [{
+		"response_code":200,
+		"game_changer_id":991,
+		"entity_type" : "INDIVIDUAL",
+		"vendor" : "PAYPAL"			
+		}],
+		
+	"20362": [{
+		"response_code":404,
+		"errorCode":"3",
+		"errorMessage": "The database search query returned zero records for the criteria specified"	
+		}],
+	
+	"12353": [{
+		"response_code":200,
+		"game_changer_id":991,
+		"entity_type" : "INDIVIDUAL",
+		"tax_id" : "121i0jojo"
+	}],
+	
+	"12354": [{
+		"response_code":200,
+		"entity_type" : "INDIVIDUAL",
+		"vendor" : "PAYPAL"
+	}]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TSMTestSuite">
+	<listeners>
+		<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener" />
+	</listeners>
+
+<!-- added comment -->
+	<test name="ChromeTests">
+		<parameter name="executionMode" value="local" />
+		<parameter name="platform" value="WEB" />
+		<parameter name="operatingSystem" value="WINDOWS" />
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="browserVersion" value="67" />
+		<parameter name="automationName" value="Test" />
+		<parameter name="testEnvironment" value="QA3PC" />
+		<parameter name="deviceName" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="applicationId" value="" />
+		<parameter name="bundleId" value="" />
+		<parameter name="appiumURL" value="" />
+		<parameter name="planId" value="859" />
+		<parameter name="testType" value="Regression" />
+		<classes> 
+				<class name="com.ea.wwce.automation.tsm.tests.VerifyLoginTest"/> 
+				<class name="com.ea.wwce.automation.tsm.tests.VerifyCreateCasefromTSMTest"/>
+				<class name="com.ea.wwce.automation.tsm.tests.VerifySelectAdvisorStatesTest"/> 			
+		</classes>
+	</test>
+</suite>

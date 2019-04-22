@@ -1,0 +1,77 @@
+{
+	"global": [{
+		
+	}],
+	
+	"20372": [{
+		"response_code":200,
+		"game_changer_id":994,
+		"status" : "SUCCESS",
+		"currency" : "USD",
+		"type" : "STIPEND"
+	}],
+	
+	"20374": [{
+		"response_code":200,
+		"game_changer_id":994,
+		"status" : "SUCCESS",
+		"currency" : "USD",
+		"type" : "CONTENT"
+	}],
+	
+	"20375" : [{
+		"response_code":200,
+		"event_id" : 262
+	}],
+	
+	"20376" : [{
+		"response_code":200,
+		"game_changer_id" : 1002
+	}],
+	
+	"20377" : [{
+		"response_code":200,
+		"game_changer_id" : 991,
+		"event_id" : 260
+	}],
+	
+	"20379" : [{
+		"response_code":200,
+		"game_changer_id" : 994,
+		"type": "STIPEND",
+		"currency" : "USD",
+		"event_id" : 260
+	}],
+	
+	"20380" : [{
+		"response_code":200,
+		"game_changer_id" : 994,
+		"type": "STIPEND",
+		"currency" : "USD",
+		"event_id" : 260
+	}],
+	
+	"20390" : [{
+		"response_code": 404,
+		"errorCode": "3",
+    	"errorType": "Operational"
+	}],
+	
+	"20391" : [{
+		"response_code": 401,
+		"errorCode": "1",
+    	"errorType": "Operational"
+	}],
+	
+	"20392" : [{
+		"response_code": 404,
+		"errorCode": "3",
+    	"errorType": "Operational"
+	}],
+	
+	"20393" : [{
+		"response_code": 404,
+		"errorCode": "3"
+	}]
+		
+}

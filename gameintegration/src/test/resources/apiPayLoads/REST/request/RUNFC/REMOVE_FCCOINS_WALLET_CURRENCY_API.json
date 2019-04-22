@@ -1,0 +1,23 @@
+{
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "fifa-18"
+		},
+		"input_param": {
+			"id": "1000120903982",
+			"idType": "nucleusPersonaId",
+			"walletId": "POW_FUNDS",
+			"amount": "10",
+			"reason": "PLAYER_FIRST",
+			"description": "AutomationAPITest",
+			"platform": "xbox-one",
+			"userId": "1000361303982"		
+		},
+		"payload_param": {}
+	}
+}

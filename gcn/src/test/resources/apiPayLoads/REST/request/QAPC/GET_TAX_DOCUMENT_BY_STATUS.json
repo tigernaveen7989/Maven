@@ -1,0 +1,58 @@
+{
+	"global": {
+		"headers":{
+			"x-correlation-id":"test",
+			"x-user-id":"987",
+			"x-client-id":"gcn_admin",
+			"Authorization":""
+		},
+		"uri_param":{},
+		"input_param":{},
+		"payload_param":{}	
+	},
+	
+	"27261": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		"input_param": {
+			"status" : "VALID",
+			"page":1,
+			"size":5
+		},
+		"payload_param": {
+		
+		}
+	},
+	
+	"27281": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		"input_param": {
+			"status" : "INCOMPLETE",
+			"page":1,
+			"size":5
+		},
+		"payload_param": {
+		
+		}
+	},
+	
+	"27301": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		"input_param": {
+			"status" : "",
+			"page":1,
+			"size":5
+		},
+		"payload_param": {
+		
+		}
+	}
+}

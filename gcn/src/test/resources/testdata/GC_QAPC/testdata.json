@@ -1,0 +1,189 @@
+{
+  "global":[
+    {
+      "username":"bbehera@contractor.ea.com",
+      "password":"Ea_123456",
+      "uid":"Ranger",
+      
+      "fname1":"Roman",
+      "lname1":"Regan",
+      "fullname_roman":"Roman Regan",
+      
+      "fname2":"fTest",
+      "lname2":"lTest",
+      "dob":"1990-09-12",
+        
+      
+      "gcEmails" : "stalasila@contractor.ea.com,nbismillah@contractor.ea.com,sanjekumar@contractor.ea.com,kvelampalli@contractor.ea.com,gchepoori@contractor.ea.com,shkumari@contractor.ea.com,nchandragiri@contractor.ea.com,vvasamsetty@contractor.ea.com,vkeswar95@gmail.com",
+      "gcPass" : "Sports456&,$EAjalal@892820$,Shiva@04dec,Komal0304#,Ts08eb6473@50612,Shambhawi12,ammaBapu@123,123Hari@34,Komal0304#",
+      
+      "invalidusername":"bbehera@contractor",
+      "invalidusername1":"bbehera@yahoo.com",
+      "invalidpassword":"Abc34i43t",
+      
+      "usersunilgc1":"stalasila@contractor.ea.com",
+      "passsunilgc1":"Sports456&",
+      "suniluid":"Alex",
+      "paypal_sunil":"stalasila@contractor.ea.com",
+      "entityType_sunil":"Individual",
+      "taxid_sunil":"090620218",
+      "fullname_sunil":"Sunil T",
+      "country_sunil":"United States",
+      
+      "userGajagc1":"gchepoori@contractor.ea.com",
+      "passGajagc1":"Ts08eb6473@50612",
+      "gajauid":"BigThunder",
+      "paypal_gaja":"gchepoori@contractor.ea.com",
+      "entityType_gaja":"Individual",
+      "taxid_gaja":"AIk3023DA",
+      "fullname_gaja":"Gajanaad Cheepori",
+      "country_gaja":"United States",
+      "contLang_gaja":"Italian",
+      "lang_gaja":"French",
+      "tshirtsize_gaja":"XL",
+         
+      "usernihalgc2":"nbismillah@contractor.ea.com",
+      "passnihalgc2":"$EAjalal@892820$",
+      "nihaluid":"BattleWarrior",
+      "paypal_nihal":"nbismillah@contractor.ea.com",
+      "entityType_nihal":"Individual",
+      "taxid_nihal":"33333",
+      "fullname_nihal":"Nihal N",
+      "country_nihal":"India",
+      "contLang_nihal":"English",
+      "lang_nihal":"Hindi",
+      "tshirtsize_nihal":"XXL",
+      
+      "userSanjeetgc3":"sanjekumar@contractor.ea.com",
+      "passSanjeetgc3":"Shiva@04dec",
+      "sanjeetuid":"CrazyPilot",
+      "paypal_sanjeet":"sanjeekumar@contractor.ea.com",
+      "entityType_sanjeet":"Individual",
+      "taxid_sanjeet":"121i0jojoa",
+      "fullname_sanjeet":"Sanjeet N",
+      "country_sanjeet":"United States",
+      
+      "userOp2":"kvelampalli@contractor.ea.com",
+      "PassOp2":"Komal0304#",
+      "komaluid":"Riffle Shooter",
+      "paypal_komal":"kvelampalli@contractor.ea.com",
+      "entityType_komal":"Business",
+      "taxid_komal":"889896069",
+      "fullname_komal":"Komal eswar",
+      "country_komal":"India",
+      
+      "userGowri":"gvarada@ea.com",
+      "passGowri":"",
+      "gowriuid":"sha4crazy",
+      "paypal_gowri":"gvarada@ea.com",
+      "entityType_gowri":"Business",
+      "taxid_gowri":"999546774",
+      "fullName_gowri":"Shankar Varada",
+      "country_gowri":"India",
+      
+      "country_us":"United States",
+      "country_nonus":"India",
+      
+      "Add1_street":"Street 1",
+      "Add1_city":"City 1",
+      "Add1_state":"State 1",
+      "Add1_zip":"111111",
+      
+      "Add2_street":"Street 2",
+      "Add2_city":"City 2",
+      "Add2_state":"State 2",
+      "Add2_zip":"222222",
+      
+      "Add3_street":"Street 3",
+      "Add3_city":"City 3",
+      "Add3_state":"State 3",
+      "Add3_zip":"333333",
+      
+      "bizName1":"Yahoo Enterprises",
+      "bizName2":"Google Inc",
+      
+      "testmail1":"testmail@contractor.ea.com",
+      
+      "entityType1":"Business",
+      "entityType2":"Individual",
+      
+      "gcJoinedStatus1":"Joined",
+      "gcJoinedStatus2":"Not Joined",
+      "gcJoinedStatus3":"Invited",
+
+      "primaryG1":"The Sims",
+      "primaryG2":"Battlefield",
+      "secondaryG1":"3",
+      "secondaryG2":"6",
+      "primaryC1":"PC",
+      "secondaryC1":"5",
+      
+      "depAirp":"Delhi",
+      "mob":"12",
+      "dob2":"11",
+      "yob":"1990",
+      "passNum":"GA123456",
+      "pExpM":"05",
+      "pExpD":"15",
+      "pExpY":"2025",
+      "passIssCont":"India",
+      "phNum":"9898989898"      
+   	}
+   	],
+    
+    "112":[
+      {
+        "OppTitle":"GameName_",
+        "Visibility_no":"Private",
+        "Visibility_yes":"Not Private",
+        "ApprovalReq_yes":"Required",
+        "ApprovalReq_no":"Not Required",
+        "OpportunityDesc":"",
+        "Location":"",
+        "TravelTimes":"",
+        "ApprovalManager":"",
+        "BillingCode":"BIL_EA_",
+        "EventDesc":""
+      }],
+      
+      
+      
+      "16171": [{
+      }],
+      
+      "16173": [{
+      }],
+      
+      "16172": [{
+      }],
+      
+      "23005,23006,23007,23008,23009,23010,23011,23012,23014,23015,23018": [{
+      }],
+      
+      "18542,18548,18551,18552,20717,42448,42449,42450,42451,42531,42532": [{
+      }],
+      
+      "18545,18546,18547,20713,20715,42444" : [{
+      }],
+      
+      "18536,20734,20752,20754,20755,20756,20757,20758" : [{
+      }],
+      
+      "18553,20727,20729,20730,20731,20732,20733" : [{
+      }],
+      
+      "27343,27345,27346,27349" : [{
+      }],
+      
+      "27357,27358,27360" : [{
+      }],
+      
+      "27327,27333,27334,27335,27337,27340" : [{
+      }],
+      
+      "27350" : [{
+      }],
+      
+      "18534,18539,20707,20728,20753,42438,42442,42443" : [{
+      }]
+}

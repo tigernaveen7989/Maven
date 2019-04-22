@@ -1,0 +1,34 @@
+{	
+	"QAPC": {
+		"headers": {
+			"Authorization" : ""
+			
+		},
+		"uri_param": {},
+		"input_param": {},
+		"payload_param": {
+			"petitionerUserId": "1000424543645",
+			"petitionerAccountType": "Nucleus",
+			"petitionerPersonaName": "PETER",
+			"platform": "pogo",
+			"petitionerEmail": "jjpm@gmail.com",
+			"product": "52-card-pickup",
+			"targetUserId": "1000267750850",
+			"targetAccountType": "Nucleus",
+			"targetPersonaName": "TGTPER",
+			"targetEmail": "hello.test@gmail.com",
+			"category": null,
+			"contentType": "File",
+			"contentUrl": "google.com",
+			"subject": "an inappropriate NAMES",
+			"contentText": "Text",
+			"customArgs": null,
+			"contentStatusUrl": null,
+			"targetMacAddress": null,
+			"targetPersonaId": "TGT02",
+			"targetPersonaNamespace": "TGTPSNS",
+			"petitionerPersonaId": "PETI1",
+			"petitionerPersonaNamespace": "PSNS"
+		}
+	}
+}

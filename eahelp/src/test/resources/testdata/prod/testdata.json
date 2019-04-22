@@ -1,0 +1,746 @@
+{
+	"global": [
+		{
+			"username": "eahelpomega@gmail.com",
+			"password": "Test12!@",
+			"product": "Spore",
+			"platform": "PC",
+			"category": "report-concerns-or-harassment",
+			"subcategory": "reallife-threat",
+			"Chat_Product": "52 Card Pickup",
+			"Chat_Category": "orders",
+			"Chat_Subcategory": "check-order-status",
+			"phonenumber": "NA",
+			"FName": "WWCEAutomation",
+			"LName": "Please ignore this case",
+			"Email": "unauthemailcase@gmail.com",
+			"user_name": "omegaautomation",
+			"PageTitle": "EA Help: Official Support",
+			"AHQ_URL": " http://communitystage.help.ea.com/",
+			"Origin_URL": "https://integration.www.x.origin.com/store",
+			"EmailChannelURL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"ChatChannelURL": "contact-us/?product=52-card-pickup&platform=pogo&category=orders&issue=check-order-status&isLoginForm=true&isChannelSelection=true"
+		}
+	],
+	"14162,14163,14164": [
+		{
+			"SQLInJ_FName": "`!~!@#$%^&*()_+}{\\|:<>?,./;'[]\\=-`\\\"",
+			"SQLInJ_LName": "`!~!@#$%^&*()_+}{\\|:<>?,./;'[]\\=-`\\\"",
+			"JavaS_FName": "<script>",
+			"JavaS_LName": "windows.open('https://youtube.com');</script>",
+			"Numbers_FName": "0123456789",
+			"Numbers_LName": "0123456789",
+			"Email": "unauthemailcase@gmail.com"
+		}
+	],
+	"15090": [
+		{
+			"locales": "/en,/ru,/fr",
+			"title": "EA Help: Official Support,Справка ЕА — Служба поддержки,Assistance EA : assistance officielle",
+			"meta-desc0": "Get help resolving your EA game issues. Read help articles, troubleshooting steps, or open a support ticket to get back in the game.",
+			"meta-desc1": "Получите помощь по решению проблем в играх EA. Прочитайте справочные статьи, найдите инструкции для решения проблемы или отправьте заявку в службу поддержки, чтобы поскорее вернуться в игру.",
+			"meta-desc2": "Obtenez de l'aide pour résoudre les problèmes rencontrés dans les jeux EA. Lisez nos articles d'aide, nos conseils techniques ou créez un ticket d'assistance."
+		}
+	],
+	"9665": [
+		{
+			"resetpassword": "restore-account"
+		}
+	],
+	"20343": [
+		{
+			"locale": "es/",
+			"simcitybuildItProduct": "SimCity BuildIt",
+			"validation_1": "Busca artÃ­culos de ayuda y preguntas frecuentes.",
+			"validation_2": "EnvÃ­a una solicitud de asistencia.",
+			"validation_3": "ObtÃ©n ayuda de la comunidad de jugadores."
+		}
+	],
+	"20342": [
+		{
+			"locale": "de/",
+			"simcitybuildItProduct": "SimCity BuildIt",
+			"validation_1": "Hilfeartikel und FAQs durchsuchen.",
+			"validation_2": "Eine Supportanfrage abschicken.",
+			"validation_3": "Hilfe von der Spieler-Community erhalten."
+		}
+	],
+	"9624": [
+		{
+			"locale": "en-us/",
+			"simcitybuildItProduct": "SimCity BuildIt",
+			"validation_1": "Browse help articles and FAQs.",
+			"validation_2": "Submit a support request.",
+			"validation_3": "Get help from the player community."
+		}
+	],
+	"19892,9626": [
+		{
+			"SLA": "An EA Advisor will email you within: 72 hours",
+			"fifaproduct": "FIFA 16 Ultimate Team",
+			"fifaplatform": "Android Phone",
+			"fifacategory": "missing-content",
+			"fifasubcategory": "never-received-content",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"19861": [
+		{
+			"lang": "en"
+		}
+	],
+	"18613,18614": [
+		{
+			"inproduct": "Battlefield 1"
+		}
+	],
+	"13696": [
+		{
+			"Star_Product": "Star Wars: The Old Republic"
+		}
+	],
+	"17625": [
+		{
+			"locale": "en,it,es,fr",
+			"en_categories": "Codes and promotions,Game information,Manage my account,Missing content,Orders,Report a bug,Report concerns or harassment,Technical support,Warranty",
+			"it_categories": "Codici e promozioni,Informazioni sul gioco,Gestisci il mio account,Contenuto mancante,Ordini,Segnala un bug,Segnala preoccupazioni o molestie,Supporto tecnico,Garanzia",
+			"es_categories": "CÃƒÂ³digos y promociones,InformaciÃƒÂ³n del juego,Gestionar mi cuenta,Contenido que falta,Pedidos,Informar sobre un error,Denunciar problemas o abusos,Servicio tÃƒÂ©cnico,GarantÃƒÂ­a",
+			"fr_categories": "Codes et promotions,Infos jeu,GÃƒÂ©rer mon compte,Contenu manquant,Commandes,Signaler un bug,Signaler problÃƒÂ¨me ou harcÃƒÂ¨lement,Assistance technique,Garantie"
+		}
+	],
+	"13405": [
+		{
+			"Club_Pogo_userName": "testeauat+29@gmail.com",
+			"Club_Pogo_password": "admin12!@",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"17483": [
+		{
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"19086": [
+		{
+			"unAuthFName": "Informação para contato",
+			"unAuthLName": "informações do caso",
+			"unAuthEmail": "Sobrenome@gmail.com",
+			"subject": "Ajude-nos a melhorar a Ajuda da EA!",
+			"description": "INFORMAÇÕES DO CASO"
+		}
+	],
+	"19087": [
+		{
+			"unAuthFName": "La decisión",
+			"unAuthLName": "relacionados",
+			"unAuthEmail": "operaciones@gmail.com",
+			"subject": "Pero a medida que los juegos nuevos",
+			"description": "el número de jugadores que"
+		}
+	],
+	"19088": [
+		{
+			"unAuthFName": "Surfowanie",
+			"unAuthLName": "czatujecie",
+			"unAuthEmail": "komunikatora@gmail.com",
+			"subject": "świetną zabawą oraz towarzyską",
+			"description": "el número de jugadores que"
+		}
+	],
+	"19089": [
+		{
+			"unAuthFName": "softwareproducten",
+			"unAuthLName": "schijf staat",
+			"unAuthEmail": "aangeboden@gmail.com",
+			"subject": "schijf staat of die is gedownload",
+			"description": "overeenkomst tussen u en de"
+		}
+	],
+	"19090": [
+		{
+			"unAuthFName": "l’utente",
+			"unAuthLName": "gioco contenut",
+			"unAuthEmail": "aggiornamenti@gmail.com",
+			"subject": "Questo Accordo viene stipulato",
+			"description": "regolamenta l'accesso e l'utilizzo"
+		}
+	],
+	"19091": [
+		{
+			"unAuthFName": "Получайте",
+			"unAuthLName": "помощь от сообщества",
+			"unAuthEmail": "подсказки@gmail.com",
+			"subject": "на вопросы игроков в любое",
+			"description": "повышайте свой уровень, отвечая"
+		}
+	],
+	"19093": [
+		{
+			"unAuthFName": " Onlinetjänstuppdateringa",
+			"unAuthLName": "Juridiskt",
+			"unAuthEmail": "dotterbolag@gmail.com",
+			"subject": "Din integritet är viktig för",
+			"description": "för den på bästa sätt"
+		}
+	],
+	"19124": [
+		{
+			"unAuthFName": "Obtenez de",
+			"unAuthLName": "l'aide de la",
+			"unAuthEmail": "communauté@gmail.com",
+			"subject": "répondant aux questions des",
+			"description": "répondant aux des"
+		}
+	],
+	"19128": [
+		{
+			"unAuthFName": "EA 도움말의 개선을 도와주세요!",
+			"unAuthLName": "지원 문의",
+			"unAuthEmail": "communauté@gmail.com",
+			"subject": "귀하의 경험에 대해 알려주세요",
+			"description": "귀하의 경험에 대해 알려주세요"
+		}
+	],
+	"19132": [
+		{
+			"unAuthFName": "EAヘルプをより良ためにい",
+			"unAuthLName": "EAヘルり良いものにする",
+			"unAuthEmail": "お問い合わせ@gmail.com",
+			"subject": "ご感想をお聞かせください",
+			"description": "プライバシー ＆ クッキーポリシー"
+		}
+	],
+	"19137": [
+		{
+			"unAuthFName": "Hilf uns",
+			"unAuthLName": "EA Hilfe zu",
+			"unAuthEmail": "zuverbessern@gmail.com",
+			"subject": "Hol dir rund um die Uhr Hilfe",
+			"description": "Spielerfragen"
+		}
+	],
+	"18618": [
+		{
+			"subject": "Hol dir rund um die Uhr Hilfe aus der ",
+			"description": "Hol dir rund um die Uhr Hilfe aus der"
+		}
+	],
+	"18626": [
+		{
+			"subject": "Hol dir rund um die Uhr Hilfe aus der ",
+			"description": "Hol dir rund um die Uhr Hilfe aus der"
+		}
+	],
+	"18632": [
+		{
+			"subject": "Ajude-nos a melhor ajudar você. Ao enviar sua solicitação",
+			"description": "Ajude-nos a melhor ajudar você. Ao enviar sua solicitação"
+		}
+	],
+	"18492": [
+		{
+			"subject": "اختبار WWCE الرجاء تجاهل هذه الحالة",
+			"description": "لاختبار الأتمتة"
+		}
+	],
+	"18493": [
+		{
+			"subject": "WWCE測試請忽略此案例",
+			"description": "用於自動化測試"
+		}
+	],
+	"18160": [
+		{
+			"subject": "Пожалуйста, проигнорируйте этот случай",
+			"description": "Для тестирования автоматизации"
+		}
+	],
+	"18141": [
+		{
+			"Message_1": "communitystage.help.ea.com.",
+			"Message_2": ".help.ea.com",
+			"Text_1": "Case information",
+			"Text_2": "YOUR CASE INFO",
+			"Text_3": "RECOMMENDED SUPPORT OPTION",
+			"Text_4": "Answers HQ"
+		}
+	],
+	"17705": [
+		{
+			"Pogo_userName": "pogo.test112@gmail.com",
+			"Pogo_password": "Test12!@",
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"17602": [
+		{
+			"Manuals_Product": "SimCity"
+		}
+	],
+	"17599": [
+		{
+			"Deflection_URL": "contact-us/new/?product=simcity&platform=pc&category=manage-my-account&issue=hacked-account&isChannelSelection=true",
+			"Deflection_Message": "This is for automation use. Please don't update it."
+		}
+	],
+	"17571,17586": [
+		{
+			"Ahq_ProductPage_Title": "Answer HQ English - Answers HQ"
+		}
+	],
+	"17552,17584": [
+		{
+			"Ahq_ProductPage_Title": "Spore - Answers HQ",
+			"ProductPage_Title": "Spore Help"
+		}
+	],
+	"17553,17585": [
+		{
+			"Ahq_ProductPage_Title": "Spore - Answers HQ",
+			"FName": "Automation",
+			"LName": "WWCE Test",
+			"Email": "test@gmail.com",
+			"ICRpageTitle": "Contact EA"
+		}
+	],
+	"17482": [
+		{
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"15314": [
+		{
+			"subject": "WWCE Testing Please ignore",
+			"description": "For Automation Testing use"
+		}
+	],
+	"13691": [
+		{
+			
+		}
+	],
+	"13692,13693": [
+		{
+			
+		}
+	],
+	"13702": [
+		{
+			
+		}
+	],
+	"15315": [
+		{
+			"subject": "Test WWCE Veuillez ignorer",
+			"description": "Pour les tests d'automatisation"
+		}
+	],
+	"13697": [
+		{
+			
+		}
+	],
+	"13698": [
+		{
+			
+		}
+	],
+	"15316": [
+		{
+			
+		}
+	],
+	"15317": [
+		{
+			"subject": "WWCE Testing Please ignorere",
+			"description": "Til automatiseringstestning"
+		}
+	],
+	"15318": [
+		{
+			"subject": "Pruebas WWCE Por favor ignora",
+			"description": "Para el uso de pruebas de automatización"
+		}
+	],
+	"15339": [
+		{
+			"subject": "Test WWCE Si prega di ignorare",
+			"description": "Per l'uso di test di automazione"
+		}
+	],
+	"15340": [
+		{
+			"subject": "WWCE-testen Negeer alstublieft",
+			"description": "Voor gebruik van automatiseringstests"
+		}
+	],
+	"15341": [
+		{
+			"subject": "Testowanie WWCE Proszę zignorować",
+			"description": "Do testowania automatyzacji użyj"
+		}
+	],
+	"15342": [
+		{
+			"subject": "Teste da WWCE Por favor, ignore",
+			"description": "Para uso de teste de automação"
+		}
+	],
+	"15343": [
+		{
+			"subject": "WWCE-testning Vänligen ignorera",
+			"description": "För Automation Testing användning"
+		}
+	],
+	"15114": [
+		{
+			"FName": "Automation",
+			"LName": "WWCE Test",
+			"Email": "test@gmail.com",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"13263": [
+		{
+			"URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"FName": "Automation",
+			"LName": "WWCE Test",
+			"Email": "test@gmail.com",
+			"phonenumber": "NA",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"15115,15116": [
+		{
+			"URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"FName": "Automation",
+			"LName": "WWCE Test",
+			"Email": "test@gmail.com",
+			"phonenumber": "NA",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"13684,13691": [
+		{
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"FName": "Automation",
+			"LName": "WWCE Test",
+			"Email": "test@gmail.com",
+			"phonenumber": "NA",
+			"file1": "Blank1KB.txt"
+		}
+	],
+	"13257,13258,13259,13260,13261,13262,13264,13265,13266,13694": [
+		{
+			"URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"file1": "Blank1KB.txt",
+			"file2": "ValidXLS.xls",
+			"file3": "ValidXLSX.xlsx",
+			"file4": "ValidDOCX.docx",
+			"file5": "validPPTX.pptx",
+			"file6": "abcabcabcabcabcabcabcabc.doc"
+		}
+	],
+	"13267": [
+		{
+			"URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"file1": "Invalid1a.1+a",
+			"file2": "Invalidabc.abc",
+			"file3": "LargeFile5-8MB.jpg",
+			"file4": "LargeFileOver5MB.jpg"
+		}
+	],
+	"13531,13533": [
+		{
+			"URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"file1": "Invalid1a.1+a",
+			"file2": "Invalidabc.abc",
+			"file3": "LargeFile5-8MB.jpg",
+			"file4": "LargeFileOver5MB.jpg"
+		}
+	],
+	"15121": [
+		{
+			
+		}
+	],
+	"13305": [
+		{
+			"noentitle_username": "omegaeahelp+01@gmail.com",
+			"noentitle_password": "Test12!@"
+		}
+	],
+	"13357,13359,13362,13584": [
+		{
+			"product-1": "Mass Effect Andromeda",
+			"product-2": "Battlefield 1",
+			"product-3": "FIFA 18"
+		}
+	],
+	"13526,13527,13528,13529,13530,13532,13534,13535,13536,13537": [
+		{
+			"URL": "contact-us/?product=spore&platform=pc&category=manage-my-account&issue=delete-account&isChannelSelection=true",
+			"subject": "WWCE Testing Please Ignore this case",
+			"description": "For Automation Testing",
+			"file0": "Blank0KB.txt",
+			"file1": "Blank1KB.txt",
+			"file2": "Blank1MB.txt",
+			"file3": "Blank4.9MB.txt",
+			"file4": "Blank5MB.txt"
+		}
+	],
+	"13558,13560,13564": [
+		{
+			"productName": "Battlefield 1",
+			"platform": "PC",
+			"category": "Manage my account",
+			"category1": "Game information",
+			"articleName": "Battlepacks",
+			"articleName1": "Learn about Battlefield 1 ban codes",
+			"searchArticle": "Exclusive Dog Tags",
+			"title1": "Battlefield Companion -  Battlefield 1 - Battlepacks",
+			"title2": "Battlefield 1 -  Battlefield 1 Ã¢â‚¬â€œ Exclusive Dog Tags"
+		}
+	],
+	"13561,13574": [
+		{
+			"productName": "Battlefield 1",
+			"platform": "PC",
+			"category": "Manage my account",
+			"category1": "Game information",
+			"articleName": "Battlepacks",
+			"articleName1": "Learn about Battlefield 1 ban codes",
+			"searchArticle": "Exclusive Dog Tags",
+			"title1": "Battlefield Companion -  Battlefield 1 - Battlepacks",
+			"title2": "Battlefield 1 -  Battlefield 1 Ã¢â‚¬â€œ Exclusive Dog Tags"
+		}
+	],
+	"13605,13606,13607,13609,13610,13611,13613,13615,13616,13617": [
+		{
+			"productName": "Battlefield 1",
+			"productName1": "Battlefield 3",
+			"propertyName": "background-color",
+			"propertyValue": "rgba(221, 14, 14, 1)",
+			"propertyValue1": "rgba(31, 198, 86, 1)",
+			"icon1": "pc",
+			"icon2": "ps3",
+			"icon3": "xbl2",
+			"icon4": "xone",
+			"icon5": "ps4",
+			"propertyName1": "background-image"
+		}
+	],
+	"13588,13589,13590,13591,13592,13593,13594,13595,13596,13597,13600,13601,13602,13603": [
+		{
+			"URL1": "star-wars/star-wars-battlefront-ii/",
+			"URL2": "battlefield/battlefield-3/",
+			"URL3": "fifa/fifa-18/",
+			"URL4": "contact-us/?product=madden-nfl-mobile",
+			"CurrentPageURL": "https://help.ea.com/en/",
+			"CurrentPageTitle": "EA Help: Official Support"
+		}
+	],
+	"13685,9377": [
+		{
+			"Survey_Product": "52 Card Pickup",
+			"FeedBack": "WWCE Automation",
+			"width": "867.297px"
+		}
+	],
+	"15127": [
+		{
+			"Survey_Product": "52 Card Pickup",
+			"FeedBack": "WWCE Automation",
+			"width": "867.297px"
+		}
+	],
+	"13704,13696": [
+		{
+			"Product-1": "Origin",
+			"Product-2": "FIFA 18",
+			"Product-3": "Madden 18",
+			"Product-4": "Star Wars: Galaxy of Heroes",
+			"Product-5": "The Sims Mobile",
+			"Product-6": "FIFA Mobile",
+			"Product-7": "Madden NFL Mobile",
+			"Product-8": "FIFA 17",
+			"Product-9": "FIFA 16",
+			"Product-10": "FIFA 15",
+			"Product-11": "FIFA 2014",
+			"Product-12": "FIFA 2015",
+			"Product-13": "FIFA 2016",
+			"Product-14": "FIFA 2017",
+			"Product-15": "FIFA 2018"
+		}
+	],
+	"15113": [
+		{
+			"category-1": "codes-and-promotions",
+			"category-2": "game-information",
+			"category-3": "manage-my-account",
+			"category-4": "missing-content",
+			"category-5": "orders",
+			"category-6": "report-a-bug",
+			"category-7": "report-concerns-or-harassment",
+			"category-8": "technical-support",
+			"category-9": "warranty"
+		}
+	],
+	"13122,13124,13125,13126,13127,13128,13129,13130,13131,13132,13133,13134,13135": [
+		{
+			"account_username": "eahelpautomation@gmail.com",
+			"account_passowrd": "Test12!@"
+		}
+	],
+	"13099,13100,13101,13102,13103": [
+		{
+			
+		}
+	],
+	"13091,13092,13093,13094,13095,13096,13097,13098": [
+		{
+			
+		}
+	],
+	"13123": [
+		{
+			
+		}
+	],
+	"15128": [
+		{
+		  "subject":"اختبار WWCE الرجاء تجاهل هذه الحالة",
+    "description":"لاختبار الأتمتة"  
+		}
+	],
+	"18222": [
+		{
+			 "subject":"WWCE測試請忽略此案例",
+    "description":"用於自動化測試"
+		}
+	],
+	"18223": [
+		{
+		  "subject":"WWCEテストこのケースを無視してください",
+    "description":"オートメーションテスト用"
+		}
+	],
+	"15126": [
+		{
+			
+		}
+	],
+	"13104,13113,13114,13109,13110,13111": [
+		{
+			"account_username": "eahelpautomation@gmail.com",
+			"account_passowrd": "Test12!@",
+			"securityQuestion_FirstJob": "testing",
+			"securityQuestionWrong_FirstJob": "test12345",
+			"newPassword": "Test12!@",
+			"lessComplexNewPassword": "test",
+			"wrongNewPassword": "Test12",
+			"currentPassword": "Test!@12",
+			"wrongCurrentPassword": "Test123"
+		}
+	],
+	"13105,13106,13107,13108,13112,13115,13116,13117,13118,13119,13120,13121": [
+		{
+			"account_username": "eahelpautomation@gmail.com",
+			"account_passowrd": "Test12!@",
+			"securityQuestion_FirstJob": "testing",
+			"securityQuestionWrong_FirstJob": "test12345",
+			"newPassword": "Test12!@",
+			"lessComplexNewPassword": "test",
+			"wrongNewPassword": "Test12",
+			"currentPassword": "Test!@12",
+			"wrongCurrentPassword": "Test123"
+		}
+	],
+	"15117,15118,15119,15120": [
+		{
+			"caseId": "39730447",
+			"secretKey": "2b09d845",
+			"caseId_1": "39729235",
+			"secretKey_1": "159ab6bd",
+			"recentcaseId": "39730443",
+			"recentcasesecretKey": "1a65a4b6"
+		}
+	],
+	"13695": [
+		{
+			"SearchTerm": "FIFA       Mobile",
+			"SearchedTerm": "FIFA Mobile"
+		}
+	],
+	"13699": [
+		{
+			"PlatformName": "Pogo.com"
+		}
+	],
+	"13700": [
+		{
+			"TaggedArticle_URL": "help/fifa/fifa-17/fifa-17-channel-selection-page/"
+		}
+	],
+	"13701": [
+		{
+			"Article_Product": "Battlefield 1",
+			"sub_category": "promotion-questions",
+			"article_category": "Manage my account"
+		}
+	],
+	"15129": [
+		{
+			"Arabic_content_Alignment": "rtl"
+		}
+	],
+	"18221": [
+		{
+			"Arabic_content_Alignment": "rtl"
+		}
+	],
+	"9373,13703": [
+		{
+			"Login_URL": "https://signin.int.ea.com/p/web2/login?execution"
+		}
+	],
+	"9290": [
+		{
+			"Star_Product": "Star Wars: The Old Republic"
+		}
+	],
+	"13705": [
+		{
+			"Article": "help/fifa/fifa-18/are-you-ready-for-fifa-18/"
+		}
+	],
+	"9373": [
+		{
+			"width": "480px"
+		}
+	],
+	"13539": [
+		{
+			"closed_caseId": "39728496",
+			"secretKey": "7beb376c"
+		}
+	]
+}

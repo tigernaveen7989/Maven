@@ -1,0 +1,1616 @@
+{  
+   "global":{  
+      "headers":{  
+
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{  
+
+      }
+   },
+   "42589":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ 
+      	  "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-15 02:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 },
+			 {
+			    "advisorName":"Test2",
+				"advisorEmailAddress":"test2@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"	
+	 		}
+			]		  
+        }
+   },
+   "42588":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ 
+      	  "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-15 02:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 },
+			 {
+			    "advisorName":"Test2",
+				"advisorEmailAddress":"test2@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"	
+	 		},
+	 		{
+			    "advisorName":"Test3",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",	
+				"interactionStartTime":"2018-12-15 02:50:12"
+			 }
+			]
+		  
+        }
+   },
+   "42587":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ 
+      	  "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-15 02:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 },
+			 {
+			    "advisorName":"Test2",
+				"advisorEmailAddress":"test2@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"	
+	 		},
+	 		{
+			    "advisorName":"Test3",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",	
+				"interactionStartTime":"2018-12-15 02:50:12"
+			 },
+			 {
+			    "advisorName":"Test4",
+				"advisorEmailAddress":"test4@gmail.com",
+				"advisorStaffGroup":"CM4",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",	
+				"interactionStartTime":"2018-12-16 02:50:12"
+			 }
+			]
+		  
+        }
+   },
+   "42590":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ 
+      	  "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-15 02:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			] 
+        }
+   },
+   "42586":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ 
+      	  "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-15 02:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 },
+			 {
+			    "advisorName":"Test2",
+				"advisorEmailAddress":"test2@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"	
+	 		},
+	 		{
+			    "advisorName":"Test3",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",	
+				"interactionStartTime":"2018-12-15 02:50:12"
+			 },
+			  {
+			    "advisorName":"Test4",
+				"advisorEmailAddress":"test4@gmail.com",
+				"advisorStaffGroup":"CM4",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",	
+				"interactionStartTime":"2018-12-16 02:50:12"
+			 },
+			 {
+			    "advisorName":"Test5",
+				"advisorEmailAddress":"test5@gmail.com",
+				"advisorStaffGroup":"CM4",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",	
+				"interactionStartTime":"2019-1-16 12:10:30"
+			 }
+			]
+		  
+        }
+   },
+   "43695":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ 
+      	  "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":"34282354",
+		  "caseStartTime":"2018-12-15 02:50:12",
+		  "caseEndTime":"2020-12-05 30:00:00",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "43694":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2019-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			] 
+        }
+   },
+   "43696":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2019-12-15 02:50:12"
+				
+			 }
+			] 
+        }
+   },
+   "43698":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2019-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "43546":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":-3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "43697":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":-2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "43548":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":"3456789",
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "43547":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":0,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "43671":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "42619":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "42622":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+    "42626":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "42625":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"",
+				"managerEmailAddress":"ravikiran@ea.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+  "42617":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"",
+				"managerEmailAddress":"ravikiran@ea.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "42621":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"TestOne",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravikiran@ea.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "42623":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"TestOne",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravikiran@ea.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+  "42620":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"TestOne",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravikiran@ea.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "42618":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":"",
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resloved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"TestOne",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravikiran@ea.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "42624":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":16253,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"TestOne",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravikiran@ea.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "42594":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"",
+		  "caseId":"827334",
+		  "caseNumber":16253,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"TestOne",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravikiran@ea.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+   "42592":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ 
+      	  "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"",
+		  "lastName":"Sports",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-15 02:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			] 
+        }
+   },
+   "42591":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"abcd@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":16253,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"TestOne",
+				"advisorEmailAddress":"vopautomation@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravikiran@ea.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			]
+		  
+        }
+   },
+    "42593":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ 
+      	  "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"",
+		  "email":"test@gmail.com",
+		  "caseId":"12344",
+		  "caseNumber":3456789,
+		  "caseStartTime":"2018-12-15 02:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[
+		     {
+			    "advisorName":"Test1",
+				"advisorEmailAddress":"test1@gmail.com",
+				"advisorStaffGroup":"CM3",
+				"advisorTier":"System Admin",
+				"advisorJobRole":"Admin Chat",
+				"advisorSite":"test",
+				"managerName":"Ravi Kiran",
+				"managerEmailAddress":"ravi@gmail.com",		
+				"interactionStartTime":"2018-12-15 02:50:12"
+				
+			 }
+			] 
+        }
+   },
+   "42628":{  
+      "headers":{  
+         "Content-Type":"application/json",
+         "S-RequestorId":"test",
+         "S-NoCache":"true"
+      },
+      "uri_param":{  
+
+      },
+      "input_param":{  
+
+      },
+      "payload_param":{ "gatewayAlias":"EA_CSAT_Chat_QA",
+		  "firstName":"EA",
+		  "lastName":"Sports",
+		  "email":"abcd@gmail.com",
+		  "caseId":"827334",
+		  "caseNumber":16253,
+		  "caseStartTime":"2018-12-14 12:50:12",
+		  "caseEndTime":"2018-12-14 25:50:12",
+		  "fraudFlag":"true",
+		  "fraudScore":2.34,
+		  "caseStatus":"Resolved",
+		  "channel":"chat",
+		  "surveyLanguage":"en-us",
+		  "surveyType":"test",
+		  "product":"FIFA-18",
+		  "platform":"PC",
+		  "category":"Game-Inforamtion",
+		  "subCategory":"Cheat Codes",
+		  "sfContactId":"test12",
+		  "contactLanguage":"en-us",
+		  "contactCountry":"us",
+		  "subscriptionStatus":"active",
+		  "interactionId":"1234",
+		  "segments":[]
+		  
+        }
+   }
+}

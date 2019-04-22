@@ -1,0 +1,185 @@
+{
+	"CREATE_ESTIMATED_PAYMENTS": {
+		"endpoint_name": "API to get Payment Estimates by Event",
+		"url": "/v1/estimated-payments",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_CREATE_ESTIMATED_PAYMENTS.json",
+		"assertions":"ESTIMATED_PAYMENT_ASSERTION.json"
+	},
+	
+	"UPDATE_ESTIMATED_PAYMENTS": {
+		"endpoint_name": "API to get Payment Estimates by Event",
+		"url": "/v1/estimated-payments",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "PUT_UPDATE_ESTIMATED_PAYMENTS.json",
+		"assertions":"ESTIMATED_PAYMENT_ASSERTION.json"
+	},
+	
+	"GET_ESTIMATED_PAYMENTS_BY_EVENT": {
+		"endpoint_name": "API to get Payment Estimates by Event",
+		"url": "/v1/estimated-payments/event",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_ESTIMATED_PAYMENTS_BY_EVENT.json",
+		"assertions":"ESTIMATED_PAYMENT_ASSERTION.json"
+	},
+	
+	"BULK_PAYMENT_CONTROLLER_ONE_USER": {
+		"endpoint_name": "API to Make Payments to GameChangers",
+		"url": "/v1/bulk-payments",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_BULK_PAYMENT_CONTROLLER_ONE_USER.json",
+		"assertions":"POST_BULK_PAYMENT_ASSERTION.json"
+	},
+	
+	"BULK_PAYMENT_CONTROLLER_TWO_USER": {
+		"endpoint_name": "API to Make Payments to GameChangers",
+		"url": "/v1/bulk-payments",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_BULK_PAYMENT_CONTROLLER_TWO_USER.json",
+		"assertions":"POST_BULK_PAYMENT_ASSERTION.json"
+	},
+	
+	"BULK_PAYMENT_CONTROLLER_ONE_USER_INV_AMT_0": {
+		"endpoint_name": "API to Make Payments to GameChangers",
+		"url": "/v1/bulk-payments",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_BULK_PAYMENT_CONTROLLER_ONE_USER_INV_AMT_0.json",
+		"assertions":"POST_BULK_PAYMENT_ASSERTION.json"
+	},
+	
+	"BULK_PAYMENT_CONTROLLER_ONE_USER_INV_TYP_BLANK": {
+		"endpoint_name": "API to Make Payments to GameChangers",
+		"url": "/v1/bulk-payments",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_BULK_PAYMENT_CONTROLLER_ONE_USER_INV_TYP_BLANK.json",
+		"assertions":"POST_BULK_PAYMENT_ASSERTION.json"
+	},
+	
+	"BULK_PAYMENT_CONTROLLER_TWO_USER_INV_AMT_0": {
+		"endpoint_name": "API to Make Payments to GameChangers",
+		"url": "/v1/bulk-payments",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_BULK_PAYMENT_CONTROLLER_TWO_USER_INV_AMT_0.json",
+		"assertions":"POST_BULK_PAYMENT_ASSERTION.json"
+	},
+	
+	"BULK_PAYMENT_CONTROLLER_TWO_USER_INV_TYP_BLANK": {
+		"endpoint_name": "API to Make Payments to GameChangers",
+		"url": "/v1/bulk-payments",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_BULK_PAYMENT_CONTROLLER_TWO_USER_INV_TYP_BLANK.json",
+		"assertions":"POST_BULK_PAYMENT_ASSERTION.json"
+	},
+	
+	"CREATE_PAYMENT_SETTINGS_BYID" : {
+		"endpoint_name": "API to Create Pament Settings by Game Changer Id",
+		"url": "/v1/payment-settings",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_CREATE_PAYMENT_SETTINGS_BYID.json",
+		"assertions":"PAYMENT_SETTINGS_ASSERTION.json"
+	
+	},
+	
+	"GET_PAYMENT_SETTINGS_BYID" : {
+		"endpoint_name": "API to Get Payment Settings by Game Changer Id",
+		"url": "/v1/payment-settings",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_PAYMENT_SETTINGS_BYID.json",
+		"assertions":"PAYMENT_SETTINGS_ASSERTION.json"
+	
+	},
+	
+	"GET_PAYMENT_SETTINGS_BYID_LIST" : {
+		"endpoint_name": "API to Get Payment Settings by Game Changer Id List",
+		"url": "/v1/payment-settings/list",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_GET_PAYMENT_SETTINGS_BYID_LIST.json",
+		"assertions":"PAYMENT_SETTINGS_ASSERTION.json"
+	},
+	
+	"CREATE_SINGLE_PAYOUT" : {
+		"endpoint_name": "API to Single Payment",
+		"url": "/v1/payments",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_CREATE_SINGLE_PAYOUT.json",
+		"assertions":"POST_SINGLE_PAYOUT_ASSERTION.json"
+	},
+	
+	"GET_PAYMENT_STATUS_BYID" : {
+		"endpoint_name": "API to Get Payment Status by Payment Id",
+		"url": "/v1/payments",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_PAYMENT_STATUS_BY_ID.json",
+		"assertions":"PAYMENT_STATUS_ASSERTION.json"
+	},
+	
+	"GET_PAYMENT_STATUS_BY_EVENT_ID" : {
+		"endpoint_name": "API to Get Payment Status by Payment Id",
+		"url": "/v1/payments/events/<eventId>",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_PAYMENT_STATUS_BY_EVENT_ID.json",
+		"assertions":"PAYMENT_STATUS_ASSERTION.json"
+	},
+	
+	"GET_PAYMENT_STATUS_BY_GC_ID" : {
+		"endpoint_name": "API to Get Payment Status by Gc Id",
+		"url": "/v1/payments/game-changer",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_PAYMENT_STATUS_BY_GC_ID.json",
+		"assertions":"PAYMENT_STATUS_ASSERTION.json"
+	},
+	
+	"GET_PAYMENT_STATUS_MULTIPLE" : {
+		"endpoint_name": "API to Get Payment Status by Gc Id",
+		"url": "/v1/payments/multiple",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_PAYMENT_STATUS_MULTIPLE.json",
+		"assertions":"PAYMENT_STATUS_ASSERTION.json"
+	},
+	
+	"GET_TAX_DOCUMENT_BY_STATUS" : {
+		"endpoint_name": "API to Get Tax Document By Status",
+		"url": "/v1/tax-documents",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_TAX_DOCUMENT_BY_STATUS.json",
+		"assertions":"TAX_DOCUMENT_ASSERTION.json"
+	},
+	
+	"DELETE_TAX_DOCUMENT" : {
+		"endpoint_name": "API to Delete Tax Document GC id and Doc Type",
+		"url": "/v1/tax-documents",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "DELETE_TAX_DOCUMENT.json",
+		"assertions":"TAX_DOCUMENT_ASSERTION.json"
+	},
+	
+	"UPDATE_TAX_DOCUMENT_STATUS" : {
+		"endpoint_name": "API to Update Tax Document GC id and Doc Type",
+		"url": "/v1/tax-documents",
+		"service_type": "REST",
+		"call_type": "PATCH",
+		"payload_name": "PATCH_UPDATE_TAX_DOCUMENT_STATUS.json",
+		"assertions":"TAX_DOCUMENT_ASSERTION.json"
+	}
+	
+
+}

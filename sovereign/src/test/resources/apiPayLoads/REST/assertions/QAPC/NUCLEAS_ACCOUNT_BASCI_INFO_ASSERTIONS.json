@@ -1,0 +1,35 @@
+{
+	"global": [
+		{
+			"response_code": 200,
+			"userId": 1000032728365
+		}
+	],
+	"43464": [
+		{
+			"email": "testuser2092@gmail.com",
+			"firstName": "AutomationAccount",
+			"lastName": "DoNotUpdate",
+			"emailStatus": "VERIFIED",
+			"dob": "1991-05-25",
+			"country": "IN",
+			"language": "en",
+			"locale": "en_IN",
+			"status": "ACTIVE",
+			"reasonCode": "REACTIVATED_CUSTOMER",
+			"tosVersion": "1.0",
+			"parentalEmail": "testuser2091@gmail.com",
+			"registrationSource": "help-ea",
+			"defaultPersonaId": "1000021728365",
+			"defaultPersonaName": "automationuser",
+			"defaultPersonaDisplayName": "automationuser"
+		}
+	],
+	"43465": [
+		{
+			"status": "ERROR",
+			"errorCode": "SVC-NUC-10002",
+			"errorShortMessage": "USER_NOT_FOUND"
+		}
+	]
+}

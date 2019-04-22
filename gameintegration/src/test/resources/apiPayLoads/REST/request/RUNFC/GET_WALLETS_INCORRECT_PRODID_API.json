@@ -1,0 +1,19 @@
+{
+	"21244": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "fifa-9"
+		},
+		"input_param": {
+			"id": "1000120903982",
+			"idType": "nucleusPersonaId",
+			"platform": "xbox-one",
+			"userId": "1000361303982"
+		},
+		"payload_param": {}
+	}
+}

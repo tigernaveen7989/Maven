@@ -1,0 +1,22 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49969": [
+		{
+			"channelRank": 1,
+			"channel": "chat",
+			"channelMessage": "Begin a live chat session with an EA Game Advisor",			
+			"skill": "ingame-vip-advisor-en_US",			
+			"notBussinessHours": false
+		}
+	],
+	"49970": [
+		{
+			"errorCode": "FLTR-SECURE_ACCESS-09030",
+			"sourceMessage": "Unauthorized access"
+		}
+	]
+}

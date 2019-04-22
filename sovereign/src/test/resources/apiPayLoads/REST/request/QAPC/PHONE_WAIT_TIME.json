@@ -1,0 +1,60 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"43462": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "false"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"crmProduct": "52-card-pickup",
+			"crmCustomLabel": "play",
+			"locale": "en_US",
+			"platform": "pogo",
+			"lifeCycle": "launch",
+			"category": "manage-my-account",
+			"subCategory": "hacked-account",
+			"customerValue": "-"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"43463": {
+		"headers": {
+			"S-RequestorId": "test",
+			"S-NoCache": "false"
+		},
+		"uri_param": {
+		
+		},
+		"input_param": {
+		"crmProduct": "52-card-pickup",
+			"crmCustomLabel": "play",
+			"locale": "en_US",
+			"platform": "pogo",
+			"lifeCycle": "launch",
+			"category": "manage-my-account",
+			"subCategory": "hacked-account",
+			"customerValue": "-"		
+		},
+		"payload_param": {
+			
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{	"global": {
+		"headers": {},
+		"uri_param": {},
+		"input_param": {},
+		"payload_param": {}
+	},
+	"4374": {
+		"headers": {
+			"x-api-key": "Wo9lnKgdV5KaC8eayOy124NRLCN4sm2v7FKt6D00",
+			"h-RequestorId": "test"
+			},
+		"uri_param": {},
+		"input_param": {},
+		"payload_param": {
+			"petitionerUserId": "1000424543645",
+			"petitionerAccountType": "Nucleus",
+			"petitionerPersonaName": "PETER",
+			"platform": "pc",
+			"petitionerEmail": "jjpm@gmail.com",
+			"product": "battlefield-hardline",
+			"targetUserId": "1000267750850",
+			"targetAccountType": "Nucleus",
+			"targetPersonaName": "TGTPER",
+			"targetEmail": "hello.test@gmail.com",
+			"category": "physical-threat",
+			"contentType": "File",
+			"contentUrl": "google.com",
+			"subject": "aninappropriateNAMES",
+			"contentText": "Text",
+			"customArgs": "",
+			"contentStatusUrl": "",
+			"targetMacAddress": "",
+			"targetPersonaId": "TGT02",
+			"targetPersonaNamespace": "TGTPSNS",
+			"petitionerPersonaId": "PETI1",
+			"petitionerPersonaNamespace": ""
+		}
+	}
+}

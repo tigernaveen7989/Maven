@@ -1,0 +1,23 @@
+{
+	"global": [
+		{
+			"response_code": 200,
+			"configId": 15970
+		}
+	],
+	"43329": [
+		{
+			"skillName": "ingame-vip-advisor-en_US",
+			"skillUnit": "ingame-vip-advisor",
+			"skillLocale": "en_US",
+			"skillDescription": "ingame-vip-advisor"
+		}
+	],
+	"43437": [
+		{
+			"status": "ERROR",
+			"errorShortMessage": "AUTHORIZATION_FAILED",
+			"errorMessage": "Unauthorized access"
+		}
+	]
+}

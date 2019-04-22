@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GCNTestSuite">
+<listeners>
+	<listener class-name="com.ea.wwce.automation.base.util.listeners.BaseListener"/>
+</listeners>
+
+<test name="GCN_API_Tests"> 
+ 	<parameter name="executionMode" value="local"/> 	
+ 	<parameter name="platform" value="API"/> 	
+ 	<parameter name="operatingSystem" value="WINDOWS"/> 	
+ 	<parameter name="browserName" value=""/> 	
+ 	<parameter name="browserVersion" value=""/> 	
+ 	<parameter name="automationName" value="Test"/> 
+ 	<parameter name="testEnvironment" value="QAPC"/>	
+ 	<parameter name="deviceName" value=""/> 	
+ 	<parameter name="appPackage" value=""/> 	
+ 	<parameter name="appActivity" value=""/> 	
+ 	<parameter name="applicationId" value=""/> 	
+ 	<parameter name="bundleId" value=""/> 	
+ 	<parameter name="appiumURL" value=""/> 
+ 	<parameter name="planId" value="747"/>
+ 	<parameter name="testType" value="Regression_API"/> 
+    <classes>
+
+		<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentSettingsByIdTest"/>
+	
+<!--     
+		<class name="com.ea.wwwce.automation.gcn.api.tests.POSTBulkPaymentOneUserTest"/> 
+		<class name="com.ea.wwwce.automation.gcn.api.tests.POSTBulkPaymentOneUserInvTyp_Blank_Test"/>
+		<class name="com.ea.wwwce.automation.gcn.api.tests.POSTBulkPaymentOneUserInvAmt_0_Test"/>
+		<class name="com.ea.wwwce.automation.gcn.api.tests.POSTBulkPaymentTwoUserInvAmt_0_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTBulkPaymentTwoUserInvTyp_Blank_Test"/>
+	
+		##########################################################################################
+		
+ 
+ 
+ -->
+		    	 
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentSettingsByIdTest"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentSettingsById_Iproc_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentSettingsById_Business_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentSettingsById_Inv_GcId_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentSettingsById_Inv_userId_Test"/>
+    	
+    	
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreatePaymentSettingsByIdTest"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreatePaymentSettingsById_Inv_Country_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreatePaymentSettingsById_Inv_Email_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreatePaymentSettingsById_Inv_EntityType_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreatePaymentSettingsById_Inv_Vendor_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreatePaymentSettingsById_Iproc_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreatePaymentSettingsById_Business_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTGetPaymentSettingsByIdListTest"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTGetPaymentSettingsById_Inv_List_Test"/>
+    	
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateSinglePayment_Stipend_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateSinglePayment_Content_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateSinglePayment_Content_Blank_Desc_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateSinglePayment_Stipend_Blank_Desc_Test"/>  
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateSinglePayment_Inv_Stipend_Test"/> 
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateSinglePayment_Inv_Content_Test"/>
+    	
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentStatusByIdTest"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentStatusById_Content_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentStatusBy_Event_IdTest"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentStatusBy_Gc_IdTest"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentStatusBy_Multiple_Test"/>
+    	
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentStatusBy_Inv_Id_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentStatusBy_Inv_userId_Test"/> 
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentStatusBy_Inv_Event_IdTest"/> 
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETPaymentStatusBy_Inv_GcId_Test"/>
+    	
+    	
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTBulkPaymentTwoUserTest"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTBulkPaymentTwoUser_Content_Test"/>
+    	
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateEstimatedPayment_Stipend_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateEstimatedPayment_Stipend_USResi_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateEstimatedPayment_Content_USResi_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateEstimatedPayment_Inv_Stipend_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.POSTCreateEstimatedPayment_Inv_Content_Test"/> 
+    	
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETEstimatedPaymentsByEvent"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETEstimatedPaymentsBy_Inv_Event"/>
+    	
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PUTUpdateEstimatedPayment_Stipend_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PUTUpdateEstimatedPayment_Inv_Stipend_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PUTUpdateEstimatedPayment_Inv_Content_Test"/>
+    	
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETTaxDocumentBy_Status_Valid_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETTaxDocumentBy_Status_Incomplete_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.GETTaxDocumentBy_Status_Invalid_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.DELETETaxDocument_W9_Test"/> 
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.DELETETaxDocument_W8BEN_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.DELETETaxDocument_W8BEN_E_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PATCHUpdateTaxDocumentStatus_W9_Test"/> 
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PATCHUpdateTaxDocumentStatus_W8BEN_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PATCHUpdateTaxDocumentStatus_W8BEN_E_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PATCHUpdateTaxDocumentStatus_W8BEN_E_Incomplete_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PATCHUpdateTaxDocumentStatus_W8BEN_E_Expired_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PATCHUpdateTaxDocumentStatus_W8BEN_Expired_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PATCHUpdateTaxDocumentStatus_W9_Expired_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PATCHUpdateTaxDocumentStatus_W9_Incomplete_Test"/>
+    	<class name="com.ea.wwwce.automation.gcn.api.tests.PATCHUpdateTaxDocumentStatus_Invalid_DocType_Test"/> 
+
+    		      	 
+    </classes>
+</test>		
+
+</suite>

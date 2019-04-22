@@ -1,0 +1,21 @@
+{
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "WWCE-LT",
+			"S-NoCache": "TRUE",
+			"Content-Type": "application/json"
+		},
+		"uri_param": {
+			"product": "madden-18"
+		},
+		"input_param": {
+			"id": "1000120903982",
+			"idType": "nucleusPersonaId",
+			"walletId": "TICKET",
+			"amount": "10",
+			"platform": "xone",
+			"userId": "1000361303982"		
+		},
+		"payload_param": {}
+	}
+}

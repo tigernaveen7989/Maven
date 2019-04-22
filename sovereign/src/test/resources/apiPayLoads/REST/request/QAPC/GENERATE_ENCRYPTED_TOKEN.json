@@ -1,0 +1,60 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49926": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "false",
+			"S-IncludePersona": "false"
+		},
+		"uri_param": {
+			"userId": "1000024171932"
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			"signature": "test",
+			"expiration": "2018-09-04T06:28Z",
+			"entry": {
+				"userId": "2521331806",
+				"test": "test",
+				"test1": "test2"
+			}
+		}
+	},
+	"49927": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS",
+			"S-NoCache": "false",
+			"S-IncludePersona": "false"
+		},
+		"uri_param": {
+			"userId": "345565567"
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			"signature": "test",
+			"expiration": "2018-09-04T06:28Z",
+			"entry": {
+				"userId": "2521331806",
+				"test": "test",
+				"test1": "test2"
+			}
+		}
+	}
+}

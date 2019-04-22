@@ -1,0 +1,26 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"43773": [
+		{
+			"status": "SUCCESS",
+			"isEmailAvailable": true
+		}
+	],
+	"43774": [
+		{
+			"status": "SUCCESS",
+			"isEmailAvailable": false
+		}
+	],
+	"43775": [
+		{
+			"status": "ERROR",
+			"errorCode": "SVC-NUC-09998",
+			"errorShortMessage": "VALIDATION_FAILED"
+		}
+	]
+}

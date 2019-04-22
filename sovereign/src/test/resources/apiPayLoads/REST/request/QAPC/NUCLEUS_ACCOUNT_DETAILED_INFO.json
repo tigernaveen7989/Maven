@@ -1,0 +1,58 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49741": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"userId": "12305139246"
+		},
+		"input_param": {
+			"userId": "12305139246",
+			"addresses": [
+				{
+					"addressId": "8966676",
+					"userId": "12305139246",
+					"country": "IN",
+					"type": "SHIPPING"
+				}
+			],
+			"personas": [
+				{
+					"personaId": "406661743",
+					"namespaceName": "xbox"
+				}
+			]
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49742": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			"countrycode": "US1"
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	}
+}

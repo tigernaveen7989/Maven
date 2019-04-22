@@ -1,0 +1,19 @@
+{
+	"global": [
+		{
+			"response_code": 200
+		}
+	],
+	"49825": [
+		{
+			"status": "SUCCESS",
+			"response": true
+		}
+	],
+	"49826": [
+		{
+			"errorShortMessage": "ADDRESS_NOT_AVAILABLE",
+			"errorMessage": "Address not available for account"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"global": {
+		"headers": {
+			
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49738": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"primaryUserId": "1000102518356",
+			"newPrimaryUserEmail": "testchatuserea90@gmail.com",
+			"secondaryUserId": "1000084374220",
+			"newSecondaryUserEmail": "testchatuserea91@gmail.com",
+			"placeholderTemparoryEmail": "rgaghuwanshi@dummy.com"
+		},
+		"payload_param": {
+			
+		}
+	},
+	"49739": {
+		"headers": {
+			"S-RequestorId": "WWCE-TOS"
+		},
+		"uri_param": {
+			
+		},
+		"input_param": {
+			"primaryUserId": "1000102518356",
+			"newPrimaryUserEmail": "testchatuserea+90@gmail.com",
+			"secondaryUserId": "1000084374220",
+			"newSecondaryUserEmail": "testchatuserea+91@gmail.com",
+			"placeholderTemparoryEmail": "rgaghuwanshi@dummy.com"
+		},
+		"payload_param": {
+			
+		}
+	}
+}

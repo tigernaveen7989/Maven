@@ -1,0 +1,42 @@
+{
+	"global": {
+		"headers":{
+			"x-correlation-id":"test",
+			"x-user-id":"987",
+			"x-client-id":"gcn_admin",
+			"Authorization":""
+		},
+		"uri_param":{},
+		"input_param":{},
+		"payload_param":{}	
+	},
+	
+	"12350": {
+	
+		"headers": {},
+		
+		"uri_param": {},
+		"input_param": {},
+		"payload_param": {
+		
+			"batch_items": [
+    	{
+      		"amount": 0,
+      		"description": "test payment",
+      		"event_id": 260,
+      		"game_changer_id": 992,
+      		"initiated_on": "2018-10-12 08:23:45",
+	        "type": "STIPEND"
+    	},
+    	{
+      		"amount": 1212,
+      		"description": "test payment",
+      		"event_id": 260,
+      		"game_changer_id": 991,
+      		"initiated_on": "2018-10-12 08:23:45",
+      		"type": "STIPEND"
+    	}
+  			]
+		}
+	}
+}

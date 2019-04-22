@@ -1,0 +1,725 @@
+{
+	"GET_WALLETS_API": {
+		"endpoint_name": "API to get available Wallets",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_WALLETS_API.json",
+		"assertions": "GET_WALLETS_ASSERTIONS.json"
+	},
+	
+	"GET_WALLETS_MISSING_IDTYPE_PARAM_API": {
+		"endpoint_name": "API to get available Wallets when idtype mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_WALLETS_MISSING_IDTYPE_PARAM_API.json",
+		"assertions": "GET_WALLETS_ASSERTIONS.json"
+	},
+	
+	"GET_WALLETS_MISSING_ID_PARAM_API": {
+		"endpoint_name": "API to get available Wallets when id mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_WALLETS_MISSING_ID_PARAM_API.json",
+		"assertions": "GET_WALLETS_ASSERTIONS.json"
+	},
+	
+	"GET_WALLETS_INCORRECT_PRODID_API": {
+		"endpoint_name": "API to get available Wallets when incorrect prod id parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_WALLETS_INCORRECT_PRODID_API.json",
+		"assertions": "GET_WALLETS_ASSERTIONS.json"
+	},
+	
+	"ADD_WALLET_MISSING_WALLETID_API": {
+		"endpoint_name": "API to get ADD Wallets when wallet id mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_WALLET_MISSING_WALLETID_API.json",
+		"assertions": "ADD_WALLETS_ASSERTIONS.json"
+	},
+	
+	"REMOVE_WALLET_MISSING_WALLETID_API": {
+		"endpoint_name": "API to get REMOVE Wallets when wallet id mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "DELETE",		
+		"payload_name": "REMOVE_WALLET_MISSING_WALLETID_API.json",
+		"assertions": "REMOVE_WALLETS_ASSERTIONS.json"
+	},
+	
+	"ADD_WALLET_MISSING_AMOUNT_API": {
+		"endpoint_name": "API to get ADD Wallets when wallet amount to add i.e. mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_WALLET_MISSING_AMOUNT_API.json",
+		"assertions": "ADD_WALLETS_ASSERTIONS.json"
+	},
+	
+	"REMOVE_WALLET_MISSING_AMOUNT_API": {
+		"endpoint_name": "API to get REMOVE Wallets when wallet amount to add i.e. mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "REMOVE_WALLET_MISSING_AMOUNT_API.json",
+		"assertions": "REMOVE_WALLETS_ASSERTIONS.json"
+	},
+	
+	"ADD_WALLET_MISSING_IDTYPE_API": {
+		"endpoint_name": "API to get ADD Wallets when id Type i.e. mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_WALLET_MISSING_IDTYPE_API.json",
+		"assertions": "ADD_WALLETS_ASSERTIONS.json"
+	},
+	
+	"REMOVE_WALLET_MISSING_IDTYPE_API": {
+		"endpoint_name": "API to get REMOVE Wallets when id Type i.e. mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "REMOVE_WALLET_MISSING_IDTYPE_API.json",
+		"assertions": "REMOVE_WALLETS_ASSERTIONS.json"
+	},
+	
+	"ADD_WALLET_MISSING_ID_API": {
+		"endpoint_name": "API to get ADD Wallets when id i.e. mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_WALLET_MISSING_ID_API.json",
+		"assertions": "ADD_WALLETS_ASSERTIONS.json"
+	},
+	
+	"REMOVE_WALLET_MISSING_ID_API": {
+		"endpoint_name": "API to get REMOVE Wallets when id i.e. mandatory parameter is missing",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "REMOVE_WALLET_MISSING_ID_API.json",
+		"assertions": "REMOVE_WALLETS_ASSERTIONS.json"
+	},
+	
+	"ADD_POINTS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD Points Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_POINTS_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_POINTS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE Points Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "REMOVE_POINTS_WALLET_CURRENCY_API.json"
+	},
+	
+	"ADD_COINS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD Coins Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_COINS_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_COINS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE Coins Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "REMOVE_COINS_WALLET_CURRENCY_API.json"
+	},
+	
+	"ADD_DRAFTTOKEN_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD Draft Token Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_DRAFTTOKEN_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_DRAFTTOKEN_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE Draft Token Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "REMOVE_DRAFTTOKEN_WALLET_CURRENCY_API.json"
+	},
+	
+	"ADD_FCCOINS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD FC Coins Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_FCCOINS_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_FCCOINS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE FC Coins Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "REMOVE_FCCOINS_WALLET_CURRENCY_API.json"
+	},
+	
+	"ADD_MAX_COINS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD Coins Greator than MAX Limit Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_MAX_COINS_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_MAX_COINS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE Coins Greator than MAX Limit Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "REMOVE_MAX_COINS_WALLET_CURRENCY_API.json"
+	},
+	
+	"ADD_MAX_POINTS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD Points Greator than MAX Limit Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_MAX_POINTS_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_MAX_POINTS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE Points Greator than MAX Limit Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "REMOVE_MAX_POINTS_WALLET_CURRENCY_API.json"
+	},
+	
+	"ADD_MAX_FCCOINS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD FC Coins Greator than MAX Limit Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_MAX_FCCOINS_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_MAX_FCCOINS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE FC Coins Greator than MAX Limit Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "REMOVE_MAX_FCCOINS_WALLET_CURRENCY_API.json"
+	},
+	
+	"ADD_MAX_DRAFTTOKEN_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD FC Coins Greator than MAX Limit Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_MAX_DRAFTTOKEN_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_MAX_DRAFTTOKEN_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE FC Coins Greator than MAX Limit Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "REMOVE_MAX_DRAFTTOKEN_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_DRAFTTOKEN_WALLET_GREATOR_THAN_CURRENCY_BALANCE_API": {
+		"endpoint_name": "API to REMOVE FC Coins Greator than Currency Balance Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "REMOVE_DRAFTTOKEN_WALLET_GREATOR_THAN_CURRENCY_BALANCE_API.json"
+	},
+	
+	"ADD_NHLPOINTS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD NHL Points Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_NHLPOINTS_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_NHLPOINTS_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE NHL Points Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "REMOVE_NHLPOINTS_WALLET_CURRENCY_API.json"
+	},
+	
+	"ADD_ESCROW_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD NHL Points Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_ESCROW_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_ESCROW_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE NHL Points Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "REMOVE_ESCROW_WALLET_CURRENCY_API.json"
+	},
+	
+	"ADD_TICKET_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to ADD TICKET Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "ADD_TICKET_WALLET_CURRENCY_API.json"
+	},
+	
+	"REMOVE_TICKET_WALLET_CURRENCY_API": {
+		"endpoint_name": "API to REMOVE TICKETS Wallet Currency",
+		"url": "/studio-bf/product/gen/<product>/wallets",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "REMOVE_TICKET_WALLET_CURRENCY_API.json"
+	},
+	
+	"GET_LOGINHISTORY_API": {
+		"endpoint_name": "API to GET LOGIN HISTORY Details",
+		"url": "/studio-bf/product/gen/<product>/usersession/loginhistory",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_LOGINHISTORY_API.json",
+		"assertions": "GET_LOGINHISTORY_ASSERTIONS.json"
+	},
+	
+	"GET_LOGINHISTORY_MISSING_ID_API": {
+		"endpoint_name": "API to GET LOGIN HISTORY Details with missing id parameter",
+		"url": "/studio-bf/product/gen/<product>/usersession/loginhistory",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_LOGINHISTORY_MISSING_ID_API.json",
+		"assertions": "GET_LOGINHISTORY_ASSERTIONS.json"
+	},
+	
+	"GET_LOGINHISTORY_MISSING_IDTYPE_API": {
+		"endpoint_name": "API to GET LOGIN HISTORY Details with missing idType parameter",
+		"url": "/studio-bf/product/gen/<product>/usersession/loginhistory",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_LOGINHISTORY_MISSING_IDTYPE_API.json",
+		"assertions": "GET_LOGINHISTORY_ASSERTIONS.json"
+	},
+	
+	"GET_SETHISTORY_API": {
+		"endpoint_name": "API to GET SET HISTORY Details",
+		"url": "/studio-bf/product/gen/<product>/sets",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_SETHISTORY_API.json"
+	},
+	
+	"GET_SETHISTORY_DATERANGE_API": {
+		"endpoint_name": "API to GET SET HISTORY Details based on date range",
+		"url": "/studio-bf/product/gen/<product>/sets",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_SETHISTORY_DATERANGE_API.json"
+	},
+	
+	"GET_SETHISTORY_KEYWORDSEARCH_API": {
+		"endpoint_name": "API to GET SET HISTORY Details based on keyword search",
+		"url": "/studio-bf/product/gen/<product>/sets",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_SETHISTORY_KEYWORDSEARCH_API.json"
+	},
+	
+	"GET_GRANTED_PACK_API": {
+		"endpoint_name": "API to GET Granted Packs",
+		"url": "/studio-bf/product/gen/<product>/packs",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTED_PACK_API.json"
+	},
+	
+	"GET_GRANTEDPACKS_KEYWORDSEARCH_API": {
+		"endpoint_name": "API to GET Granted Packs based on Searched Keyword",
+		"url": "/studio-bf/product/gen/<product>/packs",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTEDPACKS_KEYWORDSEARCH_API.json"
+	},
+	
+	"PUT_ACTIVATE_PERSONA_API": {
+		"endpoint_name": "API to PUT ACTIVATE PERSONA",
+		"url": "/studio-bf/product/gen/<product>/accountdetails",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "PUT_ACTIVATE_PERSONA_API.json"
+	},
+	
+	"DELETE_DEACTIVATE_PERSONA_API": {
+		"endpoint_name": "API to DELETE DEACTIVATE PERSONA",
+		"url": "/studio-bf/product/gen/<product>/accountdetails",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "DELETE_DECTIVATE_PERSONA_API.json"
+	},
+	
+	"GET_CHALLENGES_CATEGORIES_API": {
+		"endpoint_name": "API to GET CHALLENGES CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/metadata",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_CHALLENGES_CATEGORIES_API.json"
+	},
+	
+	"GET_DRAFT_CATEGORIES_API": {
+		"endpoint_name": "API to GET DRAFT CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/metadata",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_DRAFT_CATEGORIES_API.json"
+	},
+	
+	"GET_DRAFT_HISTORY_API": {
+		"endpoint_name": "API to GET DRAFT HISTORY",
+		"url": "/studio-bf/product/gen/<product>/draft/history",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_DRAFT_HISTORY_API.json"
+	},
+	
+	"GET_DRAFT_HISTORY_DATERANGE_API": {
+		"endpoint_name": "API to GET DRAFT HISTORY BASED ON DATE RANGE",
+		"url": "/studio-bf/product/gen/<product>/draft/history",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_DRAFT_HISTORY_DATERANGE_API.json"
+	},
+	
+	"GET_SETS_CATEGORIES_API": {
+		"endpoint_name": "API to GET SETS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/metadata",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_SETS_CATEGORIES_API.json"
+	},
+	
+	"GET_PACKS_CATEGORIES_API": {
+		"endpoint_name": "API to GET SETS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/metadata",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_PACKS_CATEGORIES_API.json"
+	},
+	
+	"GET_GAME_MODE_TYPE_API": {
+		"endpoint_name": "API to GET GAME MODETYPE",
+		"url": "/studio-bf/product/gen/<product>/metadata",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GAME_MODE_TYPE_API.json"
+	},
+	
+	"GET_WALLET_TRANS_TEXTFILTER_API": {
+		"endpoint_name": "API to GET WALLET TRANSCTIONS BASED ON TEXTFILTER",
+		"url": "/studio-bf/product/gen/<product>/walletTransactions",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_WALLET_TRANS_TEXTFILTER_API.json"
+	},
+	
+	"GET_WALLET_TRANS_DATEFILTER_API": {
+		"endpoint_name": "API to GET WALLET TRANSCTIONS BASED ON DATEFILTER",
+		"url": "/studio-bf/product/gen/<product>/walletTransactions",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_WALLET_TRANS_DATEFILTER_API.json"
+	},
+	
+	"GET_EVENT_CATEGORIES_API": {
+		"endpoint_name": "API to GET EVENT CATEGORIES",
+		"url": "/studio-bf/product/gen/<product>/metadata",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_EVENT_CATEGORIES_API.json"
+	},
+	
+	"GET_ITEMINVENTORY_CATEGORIES_API": {
+		"endpoint_name": "API to GET ITEM INVENTORY CATEGORIES",
+		"url": "/studio-bf/product/gen/<product>/metadata",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_ITEMINVENTORY_CATEGORIES_API.json"
+	},
+	
+	"GET_ITEM_INVENTORY_TX_HISTORY_BY_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEM INVENTORY HISTORY BASED ON CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/tx/logs",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_ITEM_INVENTORY_TX_HISTORY_BY_CATEGORY_API.json"
+	},
+	
+	"GET_ITEM_INVENTORY_TX_HISTORY_BY_TEXTFILTER_API": {
+		"endpoint_name": "API to GET ITEM INVENTORY HISTORY BASED ON CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/tx/logs",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_ITEM_INVENTORY_TX_HISTORY_BY_TEXTFILTER_API.json"
+	},
+	
+	"GET_ITEM_CATEGORIES_API": {
+		"endpoint_name": "API to GET ITEM CATEGORIES",
+		"url": "/studio-bf/product/gen/<product>/metadata",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_ITEM_CATEGORIES_API.json"
+	},
+	
+	"POST_GRANT_PACK_API": {
+		"endpoint_name": "API to POST GRANT PACK",
+		"url": "/studio-bf/product/gen/<product>/packs",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_GRANT_PACK_API.json"
+	},
+	
+	"GET_DEVICES_API": {
+		"endpoint_name": "API to GET DEVICES",
+		"url": "/studio-bf/product/gen/<product>/devices",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_DEVICES_API.json"
+	},
+	
+	"GET_ACCOUNT_HISTORY_API": {
+		"endpoint_name": "API to GET ACCOUNT HISTORY",
+		"url": "/studio-bf/product/gen/<product>/account/history",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_ACCOUNT_HISTORY_API.json"
+	},
+	
+	"GET_GAME_STATS_API": {
+		"endpoint_name": "API to GET GAME STATS",
+		"url": "/studio-bf/product/gen/<product>/stats",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GAME_STATS_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_UNASSIGNED_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM UNASSIGNED CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_UNASSIGNED_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_PLAYERCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM PLAYERCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_PLAYERCARDS_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_CONTRACTCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM CONTRACTCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_CONTRACTCARDS_CATEGORY_API.json",
+		"assertions": "GET_GRANTABLEITEMS_ASSERTIONS.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_PHYSIOCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM PHYSIOCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_PHYSIOCARDS_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_MANAGERCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM MANAGERCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_MANAGERCARDS_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_FITNESSCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM FITNESSCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_FITNESSCARDS_CATEGORY_API.json",
+		"assertions": "GET_GRANTABLEITEMS_ASSERTIONS.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_PHYSIOCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM FITNESSCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_PHYSIOCARDS_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_HEADCOACHCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM HEADCOACHCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_HEADCOACHCARDS_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_BALLCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM BALLCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_BALLCARDS_CATEGORY_API.json",
+		"assertions": "GET_GRANTABLEITEMS_ASSERTIONS.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_BADGECARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM BADGECARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_BADGECARDS_CATEGORY_API.json",
+		"assertions": "GET_GRANTABLEITEMS_ASSERTIONS.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_STADIUMCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM STADIUMCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_STADIUMCARDS_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_KITCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM KITCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_KITCARDS_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_GKCOACHCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET ITEMS FROM GKCOACHCARDS CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_GKCOACHCARDS_CATEGORY_API.json"
+	},
+	
+	"DELETE_UNTRUST_DEVICES_API": {
+		"endpoint_name": "API to DELETE UNTRSUT DEVICES",
+		"url": "/studio-bf/product/gen/<product>/devices",
+		"service_type": "REST",
+		"call_type": "DELETE",
+		"payload_name": "DELETE_UNTRUST_DEVICES_API.json"
+	},
+	
+	"GET_MATCH_CATEGORIES_API": {
+		"endpoint_name": "API to GET MATCH CATEGORIES",
+		"url": "/studio-bf/product/gen/<product>/metadata",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_MATCH_CATEGORIES_API.json"
+	},
+	
+	"GET_CHALLENGES_HISTORY_API": {
+		"endpoint_name": "API to GET CHALLENGES HISTORY",
+		"url": "/studio-bf/product/gen/<product>/challenges",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_CHALLENGES_HISTORY_API.json"
+	},
+	
+	"POST_GRANT_ITEM_GRANTABLETYPE_LOCKED_API": {
+		"endpoint_name": "API to GRANT ITEM AS GRANTABLE TYPE LOCKED",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_GRANT_ITEM_GRANTABLETYPE_LOCKED_API.json"
+	},
+	
+	"POST_GRANT_ITEM_GRANTABLETYPE_UNLOCKED_API": {
+		"endpoint_name": "API to GRANT ITEM AS GRANTABLE TYPE UNLOCKED",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_GRANT_ITEM_GRANTABLETYPE_UNLOCKED_API.json"
+	},
+	
+	"PUT_RESET_CLUB_CREATION_LIMIT_API": {
+		"endpoint_name": "API to RESET CLUB CREATION LIMIT",
+		"url": "/studio-bf/product/gen/<product>/stats/reset",
+		"service_type": "REST",
+		"call_type": "PUT",
+		"payload_name": "PUT_RESET_CLUB_CREATION_LIMIT_API.json"
+	},
+	
+	"GET_IDENTITIES_API": {
+		"endpoint_name": "API to GET IDENTITIES FOR VARIOUS ENTITIES",
+		"url": "/studio-bf/product/gen/<product>/identities",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_IDENTITIES_API.json"
+	},
+	
+	"GET_CHALLENGES_HISTORY_DATEFILTER_API": {
+		"endpoint_name": "API to GET CHALLENGES DETAILS BASED ON DATE FILTER",
+		"url": "/studio-bf/product/gen/<product>/challenges",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_CHALLENGES_HISTORY_DATEFILTER_API.json"
+	},
+	
+	"GET_CHALLENGES_HISTORY_TEXTFILTER_API": {
+		"endpoint_name": "API to GET CHALLENGES DETAILS BASED ON TEXT FILTER",
+		"url": "/studio-bf/product/gen/<product>/challenges",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_CHALLENGES_HISTORY_TEXTFILTER_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_MANAGERCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET GRANTABLE ITEMS FROM BALLARD CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_MANAGERCARDS_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_PHYSIOCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET GRANTABLE ITEMS FROM BALLARD CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_PHYSIOCARDS_CATEGORY_API.json"
+	},
+	
+	"GET_GRANTABLE_ITEMS_FROM_KITCARDS_CATEGORY_API": {
+		"endpoint_name": "API to GET GRANTABLE ITEMS FROM BALLARD CATEGORY",
+		"url": "/studio-bf/product/gen/<product>/inventory/definitions/items",
+		"service_type": "REST",
+		"call_type": "GET",
+		"payload_name": "GET_GRANTABLE_ITEMS_FROM_KITCARDS_CATEGORY_API.json"
+	}
+	
+} 

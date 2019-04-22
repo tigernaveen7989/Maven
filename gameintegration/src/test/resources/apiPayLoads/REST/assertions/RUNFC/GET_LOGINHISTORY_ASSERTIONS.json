@@ -1,0 +1,27 @@
+{
+	"global": [{	
+		"response_code": 200,
+		"status": "SUCCESS"
+	}],
+	
+	"15316": [{
+		"loginStatusSuccess" : "success",
+		"startTimeSuccess": "Fri May 18 21:02:43 UTC 2018",
+		"loginSuccessfulTrue": "true",
+		"loginStatusFail": "fail",
+		"startTimeFail": "Wed May 02 23:46:03 UTC 2018",
+		"loginSuccessfulFalse": "false"
+	}],
+	
+	"27102": [{
+		"status": "ERROR",
+		"errorCode": "ORG-INT-09998",
+		"sourceMessage": "Parameter id Missing"
+	}],
+	
+	"27103": [{
+		"status": "ERROR",
+		"errorCode": "ORG-INT-09998",
+		"sourceMessage": "Parameter idType Missing"
+	}]
+}
