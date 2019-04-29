@@ -75,9 +75,32 @@
 
 					</suiteXmlFiles>
 
+				<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 
 			</plugin>
+			
+			<plugin>
+             <groupId>net.masterthought</groupId>
+             <artifactId>maven-cucumber-reporting</artifactId>
+             <version>3.14.0</version>
+             <executions>
+                <execution>
+                   <id>execution</id>
+                   <phase>verify</phase>
+                   <goals>
+                      <goal>generate</goal>
+                   </goals>
+                   <configuration>
+                      <projectName>CucumberFrameworkTestReport</projectName>
+                      <outputDirectory>${project.build.directory}/reports/cucumber-reports</outputDirectory>                      
+  					 <cucumberOutput>target</cucumberOutput>
+  					<skippedFails>true</skippedFails>
+              		<enableFlashCharts>false</enableFlashCharts>
+                   </configuration>
+                </execution>
+             </executions>
+          </plugin>
 
 		</plugins>
 
