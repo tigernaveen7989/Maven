@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Iniyan" parallel="tests" thread-count="5">
+	
+	<test name="My Cute Baby Contest">
+		<classes>
+			<class name="cutebabycontest.testng" />
+		</classes>
+	</test>
+</suite>

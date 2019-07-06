@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30562" started-at="2019-07-06T04:34:49Z" finished-at="2019-07-06T04:35:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30562" started-at="2019-07-06T04:34:49Z" finished-at="2019-07-06T04:35:20Z">
+      <class name="cutebabycontest.testng">
+        <test-method status="PASS" signature="setup()[pri:0, instance:cutebabycontest.testng@68c4039c]" name="setup" is-config="true" duration-ms="8798" started-at="2019-07-06T10:04:49Z" finished-at="2019-07-06T10:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:cutebabycontest.testng@68c4039c]" name="testOne" duration-ms="19732" started-at="2019-07-06T10:04:58Z" finished-at="2019-07-06T10:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cutebabycontest.testng@68c4039c]" name="tearDown" is-config="true" duration-ms="2010" started-at="2019-07-06T10:05:18Z" finished-at="2019-07-06T10:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cutebabycontest.testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

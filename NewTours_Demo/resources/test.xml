@@ -1,31 +1,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="You Tube" parallel="tests" thread-count="10">
+<suite name="New Tours Demo" parallel="tests" thread-count="10">
 <listeners> <listener class-name="com.pack.utils.Listeners.TestListener"/> </listeners>
 
 <test name="chrome">
 <parameter name="browserType" value="chrome"/>
 <parameter name="appURL" value="http://newtours.demoaut.com/"/>
 <classes>
-<class name="com.pack.common.tests.FlightConfirmationPageTest">
-<methods>
-<include name="verifyFlightBooking"/>
-</methods>
-</class> <!-- com.pack.common.tests.FlightConfirmationPageTest -->
 <class name="com.pack.common.tests.EditProfilePageTest">
 <methods>
 <include name="verifyEditProfile"/>
 </methods>
 </class> <!-- com.pack.common.tests.EditProfilePageTest -->
-<class name="com.pack.common.tests.HomePageTest">
-<methods>
-<include name="verifySalonTravel"/>
-</methods>
-</class> <!-- com.pack.common.tests.HomePageTest -->
-<class name="com.pack.common.tests.RegisterPageTest">
-<methods>
-<include name="verifyRegister"/>
-</methods>
-</class> <!-- com.pack.common.tests.RegisterPageTest -->
 </classes>
 </test> <!-- chrome-->
 
@@ -33,21 +18,6 @@
 <parameter name="browserType" value="edge"/>
 <parameter name="appURL" value="http://newtours.demoaut.com/"/>
 <classes>
-<class name="com.pack.common.tests.FlightConfirmationPageTest">
-<methods>
-<include name="verifyFlightBooking"/>
-</methods>
-</class> <!-- com.pack.common.tests.FlightConfirmationPageTest -->
-<class name="com.pack.common.tests.EditProfilePageTest">
-<methods>
-<include name="verifyEditProfile"/>
-</methods>
-</class> <!-- com.pack.common.tests.EditProfilePageTest -->
-<class name="com.pack.common.tests.HomePageTest">
-<methods>
-<include name="verifySalonTravel"/>
-</methods>
-</class> <!-- com.pack.common.tests.HomePageTest -->
 <class name="com.pack.common.tests.RegisterPageTest">
 <methods>
 <include name="verifyRegister"/>
@@ -55,4 +25,4 @@
 </class> <!-- com.pack.common.tests.RegisterPageTest -->
 </classes>
 </test> <!-- edge-->
-</suite> <!-- You Tube -->
+</suite> <!-- New Tours Demo -->
