@@ -42,6 +42,9 @@ public class TestListener implements ITestListener{
     public synchronized void onTestStart(ITestResult result) {
         System.out.println((result.getMethod().getMethodName() + " started!"));
         ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName(),result.getMethod().getDescription());
+        String category = (String)result.getTestContext().getAttribute("browserType");
+        //extentTest.assignCategory(category);
+        extentTest.assignCategory("Regression Testing").assignCategory(category);
         test.set(extentTest);
     }
  
@@ -49,7 +52,8 @@ public class TestListener implements ITestListener{
     public synchronized void onTestSuccess(ITestResult result) {
         System.out.println((result.getMethod().getMethodName() + " passed!"));
         String methodName=result.getMethod().getMethodName();
-        takeScreenShot(result, methodName);
+        driver = (WebDriver) result.getTestContext().getAttribute("driver");
+        takeScreenShot(driver, methodName);
         try {
         	test.get().log(Status.PASS, methodName+" Passed");
 			test.get().addScreenCaptureFromPath(System.getProperty("user.dir") + "/src/test/java/com/screenshots/" + methodName + ".png");
@@ -64,7 +68,8 @@ public class TestListener implements ITestListener{
         System.out.println((result.getMethod().getMethodName() + " failed!"));
         test.get().fail(result.getThrowable());
         String methodName=result.getMethod().getMethodName();
-        takeScreenShot(result, methodName);
+        driver = (WebDriver) result.getTestContext().getAttribute("driver");
+        takeScreenShot(driver, methodName);
         try {
         	test.get().log(Status.FAIL, methodName+" Failed");
         	test.get().addScreenCaptureFromPath(System.getProperty("user.dir") + "/src/test/java/com/screenshots/" + methodName + ".png");
@@ -89,10 +94,7 @@ public class TestListener implements ITestListener{
     	return test;
     }
     
-	public void takeScreenShot(ITestResult result, String methodName) {
-		Object testClass = result.getInstance();
-		// get the driver
-		driver = ((TestBaseSetup) testClass).getDriver();
+    public void takeScreenShot(WebDriver driver, String methodName) {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// The below method will save the screen shot in d drive with test
 		// method name
@@ -103,5 +105,18 @@ public class TestListener implements ITestListener{
 			e.printStackTrace();
 		}
 	}
+    
+	/*
+	 * public void takeScreenShot(ITestResult result, String methodName) { Object
+	 * testClass = result.getInstance(); // get the driver driver = ((TestBaseSetup)
+	 * testClass).getDriver(); File scrFile = ((TakesScreenshot)
+	 * driver).getScreenshotAs(OutputType.FILE); // The below method will save the
+	 * screen shot in d drive with test // method name try {
+	 * FileUtils.copyFile(scrFile,new File(System.getProperty("user.dir") +
+	 * "/src/test/java/com/screenshots/" + methodName + ".png"));
+	 * System.out.println("***Placed screen shot in " +
+	 * System.getProperty("user.dir")+"/src/test/java/com/screenshots/" + methodName
+	 * + ".png" + " ***"); } catch (IOException e) { e.printStackTrace(); } }
+	 */
 
 }

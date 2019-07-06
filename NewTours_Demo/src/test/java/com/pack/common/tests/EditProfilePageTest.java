@@ -1,6 +1,7 @@
 package com.pack.common.tests;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -22,7 +23,8 @@ public class EditProfilePageTest extends TestBaseSetup{
 		}
 			
 		@Test(description="Verify the Edit Profile Functionality")
-		public void verifyEditProfile() throws Exception {
+		public void verifyEditProfile(ITestContext context) throws Exception {
+			context.setAttribute("driver", driver);
 			TCName = Thread.currentThread().getStackTrace()[1].getMethodName();
 			homePage = new HomePage(driver);
 			homePage.enterUserName(TCName);

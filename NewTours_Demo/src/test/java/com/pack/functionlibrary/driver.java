@@ -74,8 +74,7 @@ public class driver {
 
 		String strFrameWorkRunMode = cfg.getProperty("FrameWorkRunMode");
 		String runtimeXML = "<!DOCTYPE suite SYSTEM \"http://testng.org/testng-1.0.dtd\">\n";
-		String varSuiteName = "You Tube";
-		String setParallel = cfg.getProperty("SetParallel");
+		String varSuiteName = "New Tours Demo";
 		String strTestClass = null;
 		String varPackage = cfg.getProperty("PackageName");
 		String varPack;
@@ -91,7 +90,7 @@ public class driver {
 		List<Object> moduleCnt = new ArrayList<>();
 		moduleCnt.clear();
 		
-		if(setParallel.equals("tests")){
+		if(strFrameWorkRunMode.equalsIgnoreCase("all") || strFrameWorkRunMode.equalsIgnoreCase("quick")){
 			runtimeXML = runtimeXML + "<suite name=\"" + varSuiteName + "\" parallel=\"" + "tests" + "\" thread-count=\""
 					+ "10" + "\">\n";
 		}else{
@@ -130,20 +129,89 @@ public class driver {
 			testmaxnum = (int) Math.ceil(testCnt / deviceCnt);
 			strFrameWorkRunMode = strFrameWorkRunMode.toLowerCase();
 			strTestClass = getTestCaseList(excelSheetTest, testNumbers, varPackage);
-			for (int i = 0; i < deviceCnt; i++) {
-				// setting test name
-				deviceRow = (int) rownumbers.get(i);
-				browserType = globalfunctions.getCellValue(excelSheetDevice, "Browser", "Browser", deviceRow)
-						.toString();
-				runtimeXML = runtimeXML + "\n<test name=\"" + browserType + "\">\n";
+		
+			if(strFrameWorkRunMode.equalsIgnoreCase("quick")) {
+				//Dividing the test case based on number of device
+				for (int i=0;i<deviceCnt;i++){				
+					//setting test name
+					deviceRow = (int)rownumbers.get(i);
+					//getDeviceManuf = globalfunctions.getCellValue(excelSheetDevice, "Device", "Manufacture", deviceRow).toString();
+					//getDeviceModel = globalfunctions.getCellValue(excelSheetDevice, "Device", "Model", deviceRow).toString();
+					//runtimeXML = runtimeXML + "\n<test name=\""+getDeviceManuf+"_"+getDeviceModel+"\">\n";
+					browserType = globalfunctions.getCellValue(excelSheetDevice, "Browser", "Browser", deviceRow).toString();
+					runtimeXML = runtimeXML + "\n<test name=\"" + browserType + "\">\n";
+					// setting parameter name
+					runtimeXML = runtimeXML + "<parameter name=\"browserType\" value=\"" + browserType + "\"/>\n";
+					runtimeXML = runtimeXML + "<parameter name=\"appURL\" value=\"" + System.getProperty("appURL")
+							+ "\"/>\n<classes>\n";
+					
+					//setting parameter name
+					/*
+					 * getDeviceID = globalfunctions.getCellValue(excelSheetDevice, "Device",
+					 * "Device_ID", deviceRow).toString(); runtimeXML = runtimeXML +
+					 * "<parameter name=\"deviceID\" value=\""+getDeviceID+"\"/>\n"; runtimeXML =
+					 * runtimeXML +
+					 * "<parameter name=\"deviceNum\" value=\""+deviceRow+"\"/>\n<classes>\n";
+					 */
+					
+					for(int j=0;j<testmaxnum;j++){
+						testRownum = (i*testmaxnum)+j;
+						if(testRownum <testNumbers.size()){
+							varTestControl = (int)testNumbers.get(testRownum);
+							varPack = globalfunctions.getCellValue(excelSheetTest, "Test", "Package", varTestControl).toString();
+							varModule = globalfunctions.getCellValue(excelSheetTest, "Test", "Module", varTestControl).toString();
+							varTCName = globalfunctions.getCellValue(excelSheetTest, "Test", "TC_Name", varTestControl).toString();
+							if (varPack.isEmpty()){
+								strTestClass = "<class name=\""+varPackage+"."+varModule+"\">\n<methods>\n";
+								strTestClass = strTestClass+"<include name=\""+varTCName+"\"/>\n";
+								strTestClass = strTestClass +"</methods>\n</class> <!-- "+varPackage+"."+varModule+" -->\n";
+								runtimeXML = runtimeXML+strTestClass;
+							}else{
+								strTestClass = "<class name=\""+varPackage+"."+varPack+"."+varModule+"\">\n<methods>\n";
+								strTestClass = strTestClass+"<include name=\""+varTCName+"\"/>\n";
+								strTestClass = strTestClass +"</methods>\n</class> <!-- "+varPackage+"."+varPack+"."+varModule+" -->\n";
+								runtimeXML = runtimeXML+strTestClass;
+							}
+						}
+					}
+					//runtimeXML= runtimeXML+"</classes>\n</test> <!-- "+getDeviceManuf+"_"+getDeviceModel+"-->\n";
+					runtimeXML = runtimeXML + "</classes>\n</test> <!-- " + browserType + "-->\n";
+					if(testRownum == testNumbers.size()-1){
+						break;
+					}
+				}
+			}else if(strFrameWorkRunMode.equalsIgnoreCase("all")) {
+				for (int i = 0; i < deviceCnt; i++) {
+					// setting test name
+					deviceRow = (int) rownumbers.get(i);
+					browserType = globalfunctions.getCellValue(excelSheetDevice, "Browser", "Browser", deviceRow)
+							.toString();
+					runtimeXML = runtimeXML + "\n<test name=\"" + browserType + "\">\n";
 
-				// setting parameter name
-				runtimeXML = runtimeXML + "<parameter name=\"browserType\" value=\"" + browserType + "\"/>\n";
-				runtimeXML = runtimeXML + "<parameter name=\"appURL\" value=\"" + System.getProperty("appURL")
-						+ "\"/>\n<classes>\n";
-				runtimeXML = runtimeXML + strTestClass;
-				runtimeXML = runtimeXML + "</classes>\n</test> <!-- " + browserType + "-->\n";
+					// setting parameter name
+					runtimeXML = runtimeXML + "<parameter name=\"browserType\" value=\"" + browserType + "\"/>\n";
+					runtimeXML = runtimeXML + "<parameter name=\"appURL\" value=\"" + System.getProperty("appURL")
+							+ "\"/>\n<classes>\n";
+					runtimeXML = runtimeXML + strTestClass;
+					runtimeXML = runtimeXML + "</classes>\n</test> <!-- " + browserType + "-->\n";
+				}
+			}else if(strFrameWorkRunMode.equalsIgnoreCase("module")) {
+				for (int i = 0; i < deviceCnt; i++) {
+					// setting test name
+					deviceRow = (int) rownumbers.get(i);
+					browserType = globalfunctions.getCellValue(excelSheetDevice, "Browser", "Browser", deviceRow)
+							.toString();
+					runtimeXML = runtimeXML + "\n<test name=\"" + browserType + "\">\n";
+
+					// setting parameter name
+					runtimeXML = runtimeXML + "<parameter name=\"browserType\" value=\"" + browserType + "\"/>\n";
+					runtimeXML = runtimeXML + "<parameter name=\"appURL\" value=\"" + System.getProperty("appURL")
+							+ "\"/>\n<classes>\n";
+					runtimeXML = runtimeXML + strTestClass;
+					runtimeXML = runtimeXML + "</classes>\n</test> <!-- " + browserType + "-->\n";
+				}
 			}
+			 
 			runtimeXML = runtimeXML + "</suite> <!-- " + varSuiteName + " -->";
 			// creating new xml files
 			File f = null;

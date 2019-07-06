@@ -15,6 +15,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -90,8 +91,9 @@ public class TestBaseSetup {
 
 	@Parameters({ "browserType", "appURL" })
 	@BeforeMethod
-	public void initializeTestBaseSetup(String browserType, String appURL) {
+	public void initializeTestBaseSetup(String browserType, String appURL, ITestContext context) {
 		try {
+			context.setAttribute("browserType", browserType);
 			setDriver(browserType, appURL);
 
 		} catch (Exception e) {

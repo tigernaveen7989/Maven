@@ -1,6 +1,7 @@
 package com.pack.common.tests;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -21,7 +22,8 @@ public class RegisterPageTest extends TestBaseSetup{
 		}
 			
 		@Test(description="Verify the Functionality Of Registration")
-		public void verifyRegister() throws Exception {
+		public void verifyRegister(ITestContext context) throws Exception {
+			context.setAttribute("driver", driver);
 			TCName = Thread.currentThread().getStackTrace()[1].getMethodName();
 			homePage = new HomePage(driver);
 			homePage.clickRegister();
