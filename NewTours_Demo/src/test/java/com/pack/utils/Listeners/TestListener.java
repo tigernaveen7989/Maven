@@ -97,7 +97,7 @@ public class TestListener implements ITestListener{
     public void takeScreenShot(WebDriver driver, String methodName) {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// The below method will save the screen shot in d drive with test
-		// method name
+		// method name...
 		try {
 			FileUtils.copyFile(scrFile,new File(System.getProperty("user.dir") + "/src/test/java/com/screenshots/" + methodName + ".png"));
 			System.out.println("***Placed screen shot in " + System.getProperty("user.dir")+"/src/test/java/com/screenshots/" + methodName + ".png" + " ***");
