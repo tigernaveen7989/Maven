@@ -1,0 +1,23 @@
+{
+	"global": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"testOne": [
+		{
+			"password": "onePassword"
+		}
+	],
+	"testTwo": [
+		{
+			
+		}
+	],
+	"verify_search_using_terminal": [
+		{
+			
+		}
+	]
+}

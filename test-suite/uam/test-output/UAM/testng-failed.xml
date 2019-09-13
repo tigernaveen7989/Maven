@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UAM]">
+  <listeners>
+    <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/>
+  </listeners>
+  <test thread-count="5" name="chrome(failed)">
+    <parameter name="node" value="192.168.17.128:10301"/>
+    <parameter name="appType" value="chrome"/>
+    <parameter name="platformVersion" value="NA"/>
+    <parameter name="moduleName" value="uam"/>
+    <parameter name="deviceName" value="NA"/>
+    <classes>
+      <class name="com.shell.markethub.uam.tests.RegisterCustomerUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verify_register_customer_user" invocation-numbers="0"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.shell.markethub.uam.tests.RegisterCustomerUserTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [UAM] -->

@@ -1,0 +1,109 @@
+{
+	"global": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_search_using_terminal": [
+		{
+			
+		}
+	],
+	"verify_download_using_bol_number": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!",
+			"bolnumber": "1765281"
+		}
+	],
+	"verify_carrierdriverlastlift": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_contractprices": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_rackprices": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_bols": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_terminalwaittime": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!",
+			"date": "30",
+			"month": "JULY",
+			"year": "2019",
+			"time": "10:20",
+			"terminal": "(Y314)"
+		}
+	],
+	"verify_allocations": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_invoicedvolumes": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_supplyworkspace": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_whereandwhatcanilift": [
+		{
+			"username": "WAWTester",
+			"password": "zxasQW!2"
+		}
+	],
+	"verify_sitelist": [
+		{
+			"username": "SiteListTester",
+			"password": "zxasQW!2"
+		}
+	],
+	"verify_volumesentry": [
+		{
+			"username": "MysteryTester",
+			"password": "zxasQW!2"
+		}
+	],
+	"verify_carriermaintenance": [
+		{
+			"username": "CarrierTester",
+			"password": "zxasQW!2",
+			"terminal": "ANACORTES (Y076)",
+			"carrier": "AGUC",
+			"soldTo": "0012335127",
+			"terminalValue": "Y076-Equity"
+		}
+	],
+	"verify_contractrecapture": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!",
+			"shipTo": "0010047730",
+			"soldTo": "0012320394"
+		}
+	]
+}

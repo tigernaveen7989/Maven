@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.shell.markethub.usfuels.tests.BOLsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite" invocation-numbers="0"/>
+          <include name="verify_download_using_bol_number" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.shell.markethub.usfuels.tests.BOLsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

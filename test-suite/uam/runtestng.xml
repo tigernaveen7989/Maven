@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UAM">
+  <test thread-count="5" name="chrome">
+    <classes>
+      <class name="com.shell.markethub.uam.tests.UAMBaseTest"/>
+    </classes>
+  </test> <!-- chrome -->
+</suite> <!-- UAM -->

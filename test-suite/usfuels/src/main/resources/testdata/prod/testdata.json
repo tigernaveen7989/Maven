@@ -1,0 +1,85 @@
+{
+	"global": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_search_using_terminal": [
+		{
+			
+		}
+	],
+	"verify_download_using_bol_number": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!",
+			"bolnumber": "1765281"
+		}
+	],
+	"verify_carrierdriverlastlift": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_contractprices": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_rackprices": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_bols": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_terminalwaittime": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!",
+			"date": "10",
+			"month": "SEPTEMBER",
+			"year": "2019",
+			"time": "10:20",
+			"terminal": "ARGO - BUCKEYE (Y003)"
+		}
+	],
+	"verify_allocations": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_invoicedvolumes": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_supplyworkspace": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_whereandwhatcanilift": [
+		{
+			"username": "USFtestArizona",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_sitelist": [
+		{
+			"username": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	]
+}

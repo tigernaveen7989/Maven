@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [UAM]]" parallel="tests">
+  <listeners>
+    <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/>
+  </listeners>
+  <test thread-count="10" name="chrome(failed)(failed)" parallel="tests">
+    <parameter name="moduleName" value="uam"/>
+    <parameter name="deviceName" value="chrome"/>
+    <classes>
+      <class name="com.shell.markethub.uam.tests.UAM">
+        <methods>
+          <include name="testTwo" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.shell.markethub.uam.tests.UAM -->
+    </classes>
+  </test> <!-- chrome(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [UAM]] -->

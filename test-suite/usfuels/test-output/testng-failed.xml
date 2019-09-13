@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [USFuels]" parallel="tests">
+  <listeners>
+    <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/>
+  </listeners>
+  <test thread-count="10" name="chrome(failed)" parallel="tests">
+    <parameter name="node" value="NA"/>
+    <parameter name="appType" value="chrome"/>
+    <parameter name="platformVersion" value="NA"/>
+    <parameter name="moduleName" value="usfuels"/>
+    <parameter name="deviceName" value="NA"/>
+    <classes>
+      <class name="com.shell.markethub.usfuels.tests.ContractRecaptureTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verify_contractrecapture" invocation-numbers="0"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.shell.markethub.usfuels.tests.ContractRecaptureTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [USFuels] -->

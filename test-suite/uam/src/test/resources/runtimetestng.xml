@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UAM">
+<listeners> <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/> </listeners>
+
+<test name="chrome">
+<parameter name="appType" value="chrome"/>
+<parameter name="node" value="192.168.17.128:10301"/>
+<parameter name="deviceName" value="NA"/>
+<parameter name="platformVersion" value="NA"/>
+<parameter name="moduleName" value="uam"/>
+<classes>
+<class name="com.shell.markethub.uam.tests.RegisterCustomerUserTest">
+<methods>
+<include name="verify_register_customer_user"/>
+</methods>
+</class> <!-- com.shell.markethub.uam.tests.RegisterCustomerUserTest -->
+</classes>
+</test> <!-- NA-->
+</suite> <!-- UAM -->

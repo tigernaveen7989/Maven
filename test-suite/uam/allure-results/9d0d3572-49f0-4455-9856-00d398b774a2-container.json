@@ -1,0 +1,1 @@
+{"uuid":"9d0d3572-49f0-4455-9856-00d398b774a2","name":"com.shell.markethub.base.util.BaseTest.initializeTestBaseSetup","description":"","start":1568354147851,"stop":1568354159489,"children":["d657b4af-d3e1-4126-bb7e-e06791d5119e"],"befores":[{"name":"initializeTestBaseSetup","status":"passed","stage":"finished","description":"","start":1568354147851,"stop":1568354159489}]}

@@ -1,0 +1,64 @@
+{
+	"global": [
+		{
+			"userName": "n.kumar8",
+			"password": "Shakthi1!"
+		}
+	],
+	"verify_search_customer_user": [
+		{
+			"searchEmail": "fasiulla.d@shell.com"
+		}
+	],
+	"verify_impersonate_customer_user": [
+		{
+			"searchEmail": "fasiulla.d@shell.com"
+		}
+	],
+	"verify_deactivate_customer_user": [
+		{
+			"searchEmail": "fasiulla.d@shell.com",
+			"searchUserName": "AutoContract"
+		}
+	],
+	"verify_activate_customer_user": [
+		{
+			"searchEmail": "fasiulla.d@shell.com",
+			"searchUserName": "AutoContract"
+		}
+	],
+	"verify_register_customer_user": [
+		{
+			"email": "test@shell.com",
+			"firstName": "registercustomeruser",
+			"lastName": "lastname",
+			"mobileNumber": "9876859890",
+			"consentPrivacy": "Contact allowed - for support only",
+			"country": "India",
+			"preferredCommunication": "Email",
+			"businessPurpose": "Technical",
+			"timeZone": "Afghanistan",
+			"accountNumber": "9000000020",
+			"site": "AeroShell",
+			"language": "English",
+			"experience": "Distributor",
+			"marketing": "Go Forward"
+		}
+	],
+	"verify_update_customer_user": [
+		{
+			"searchUserName": "updatecustomeruser"
+		}
+	],
+	"verify_register_ehaulier_customer_user": [
+		{
+			"email": "test@shell.com",
+			"firstName": "registerehauliercustomeruser",
+			"lastName": "lastname",
+			"site": "Global",
+			"language": "English",
+			"experience": "eHaulier",
+			"eHaulierNumber": "0068060162"
+		}
+	]
+}

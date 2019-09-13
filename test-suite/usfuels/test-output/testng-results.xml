@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="USFuels" duration-ms="60442" started-at="2019-09-13T06:59:20Z" finished-at="2019-09-13T07:00:21Z">
+    <groups>
+      <group name="sanity">
+        <method signature="ContractRecaptureTest.verify_contractrecapture(org.testng.ITestContext)[pri:0, instance:com.shell.markethub.usfuels.tests.ContractRecaptureTest@446c8c72]" name="verify_contractrecapture" class="com.shell.markethub.usfuels.tests.ContractRecaptureTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="chrome" duration-ms="60442" started-at="2019-09-13T06:59:20Z" finished-at="2019-09-13T07:00:21Z">
+      <class name="com.shell.markethub.usfuels.tests.ContractRecaptureTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.shell.markethub.usfuels.tests.ContractRecaptureTest@446c8c72]" name="initializeTestBaseSetup" is-config="true" duration-ms="11357" started-at="2019-09-13T06:59:21Z" finished-at="2019-09-13T06:59:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[usfuels]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@76ec4228]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.shell.markethub.usfuels.tests.ContractRecaptureTest.verify_contractrecapture(org.testng.ITestContext) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shell.markethub.usfuels.tests.ContractRecaptureTest@446c8c72]" name="setUp" is-config="true" duration-ms="13" started-at="2019-09-13T06:59:32Z" finished-at="2019-09-13T06:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verify_contractrecapture(org.testng.ITestContext)[pri:0, instance:com.shell.markethub.usfuels.tests.ContractRecaptureTest@446c8c72]" name="verify_contractrecapture" duration-ms="47570" started-at="2019-09-13T06:59:32Z" finished-at="2019-09-13T07:00:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76ec4228]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_contractrecapture -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shell.markethub.usfuels.tests.ContractRecaptureTest@446c8c72]" name="tearDown" is-config="true" duration-ms="1196" started-at="2019-09-13T07:00:20Z" finished-at="2019-09-13T07:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shell.markethub.usfuels.tests.ContractRecaptureTest -->
+    </test> <!-- chrome -->
+  </suite> <!-- USFuels -->
+</testng-results>

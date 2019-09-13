@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="USFuels" parallel="tests" thread-count="10">
+<listeners> <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/> </listeners>
+
+<test name="chrome">
+<parameter name="appType" value="chrome"/>
+<parameter name="node" value="NA"/>
+<parameter name="deviceName" value="NA"/>
+<parameter name="platformVersion" value="NA"/>
+<parameter name="moduleName" value="usfuels"/>
+<classes>
+<class name="com.shell.markethub.usfuels.tests.ContractRecaptureTest">
+<methods>
+<include name="verify_contractrecapture"/>
+</methods>
+</class> <!-- com.shell.markethub.usfuels.tests.ContractRecaptureTest -->
+</classes>
+</test> <!-- NA-->
+</suite> <!-- USFuels -->

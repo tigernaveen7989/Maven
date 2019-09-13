@@ -1,0 +1,81 @@
+{
+	"global": [
+		{
+			"userName": "USFTesttne",
+			"password": "2Cookies!"
+		}
+	],
+	"verify_aom_place_order": [
+		{
+			"userName": "placeorderperf",
+			"password": "CDE#4rfv",
+			"deliveryLocation": "SHELL HOLLOWAY",
+			"deliveryInstructions": "Deliver after 5PM",
+			"driverInstructions": "Call to my primary number",
+			"orderQuantity": "100"
+		}
+	],
+	"verify_aom_frequently_ordered": [
+		{
+			"userName": "placeorderperf",
+			"password": "CDE#4rfv",
+			"deliveryLocation": "SHELL HOLLOWAY",
+			"deliveryInstructions": "Deliver after 5PM",
+			"driverInstructions": "Call to my primary number",
+			"orderQuantity": "100"
+		}
+	],
+	"verify_aom_view_order": [
+		{
+			"userName": "placeorderperf",
+			"password": "CDE#4rfv"
+		}
+	],
+	"verify_aom_clone_this_order": [
+		{
+			"userName": "placeorderperf",
+			"password": "CDE#4rfv",
+			"orderQuantity": "100"
+		}
+	],
+	"verify_old_om_view_order": [
+		{
+			"userName": "AomAmend",
+			"password": "zxasQW!2"
+		}
+	],
+	"verify_old_om_place_order": [
+		{
+			"userName": "AomAmend",
+			"password": "zxasQW!2",
+			"deliveryLocation": "0011243768",
+			"deliveryInstructions": "Deliver after 5PM",
+			"driverInstructions": "Call to my primary number",
+			"orderQuantity": "100",
+			"productName": "500009511"
+		}
+	],
+	"verify_old_om_edit_order": [
+		{
+			"userName": "AomAmend",
+			"password": "zxasQW!2",
+			"deliveryLocation": "0011243768",
+			"deliveryInstructions": "Deliver after 5PM",
+			"driverInstructions": "Call to my primary number",
+			"orderQuantity": "100",
+			"productName": "500009511",
+			"productName1": "Shell FuelSave Diesel BULK"
+		}
+	],
+	"verify_aom_edit_order": [
+		{
+			"userName": "placeorderperf",
+			"password": "CDE#4rfv",
+			"deliveryLocation": "SHELL HOLLOWAY",
+			"deliveryInstructions": "Deliver after 5PM",
+			"driverInstructions": "Call to my primary number",
+			"orderQuantity": "100",
+			"productName": "Shell FuelSave Diesel BULK"
+		}
+	]
+}
