@@ -17,6 +17,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.shell.markethub.base.pageobjects.BasePageObject;
 import com.shell.markethub.base.util.extentreports.ExtentManager;
 
 import net.bytebuddy.utility.privilege.GetSystemPropertyAction;
@@ -35,6 +36,7 @@ public class BaseListener implements ITestListener{
     private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
     private static WebDriver driver;
     private static Logger logger = Logger.getLogger(BaseListener.class);
+    protected BasePageObject basePageObject = new BasePageObject();
  
     public static ThreadLocal<ExtentTest> getTest() {
     	return test;
@@ -50,6 +52,11 @@ public class BaseListener implements ITestListener{
     @Override
     public synchronized void onFinish(ITestContext context) {
         extent.flush();
+        try {
+			basePageObject.copyFileFromOneLocToAnotherLoc(System.getProperty("user.dir")+ "\\allure-results", System.getProperty("user.dir")+"\\target\\testreport\\allure-results");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
     }
  
     @Override
