@@ -1,19 +1,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="UAM">
+<suite name="UAM" parallel="tests" thread-count="10">
 <listeners> <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/> </listeners>
 
-<test name="chrome">
-<parameter name="appType" value="chrome"/>
-<parameter name="node" value="192.168.17.128:10301"/>
+<test name="firefox">
+<parameter name="appType" value="firefox"/>
+<parameter name="node" value="NA"/>
 <parameter name="deviceName" value="NA"/>
 <parameter name="platformVersion" value="NA"/>
 <parameter name="moduleName" value="uam"/>
 <classes>
-<class name="com.shell.markethub.uam.tests.RegisterCustomerUserTest">
+<class name="com.shell.markethub.uam.tests.ManageCustomerUserTest">
 <methods>
-<include name="verify_register_customer_user"/>
+<include name="verify_search_customer_user"/>
 </methods>
-</class> <!-- com.shell.markethub.uam.tests.RegisterCustomerUserTest -->
+</class> <!-- com.shell.markethub.uam.tests.ManageCustomerUserTest -->
 </classes>
 </test> <!-- NA-->
 </suite> <!-- UAM -->

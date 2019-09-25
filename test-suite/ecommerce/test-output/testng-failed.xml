@@ -4,21 +4,21 @@
   <listeners>
     <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/>
   </listeners>
-  <test thread-count="10" name="chrome(failed)" parallel="tests">
+  <test name="firefox(failed)" parallel="tests">
     <parameter name="node" value="NA"/>
-    <parameter name="appType" value="chrome"/>
+    <parameter name="appType" value="firefox"/>
     <parameter name="platformVersion" value="NA"/>
     <parameter name="moduleName" value="ecommerce"/>
     <parameter name="deviceName" value="NA"/>
     <classes>
-      <class name="com.shell.markethub.ecommerce.tests.EditOrderTest">
+      <class name="com.shell.markethub.ecommerce.tests.PlaceOrderTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="verify_aom_edit_order" invocation-numbers="0"/>
+          <include name="verify_aom_frequently_ordered" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.shell.markethub.ecommerce.tests.EditOrderTest -->
+      </class> <!-- com.shell.markethub.ecommerce.tests.PlaceOrderTest -->
     </classes>
-  </test> <!-- chrome(failed) -->
+  </test> <!-- firefox(failed) -->
 </suite> <!-- Failed suite [eCommerce] -->

@@ -5,7 +5,7 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-eCommerce">
-              <span class="suite-name border-passed">eCommerce</span>
+              <span class="suite-name border-failed">eCommerce</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-eCommerce">
-                    <span>C:\Users\N.Kumar8\eclipse-workspace\test-suite\ecommerce\src\test\resources\runtimetestng.xml</span>
+                    <span>C:\Users\N.Kumar8\git\Maven\test-suite\ecommerce\src\test\resources\runtimetestng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-eCommerce">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-eCommerce" class="hide-methods failed suite-eCommerce"> (hide)</a> <!-- hide-methods failed suite-eCommerce -->
+                      <a href="#" panel-name="suite-eCommerce" class="show-methods failed suite-eCommerce"> (show)</a> <!-- show-methods failed suite-eCommerce -->
+                    </span>
+                    <div class="method-list-content failed suite-eCommerce">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-eCommerce" title="com.shell.markethub.ecommerce.tests.PlaceOrderTest" hash-for-method="verify_aom_frequently_ordered(org.testng.TestRunner@2c8c3211)">verify_aom_frequently_ordered(org.testng.TestRunner@2c8c3211)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-eCommerce -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -103,10 +117,52 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-eCommerce" class="panel eCommerce">
+          <div class="suite-eCommerce-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.shell.markethub.ecommerce.tests.PlaceOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_aom_frequently_ordered(org.testng.TestRunner@2c8c3211)">
+                  </a> <!-- verify_aom_frequently_ordered(org.testng.TestRunner@2c8c3211) -->
+                  <span class="method-name">verify_aom_frequently_ordered</span>
+                  <span class="parameters">(org.testng.TestRunner@2c8c3211)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: TypeError: rect is undefined
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BNGECO-L-89144&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 22420, moz:profile: C:\Users\N.Kumar8\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88886356-483c-48bd-9889-8aa2289b3aa8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.shell.markethub.base.pageobjects.BasePageObject.click_aroundBody16(BasePageObject.java:325)
+	at com.shell.markethub.base.pageobjects.BasePageObject$AjcClosure17.run(BasePageObject.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at com.shell.markethub.base.pageobjects.BasePageObject.click(BasePageObject.java:313)
+	at com.shell.markethub.integration.pageobjects.HomePage.clickOnOrderManagementLink(HomePage.java:92)
+	at com.shell.markethub.ecommerce.tests.PlaceOrderTest.verify_aom_frequently_ordered(PlaceOrderTest.java:97)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eCommerce-class-failed -->
         </div> <!-- panel eCommerce -->
         <div panel-name="test-xml-eCommerce" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\N.Kumar8\eclipse-workspace\test-suite\ecommerce\src\test\resources\runtimetestng.xml</span>
+            <span class="header-content">C:\Users\N.Kumar8\git\Maven\test-suite\ecommerce\src\test\resources\runtimetestng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -116,13 +172,20 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.shell.markethub.base.util.listeners.BaseListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;10&quot; name=&quot;chrome&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;firefox&quot;&gt;
     &lt;parameter name=&quot;node&quot; value=&quot;NA&quot;/&gt;
-    &lt;parameter name=&quot;appType&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;appType&quot; value=&quot;firefox&quot;/&gt;
     &lt;parameter name=&quot;platformVersion&quot; value=&quot;NA&quot;/&gt;
     &lt;parameter name=&quot;moduleName&quot; value=&quot;ecommerce&quot;/&gt;
     &lt;parameter name=&quot;deviceName&quot; value=&quot;NA&quot;/&gt;
-  &lt;/test&gt; &lt;!-- chrome --&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.shell.markethub.ecommerce.tests.PlaceOrderTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_aom_frequently_ordered&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.shell.markethub.ecommerce.tests.PlaceOrderTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- firefox --&gt;
 &lt;/suite&gt; &lt;!-- eCommerce --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +197,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">chrome (0 classes)</span>
+                <span class="test-name">firefox (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -144,6 +207,14 @@
             <span class="header-content">Groups for eCommerce</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_aom_frequently_ordered</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-eCommerce" class="panel">
@@ -160,11 +231,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_aom_frequently_ordered')
+data.setCell(0, 2, 'com.shell.markethub.ecommerce.tests.PlaceOrderTest')
+data.setCell(0, 3, 17671);
 window.suiteTableData['eCommerce']= { tableData: data, tableDiv: 'times-div-eCommerce'}
 return data;
 }
               </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-eCommerce">
               </div> <!-- times-div-eCommerce -->
             </div> <!-- times-div -->
@@ -179,9 +255,22 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-eCommerce" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.shell.markethub.ecommerce.tests.PlaceOrderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_aom_place_order</span>
+                <br/>
+                <span class="ignored-method-name">verify_old_om_place_order</span>
+                <br/>
+                <span class="ignored-method-name">verify_aom_clone_this_order</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-eCommerce" class="panel">
@@ -189,6 +278,26 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shell.markethub.ecommerce.tests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestBaseSetup(firefox, ecommerce, NA, NA, NA, org.testng.TestRunner@2c8c3211, public void com.shell.markethub.ecom...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@2c8c3211)</span>
+                <span class="method-start">11377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_aom_frequently_ordered(org.testng.TestRunner@2c8c3211)</span>
+                <span class="method-start">11394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29351 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

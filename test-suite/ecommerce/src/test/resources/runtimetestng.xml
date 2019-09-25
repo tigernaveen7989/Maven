@@ -2,13 +2,18 @@
 <suite name="eCommerce" parallel="tests" thread-count="10">
 <listeners> <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/> </listeners>
 
-<test name="chrome">
-<parameter name="appType" value="chrome"/>
+<test name="firefox">
+<parameter name="appType" value="firefox"/>
 <parameter name="node" value="NA"/>
 <parameter name="deviceName" value="NA"/>
 <parameter name="platformVersion" value="NA"/>
 <parameter name="moduleName" value="ecommerce"/>
 <classes>
+<class name="com.shell.markethub.ecommerce.tests.PlaceOrderTest">
+<methods>
+<include name="verify_aom_frequently_ordered"/>
+</methods>
+</class> <!-- com.shell.markethub.ecommerce.tests.PlaceOrderTest -->
 </classes>
 </test> <!-- NA-->
 </suite> <!-- eCommerce -->

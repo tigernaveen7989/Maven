@@ -19521,3 +19521,303 @@ Session ID: 214610f5e516441252f4819f93524739
 2019-09-13 12:30:21 INFO  BaseTest:131 - -------------------------------------
 2019-09-13 12:30:21 INFO  BaseTest:132 -  Quit Driver 
 2019-09-13 12:30:21 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:16:04 INFO  BaseTest:102 - validating Verify Login Test ----verify_search_customer_user
+2019-09-25 14:16:04 INFO  DataProviders:72 - Fetching the test data for the TestID verify_search_customer_user
+2019-09-25 14:16:04 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:16:04 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:16:04 INFO  BaseTest:107 - *************************************
+2019-09-25 14:16:04 INFO  BaseTest:108 - verify_search_customer_user Test Data Loaded Successfully
+2019-09-25 14:16:04 INFO  BaseTest:109 - *************************************
+2019-09-25 14:16:04 INFO  BaseListener:64 - ======================================
+2019-09-25 14:16:04 INFO  BaseListener:65 - verify_search_customer_user Execution Started
+2019-09-25 14:16:04 INFO  BaseListener:66 - ======================================
+2019-09-25 14:16:08 INFO  BasePageObject:283 - Setting text n.kumar8 in element [[FirefoxDriver: firefox on WINDOWS (1b238b7a-8e83-4da3-9c7a-9b1744e30a48)] -> xpath: //input[@name='userId']]
+2019-09-25 14:16:11 INFO  BasePageObject:283 - Setting text Shakthi1! in element [[FirefoxDriver: firefox on WINDOWS (1b238b7a-8e83-4da3-9c7a-9b1744e30a48)] -> xpath: //input[@name='password']]
+2019-09-25 14:16:13 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (1b238b7a-8e83-4da3-9c7a-9b1744e30a48)] -> xpath: //button[@type='submit']]
+2019-09-25 14:16:26 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (1b238b7a-8e83-4da3-9c7a-9b1744e30a48)] -> class name: manageUsericon]
+2019-09-25 14:17:30 INFO  BasePageObject:283 - Setting text fasiulla.d@shell.com in element Proxy element for: DefaultElementLocator 'By.id: email'
+2019-09-25 14:17:50 WARN  BasePageObject:288 - Failed to send keys Unable to locate element: #email
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89144', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 4860, moz:profile: C:\Users\N.Kumar8\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1b238b7a-8e83-4da3-9c7a-9b1744e30a48
+*** Element info: {Using=id, value=email}
+2019-09-25 14:17:50 INFO  BaseListener:93 - =====================================
+2019-09-25 14:17:50 INFO  BaseListener:94 - verify_search_customer_user Execution Ended
+2019-09-25 14:17:50 INFO  BaseListener:95 - =====================================
+2019-09-25 14:17:52 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:17:52 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:17:52 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:18:39 INFO  BaseTest:102 - validating Verify Login Test ----verify_carrierdriverlastlift
+2019-09-25 14:18:39 INFO  DataProviders:72 - Fetching the test data for the TestID verify_carrierdriverlastlift
+2019-09-25 14:18:39 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:18:39 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:18:39 INFO  BaseTest:107 - *************************************
+2019-09-25 14:18:39 INFO  BaseTest:108 - verify_carrierdriverlastlift Test Data Loaded Successfully
+2019-09-25 14:18:39 INFO  BaseTest:109 - *************************************
+2019-09-25 14:18:39 INFO  BaseListener:64 - ======================================
+2019-09-25 14:18:39 INFO  BaseListener:65 - verify_carrierdriverlastlift Execution Started
+2019-09-25 14:18:39 INFO  BaseListener:66 - ======================================
+2019-09-25 14:18:43 INFO  BasePageObject:283 - Setting text USFTesttne in element [[FirefoxDriver: firefox on WINDOWS (0fdb6dd6-8c88-48e4-9fda-de56c60b9fb5)] -> xpath: //input[@name='userId']]
+2019-09-25 14:18:46 INFO  BasePageObject:283 - Setting text 2Cookies! in element [[FirefoxDriver: firefox on WINDOWS (0fdb6dd6-8c88-48e4-9fda-de56c60b9fb5)] -> xpath: //input[@name='password']]
+2019-09-25 14:18:48 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (0fdb6dd6-8c88-48e4-9fda-de56c60b9fb5)] -> xpath: //button[@type='submit']]
+2019-09-25 14:18:56 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (0fdb6dd6-8c88-48e4-9fda-de56c60b9fb5)] -> xpath: //li[@class='menu original']//b[contains(text(),'All')]]
+2019-09-25 14:18:57 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (0fdb6dd6-8c88-48e4-9fda-de56c60b9fb5)] -> xpath: //div[@class='menuDropDown']//a[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:19:03 INFO  BasePageObject:619 - Get text from element [[FirefoxDriver: firefox on WINDOWS (0fdb6dd6-8c88-48e4-9fda-de56c60b9fb5)] -> xpath: //div[@class='main col-full-width']//h1[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:19:13 INFO  BaseListener:77 - =====================================
+2019-09-25 14:19:13 INFO  BaseListener:78 - verify_carrierdriverlastlift Execution Ended
+2019-09-25 14:19:13 INFO  BaseListener:79 - =====================================
+2019-09-25 14:19:16 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:19:16 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:19:16 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:20:05 INFO  BaseTest:102 - validating Verify Login Test ----verify_aom_frequently_ordered
+2019-09-25 14:20:05 INFO  DataProviders:72 - Fetching the test data for the TestID verify_aom_frequently_ordered
+2019-09-25 14:20:05 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:20:05 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:20:05 INFO  BaseTest:107 - *************************************
+2019-09-25 14:20:05 INFO  BaseTest:108 - verify_aom_frequently_ordered Test Data Loaded Successfully
+2019-09-25 14:20:05 INFO  BaseTest:109 - *************************************
+2019-09-25 14:20:05 INFO  BaseListener:64 - ======================================
+2019-09-25 14:20:05 INFO  BaseListener:65 - verify_aom_frequently_ordered Execution Started
+2019-09-25 14:20:05 INFO  BaseListener:66 - ======================================
+2019-09-25 14:20:09 INFO  BasePageObject:283 - Setting text placeorderperf in element [[FirefoxDriver: firefox on WINDOWS (c9245af5-f6e0-4af9-be29-93aea9666d36)] -> xpath: //input[@name='userId']]
+2019-09-25 14:20:13 INFO  BasePageObject:283 - Setting text CDE#4rfv in element [[FirefoxDriver: firefox on WINDOWS (c9245af5-f6e0-4af9-be29-93aea9666d36)] -> xpath: //input[@name='password']]
+2019-09-25 14:20:15 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (c9245af5-f6e0-4af9-be29-93aea9666d36)] -> xpath: //button[@type='submit']]
+2019-09-25 14:20:24 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (c9245af5-f6e0-4af9-be29-93aea9666d36)] -> xpath: //li[@class='menu original']//b[contains(text(),'All')]]
+2019-09-25 14:20:26 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (c9245af5-f6e0-4af9-be29-93aea9666d36)] -> xpath: //div[@class='menuDropDown']//a[contains(text(),'Order Management')]]
+2019-09-25 14:20:26 INFO  BaseListener:93 - =====================================
+2019-09-25 14:20:26 INFO  BaseListener:94 - verify_aom_frequently_ordered Execution Ended
+2019-09-25 14:20:26 INFO  BaseListener:95 - =====================================
+2019-09-25 14:20:29 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:20:29 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:20:29 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:23:31 INFO  BaseTest:102 - validating Verify Login Test ----verify_carrierdriverlastlift
+2019-09-25 14:23:31 INFO  DataProviders:72 - Fetching the test data for the TestID verify_carrierdriverlastlift
+2019-09-25 14:23:31 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:23:31 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:23:31 INFO  BaseTest:107 - *************************************
+2019-09-25 14:23:31 INFO  BaseTest:108 - verify_carrierdriverlastlift Test Data Loaded Successfully
+2019-09-25 14:23:31 INFO  BaseTest:109 - *************************************
+2019-09-25 14:23:31 INFO  BaseListener:64 - ======================================
+2019-09-25 14:23:31 INFO  BaseListener:65 - verify_carrierdriverlastlift Execution Started
+2019-09-25 14:23:31 INFO  BaseListener:66 - ======================================
+2019-09-25 14:23:35 INFO  BasePageObject:283 - Setting text USFTesttne in element [[FirefoxDriver: firefox on WINDOWS (244b4b22-92d7-49f4-b21c-3bcaffe9b1f4)] -> xpath: //input[@name='userId']]
+2019-09-25 14:23:38 INFO  BasePageObject:283 - Setting text 2Cookies! in element [[FirefoxDriver: firefox on WINDOWS (244b4b22-92d7-49f4-b21c-3bcaffe9b1f4)] -> xpath: //input[@name='password']]
+2019-09-25 14:23:40 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (244b4b22-92d7-49f4-b21c-3bcaffe9b1f4)] -> xpath: //button[@type='submit']]
+2019-09-25 14:23:48 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (244b4b22-92d7-49f4-b21c-3bcaffe9b1f4)] -> xpath: //li[@class='menu original']//b[contains(text(),'All')]]
+2019-09-25 14:23:49 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (244b4b22-92d7-49f4-b21c-3bcaffe9b1f4)] -> xpath: //div[@class='menuDropDown']//a[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:23:54 INFO  BasePageObject:619 - Get text from element [[FirefoxDriver: firefox on WINDOWS (244b4b22-92d7-49f4-b21c-3bcaffe9b1f4)] -> xpath: //div[@class='main col-full-width']//h1[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:24:05 INFO  BaseListener:77 - =====================================
+2019-09-25 14:24:05 INFO  BaseListener:78 - verify_carrierdriverlastlift Execution Ended
+2019-09-25 14:24:05 INFO  BaseListener:79 - =====================================
+2019-09-25 14:24:08 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:24:08 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:24:08 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:36:08 INFO  BaseTest:102 - validating Verify Login Test ----verify_search_customer_user
+2019-09-25 14:36:08 INFO  DataProviders:72 - Fetching the test data for the TestID verify_search_customer_user
+2019-09-25 14:36:08 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:36:08 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:36:08 INFO  BaseTest:107 - *************************************
+2019-09-25 14:36:08 INFO  BaseTest:108 - verify_search_customer_user Test Data Loaded Successfully
+2019-09-25 14:36:08 INFO  BaseTest:109 - *************************************
+2019-09-25 14:36:08 INFO  BaseListener:64 - ======================================
+2019-09-25 14:36:08 INFO  BaseListener:65 - verify_search_customer_user Execution Started
+2019-09-25 14:36:08 INFO  BaseListener:66 - ======================================
+2019-09-25 14:36:12 INFO  BasePageObject:283 - Setting text n.kumar8 in element [[FirefoxDriver: firefox on WINDOWS (50591d78-28fb-4a57-992b-102801040b05)] -> xpath: //input[@name='userId']]
+2019-09-25 14:36:16 INFO  BasePageObject:283 - Setting text Shakthi1! in element [[FirefoxDriver: firefox on WINDOWS (50591d78-28fb-4a57-992b-102801040b05)] -> xpath: //input[@name='password']]
+2019-09-25 14:36:18 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (50591d78-28fb-4a57-992b-102801040b05)] -> xpath: //button[@type='submit']]
+2019-09-25 14:36:27 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (50591d78-28fb-4a57-992b-102801040b05)] -> class name: manageUsericon]
+2019-09-25 14:36:41 INFO  BasePageObject:283 - Setting text fasiulla.d@shell.com in element [[FirefoxDriver: firefox on WINDOWS (50591d78-28fb-4a57-992b-102801040b05)] -> id: email]
+2019-09-25 14:36:41 WARN  BasePageObject:291 - Failed to send keys Element <input id="email" class="any" name="email" type="text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89144', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 21336, moz:profile: C:\Users\N.Kumar8\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 50591d78-28fb-4a57-992b-102801040b05
+2019-09-25 14:36:41 INFO  BaseListener:93 - =====================================
+2019-09-25 14:36:41 INFO  BaseListener:94 - verify_search_customer_user Execution Ended
+2019-09-25 14:36:41 INFO  BaseListener:95 - =====================================
+2019-09-25 14:36:43 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:36:43 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:36:43 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:37:32 INFO  BaseTest:102 - validating Verify Login Test ----verify_carrierdriverlastlift
+2019-09-25 14:37:32 INFO  DataProviders:72 - Fetching the test data for the TestID verify_carrierdriverlastlift
+2019-09-25 14:37:32 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:37:32 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:37:32 INFO  BaseTest:107 - *************************************
+2019-09-25 14:37:32 INFO  BaseTest:108 - verify_carrierdriverlastlift Test Data Loaded Successfully
+2019-09-25 14:37:32 INFO  BaseTest:109 - *************************************
+2019-09-25 14:37:32 INFO  BaseListener:64 - ======================================
+2019-09-25 14:37:32 INFO  BaseListener:65 - verify_carrierdriverlastlift Execution Started
+2019-09-25 14:37:32 INFO  BaseListener:66 - ======================================
+2019-09-25 14:37:37 INFO  BasePageObject:283 - Setting text USFTesttne in element [[FirefoxDriver: firefox on WINDOWS (884d2551-ec24-4cfb-8d97-f5f5ba0debc4)] -> xpath: //input[@name='userId']]
+2019-09-25 14:37:40 INFO  BasePageObject:283 - Setting text 2Cookies! in element [[FirefoxDriver: firefox on WINDOWS (884d2551-ec24-4cfb-8d97-f5f5ba0debc4)] -> xpath: //input[@name='password']]
+2019-09-25 14:37:42 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (884d2551-ec24-4cfb-8d97-f5f5ba0debc4)] -> xpath: //button[@type='submit']]
+2019-09-25 14:37:52 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (884d2551-ec24-4cfb-8d97-f5f5ba0debc4)] -> xpath: //li[@class='menu original']//b[contains(text(),'All')]]
+2019-09-25 14:37:54 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (884d2551-ec24-4cfb-8d97-f5f5ba0debc4)] -> xpath: //div[@class='menuDropDown']//a[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:38:01 INFO  BasePageObject:619 - Get text from element [[FirefoxDriver: firefox on WINDOWS (884d2551-ec24-4cfb-8d97-f5f5ba0debc4)] -> xpath: //div[@class='main col-full-width']//h1[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:38:12 INFO  BaseListener:77 - =====================================
+2019-09-25 14:38:12 INFO  BaseListener:78 - verify_carrierdriverlastlift Execution Ended
+2019-09-25 14:38:12 INFO  BaseListener:79 - =====================================
+2019-09-25 14:38:14 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:38:14 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:38:14 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:45:09 INFO  BaseTest:102 - validating Verify Login Test ----verify_search_customer_user
+2019-09-25 14:45:09 INFO  DataProviders:72 - Fetching the test data for the TestID verify_search_customer_user
+2019-09-25 14:45:09 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:45:09 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:45:09 INFO  BaseTest:107 - *************************************
+2019-09-25 14:45:09 INFO  BaseTest:108 - verify_search_customer_user Test Data Loaded Successfully
+2019-09-25 14:45:09 INFO  BaseTest:109 - *************************************
+2019-09-25 14:45:09 INFO  BaseListener:64 - ======================================
+2019-09-25 14:45:09 INFO  BaseListener:65 - verify_search_customer_user Execution Started
+2019-09-25 14:45:09 INFO  BaseListener:66 - ======================================
+2019-09-25 14:45:13 INFO  BasePageObject:283 - Setting text n.kumar8 in element [[FirefoxDriver: firefox on WINDOWS (eed956c1-ad33-4a85-a3bb-60a22ffbbd44)] -> xpath: //input[@name='userId']]
+2019-09-25 14:45:16 INFO  BasePageObject:283 - Setting text Shakthi1! in element [[FirefoxDriver: firefox on WINDOWS (eed956c1-ad33-4a85-a3bb-60a22ffbbd44)] -> xpath: //input[@name='password']]
+2019-09-25 14:45:18 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (eed956c1-ad33-4a85-a3bb-60a22ffbbd44)] -> xpath: //button[@type='submit']]
+2019-09-25 14:45:27 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (eed956c1-ad33-4a85-a3bb-60a22ffbbd44)] -> class name: manageUsericon]
+2019-09-25 14:45:38 INFO  BasePageObject:283 - Setting text fasiulla.d@shell.com in element [[FirefoxDriver: firefox on WINDOWS (eed956c1-ad33-4a85-a3bb-60a22ffbbd44)] -> id: email]
+2019-09-25 14:45:38 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (eed956c1-ad33-4a85-a3bb-60a22ffbbd44)] -> id: searchRegisteredUser]
+2019-09-25 14:45:46 INFO  BaseListener:77 - =====================================
+2019-09-25 14:45:46 INFO  BaseListener:78 - verify_search_customer_user Execution Ended
+2019-09-25 14:45:46 INFO  BaseListener:79 - =====================================
+2019-09-25 14:45:48 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:45:48 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:45:48 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:46:35 INFO  BaseTest:102 - validating Verify Login Test ----verify_carrierdriverlastlift
+2019-09-25 14:46:35 INFO  DataProviders:72 - Fetching the test data for the TestID verify_carrierdriverlastlift
+2019-09-25 14:46:35 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:46:35 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:46:35 INFO  BaseTest:107 - *************************************
+2019-09-25 14:46:35 INFO  BaseTest:108 - verify_carrierdriverlastlift Test Data Loaded Successfully
+2019-09-25 14:46:35 INFO  BaseTest:109 - *************************************
+2019-09-25 14:46:35 INFO  BaseListener:64 - ======================================
+2019-09-25 14:46:35 INFO  BaseListener:65 - verify_carrierdriverlastlift Execution Started
+2019-09-25 14:46:35 INFO  BaseListener:66 - ======================================
+2019-09-25 14:46:40 INFO  BasePageObject:283 - Setting text USFTesttne in element [[FirefoxDriver: firefox on WINDOWS (1af8a7dd-671c-490c-8e92-b15187158b12)] -> xpath: //input[@name='userId']]
+2019-09-25 14:46:43 INFO  BasePageObject:283 - Setting text 2Cookies! in element [[FirefoxDriver: firefox on WINDOWS (1af8a7dd-671c-490c-8e92-b15187158b12)] -> xpath: //input[@name='password']]
+2019-09-25 14:46:45 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (1af8a7dd-671c-490c-8e92-b15187158b12)] -> xpath: //button[@type='submit']]
+2019-09-25 14:46:55 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (1af8a7dd-671c-490c-8e92-b15187158b12)] -> xpath: //li[@class='menu original']//b[contains(text(),'All')]]
+2019-09-25 14:46:56 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (1af8a7dd-671c-490c-8e92-b15187158b12)] -> xpath: //div[@class='menuDropDown']//a[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:47:01 INFO  BasePageObject:619 - Get text from element [[FirefoxDriver: firefox on WINDOWS (1af8a7dd-671c-490c-8e92-b15187158b12)] -> xpath: //div[@class='main col-full-width']//h1[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:47:12 INFO  BaseListener:77 - =====================================
+2019-09-25 14:47:12 INFO  BaseListener:78 - verify_carrierdriverlastlift Execution Ended
+2019-09-25 14:47:12 INFO  BaseListener:79 - =====================================
+2019-09-25 14:47:15 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:47:15 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:47:15 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:55:11 INFO  BaseTest:102 - validating Verify Login Test ----verify_search_customer_user
+2019-09-25 14:55:11 INFO  DataProviders:72 - Fetching the test data for the TestID verify_search_customer_user
+2019-09-25 14:55:11 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:55:11 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:55:11 INFO  BaseTest:107 - *************************************
+2019-09-25 14:55:11 INFO  BaseTest:108 - verify_search_customer_user Test Data Loaded Successfully
+2019-09-25 14:55:11 INFO  BaseTest:109 - *************************************
+2019-09-25 14:55:11 INFO  BaseListener:64 - ======================================
+2019-09-25 14:55:11 INFO  BaseListener:65 - verify_search_customer_user Execution Started
+2019-09-25 14:55:11 INFO  BaseListener:66 - ======================================
+2019-09-25 14:55:16 INFO  BasePageObject:283 - Setting text n.kumar8 in element [[FirefoxDriver: firefox on WINDOWS (73d50a5d-ef9f-40a6-8599-149af92f977e)] -> xpath: //input[@name='userId']]
+2019-09-25 14:55:19 INFO  BasePageObject:283 - Setting text Shakthi1! in element [[FirefoxDriver: firefox on WINDOWS (73d50a5d-ef9f-40a6-8599-149af92f977e)] -> xpath: //input[@name='password']]
+2019-09-25 14:55:21 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (73d50a5d-ef9f-40a6-8599-149af92f977e)] -> xpath: //button[@type='submit']]
+2019-09-25 14:55:30 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (73d50a5d-ef9f-40a6-8599-149af92f977e)] -> class name: manageUsericon]
+2019-09-25 14:56:01 INFO  BasePageObject:283 - Setting text fasiulla.d@shell.com in element [[FirefoxDriver: firefox on WINDOWS (73d50a5d-ef9f-40a6-8599-149af92f977e)] -> id: email]
+2019-09-25 14:56:01 WARN  BasePageObject:291 - Failed to send keys Element <input id="email" class="any" name="email" type="text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNGECO-L-89144', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190917135527, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 6884, moz:profile: C:\Users\N.Kumar8\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 73d50a5d-ef9f-40a6-8599-149af92f977e
+2019-09-25 14:56:01 INFO  BaseListener:93 - =====================================
+2019-09-25 14:56:01 INFO  BaseListener:94 - verify_search_customer_user Execution Ended
+2019-09-25 14:56:01 INFO  BaseListener:95 - =====================================
+2019-09-25 14:56:03 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:56:03 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:56:03 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 14:56:47 INFO  BaseTest:102 - validating Verify Login Test ----verify_carrierdriverlastlift
+2019-09-25 14:56:47 INFO  DataProviders:72 - Fetching the test data for the TestID verify_carrierdriverlastlift
+2019-09-25 14:56:47 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 14:56:47 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 14:56:47 INFO  BaseTest:107 - *************************************
+2019-09-25 14:56:47 INFO  BaseTest:108 - verify_carrierdriverlastlift Test Data Loaded Successfully
+2019-09-25 14:56:47 INFO  BaseTest:109 - *************************************
+2019-09-25 14:56:47 INFO  BaseListener:64 - ======================================
+2019-09-25 14:56:47 INFO  BaseListener:65 - verify_carrierdriverlastlift Execution Started
+2019-09-25 14:56:47 INFO  BaseListener:66 - ======================================
+2019-09-25 14:56:52 INFO  BasePageObject:283 - Setting text USFTesttne in element [[FirefoxDriver: firefox on WINDOWS (f815b8c9-ed2c-4240-b29f-32475d07bad5)] -> xpath: //input[@name='userId']]
+2019-09-25 14:56:55 INFO  BasePageObject:283 - Setting text 2Cookies! in element [[FirefoxDriver: firefox on WINDOWS (f815b8c9-ed2c-4240-b29f-32475d07bad5)] -> xpath: //input[@name='password']]
+2019-09-25 14:56:57 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (f815b8c9-ed2c-4240-b29f-32475d07bad5)] -> xpath: //button[@type='submit']]
+2019-09-25 14:57:04 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (f815b8c9-ed2c-4240-b29f-32475d07bad5)] -> xpath: //li[@class='menu original']//b[contains(text(),'All')]]
+2019-09-25 14:57:06 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (f815b8c9-ed2c-4240-b29f-32475d07bad5)] -> xpath: //div[@class='menuDropDown']//a[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:57:11 INFO  BasePageObject:619 - Get text from element [[FirefoxDriver: firefox on WINDOWS (f815b8c9-ed2c-4240-b29f-32475d07bad5)] -> xpath: //div[@class='main col-full-width']//h1[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 14:57:22 INFO  BaseListener:77 - =====================================
+2019-09-25 14:57:22 INFO  BaseListener:78 - verify_carrierdriverlastlift Execution Ended
+2019-09-25 14:57:22 INFO  BaseListener:79 - =====================================
+2019-09-25 14:57:24 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 14:57:24 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 14:57:24 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 15:44:32 INFO  BaseTest:102 - validating Verify Login Test ----verify_search_customer_user
+2019-09-25 15:44:32 INFO  DataProviders:72 - Fetching the test data for the TestID verify_search_customer_user
+2019-09-25 15:44:32 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 15:44:32 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 15:44:32 INFO  BaseTest:107 - *************************************
+2019-09-25 15:44:32 INFO  BaseTest:108 - verify_search_customer_user Test Data Loaded Successfully
+2019-09-25 15:44:32 INFO  BaseTest:109 - *************************************
+2019-09-25 15:44:32 INFO  BaseListener:64 - ======================================
+2019-09-25 15:44:32 INFO  BaseListener:65 - verify_search_customer_user Execution Started
+2019-09-25 15:44:32 INFO  BaseListener:66 - ======================================
+2019-09-25 15:44:38 INFO  BasePageObject:283 - Setting text n.kumar8 in element [[FirefoxDriver: firefox on WINDOWS (7b5001ed-cd35-46bb-a0a3-bf8a5fa16fa6)] -> xpath: //input[@name='userId']]
+2019-09-25 15:44:41 INFO  BasePageObject:283 - Setting text Shakthi1! in element [[FirefoxDriver: firefox on WINDOWS (7b5001ed-cd35-46bb-a0a3-bf8a5fa16fa6)] -> xpath: //input[@name='password']]
+2019-09-25 15:44:43 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (7b5001ed-cd35-46bb-a0a3-bf8a5fa16fa6)] -> xpath: //button[@type='submit']]
+2019-09-25 15:44:51 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (7b5001ed-cd35-46bb-a0a3-bf8a5fa16fa6)] -> class name: manageUsericon]
+2019-09-25 15:45:56 INFO  BasePageObject:283 - Setting text fasiulla.d@shell.com in element Proxy element for: DefaultElementLocator 'By.id: email'
+2019-09-25 15:46:10 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (7b5001ed-cd35-46bb-a0a3-bf8a5fa16fa6)] -> id: searchRegisteredUser]
+2019-09-25 15:46:38 INFO  BaseListener:93 - =====================================
+2019-09-25 15:46:38 INFO  BaseListener:94 - verify_search_customer_user Execution Ended
+2019-09-25 15:46:38 INFO  BaseListener:95 - =====================================
+2019-09-25 15:46:40 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 15:46:40 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 15:46:40 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 15:47:33 INFO  BaseTest:102 - validating Verify Login Test ----verify_carrierdriverlastlift
+2019-09-25 15:47:34 INFO  DataProviders:72 - Fetching the test data for the TestID verify_carrierdriverlastlift
+2019-09-25 15:47:34 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 15:47:34 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 15:47:34 INFO  BaseTest:107 - *************************************
+2019-09-25 15:47:34 INFO  BaseTest:108 - verify_carrierdriverlastlift Test Data Loaded Successfully
+2019-09-25 15:47:34 INFO  BaseTest:109 - *************************************
+2019-09-25 15:47:34 INFO  BaseListener:64 - ======================================
+2019-09-25 15:47:34 INFO  BaseListener:65 - verify_carrierdriverlastlift Execution Started
+2019-09-25 15:47:34 INFO  BaseListener:66 - ======================================
+2019-09-25 15:47:39 INFO  BasePageObject:283 - Setting text USFTesttne in element [[FirefoxDriver: firefox on WINDOWS (810af6a9-7384-430e-a360-7cf9aef99ba5)] -> xpath: //input[@name='userId']]
+2019-09-25 15:47:42 INFO  BasePageObject:283 - Setting text 2Cookies! in element [[FirefoxDriver: firefox on WINDOWS (810af6a9-7384-430e-a360-7cf9aef99ba5)] -> xpath: //input[@name='password']]
+2019-09-25 15:47:44 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (810af6a9-7384-430e-a360-7cf9aef99ba5)] -> xpath: //button[@type='submit']]
+2019-09-25 15:47:53 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (810af6a9-7384-430e-a360-7cf9aef99ba5)] -> xpath: //li[@class='menu original']//b[contains(text(),'All')]]
+2019-09-25 15:47:55 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (810af6a9-7384-430e-a360-7cf9aef99ba5)] -> xpath: //div[@class='menuDropDown']//a[contains(text(),'Carrier Driver Last Lift')]]
+2019-09-25 15:47:55 INFO  BaseListener:93 - =====================================
+2019-09-25 15:47:55 INFO  BaseListener:94 - verify_carrierdriverlastlift Execution Ended
+2019-09-25 15:47:55 INFO  BaseListener:95 - =====================================
+2019-09-25 15:47:57 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 15:47:57 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 15:47:57 INFO  BaseTest:133 - -------------------------------------
+2019-09-25 15:48:48 INFO  BaseTest:102 - validating Verify Login Test ----verify_aom_frequently_ordered
+2019-09-25 15:48:48 INFO  DataProviders:72 - Fetching the test data for the TestID verify_aom_frequently_ordered
+2019-09-25 15:48:48 INFO  DataProviders:89 - Loading the global test data
+2019-09-25 15:48:48 INFO  DataProviders:103 - Loading test data configured specific to test
+2019-09-25 15:48:48 INFO  BaseTest:107 - *************************************
+2019-09-25 15:48:48 INFO  BaseTest:108 - verify_aom_frequently_ordered Test Data Loaded Successfully
+2019-09-25 15:48:48 INFO  BaseTest:109 - *************************************
+2019-09-25 15:48:48 INFO  BaseListener:64 - ======================================
+2019-09-25 15:48:48 INFO  BaseListener:65 - verify_aom_frequently_ordered Execution Started
+2019-09-25 15:48:48 INFO  BaseListener:66 - ======================================
+2019-09-25 15:48:52 INFO  BasePageObject:283 - Setting text placeorderperf in element [[FirefoxDriver: firefox on WINDOWS (88886356-483c-48bd-9889-8aa2289b3aa8)] -> xpath: //input[@name='userId']]
+2019-09-25 15:48:55 INFO  BasePageObject:283 - Setting text CDE#4rfv in element [[FirefoxDriver: firefox on WINDOWS (88886356-483c-48bd-9889-8aa2289b3aa8)] -> xpath: //input[@name='password']]
+2019-09-25 15:48:57 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (88886356-483c-48bd-9889-8aa2289b3aa8)] -> xpath: //button[@type='submit']]
+2019-09-25 15:49:04 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (88886356-483c-48bd-9889-8aa2289b3aa8)] -> xpath: //li[@class='menu original']//b[contains(text(),'All')]]
+2019-09-25 15:49:05 INFO  BasePageObject:313 - Clicking on element [[FirefoxDriver: firefox on WINDOWS (88886356-483c-48bd-9889-8aa2289b3aa8)] -> xpath: //div[@class='menuDropDown']//a[contains(text(),'Order Management')]]
+2019-09-25 15:49:06 INFO  BaseListener:93 - =====================================
+2019-09-25 15:49:06 INFO  BaseListener:94 - verify_aom_frequently_ordered Execution Ended
+2019-09-25 15:49:06 INFO  BaseListener:95 - =====================================
+2019-09-25 15:49:08 INFO  BaseTest:131 - -------------------------------------
+2019-09-25 15:49:08 INFO  BaseTest:132 -  Quit Driver 
+2019-09-25 15:49:08 INFO  BaseTest:133 - -------------------------------------

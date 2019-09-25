@@ -2,18 +2,18 @@
 <suite name="USFuels" parallel="tests" thread-count="10">
 <listeners> <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/> </listeners>
 
-<test name="chrome">
-<parameter name="appType" value="chrome"/>
+<test name="firefox">
+<parameter name="appType" value="firefox"/>
 <parameter name="node" value="NA"/>
 <parameter name="deviceName" value="NA"/>
 <parameter name="platformVersion" value="NA"/>
 <parameter name="moduleName" value="usfuels"/>
 <classes>
-<class name="com.shell.markethub.usfuels.tests.ContractRecaptureTest">
+<class name="com.shell.markethub.usfuels.tests.CarrierDriverLastLiftTest">
 <methods>
-<include name="verify_contractrecapture"/>
+<include name="verify_carrierdriverlastlift"/>
 </methods>
-</class> <!-- com.shell.markethub.usfuels.tests.ContractRecaptureTest -->
+</class> <!-- com.shell.markethub.usfuels.tests.CarrierDriverLastLiftTest -->
 </classes>
 </test> <!-- NA-->
 </suite> <!-- USFuels -->
